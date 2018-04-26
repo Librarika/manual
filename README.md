@@ -1,0 +1,2 @@
+# manual
+Librarika User Manual
