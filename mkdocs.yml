@@ -6,7 +6,13 @@ site_author: Librarika Team
 theme: readthedocs
 pages:
     - 'Home': 'index.md'
-    - 'User Guide':
-        - Quick: 'user-guide.md'
+    - 'User Guide': 
+      - 'Getting Started': 'getting-started.md'
+      - 'Library': 'libraries.md'
+      - 'Medias (Books)': 'medias.md'
+      - 'Members (Patrons)': 'members.md'
+      - 'Circulations (Loans)': 'circulations.md'
+      - 'Users': 'users.md'
+      - 'Bulk Actions': 'bulk-actions.md'
     - 'Contributing': 'contribute.md'
     - 'About': 'about.md'

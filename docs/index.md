@@ -2,6 +2,7 @@
 
 Librarika is a SaaS based Integrated Library System (ILS) platform built on the cloud. 
  
+Website: [https://librarika.com](https://librarika.com)
 
 ---
 
@@ -16,17 +17,23 @@ Departments, Social Institutes, NGOs, Family and even a personal library.
 
 ### Free Library Management Software
 
-Librarika offers free library plan. You can open your library in just few minutes and maintain upto 2000 
-books (including copies). When you need more books limit, you can upgrade to premium plans.
+Librarika offers free library plan. You can open your library in just few minutes and manage up to 2000 
+books (including copies) in your catalog. When you need more books limit, you can upgrade to premium plans.
 
 
 ### Software or Hardware Requirements
 
-You don't need any additional software or hardware. Librarika is provided right from the cloud.
+You do not need any additional software or hardware. Librarika is served right from the cloud.
 
 ### Hosting Requirements
 
-All librarika libraries are hosted on the clound at [https://librarika.com](https://librarika.com).
+All librarika libraries are hosted on the cloud at [https://librarika.com](https://librarika.com). You do not need any additional hosting.
+
+---
+
+## Built-in OPAC
+
+Online public catalog (OPAC) comes built-in with each librarika libraries. That means, you can instantly publish your catalog online or you can make your library private if you want to.
 
 ---
 
