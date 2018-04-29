@@ -12,20 +12,36 @@
 
 ## Bulk Import
 
-[...]
+Librarika support builk import of catalog items in CSV formats.
 
-#### a. Check List
+#### a. Prepare your data
 
-Please make sure following before you import your data:
+* Read our [Import Items](https://demo.librarika.com/spages/import-items) for critical information.
+* See our sample google spread sheet at [Sample Import Format](https://docs.google.com/spreadsheets/d/1MOphgqXTbOs2YvzvFDjIVAzS8Z7aji58bpuVmDbTnb8/edit?usp=sharing).
+* Use google sheets to avoid UTF-8 encoding issue with Microsoft Excel. 
+* Download the final CSV file directly from google docs using `File -> Download as -> Comma Separated Values (.csv)` to avoid issues.
 
-* Columns names are exactly matched. Column names are case sensitive.
-* File in correct CSV format. Microsoft Excel makes incorrect CSV, please use Google Sheets if possible.
-* The CSV file is UTF-8 encoded. Excel produced non UTF-8 csv file.
-* Numeric columns contain numeric data.
+#### b. Check List
 
-#### b. Import Items
+Please make sure followings before you go ahead with importing your data:
 
-[...]
+* Columns names must be exactly same and case sensitive.
+* File in correct CSV format. Use google sheets if possible.
+* The CSV file is UTF-8 encoded. MS Excel produce non UTF-8 csv file.
+* Numeric columns contain numeric values.
+* Accession numbers are unique and not empty.
+
+#### c. Import Items
+
+1. Go to `Dashboard -> Catalogs -> Catalog Items` section.
+2. Click on `Import Items` button.
+3. Select data format, specify the CSV file and select branch name.
+4. Click on `Submit` button to submit the form.
+5. If everything is all right, you will see your data to review. Please review them carefully.
+6. Confirm the data and click on `Save` button.
+7. You will see the confirmation with number of items added into the system.
+8. If same book is provided multiple times, only one record in media section will be created, each one will be added as a separate copy linked to that media record.
+
 
 ## Delete Media
 
