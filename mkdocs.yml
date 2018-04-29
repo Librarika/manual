@@ -8,5 +8,5 @@ pages:
     - 'Home': 'index.md'
     - 'User Guide':
         - Quick: 'user-guide.md'
-    - 'Contribute': 'contribute.md'
+    - 'Contributing': 'contribute.md'
     - 'About': 'about.md'
