@@ -1,0 +1,12 @@
+site_name: Librarika Manual
+repo_url: https://github.com/Librarika/manual.git
+repo_name: GitHub
+site_description: The free integrated library system - ILS 
+site_author: Librarika Team
+theme: readthedocs
+pages:
+    - 'Home': 'index.md'
+    - 'User Guide':
+        - Quick: 'user-guide.md'
+    - 'Contribute': 'contribute.md'
+    - 'About': 'about.md'
