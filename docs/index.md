@@ -27,19 +27,19 @@ You do not need any additional software or hardware. Librarika is served right f
 
 ### Hosting Requirements
 
-All librarika libraries are hosted on the cloud at [https://librarika.com](https://librarika.com). You do not need any additional hosting.
+All **librarika** libraries are hosted on the cloud at [https://librarika.com](https://librarika.com). You do not need any additional hosting.
 
 ---
 
 ## Built-in OPAC
 
-Online public catalog (OPAC) comes built-in with each librarika libraries. That means, you can instantly publish your catalog online or you can make your library private if you want to.
+Online public catalog (OPAC) comes built-in with each **librarika** library. That means, you can instantly publish your catalog online or you can make your library private if you want to.
 
 ---
 
 ## Mobile Apps
 
-Librarika provides both iPhone and Android apps for librarians to scan barcodes, upload cover photos as well as manage 
+**Librarika** provides both iPhone and Android apps for librarians to scan barcodes, upload cover photos as well as manage 
 catalog, members and circulations.
 
 [<img src="https://ae85df921b92073b52e8-a126a45a4c59e90797d94cd877fbe744.ssl.cf3.rackcdn.com/static-pages/Download_on_the_App_Store_Badge_US-UK_135x40.svg" />](https://itunes.apple.com/us/app/librarika/id1102502605) [<img style="width: 155px; height:60px;" src="https://ae85df921b92073b52e8-a126a45a4c59e90797d94cd877fbe744.ssl.cf3.rackcdn.com/static-pages/google-play-badge.png" />](https://play.google.com/store/apps/details?id=com.librarika.android.dev&hl=en)
