@@ -6,7 +6,7 @@ Librarika User Manual
 
 This manual is created using MkDocs's Markdown files. You can easily contribute 
 to enrich this documentation by forking this repository and updating the markdown 
-files available under `docs` folder.
+files available under the `docs` folder.
 
 Once you are done adding your documentation, please submit pull request.
 
