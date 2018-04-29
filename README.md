@@ -27,5 +27,5 @@ pip freeze > requirements.txt
 
 ## Build
 
-This documentation is built automatically from the code commits to the git master 
-repository. 
+The final documentation is built automatically from each commit to the master branch of this git 
+repository. Final documentation is available at https://librarika-manual.readthedocs.io.

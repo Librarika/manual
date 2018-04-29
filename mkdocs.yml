@@ -1,4 +1,4 @@
-site_name: Librarika Manual
+site_name: Librarika Manual (Alpha)
 repo_url: https://github.com/Librarika/manual.git
 repo_name: GitHub
 site_description: The free integrated library system - ILS 
@@ -13,6 +13,7 @@ pages:
       - 'Members (Patrons)': 'members.md'
       - 'Circulations (Loans)': 'circulations.md'
       - 'Users': 'users.md'
+      - 'Barcode Labels': 'barcode-labels.md'
       - 'Bulk Actions': 'bulk-actions.md'
     - 'Contributing': 'contribute.md'
     - 'About': 'about.md'
