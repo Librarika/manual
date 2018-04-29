@@ -1,28 +1,32 @@
-# Librarika
+# MkDocs
 
-Librarika is a SaaS based Integrated Library System (ILS) platform built on the cloud. 
+Project documentation with&nbsp;Markdown.
 
 ---
 
 ## Overview
 
-**[Librarika](https://librarika.com)** is an open platform for anybody wanting to manage their physical or 
-virtual library catalog online using Integrated Library System (ILS). That includes 
-Universities, Colleges, Schools, Polytechnics, Medical Institutes, Public 
-Libraries, Non-profit organizations, Government Agencies, Corporate Offices, 
-Departments, Social Institutes, NGOs, Family and even a personal library.
+MkDocs is a **fast**, **simple** and **downright gorgeous** static site
+generator that's geared towards building project documentation. Documentation
+source files are written in Markdown, and configured with a single YAML
+configuration file.
 
-### Hosting Information
+### Host anywhere
 
-All librarika libraries are hosted on the clound at [https://librarika.com](https://librarika.com).
+MkDocs builds completely static HTML sites that you can host on GitHub pages,
+Amazon S3, or [anywhere][deploy] else you choose.
 
-### Free Library Software
+### Great themes available
 
-Librarika offers free library plan that you can open in few minutes and maintain upto 2000 books (including copies).
+There's a stack of good looking themes available for MkDocs. Choose between
+the built in themes: [mkdocs] and [readthedocs], select one of the 3rd
+party themes in the [MkDocs wiki], or [build your own].
 
-### Software or Hardware Requirements
+### Preview your site as you work
 
-You don't need any additional software or hardware. Librarika is provided right from the cloud.
+The built-in dev-server allows you to preview your documentation as you're
+writing it. It will even auto-reload and refresh your browser whenever you save
+your changes.
 
 ### Easy to customize
 

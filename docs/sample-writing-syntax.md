@@ -1,12 +1,6 @@
-# How to Contribute?
+# Writing your docs
 
-This manual is created using MkDocs's Markdown files. You can easily contribute 
-to enrich this documentation by forking this repository and updating the markdown 
-files available under `docs` folder.
-
-Once you are done adding your documentation, please submit pull requests.
-
-File layouts and other instructions are listed below (copied [MkDocs](https://github.com/mkdocs/mkdocs)).
+How to layout and write your Markdown source files.
 
 ---
 
