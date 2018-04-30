@@ -19,10 +19,9 @@ the documentation purpose.
 virtualenv .
 source bin/activate
 curl https://bootstrap.pypa.io/get-pip.py | python
-pip install sphinx sphinx-autobuild recommonmark mkdocs
-sphinx-quickstart
-make html
+pip install mkdocs
 pip freeze > requirements.txt
+mkdocs serve
 ```
 
 ## Build
