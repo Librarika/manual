@@ -1,4 +1,4 @@
-#!/opt/local/apache2/htdocs/pythons/librarika_manual/bin/python
+#!/Applications/MAMP/htdocs/librarika-manual/bin/python
 
 import sys
 import getopt
