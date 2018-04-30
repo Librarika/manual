@@ -67,3 +67,7 @@ ENV/
 
 # MkDocs documentation
 site/
+
+# Ray
+[Bb]in
+[Ii]nclude
