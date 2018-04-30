@@ -1,6 +1,21 @@
 # Medias
 
-[...]
+**Librarika** organizes books under two logical entities: Media and Media Copies. When a new book is added to a library, master book information is added once as `Media` entity, we call this as title. And other info is added to the `Media Copy` entity. Then when another copy book of same book is added, only a new `Media Copy` entity is added.
+
+#### Media Entity
+
+Contains non-repeating fields such as title, ISBN, ISBN13, description, abstract, publisher, authors, cover photos etc.
+
+#### Media Copy Entity
+
+Contains uniquely identifiable data such as accession number, copy number, location as well as some other information.
+
+#### Relationship
+```
+ 		Media (Single)
+			  |
+ 	 	 	   --- Media Copies (Multiple)
+```
 
 ## Smart Add
 
