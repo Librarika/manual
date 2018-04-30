@@ -11,7 +11,7 @@ users, please follow **Existing User_** section.
 
 ### New User
 
-If you are new to Librarika, please visit the website at https://librarika.com.
+If you are new to Librarika, please visit the website at [https://librarika.com]https://librarika.com.
 
 ### Existing User
 
