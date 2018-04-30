@@ -3,7 +3,9 @@
 Getting sarted with Librarika is super easy. It only takes few minutes to start 
 a new library in **Librarika**.
 
-## Open New Library
+---
+
+## Create New Library
 
 If you are new to Librarika, please proceed to **New User** section to start fresh. For exiting users, please follow **Existing User** section. 
 
@@ -55,12 +57,26 @@ Otherwise, you will miss important emails regarding your library.
 ### Existing User
 
 * Same as **New User** section above, just enter your account email address.
-* You will not need to enter password information.
+* You will not be asked to enter password information.
 * Since, your account is already verified, your new library will be activated automatically.
 
 
 #### Multiple Libraries
 
 It is ok to create multiple libraries under same the librarika account.
+
+---
+
+## Join A Library As Member
+
+[...]
+
+### Sign-up For New Account
+
+[...]
+
+### Have Exiting Account
+
+[...]
 
 
