@@ -71,3 +71,4 @@ site/
 # Ray
 [Bb]in
 [Ii]nclude
+pip-selfcheck.json
