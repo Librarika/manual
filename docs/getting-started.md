@@ -69,26 +69,28 @@ It is ok to create multiple libraries under same the librarika account.
 
 ## Join a Library
 
-You can join a library in different ways.
+You can join a library in two different ways.
 
 * A library staff may invite you to join their library as a member (patron).
-* Or, you can sign up for a Librarika account on your own. Then send a member request to a specific library to join.
+* Or, you can sign up for a Librarika account on your own. Then submit a member access request to a specific library of your choice.
 
-### a. Join From Invitation
+Both methods are covered in this below sections:
+
+### a. Join from invitation email
 
 This is the simplest way to join a library. Open the invitation email in your mail box. 
 
-* Log out of libraria before you proceed.
+> **Cuation!** If you are already logged in, please log out of Librarika before you proceed.
+
 * Open the invitaion email and click on the activation link from the email.
-* You will see the Join Library form.
-	
+* The Join Library form will be opened in your browser.
 * For existing Librarika user:
 	* Select `No, I already have an account in Librarika` radio box.
 
 		![Join library form](img/join-library-form.png)
 
 	* Enter login email address and password and click on Login.
-	* Clik on `Yes, please join me in.` button. You will then be joined to the library.
+	* Then, click on `Yes, please join me in.` button. You will then be joined to the library.
 
 		![Join library confirmation page](img/join-library-confirm-joining.png)
 
@@ -98,37 +100,38 @@ This is the simplest way to join a library. Open the invitation email in your ma
 		![Join library form new user](img/join-library-form-new-user.png)
 
 	* Enter _name_, _email address_ and _password_ for your new account.
-	* Click on `I agree, please create my account`.
-	* Clik on `Yes, please join me in.` button. You will then be joined to the library.
+	* Click on `I agree, please create my account`. A new account will be created and you will be logged into it automatically.
+	* Now click on `Yes, please join me in.` button. You will then be joined to the library.
 
 		![Join library confirmation page](img/join-library-confirm-joining.png)
-	
+
 
 * Once you join a library as a member, you can access the member only section of the library, browse library catalog (for both public and private libraries), submit reservation request, see current check-out items, write reviews etc.	
 
 
-### b. Send Member Request
+### b. Submit member access request
 
-You can proactively join a library by sending the member request from our **[Librarika.com](https://librarika.com)** global site. 
+You can proactively join a library by submitting the member access request from our **[Librarika.com](https://librarika.com)** global site. 
 
 * Please go to [Librarika.com](https://librarika.com)
-* Log inot your librarika account
+* Log into your librarika account with your login id and password.
 
 	![Librarika login form](img/librarika-login.png)
 
-* Click on `My Libraries` menu as shown below.
+* Once logged in, click on `My Libraries` menu from the top right corner of your browser screen as shown below.
 
 	![Librarika login form](img/my-libraries-menu.png)
 * Click on `Request Member Access` button as shown below.
 
 	![Librarika login form](img/my-libraries-page.png)
 
-* In the request for member access from, please enter the exact URL of the library you want to join.
+* In the request for member access form, please enter the exact URL of the library you want to join.
 
 	![Librarika login form](img/member-request-form.png)
 
-* Click on the `Submit` button, your request will be submitted and you will receive a confirmation message on the screen regarding your submission.
-* Once submitted, depending on the library prolicy, a library offical will review your request and assign you a library Member No for future access.
-* If accepted, you can then log into that specific library and access member only area.
+* Click on the `Submit` button and your request will be submitted.
+* You will receive a confirmation message on the screen regarding your submission.
+* Once submitted, depending on the library prolicy, a library offical will review your request and assign you a library "**Member No**" for future access.
+* If accepted, you can then log into that specific library and access the member only area.
 
 
