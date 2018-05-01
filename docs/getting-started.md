@@ -58,7 +58,7 @@ Otherwise, you will miss important emails regarding your library.
 
 * Same as **New User** section above, just enter your account email address.
 * You will not be asked to enter password information.
-* Since, your account is already verified, your new library will be activated automatically.
+* And, if your account is already verified, your new library will be activated automatically.
 
 
 #### Multiple Libraries
@@ -67,16 +67,68 @@ It is ok to create multiple libraries under same the librarika account.
 
 ---
 
-## Join A Library As Member
+## Join a Library
 
-[...]
+You can join a library in different ways.
 
-### Sign-up For New Account
+* A library staff may invite you to join their library as a member (patron).
+* Or, you can sign up for a Librarika account on your own. Then send a member request to a specific library to join.
 
-[...]
+### a. Join From Invitation
 
-### Have Exiting Account
+This is the simplest way to join a library. Open the invitation email in your mail box. 
 
-[...]
+* Log out of libraria before you proceed.
+* Open the invitaion email and click on the activation link from the email.
+* You will see the Join Library form.
+	
+* For existing Librarika user:
+	* Select `No, I already have an account in Librarika` radio box.
+
+		![Join library form](img/join-library-form.png)
+
+	* Enter login email address and password and click on Login.
+	* Clik on `Yes, please join me in.` button. You will then be joined to the library.
+
+		![Join library confirmation page](img/join-library-confirm-joining.png)
+
+* For new Librarika user:
+	* Select option `Yes, I'm new to Librarika Platform`.
+		
+		![Join library form new user](img/join-library-form-new-user.png)
+
+	* Enter _name_, _email address_ and _password_ for your new account.
+	* Click on `I agree, please create my account`.
+	* Clik on `Yes, please join me in.` button. You will then be joined to the library.
+
+		![Join library confirmation page](img/join-library-confirm-joining.png)
+	
+
+* Once you join a library as a member, you can access the member only section of the library, browse library catalog (for both public and private libraries), submit reservation request, see current check-out items, write reviews etc.	
+
+
+### b. Send Member Request
+
+You can proactively join a library by sending the member request from our **[Librarika.com](https://librarika.com)** global site. 
+
+* Please go to [Librarika.com](https://librarika.com)
+* Log inot your librarika account
+
+	![Librarika login form](img/librarika-login.png)
+
+* Click on `My Libraries` menu as shown below.
+
+	![Librarika login form](img/my-libraries-menu.png)
+* Click on `Request Member Access` button as shown below.
+
+	![Librarika login form](img/my-libraries-page.png)
+
+* In the request for member access from, please enter the exact URL of the library you want to join.
+
+	![Librarika login form](img/member-request-form.png)
+
+* Clink on the `Submit` button, your request will be submitted and you will receive a confirmation message on the screen regarding your submission.
+* Once submitted, depending on the library prolicy, a library offical will review your request and assign you a library Member No for future access.
+* If accepted, you can then log into that specific library and access member only area.
 
 
