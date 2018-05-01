@@ -127,7 +127,7 @@ You can proactively join a library by sending the member request from our **[Lib
 
 	![Librarika login form](img/member-request-form.png)
 
-* Clink on the `Submit` button, your request will be submitted and you will receive a confirmation message on the screen regarding your submission.
+* Click on the `Submit` button, your request will be submitted and you will receive a confirmation message on the screen regarding your submission.
 * Once submitted, depending on the library prolicy, a library offical will review your request and assign you a library Member No for future access.
 * If accepted, you can then log into that specific library and access member only area.
 
