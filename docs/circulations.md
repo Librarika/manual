@@ -69,4 +69,23 @@ You can update / extend return date of any circulation record that has already b
 
 ## Edit Check-out
 
+You can edit any existing circulation entry, change return date, status etc from the circulations page.
+
+To edit a circulation, please follow the below steps:
+
+* Please go the `Dashboard -> Circulations -> Circulations` section.
+* Enter accession number or ISBN of the item in the `Filter by ASN or ISBN` input box.
+	
+	![Filter circulations form](img/circulations-filter-form.png)
+
+* An auto-select list will appear, select the item from the list. All related circulations of the selected item will appear as shown below.
+	
+	![Filter circulations result](img/circulations-filter-result.png)
+
+* Click on the `Edit` link next to the circulation record you want to edit. An edit circulation form will apear as shown below.
+
+	![Quick circulation form](img/circulations-edit-form.png)
+
+* Edit or update necessary information regarding the check-out.
+* Click on the `Submit` button when you are done.
 
