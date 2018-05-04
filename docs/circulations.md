@@ -11,13 +11,12 @@ You can access the list of all circulations related information entries in this 
 * Please go to `Dashboard -> Circulations -> Circulations` page.
 	![Circulations page](img/circulations-page.png)
 
-## Check-out item
+## Check-out Item
 
 To check-out or loan an item to a member of your library, please follow the below steps:
 
 * Please go the `Dashboard -> Circulations -> Circulations` section.
-
-* Click on `Circulate Item` button.
+* Click on the `Circulate Item` button.
 
 	![Quick circulation form](img/circulations-quick-circulation-form.png)
 
@@ -33,15 +32,14 @@ To check-out or loan an item to a member of your library, please follow the belo
 
 	![Quick circulation form](img/circulations-quick-circulation-form-3.png)
 
-* Click the `Submit` button when you are done.
+* Click on the `Submit` button when you are done.
 
-## Check-in item
+## Check-in Item
 
 To check-in or receive an item from a member, please follow the below steps:
 
 * Please go the `Dashboard -> Circulations -> Circulations` section.
-
-* Click on `Quick Return` button.
+* Click on the `Quick Return` button.
 
 	![Quick circulation form](img/circulations-check-in-form1.png)
 
@@ -50,15 +48,25 @@ To check-in or receive an item from a member, please follow the below steps:
 	![Quick circulation form](img/circulations-check-in-form2.png)
 
 * Enter any remark note in the remark box, if you want to.
-* Click the `Submit` button when you are done.
+* Click on the `Submit` button when you are done.
 
 ## Reserve Item
 
-[...]
+To reserve an item on behalf of a member, please follow the below steps:
+
+* Please go the `Dashboard -> Circulations -> Circulations` section.
+* At the bottom click on the `Reserve Item` button.
+
+	![Reserve item form](img/circulations-reserve-form.png)
+
+* Enter member number, accession number, booking date, return date etc.
+* Select status as "Reserved".
+* Click on the `Submit` button when you are done.
 
 ## Change Return Date
 
 You can update / extend return date of any circulation record that has already been issued but not yet returned.
 
 ## Edit Check-out
+
 

@@ -22,7 +22,7 @@ To add a member to your library, please follow the below steps:
 	![Member add form](img/member-add-form.png)
 
 * Enter necessary information regarding the member. Only member number, name, status and member type fields are mandatory.
-* Click the `Submit` button when you are done and your changes will be saved.
+* Click on the `Submit` button when you are done and your changes will be saved.
 
 ### Edit existing member
 
@@ -37,7 +37,7 @@ To edit a member in your library, please follow the below steps:
 	![Member add form](img/member-edit-form.png)
 
 * Update necessary information regarding the member.
-* Click the `Submit` button when you are done and your changes will be saved.
+* Click on the `Submit` button when you are done and your changes will be saved.
 
 
 
@@ -66,7 +66,7 @@ Enabling membr access is very easy. You can do it in following way:
 * Go to the members edit page as per above **Edit Member** instruction.
 * Enter email address of the member if empty.
 * Check the `Allow Member Login` option.
-* Click the `Submit` buton when you are done.
+* Click on the `Submit` buton when you are done.
 * A "Join Library" invitation email will be sent to the email address.
 * Member needs to accept the invitation in order to connect with your library.
 
@@ -82,7 +82,7 @@ Same way you can disable member login from the edit member page.
 	* Unchecking only this option, will soft-disable the login access. You can enable the access later without requiring any new invitation email.
 * To permanently disable login, uncheck the `Remove Login` too.
 	* If unchecked, you can enable login access again with a new invitation email. 
-* Click the `Submit` buton when you are done.
+* Click on the `Submit` buton when you are done.
 
 ### Delete Member
 

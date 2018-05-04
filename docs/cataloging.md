@@ -75,7 +75,7 @@ You can add media using our `Manual Add` method. This method is suitable when yo
 	![Media edit form](img/media-manual-add-form.png)
 
 * Enter necessary information for the title.
-* Click `Submit` when you are done
+* Click on the `Submit` when you are done
 * Your information will be saved and you will be redirect to the view page of the new entry.
 * Add relevant author information from this view page. You can add multiple authors one by one.
 
@@ -131,7 +131,7 @@ You can edit media information from the `Catalog Items` page.
 	![Media edit form](img/media-edit-form.png)
 
 * Do make necessary changes.
-* Click `Submit` when you are done and your changes will be saved.
+* Click on the `Submit` when you are done and your changes will be saved.
 
 ### Delete Media
 
@@ -169,7 +169,7 @@ To add a new copy to an existing media item, please follow the below steps:
 	![Catalog item copy edit form](img/media-copy-add-form.png)
 
 * Enter necessary information regarding your copy.
-* Click `Submit` when you are done and your changes will be saved.
+* Click on the `Submit` when you are done and your changes will be saved.
 
 ### Edit Copy
 
@@ -190,7 +190,7 @@ You can edit media copy information, change accession number, change branch, act
 	![Catalog item copy edit form](img/media-copy-edit-form.png)
 
 * Do make necessary changes.
-* Click `Submit` when you are done and your changes will be saved.
+* Click on the `Submit` when you are done and your changes will be saved.
 
 ### Change Accession Number
 
