@@ -1,4 +1,4 @@
-# Medias
+# Cataloging
 
 **Librarika** organizes books under two logical entities: Media and Media Copies. When a new book is added to a library, master book information is added once as `Media` entity, we call this as title. And other info is added to the `Media Copy` entity. Then when another copy book of same book is added, only a new `Media Copy` entity is added.
 
