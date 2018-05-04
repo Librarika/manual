@@ -104,11 +104,13 @@ Librarika support bulk import of catalog items in CSV formats.
 
 Please make sure followings before you go ahead with importing your data:
 
-* Columns names must be exactly same and case sensitive.
-* File in correct CSV format. Use google sheets if possible.
+* Column names must be match exactly to our sample format. 
+* Column names are case-sensitive.
+* The source file is in correct CSV format. Use google sheets if possible.
 * The CSV file is UTF-8 encoded. MS Excel produce non UTF-8 csv file.
-* Numeric columns contain numeric values.
-* Accession numbers are unique and not empty.
+* Numeric columns contain numeric values. No string characters in numeric fields.
+* Accession number values are unique and not empty.
+* Books with multiple copies have sequential copy number starting from 1.
 
 #### c. Import Items
 
@@ -118,8 +120,8 @@ Please make sure followings before you go ahead with importing your data:
 4. Click on `Submit` button to submit the form.
 5. If everything is all right, you will see your data to review. Please review them carefully.
 6. Confirm the data and click on `Save` button.
-7. You will see the confirmation with number of items added into the system.
-8. If same book is provided multiple times, only one record in media section will be created, each one will be added as a separate copy linked to that media record.
+7. You will see a confirmation message with number of items added into the system.
+8. If same book is provided multiple times, only one media entity will be created. And for each book, a media copy record associated to that parent media record will be created.
 
 Note: When you enter multiple copies of the same book, they will be added a copy under the same title, as a result you will see actual title counts in your catalog smaller than the number of records you have uploaded from the csv file.
 
@@ -129,7 +131,7 @@ You can edit media information from the `Catalog Items` page.
 
 * Please go to the `Dashboard -> Catalogs -> Catalog Items` section.
 
-* Locate the item you want to edit from your catalog and click on the `View` link on the right to the item.
+* Locate the item you want to edit from your catalog and click on the `View` link on the right to that item.
 
 	![Catalog item view option](img/catalog-item-view-option.png)
 
@@ -137,15 +139,15 @@ You can edit media information from the `Catalog Items` page.
 	
 	![Media edit form](img/media-edit-form.png)
 
-* Do make necessary changes.
-* Click on the `Submit` when you are done and your changes will be saved.
+* Do make necessary changes to the media entity.
+* Click on the `Submit` button when you are done and your changes will be saved.
 
 ### Delete Media
 
-You can delete a title from your catalog. But this will also delete all related copies, circulations and other related records. So, please be careful when you delete a title entry from your library.
+You can delete a title from your catalog. Deleting a title will also delete all related copies, circulations and other dependent records. So, please be careful when you delete a title entry from your library.
 
 * Please go to the `Dashboard -> Catalogs -> Catalog Items` section.
-* Locate the item you want to delete from your catalog and click on the `View` link on the right to the item.
+* Locate the item you want to delete from your catalog and click on the `View` link on the right to that item.
 
 	![Catalog item view option](img/catalog-item-view-option.png)
 
@@ -159,7 +161,7 @@ You can delete a title from your catalog. But this will also delete all related 
 
 ## Media Copies
 
-Media copy record contain information about each individual item in a library catalog. Information such as Accession number, Branch, Copy number, Location, Included materials, Binding etc as they can vary among copies of the same book.
+Media copy record contains information about each individual item in a library catalog. The information includes accession number, branch, copy number, location, included materials, binding etc as they may vary among copies of the same title.
 
 ### Add Copy
 
@@ -167,24 +169,25 @@ To add a new copy to an existing media item, please follow the below steps:
 
 * Please go to the `Dashboard -> Catalogs -> Catalog Items` section.
 
-* Locate the item you want to add copy to from your catalog and click on the `Add Copy` link on the right to the item.
+* Locate the item you want to add copy to from your catalog and click on the `Add Copy` link on the right to that item.
 
 	![Catalog item view option](img/catalog-item-view-option.png)
 
-* A new `Add New Copy` form will be displayed.
+* A `Add New Copy` form will be displayed.
 
 	![Catalog item copy edit form](img/media-copy-add-form.png)
 
 * Enter necessary information regarding your copy.
-* Click on the `Submit` when you are done and your changes will be saved.
+* Click on the `Submit` button when you are done
+* A new copy record will be created.
 
 ### Edit Copy
 
-You can edit media copy information, change accession number, change branch, activate / deactivate circulations, published and active flags, etc for the copy from the `Catalog Items` page. 
+You can edit media copy information, change accession number, change branch, enable / disable circulation, published and active status flags, etc for a specific copy from the `Catalog Items` page. 
 
 * Please go to the `Dashboard -> Catalogs -> Catalog Items` section.
 
-* Locate the item you want to edit from your catalog and click on the `View` link on the right to the item.
+* Locate the item you want to edit from your catalog and click on the `View` link on the right to that item.
 
 	![Catalog item view option](img/catalog-item-view-option.png)
 
@@ -197,27 +200,29 @@ You can edit media copy information, change accession number, change branch, act
 	![Catalog item copy edit form](img/media-copy-edit-form.png)
 
 * Do make necessary changes.
-* Click on the `Submit` when you are done and your changes will be saved.
+* Click on the `Submit` button when you are done and your changes will be saved.
 
 ### Change Accession Number
 
-To change accession number, please follow the edit copy instructions above. Please remember that, accession number must be unique for each item copy of your library. If you plan to use barcode labels, it is better to have a larger 6 to 8 digits long accession number for better scanning performance.
+To change accession number, please follow the edit copy instructions above. Please remember that, accession number must be unique among all copies of your library. If you plan to use barcode labels, it is better to have a larger 6 to 8 digits long accession number for better scanning performance.
 
 ### Delete copy
 
-You can delete an individual copy from your catalog. This will also delete all related circulations and other related records specific to that copy. So, please be careful when you delete a copy from your library.
+You can delete an individual copy from your catalog. This will also delete all related circulations and other dependent records specific to that copy. So, please be careful when you delete a copy from your library.
 
 * Please go to the `Dashboard -> Catalogs -> Catalog Items` section.
-* Locate the item you want to delete from your catalog and click on the `View` link on the right to the item.
+* Locate the item you want to delete from your catalog and click on the `View` link on the right to that item.
 
 	![Catalog item view option](img/catalog-item-view-option.png)
 
 * Navigate to the copies section at the bottom of the page.
-* Click on the `Delete` link on right to the copy and confirm your delete action.
+* Click on the `Delete` link on right to the copy you want to delete and confirm your delete action.
 	
 	![Catalog item copies section](img/catalog-item-copies-section.png)
 
 * The copy entity will then be deleted from the library.
+
+Note: Instead of deleting a copy from your library, it is better to make it inactive. This will ensure that all reference to related circulations will be preserved.
 
 ---
 
