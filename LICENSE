@@ -19,9 +19,8 @@ Theme
 
 Themes used under license from the ReadTheDocs projects.
 
-    ReadTheDocs theme - [View license](https://github.com/snide/sphinx_rtd_theme/blob/master/LICENSE).
+	ReadTheDocs theme - [View license](https://github.com/snide/sphinx_rtd_theme/blob/master/LICENSE).
 
-Many thanks to the authors and contributors of those wonderful projects.
 
 
 McDocs
@@ -53,3 +52,5 @@ AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
 LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
 ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGE.
+
+Many thanks to the authors and contributors of those wonderful projects.

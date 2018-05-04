@@ -1,8 +1,7 @@
 LICENSE
 =======
 
-This Librarika Manual Project
------------------------------
+## This Librarika Manual Project
 
 MIT license.
 
@@ -14,21 +13,16 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-3rd Party Licenses
-------------------
+## 3rd Party Licenses
 
-Theme
------
+### Theme
 
 Themes used under license from the ReadTheDocs projects.
 
-    ReadTheDocs theme - [View license](https://github.com/snide/sphinx_rtd_theme/blob/master/LICENSE).
-
-Many thanks to the authors and contributors of those wonderful projects.
+ReadTheDocs theme - [View license](https://github.com/snide/sphinx_rtd_theme/blob/master/LICENSE).
 
 
-McDocs
-------
+### McDocs
 
 Copyright © 2014, Tom Christie. All rights reserved.
 
@@ -56,3 +50,5 @@ AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
 LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
 ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGE.
+
+Many thanks to the authors and contributors of those wonderful projects.
