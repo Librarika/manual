@@ -1,5 +1,8 @@
+LICENSE
+=======
+
 This Librarika Manual Project
-============================
+-----------------------------
 
 MIT license.
 

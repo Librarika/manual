@@ -17,3 +17,4 @@ pages:
 #      - 'Bulk Actions': 'bulk-actions.md'
     - 'Contributing': 'contribute.md'
     - 'About': 'about.md'
+    - 'License': 'license.md'
