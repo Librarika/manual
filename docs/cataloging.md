@@ -1,12 +1,12 @@
 # Cataloging
 
-Cataloging books / items in **Librarika** platform is very easy. We have tried our level best to keep the interface simplified, so that our librarians can spent more time with daily library activities instead of being working with complex cataloging tools. 
+Cataloging books / items in **Librarika** platform is very easy. We have tried our level best to keep the interface simplified, so that our librarians can spent more time with their daily duties instead of working with complex cataloging tools.
 
-Our simplified cataloing interface enables novice user or people with very limited experience to manage their library perfectly. This makes **Librarika** a suitable platform for schools, small colleges, corporate offices, personal libraries where dedicated skilled librarians are not always available.
+Our simplified cataloing interface enables novice user or people with very limited experience to manage their library perfectly. This makes **Librarika** a suitable platform for schools, small colleges, corporate offices, NGOs, personal libraries where dedicated skilled librarians are not always available.
 
 ## Basics
 
-**Librarika** organizes books under two logical entities: Media and Media Copies. When a new book is added to a library, master book information is added once as `Media` entity, we also call this as title or title entity. Other related info is added to the `Media Copy` entity with reference to the main `Media` entity. Then when another copy book of same book is added, only a new `Media Copy` entity is added with reference to the previous `Media Entity`.
+**Librarika** organizes books under two logical entities: Media and Media Copies. When a new book is added to a library, master book information is added once as `Media` entity, we also call this as title or title record. Other related info is added to the `Media Copy` entity with reference to the parent `Media` entity. Then when another copy book of the same book is added, only a new `Media Copy` entity is created with reference to the previous parent `Media Entity`.
 
 ##### Media entity
 
@@ -25,17 +25,17 @@ Contains uniquely identifiable data such as accession number, copy number, locat
 
 ##### Accession number:
 
-When a new item is added to the catalog, the system assigns an auto-generated unique incremental accession number (numeric only) to each copy for your library. This accession number is then used to uniquely identify this specific copy during check-out / check-in / other system level activities. 
+When a new item is added to the catalog, the system assigns an auto-generated unique incremental accession number (numeric only) to each copy for your library. This accession number is then used to uniquely identify that specific copy during check-out / check-in / other system level activities. 
 
-System usually assign this number starting form 1. The auto generation logic for new accession number is as below:
+System usually assigns this number starting form 1. The auto generation logic for new accession number is as below:
 
 	accession_number = max(accession_number) + 1
 
-This same accession number value is used to generate barcode labels. If you plan to use barcode labels, you may need to start with a larger number as some barcode scanner can not identify small barcodes properly.
+The same accession number field is used to generate barcode labels. If you plan to use barcode labels, you may need to start with a larger number (such as 100001) as some barcode scanner can not identify small barcodes properly.
 
-The auto generation doesn't happen when you do bulk import of books or items. In this case, system saves the value of accession number field right from the provided source file without checking the uniqueness. This is to provide the flexibility to the librarians so that they can migrate their existing barcodes easily.
+The auto generation of accession number doesn't happen when you do bulk import of books or items. In this case, system saves the value of accession number field right from the provided source file without checking the uniqueness. This is to provide the flexibility to the librarians so that they can migrate their existing barcodes easily.
 
-Tips: If you edit the accession number of a book copy to 10000001, then next accession will be 10000002. You can use this tip to start your library's accession number from any arbritary position. 
+Tips: If you edit the accession number of a book copy to 100001 which is the max accession value in your library, then next accession will be 100002. You can use this tips to start your library's accession number from any arbritary position. 
 
 ---
 
