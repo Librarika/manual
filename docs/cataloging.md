@@ -14,7 +14,7 @@ Contains non-repeating fields such as title, ISBN, ISBN13, description, abstract
 
 ##### Media Copy entity
 
-Contains uniquely identifiable data such as accession number, copy number, location as well as some other information.
+Contains uniquely identifiable data such as accession number, copy number, location, branch as well as some other information related to the copy.
 
 ##### Relationship
 ```
@@ -41,11 +41,15 @@ Tips: If you edit the accession number of a book copy to 100001 which is the max
 
 ## Media
 
-You can access all your catalog items along with thier associated copies information from the `Dashboard -> Catalogs -> Catalog Items` section. Clicking on the `View` link next to a Catalog Item will display the item detail containing all the copies. You can edit / modify / delete those information for this same detail page.
+You can access all your catalog items along with thier associated copy's information from the `Dashboard -> Catalogs -> Catalog Items` section. Clicking on the `View` link next to a Catalog Item will display the item detail containing all the copies. You can edit / modify / delete those information for this same detail page.
 
 ### Smart Add
 
-Smart add method lets you easily add books information from online. All you need is the ISBN number. Please treat this as a added function, not a complete replacement of `Manual Add` method.
+Smart add method lets you easily add book's information from the Internet. All you need is the ISBN number to catalog a new book. 
+
+Note: Please treat this smart add method as an added advantage feature, not a complete replacement of `Manual Add` method.
+
+To use this method, please follow the below steps:
 
 * Please go the `Dashboard -> Catalogs -> Catalog Items` section.
 * Click on the `Smart Add` button on the top of the section.
@@ -66,10 +70,11 @@ Related information:
 
 ### Manual Add
 
-You can add media using our `Manual Add` method. This method is suitable when you don't find book using Smart Add method.
+You can add media using our `Manual Add` method. This method is suitable when you don't find book using the "Smart Add" method.
+
+To use this method, please follow the below steps:
 
 * Please go the `Dashboard -> Catalogs -> Catalog Items` section.
-
 * Click on the `Manual Add` button on the top of the section.
 	
 	![Media edit form](img/media-manual-add-form.png)
