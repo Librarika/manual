@@ -47,20 +47,21 @@ You can access all your catalog items along with their associated copy's informa
 
 Smart add method lets you easily add book's information from the Internet. All you need is the ISBN number to catalog a new book. 
 
-Note: Please treat this smart add method as an added advantage feature, not a complete replacement of `Manual Add` method.
+Note: Please treat this smart add method as an added feature, not a complete replacement of the `Manual Add` method.
 
 To use this method, please follow the below steps:
 
-* Please go the `Dashboard -> Catalogs -> Catalog Items` section.
-* Click on the `Smart Add` button on the top of the section.
+* Please go to the `Dashboard -> Catalogs -> Catalog Items` section.
+* Click on the `Smart Add` button.
 	
 	![Media edit form](img/media-smart-add-form.png)
 
-* Enter the ISBN number of the book you want add to your catalog.
-* Change the barnch and category if necessary.
+* Enter the ISBN number of the book you want to add to your catalog.
+* Select the branch under which the book to be added. 
+* Specify a category under which the book to be added.
 * Click the `Auto save` button.
-* System will automatically find the matching book in the Internet and add to your catalog.
-* If successful, system will show a confirmation message with the link to view link to the item detail page.
+* System will automatically find the matching book from the Internet and add to your catalog.
+* If successful, system will show a confirmation message with the title and view page link.
 
 Related information:
 
@@ -74,7 +75,7 @@ You can add media using our `Manual Add` method. This method is suitable when yo
 
 To use this method, please follow the below steps:
 
-* Please go the `Dashboard -> Catalogs -> Catalog Items` section.
+* Please go to the `Dashboard -> Catalogs -> Catalog Items` section.
 * Click on the `Manual Add` button on the top of the section.
 	
 	![Media edit form](img/media-manual-add-form.png)
@@ -125,7 +126,7 @@ Note: When you enter multiple copies of the same book, they will be added a copy
 
 You can edit media information from the `Catalog Items` page.
 
-* Please go the `Dashboard -> Catalogs -> Catalog Items` section.
+* Please go to the `Dashboard -> Catalogs -> Catalog Items` section.
 
 * Locate the item you want to edit from your catalog and click on the `View` link on the right to the item.
 
@@ -142,7 +143,7 @@ You can edit media information from the `Catalog Items` page.
 
 You can delete a title from your catalog. But this will also delete all related copies, circulations and other related records. So, please be careful when you delete a title entry from your library.
 
-* Please go the `Dashboard -> Catalogs -> Catalog Items` section.
+* Please go to the `Dashboard -> Catalogs -> Catalog Items` section.
 * Locate the item you want to delete from your catalog and click on the `View` link on the right to the item.
 
 	![Catalog item view option](img/catalog-item-view-option.png)
@@ -163,7 +164,7 @@ Media copy record contain information about each individual item in a library ca
 
 To add a new copy to an existing media item, please follow the below steps: 
 
-* Please go the `Dashboard -> Catalogs -> Catalog Items` section.
+* Please go to the `Dashboard -> Catalogs -> Catalog Items` section.
 
 * Locate the item you want to add copy to from your catalog and click on the `Add Copy` link on the right to the item.
 
@@ -180,7 +181,7 @@ To add a new copy to an existing media item, please follow the below steps:
 
 You can edit media copy information, change accession number, change branch, activate / deactivate circulations, published and active flags, etc for the copy from the `Catalog Items` page. 
 
-* Please go the `Dashboard -> Catalogs -> Catalog Items` section.
+* Please go to the `Dashboard -> Catalogs -> Catalog Items` section.
 
 * Locate the item you want to edit from your catalog and click on the `View` link on the right to the item.
 
@@ -205,7 +206,7 @@ To change accession number, please follow the edit copy instructions above. Plea
 
 You can delete an individual copy from your catalog. This will also delete all related circulations and other related records specific to that copy. So, please be careful when you delete a copy from your library.
 
-* Please go the `Dashboard -> Catalogs -> Catalog Items` section.
+* Please go to the `Dashboard -> Catalogs -> Catalog Items` section.
 * Locate the item you want to delete from your catalog and click on the `View` link on the right to the item.
 
 	![Catalog item view option](img/catalog-item-view-option.png)
