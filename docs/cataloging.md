@@ -41,6 +41,8 @@ Tips: If you edit the accession number of a book copy to 10000001, then next acc
 
 ## Media
 
+You can access all your catalog items along with thier associated copies information from the `Dashboard -> Catalogs -> Catalog Items` section. Clicking on the `View` link next to a Catalog Item will display the item detail containing all the copies and options to edit / modify those information.
+
 ### Smart Add
 
 Smart add method lets you easily add books information from online. All you need is the ISBN number. Please treat this as a added function, not a complete replacement of `Manual Add` method.
