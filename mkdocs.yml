@@ -9,7 +9,7 @@ pages:
     - 'User Guide': 
       - 'Getting Started': 'getting-started.md'
       - 'Library': 'libraries.md'
-      - 'Cataloging (Books)': 'medias.md'
+      - 'Cataloging (Books)': 'cataloging.md'
       - 'Members (Patrons)': 'members.md'
       - 'Circulations (Loans)': 'circulations.md'
       - 'Users': 'users.md'

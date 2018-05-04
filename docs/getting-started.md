@@ -14,7 +14,7 @@ If you are new to Librarika, please proceed to **New User** section to start fre
 
 Create a new library for the first time.
 
-* Go to [https://librarika.com](https://librarika.com)
+* Go to [https://librarika.com][Librarika]
 * Click on `Create Free Library` button 
 
 	![Create Library Form](img/create-library-form.png)
@@ -111,9 +111,9 @@ This is the simplest way to join a library. Open the invitation email in your ma
 
 ### b. Submit member access request
 
-You can proactively join a library by submitting the member access request from our **[Librarika.com](https://librarika.com)** global site. 
+You can proactively join a library by submitting the member access request from our **[Librarika.com][Librarika]** global site. 
 
-* Please go to [Librarika.com](https://librarika.com)
+* Please go to [Librarika.com][Librarika]
 * Log into your librarika account with your login id and password.
 
 	![Librarika login form](img/librarika-login.png)
@@ -134,4 +134,4 @@ You can proactively join a library by submitting the member access request from 
 * Once submitted, depending on the library prolicy, a library offical will review your request and assign you a library "**Member No**" for future access.
 * If accepted, you can then log into that specific library and access the member only area.
 
-
+[Librarika]: https://librarika.com/  "Librarika ILS - The Free Library Management System"

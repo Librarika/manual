@@ -18,4 +18,6 @@ The detail markdown writing style and syntaxes are available at MkDocs's [writin
 
 ## Submitting Pull Requests
 
-Once you are happy with your changes or you are ready for some feedback, push it to your fork and send a pull request. For a change to be accepted it will most likely need to have tests and documentation if it is a new feature.
+Once you are happy with your changes or you are ready for some feedback, push it to your fork and send a pull request with the change summary you have made on that merge. 
+
+For a change to be accepted it will most likely need reviewing the documentation.
