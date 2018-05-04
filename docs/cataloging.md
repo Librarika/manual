@@ -1,18 +1,18 @@
 # Cataloging
 
-Cataloging books / items in **Librarika** platform is very easy. We have tried our level best to keep the interface simplified, so that our librarians can spent more time with their daily duties instead of working with complex cataloging tools.
+Cataloging new books / items in **Librarika** platform is super easy. We have tried our level best to keep the interface simplified, so that our librarians can spent more time with their daily duties instead of working with complex cataloging tools.
 
 Our simplified cataloing interface enables novice user or people with very limited experience to manage their library perfectly. This makes **Librarika** a suitable platform for schools, small colleges, corporate offices, NGOs, personal libraries where dedicated skilled librarians are not always available.
 
 ## Basics
 
-**Librarika** organizes books under two logical entities: Media and Media Copies. When a new book is added to a library, master book information is added once as `Media` entity, we also call this as title or title record. Other related info is added to the `Media Copy` entity with reference to the parent `Media` entity. Then when another copy book of the same book is added, only a new `Media Copy` entity is created with reference to the previous parent `Media Entity`.
+**Librarika** organizes books under two logical entities: Media and Media Copy. When a new book is added to a library, master book information is added once as `Media` entity, we also call this as title or title record. Other related info is added to the `Media Copy` entity with reference to the parent `Media` entity. Then when another copy of the same book is added, only a new `Media Copy` entity is created with reference to the previous parent `Media` entity.
 
 ##### Media entity
 
 Contains non-repeating fields such as title, ISBN, ISBN13, description, abstract, publisher, authors, cover photos etc.
 
-##### Media copy entity
+##### Media Copy entity
 
 Contains uniquely identifiable data such as accession number, copy number, location as well as some other information.
 
@@ -41,7 +41,7 @@ Tips: If you edit the accession number of a book copy to 100001 which is the max
 
 ## Media
 
-You can access all your catalog items along with thier associated copies information from the `Dashboard -> Catalogs -> Catalog Items` section. Clicking on the `View` link next to a Catalog Item will display the item detail containing all the copies and options to edit / modify those information.
+You can access all your catalog items along with thier associated copies information from the `Dashboard -> Catalogs -> Catalog Items` section. Clicking on the `View` link next to a Catalog Item will display the item detail containing all the copies. You can edit / modify / delete those information for this same detail page.
 
 ### Smart Add
 
