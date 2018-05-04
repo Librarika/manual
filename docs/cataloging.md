@@ -61,7 +61,7 @@ To use this method, please follow the below steps:
 * Specify a category under which the book to be added.
 * Click the `Auto save` button.
 * System will automatically find the matching book from the Internet and add to your catalog.
-* If successful, system will show a confirmation message with the title and view page link.
+* If successful, system will show a confirmation message with the title name and view page link.
 
 Related information:
 
@@ -76,16 +76,17 @@ You can add media using our `Manual Add` method. This method is suitable when yo
 To use this method, please follow the below steps:
 
 * Please go to the `Dashboard -> Catalogs -> Catalog Items` section.
-* Click on the `Manual Add` button on the top of the section.
+* Click on the `Manual Add` button.
+* System will display the Add Media form.
 	
 	![Media edit form](img/media-manual-add-form.png)
 
-* Enter necessary information for the title.
-* Click on the `Submit` when you are done
-* Your information will be saved and you will be redirect to the view page of the new entry.
+* Enter book information with the details.
+* Click on the `Submit` button when you are done.
+* The data will be saved and you will be redirect to the view detail page.
 * Add relevant author information from this view page. You can add multiple authors one by one.
 
-An associated `Media copy` record will also be created automatically. You are free to make any changes to the newly created copy record as you feel necessary.
+An associated `Media copy` record will be created automatically. You are free to make any changes to the newly created copy record as you feel necessary.
 
 
 ### Bulk Import
