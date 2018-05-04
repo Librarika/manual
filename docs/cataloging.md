@@ -2,7 +2,7 @@
 
 Cataloging new books / items in **Librarika** platform is super easy. We have tried our level best to keep the interface simplified, so that our librarians can spent more time with their daily duties instead of working with complex cataloging tools.
 
-Our simplified cataloing interface enables novice user or people with very limited experience to manage their library perfectly. This makes **Librarika** a suitable platform for schools, small colleges, corporate offices, NGOs, personal libraries where dedicated skilled librarians are not always available.
+Our simplified cataloging interface enables novice user or people with very limited experience to manage their library perfectly. This makes **Librarika** a suitable platform for schools, small colleges, corporate offices, NGOs, personal libraries where dedicated skilled librarians are not always available.
 
 ## Basics
 
@@ -31,7 +31,7 @@ System usually assigns this number starting form 1. The auto generation logic fo
 
 	accession_number = max(accession_number) + 1
 
-The same accession number field is used to generate barcode labels. If you plan to use barcode labels, you may need to start with a larger number (such as 100001) as some barcode scanner can not identify small barcodes properly.
+The same accession number field is used to generate barcode labels. If you plan to use barcode labels, you may need to start with a larger number (such as 100001) as some barcode scanner can not read small barcode properly.
 
 The auto generation of accession number doesn't happen when you do bulk import of books or items. In this case, system saves the value of accession number field right from the provided source file without checking the uniqueness. This is to provide the flexibility to the librarians so that they can migrate their existing barcodes easily.
 
@@ -41,7 +41,7 @@ Tips: If you edit the accession number of a book copy to 100001 which is the max
 
 ## Media
 
-You can access all your catalog items along with thier associated copy's information from the `Dashboard -> Catalogs -> Catalog Items` section. Clicking on the `View` link next to a Catalog Item will display the item detail containing all the copies. You can edit / modify / delete those information for this same detail page.
+You can access all your catalog items along with their associated copy's information from the `Dashboard -> Catalogs -> Catalog Items` section. Clicking on the `View` link next to a Catalog Item will display the item detail containing all the copies. You can edit / modify / delete those information for this same detail page.
 
 ### Smart Add
 
@@ -57,16 +57,16 @@ To use this method, please follow the below steps:
 	![Media edit form](img/media-smart-add-form.png)
 
 * Enter the ISBN number of the book you want add to your catalog.
-* Cahgne the barnch and category if necessary.
+* Change the barnch and category if necessary.
 * Click the `Auto save` button.
 * System will automatically find the matching book in the Internet and add to your catalog.
-* If successfull, system will show a confirmation message with the link to view link to the item detail page.
+* If successful, system will show a confirmation message with the link to view link to the item detail page.
 
 Related information:
 
 * If the book is already exist in your catalog, system will prompt the `Add Copy` form to add a new copy instead of adding a new `Media` record.
 * An associated `Media copy` record will also be created automatically. You are free to make any changes to the newly created copy record as you feel necessary.
-* Though `Smart Add` gets book information from various sources, there is no gaurantee that it will get every book information from the Internet even if they are available.
+* Though `Smart Add` gets book information from various sources, there is no guarantee that it will get every book information from the Internet even if they are available.
 
 ### Manual Add
 
@@ -89,7 +89,7 @@ An associated `Media copy` record will also be created automatically. You are fr
 
 ### Bulk Import
 
-Librarika support builk import of catalog items in CSV formats.
+Librarika support bulk import of catalog items in CSV formats.
 
 #### a. Prepare your data
 
@@ -203,7 +203,7 @@ To change accession number, please follow the edit copy instructions above. Plea
 
 ### Delete copy
 
-You can delete an individual copry from your catalog. This will also delete all related circulations and other related records specific to that copy. So, please be careful when you delete a copy from your library.
+You can delete an individual copy from your catalog. This will also delete all related circulations and other related records specific to that copy. So, please be careful when you delete a copy from your library.
 
 * Please go the `Dashboard -> Catalogs -> Catalog Items` section.
 * Locate the item you want to delete from your catalog and click on the `View` link on the right to the item.
