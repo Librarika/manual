@@ -222,7 +222,7 @@ You can delete an individual copy from your catalog. This will also delete all r
 
 * The copy entity will then be deleted from the library.
 
-Note: Instead of deleting a copy from your library, it is better to make it inactive. This will ensure that all reference to related circulations will be preserved.
+Note: Instead of deleting a copy from your library, it is better to make it inactive. This will ensure that all reference to related circulation records  will be preserved.
 
 ---
 
