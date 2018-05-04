@@ -1,8 +1,8 @@
 # Cataloging
 
-Catalogin books / items in **Librarika** platform is very easy. We have tried our level best to keep this simplified so that our librarians can spent more time with thier daily library activities instead of being worred with complex cataloging tools. 
+Cataloging books / items in **Librarika** platform is very easy. We have tried our level best to keep the interface simplified, so that our librarians can spent more time with daily library activities instead of being working with complex cataloging tools. 
 
-Also our simplified cataloing interface enables novice or people with very limited experience to manage their library perfectly. This makes **Librarika** a suitable platform for schools, small colleges, corporate offices, personal libraries where dedicated skilled librarians are not available.
+Our simplified cataloing interface enables novice user or people with very limited experience to manage their library perfectly. This makes **Librarika** a suitable platform for schools, small colleges, corporate offices, personal libraries where dedicated skilled librarians are not always available.
 
 ## Basics
 
