@@ -7,7 +7,7 @@ a new library in **Librarika**.
 
 ## Create New Library
 
-Both new to librarika and existing users can open a new library in Librarika platform. If you are new to the platform, please proceed to the [new user](#new-user) section for a fresh start. 
+Both new to Librarika and existing users can open a new library in Librarika platform. If you are new to the platform, please proceed to the [new user](#new-user) section for a fresh start. 
 
 For exiting users, please follow [existing user](#existing-user) section first before you start a new library. 
 
@@ -36,19 +36,19 @@ Create a new library for the first time.
 	*	**Password (Admin):**
 	Enter a new password for your admin login and confirm the password. Please remember this password, as you will need it to log into your library.
 
-* Enter other information such as password, country, library type etc.
-* Once, you are done, please click on `I agree, please create my library` button.
-* You will see the confirmation page, with instruction regarding the verification process.
+* Select a library type and country from the dropdown list.
+* Once, you are done, please click on the `I agree, please create my library` button.
+* You will see a confirmation page, with instructions regarding the verification process.
 
 	![Confirmation page](img/activate-library-page.png)
 
 #### Activate Your Library
 
-Now you need to verify your library before you can start entering books. Please open the activation email you have received from librarika in your mailbox. Click on the activation link to activate your library.
+Now you need to verify your library before you can start entering books. Please open the activation email you have received from Librarika in your mailbox. Click on the activation link to activate your library.
 
 Once activated, you will receive a welcome email. You can now log into your libary and start using.
 
-#### Have not received activation email yet
+#### Have not received activation email yet?
 
 Sometime, your mail server may reject the emails we sent from librarika. It mostly happens with corporate mail servers with custom domains. If that happens, please discuss with your system administrator to whitelist librarika.com domain for your organization.
 
@@ -65,7 +65,7 @@ Otherwise, you will miss important emails regarding your library.
 
 #### Multiple Libraries
 
-It is ok to create multiple libraries under same the librarika account.
+It is ok to create multiple libraries under same the Librarika account.
 
 ---
 
@@ -116,7 +116,7 @@ This is the simplest way to join a library. Open the invitation email in your ma
 You can proactively join a library by submitting the member access request from our **[Librarika.com][Librarika]** global site. 
 
 * Please go to [Librarika.com][Librarika]
-* Log into your librarika account with your login id and password.
+* Log into your Librarika account with your login id and password.
 
 	![Librarika login form](img/librarika-login.png)
 
