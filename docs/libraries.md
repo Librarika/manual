@@ -4,7 +4,7 @@ This section explains how to manage your library master data and other related i
 
 ## Create Library
 
-Please see the [create new library](getting-started.md#create-new-library) section.
+Please see the [create new library](getting-started.md#create-new-library) section in order to start a new library.
 
 ---
 
@@ -20,12 +20,18 @@ Please update your library information carefully and make sure that they are up 
 
 	![Library Information](img/library-information-menu.png)
 
-* Click on `Library Info` tab if not selected automatically.
+* Click on the `Library Info` tab if not selected automatically.
 	
 	![Remove Library](img/library-information-library-info.png)
 
-* Enter / update the information that you feel necessary.
-* Clik on `Submit` button to save your changes.
+* Enter / update the information you want to change.
+	* The description field shoud contain a short description about your library, library business hours, rules, policies, etc. This field is very importat for your library site visitor as this will be displayed on the "Ask a Librarian" page.
+	* The email address and phone number provided here will be displayed on "Ask a Librarian" public page. However, you can individually turn off the display of email address, phone number from the preferences section. 
+	* Uncheck the Private checkbox to make your catalog publicly visible online. 
+
+		If checked, your catalog will not be visible online, member's with login access can access the information. This feature is suitable for corporate libraries.
+
+* Clik on the `Submit` button to save your changes.
 
 ### Change / Update Organization Information
 
@@ -37,7 +43,7 @@ Please update your organization information carefully and make sure that they ar
 
 	![Library Information](img/library-information-menu.png)
 
-* Click on `Organization Info` tab.
+* Click on the `Organization Info` tab.
 	
 	![Remove Library](img/library-information-organization-info.png)
 
@@ -58,12 +64,12 @@ We support 200x200 pixel size file in PNG format.
 
 	![Library Information](img/library-information-menu.png)
 
-* Click on `Organization Info` tab.
+* Click on the `Organization Info` tab.
 	
 	![Remove Library](img/library-information-organization-info.png)
 
-* In Logo field click on `browse` button and select a 200x200 pixel size png file.
-* Clik on `Submit` button to save your changes.
+* In Logo field click on the `browse` button and select a 200x200 pixel size png file.
+* Clik on the `Submit` button to save your changes.
 
 ---
 
@@ -88,7 +94,7 @@ The preferences section is the single most important settings page for your libr
 	![Remove Library](img/preference-reminders.png)
 
 * Set / Enter / update the value that you want.
-* Clik on `Submit` button to save your changes.
+* Clik on the `Submit` button to save your changes.
 * You latest changes will be applied instantly.
 
 ---
@@ -107,9 +113,9 @@ Note: If you are on any paid plan (Premium Plan or E-Book Plan), please let us k
 
 	![Library Information](img/library-information-menu.png)
 
-* Click on `Remove Library` Tab .
+* Click on the `Remove Library` Tab .
 	
 	![Remove Library](img/remove-library-form.png)
 
 * Check `Remove my Library` and `Confirm removal` options as shown above.
-* Clik on `Submit` button.
+* Clik on the `Submit` button.
