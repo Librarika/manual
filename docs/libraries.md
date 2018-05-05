@@ -8,6 +8,12 @@ Please see the [create new library](getting-started.md#create-new-library) secti
 
 ---
 
+## Upgrade Library Plan
+
+
+
+---
+
 ## Change Library Information
 
 ### Change / Update library Info
@@ -33,7 +39,7 @@ Please update your library information carefully and make sure that they are up 
 
 * Clik on the `Submit` button to save your changes.
 
-### Change / Update Organization Information
+### Change / Update organization information
 
 Please update your organization information carefully and make sure that they are up to date. The email address and phone number that you enter in this page will not be available in public.
 
@@ -52,7 +58,7 @@ Please update your organization information carefully and make sure that they ar
 
 ---
 
-## Upload Library Logo
+## Upload library logo
 
 Logo is the single most import thing that gives your library an official identity. Please update your library logo as soon as possible to make it looks professional. For personal library, it is ok to keep the default librarika logo.
 
@@ -73,7 +79,7 @@ We support 200x200 pixel size file in PNG format.
 
 ---
 
-## Change Prefereces
+## Change prefereces
 
 The preferences section is the single most important settings page for your library. Here you can change followings:
 
@@ -99,7 +105,7 @@ The preferences section is the single most important settings page for your libr
 
 ---
 
-## Delete Library
+## Delete library
 
 You can remove your library anytime from the dashboard. All you need is the _Library Admin_ permission in order to delete your library. When you delete a library, the library information and your own user account, catalogs, checkouts, members information and other related information will be removed.
 
