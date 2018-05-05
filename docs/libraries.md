@@ -6,11 +6,11 @@ This section explains how to manage your library master data and other related i
 
 Please see the [create new library](getting-started.md#create-new-library) section in order to start a new free library. 
 
-If you want to subcribe to a Premium Plan, please create a free library first and then upgrade to the desired premium plan following the [upgrade library plan](#upgrade-library-plan) instructions.
+If you want to subcribe to a Premium Plan, please create a free library first and then upgrade to the desired premium plan following the [upgrade to premium plan](#upgrade-to-premium-plan) instructions.
 
 ---
 
-## Upgrade Library Plan
+## Upgrade to Premium Plan
 
 You can upgrade your library to a premium plan anytime you want from the Dashboard. It takes only just few minutes. The upgradation process is same for both new and existing libraries.
 

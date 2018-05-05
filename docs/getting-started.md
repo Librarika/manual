@@ -7,7 +7,9 @@ a new library in **Librarika**.
 
 ## Create New Library
 
-If you are new to Librarika, please proceed to **New User** section to start fresh. For exiting users, please follow **Existing User** section. 
+Both new to librarika and existing users can open a new library in Librarika platform. If you are new to the platform, please proceed to the [new user](#new-user) section for a fresh start. 
+
+For exiting users, please follow [existing user](#existing-user) section first before you start a new library. 
 
 
 ### New User
@@ -21,7 +23,7 @@ Create a new library for the first time.
 
 * Enter information about your library in **Create New Library** form.
 	*	**Library Nickname:**
-	This is the single most import input for your library. Please keep it as short as possible, because this will be your library access URL.
+	This is the single most import input for your library. Please keep it as short as possible, because this will be your library access URL. We prefer this to be less than 20 characters.
 
 	*	**Library Name:**
 	Enter full name of your library. Example: _The Liberty School Library_.
@@ -56,9 +58,9 @@ Otherwise, you will miss important emails regarding your library.
 
 ### Existing User
 
-* Same as **New User** section above, just enter your account email address.
-* You will not be asked to enter password information.
-* And, if your account is already verified, your new library will be activated automatically.
+* Follow the same instruction as the [new user](#new-user) section above, just enter your account email address.
+* You will not be asked to enter password information as you are an existing user.
+* And, if your account is already verified, your new library will be activated automatically. 
 
 
 #### Multiple Libraries
