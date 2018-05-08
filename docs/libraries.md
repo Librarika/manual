@@ -10,32 +10,6 @@ If you want to subcribe to a Premium Plan, please create a free library first an
 
 ---
 
-## Upgrade to Premium Plan
-
-You can upgrade your library to a premium plan anytime you want from the Dashboard. It takes only just few minutes. The upgradation process is same for both new and existing libraries.
-
-To upgrade, please follow the below steps:
-
-* Login in to your library dashboard.
-
-	![Dashboard user menu](img/dashboard-user-menu.png)
-
-* Click on the "My Plan" option from the "Manage" dropdown menu.
-	
-	![Dashboard my plan menu](img/my-plan-menu.png)
-
-* The My Plan page will be displayed as shown below.
-
-	![My plan page](img/my-plan-page.png)
-
-* Click on "Show More Plans" link if you want to see more premium plans. 
-* Choose your desired plan and click on the `Upgrade Now` button next to the your choosen plan.
-* You will be prompted with a check-out form containing plan name, yearly subscription info and billing amount.
-* Complete the check-out procedure by entering billing information and payment method.
-* Your library will be upgraded to the Premium Plan instantly.
-
----
-
 ## Change Library Information
 
 ### Change / Update library Info
@@ -124,6 +98,54 @@ The preferences section is the single most important settings page for your libr
 * Set / Enter / update the value that you want.
 * Clik on the `Submit` button to save your changes.
 * You latest changes will be applied instantly.
+
+---
+
+## Upgrade to Premium Plan
+
+You can upgrade your library to a premium plan anytime you want from the Dashboard. It takes only just few minutes. The upgradation process is same for both new and existing libraries.
+
+To upgrade, please follow the below steps:
+
+* Login in to your library dashboard.
+
+	![Dashboard user menu](img/dashboard-user-menu.png)
+
+* Click on the "My Plan" option from the "Manage" dropdown menu.
+	
+	![Dashboard my plan menu](img/my-plan-menu.png)
+
+* The My Plan page will be displayed as shown below.
+
+	![My plan page](img/my-plan-page.png)
+
+* Click on "Show More Plans" link if you want to see more premium plans. 
+* Choose your desired plan and click on the `Upgrade Now` button next to the your choosen plan.
+* You will be prompted with a check-out form containing plan name, yearly subscription info and billing amount.
+* Complete the check-out procedure by entering billing information and payment method.
+* Your library will be upgraded to the Premium Plan instantly.
+
+---
+
+### Change or Update Payment / Billing Information
+
+For premium libraries, the payment method is charged automatically when the annual subscription expires. You may want to chnage / update payment information so that next renwal takes place without any service disruption.
+
+You can change the payment method anytime. Please follow the below steps:
+
+* Please go to [https://2co.com](https://2co.com). 
+
+	![2co order review form](img/2co-review-form.png)  
+
+* Make sure that you  see green lock icon with **2Checkout.com inc (US)** text on the browser's address bar as shown in the picture above.  
+* Enter your Order Number or Paypal Invoice ID and the email address which given at the time of purcase.
+* You will then see the payment and billing information detail with current subscription status. 
+* You can make make necessary changes here and save your changes.
+
+##### Cancel Subscription
+
+* Also, you can cancel the subscription using the same process mentioned above.
+* Please note that, once cancelled, no future payment will be made to this order.
 
 ---
 
