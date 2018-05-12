@@ -1,6 +1,6 @@
 # Bulk Actions
 
-[...]
+Our bulk actions method is used to update or delete your book, copy or member records in bulk.
 
 ## Update Medias
 
