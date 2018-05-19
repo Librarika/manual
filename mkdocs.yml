@@ -13,6 +13,7 @@ pages:
       - 'Members (Patrons)': 'members.md'
       - 'Circulations (Loans)': 'circulations.md'
       - 'Barcode Labels': 'barcode-labels.md'
+      - 'Member Area': 'member-area.md'
 #      - 'Users': 'users.md'
 #      - 'Bulk Actions': 'bulk-actions.md'
     - 'Contributing': 'contribute.md'

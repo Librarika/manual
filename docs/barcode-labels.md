@@ -1,6 +1,6 @@
 # Barcode Labels
 
-[...]
+[sdsdsds]
 
 ## Add to Barcode Queue
 
