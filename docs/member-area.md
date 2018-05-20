@@ -37,7 +37,7 @@ To view your history of bookings, please follow the below steps:
 
  * Then all the recent history will be appear like below.
 
-    ![Member area list history](img/member-booking-history-list.png)
+    ![Member area list history](img/member-area-booking-history.png)
 
 * Now you can view all the history of your actions time to time.
   
