@@ -4,13 +4,13 @@ Member area is a special section for library members only, where they can access
 
 ## My Bookings
 
-My bookings section list all of your currently active bookings along with ther due date and status.
+My bookings section list all of your currently active bookings along with their due date and status.
 
 
 To view your active bookings, please follow the below steps:
 
 * Please login to your library.
-* Click on `Member Area` section from the Main memu.
+* Click on `Member Area` section from the Main menu.
 
 	![Member area main menu](img/member-area-main-menu.png)
 
@@ -22,16 +22,71 @@ To view your active bookings, please follow the below steps:
 
 ## Booking History
 
-[...]
+Booking History will provide you all the history of the bookings that you have viewed.
 
+To view your history of bookings, please follow the below steps:
+
+* You have to login first. 
+* Click on `My Account` section from the main menu.
+
+    ![Member area main menu](img/member-area-main-menu.png)
+
+* After clicking my account the `Booking History` will appear as shown below.
+
+    ![Member area booking history](img/member-booking-history.png)
+
+ * Then all the recent history will be appear like below.
+
+    ![Member area list history](img/member-booking-history-list.png)
+
+* Now you can view all the history of your actions time to time.
+  
 ## My Reviews
 
-[...]
+My Reviews is the page that facilitate all the reviews of your library books.
+
+If you want to see all the reviews then you have to follow the steps:
+
+* At first login and go to my account like before.
+* In `My Account` section you can see the button `My Reviews` like below.
+
+    ![Member area my reviews](img/member-area-my-reviews.png)
+
+* If you click it then you can see all the reviews of you books like below.
+
+    ![Member area my reviews list](img/member-area-list-reviews.png)
+
+* Now you can view all the books that you have reviewed.
+* You can also see the details of the books by clicking on its title and also view the reviews written by other people.
 
 ## Recently Viewed
 
-[...]
+Recently Viewed section will show you all the books that you have recently viewed.
+
+* Like before from `My Account` go to the `Recently Viewed` option.
+* Click on it and you can see the books you have viewed recently like below.
+
+    ![Member area my reviews list](img/member-area-recently-viewed.png)
+
+* When you view this page you can also see the details of each book by clicking on its title.
+* Here you can also give your book review which is not previously reviewed.
+
 
 ## Account Settings
 
-[...]
+Account Settings is the section where you can update all of your account information.
+
+* From `My Account` go to the account settings option. 
+* Click on `Account Settings`  and you can see all the information of your account
+  that you want to update like below.
+
+    ![Member area account settings](img/member-area-account-setting.png)
+
+* If you want to change your password then enter your current password, new password and confirm new password.
+* If you do not want to change your password then leave all passwords field empty.
+* After updating all information you have to click `Save Settings` as shown below.
+    
+    ![Member area save settings](img/member-area-save-setting.png)
+
+* Once you click the save settings button your given information will be saved.
+* Now whenever you visit this page you can view your information or update your info.
