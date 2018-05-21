@@ -108,11 +108,11 @@ To complete your reservation, please follow the below steps:
 
     ![Member area catalog search](img/member-area-catalog-search.png)
 
-* If you click the `Title` of the book then all of its details will be show up like below.
+* If you click the `Title` of the book then all of its details will be shown up like below.
 
     ![Member area catalog search details](img/member-area-catalog-search-details.png)
 
-* In the book details page you can see the request in the below.
+* In the book details page you can see the request button for each copy of the book.
 
     ![Member area catalog request](img/member-area-catalog-request.png)
 
@@ -125,12 +125,12 @@ To complete your reservation, please follow the below steps:
 
     ![Member area catalog request success](img/member-area-catalog-request-success.png) 
 
-* Now your request has been confirmed and within your reservation date no one can able to send a request for it.
+* Now your request has been placed and if the library staff accept your request, then you will be notified and the item will be reserved for you.
 
 
 ## Cancel Reservation Request
 
-Cancel Reservation Request is the section where you can cancel your reservation request that you have been send earlier.
+Cancel Reservation Request is the section where you can cancel your reservation request that you have been placed earlier.
 
 To cancel your reservation, please follow the below steps:
 
