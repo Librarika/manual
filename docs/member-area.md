@@ -27,7 +27,7 @@ Booking History will provide you all the history of the bookings that you have v
 To view your history of bookings, please follow the below steps:
 
 * You have to login first. 
-* Click on `My Account` section from the main menu.
+* Click on `My Account` section from the Main Menu.
 
     ![Member area main menu](img/member-area-main-menu.png)
 
@@ -90,3 +90,67 @@ Account Settings is the section where you can update all of your account informa
 
 * Once you click the save settings button your given information will be saved.
 * Now whenever you visit this page you can view your information or update your info.
+
+## Submit Reservation Request
+
+Submit Reservation Request is the section where you can send a request for any books that you want to reserve.
+
+To complete your reservation, please follow the below steps:
+
+* At first login to your library.
+* Click on `Catalog Search` from the main menu.
+    
+    ![Member area catalog search](img/catalog-search.png)
+
+
+* In the `Catalog Search` page you can search any books that you want to reserve.
+* Now search your needed book and it will be appear as shown below.
+
+    ![Member area catalog search](img/member-area-catalog-search.png)
+
+* If you click the `Title` of the book then all of its details will be show up like below.
+
+    ![Member area catalog search details](img/member-area-catalog-search-details.png)
+
+* In the book details page you can see the request in the below.
+
+    ![Member area catalog request](img/member-area-catalog-request.png)
+
+* If you click the `Request` button then your reservation request form will be appear.
+
+    ![Member area catalog request form](img/member-area-catalog-request-form.png) 
+
+* Now you can give your reservation date and also you can write a simple note about it, then click on `Submit`.
+* Once you submit this form your request will be placed successfully like below.
+
+    ![Member area catalog request success](img/member-area-catalog-request-success.png) 
+
+* Now your request has been confirmed and within your reservation date no one can able to send a request for it.
+
+
+## Cancel Reservation Request
+
+Cancel Reservation Request is the section where you can cancel your reservation request that you have been send earlier.
+
+To cancel your reservation, please follow the below steps:
+
+* At first go to the Main Menu.
+* Click on `My Account` section of your Main Menu.
+* You can see the `Cancel` button in your Recent Bookings.
+    
+    ![Member area request cancel](img/member-area-cancel-request.png) 
+
+* Click on `Cancel` and you can see the cancel reservation form of your book like below.
+
+    ![Member area cancel request form](img/member-area-cancel-request-form.png)
+
+* Now you must have to show a reason why you want to cancel your reservation, otherwise you can not Submit the form and an
+error message will be appear.
+
+    ![Member area error message](img/member-area-error-message.png)
+
+* After giving your reason you can Submit your form.
+* Once you click on `Submit` your cancellation will be confirmed like below.
+
+    ![Member area cancel success](img/member-area-cancel-success.png)
+
