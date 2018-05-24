@@ -17,5 +17,6 @@ pages:
 #      - 'Users': 'users.md'
 #      - 'Bulk Actions': 'bulk-actions.md'
     - 'Contributing': 'contribute.md'
+    - 'GDPR DPA': 'gdpr.md'
     - 'About': 'about.md'
     - 'License': 'license.md'
