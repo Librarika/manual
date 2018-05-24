@@ -74,7 +74,7 @@ The parties agree as follows:
 6. International Transfers
 6.1 Processing Locations. Librarika stores and processes EU Data (defined below) in data centers located inside and outside the European Union. All other Customer Data may be transferred and processed in the United States and anywhere in the world where Customer, its Affiliates and/or its Sub-processors maintain data processing operations. Librarika shall implement appropriate safeguards to protect the Personal Data, wherever it is processed, in accordance with the requirements of Data Protection Laws. 
 
-6.2 Transfer Mechanism: Notwithstanding Section 6.1, to the extent Librarika processes or transfers (directly or via onward transfer) Personal Data under this DPA from the European Union, the European Economic Area and/or their member states and Switzerland (“EU Data”) in or to countries which do not ensure an adequate level of data protection within the meaning of applicable Data Protection Laws of the foregoing territories, the parties agree that Librarika shall be deemed to provide appropriate safeguards for such data by virtue of having certified its compliance with the Privacy Shield and DigitalOcean shall process such data in compliance with the Privacy Shield Principles. Customer hereby authorises any transfer of EU Data to, or access to EU Data from, such destinations outside the EU subject to any of these measures having been taken.
+6.2 Transfer Mechanism: Notwithstanding Section 6.1, to the extent Librarika processes or transfers (directly or via onward transfer) Personal Data under this DPA from the European Union, the European Economic Area and/or their member states and Switzerland (“EU Data”) in or to countries which do not ensure an adequate level of data protection within the meaning of applicable Data Protection Laws of the foregoing territories, the parties agree that Librarika shall be deemed to provide appropriate safeguards for such data by virtue of having certified its compliance with the Privacy Shield and Librarika shall process such data in compliance with the Privacy Shield Principles. Customer hereby authorises any transfer of EU Data to, or access to EU Data from, such destinations outside the EU subject to any of these measures having been taken.
 
 7. Return or Deletion of Data
 7.1 Upon deactivation of the Services, all Personal Data shall be deleted, save that this requirement shall not apply to the extent Librarika is required by applicable law to retain some or all of the Personal Data, or to Personal Data it has archived on back-up systems, which such Personal Data Librarika shall securely isolate and protect from any further processing, except to the extent required by applicable law.
@@ -94,13 +94,11 @@ The parties agree as follows:
 9.4 This DPA shall be governed by and construed in accordance with governing law and jurisdiction provisions in the Agreement, unless required otherwise by Data Protection Laws.
 
 Librarika, LLC
-Name: Alan Shapiro
-Title:	General Counsel
+Name: Md. Rayhan Chowdhury
+Title:	Chief Executive Officer
 
-Annex A - List of DigitalOcean Sub-processors
+Annex A - List of Librarika Sub-processors
 Available upon request
 
 Annex B – Security Measures
 Available upon request
-
-Download as PDF
