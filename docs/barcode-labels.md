@@ -67,6 +67,7 @@ To Generate Barcodes, please follow the below steps:
 
 * Select the desired `Code Type` by default CODE 128 is selected. We suggest to use CODE 128 or CODE 39 for better scannability.
 
+     ![Barcode Labels code type](img/barcode-labels-code-type.png)
      
 
 * You can specify the `Width Factor` and `Height` for your barcode image.
@@ -105,7 +106,7 @@ To print the barcodes you have to follow the below steps:
      ![Barcode Labels page presets](img/barcode-labels-page-presets.png)
 
 
-* Select a pre configured print setting from the `Saved Setting` drop down and click `Apply`.
+* Select a pre configured print setting from the `Saved Setting` drop down and click `Apply`. We have some common label settings for Roll type and Sheet type barcode label.
 * A page will appear like below. If you come to this section later times, you will land on this print layout page by default.
 
       ![Barcode Labels print barcodes](img/barcode-labels-print-barcodes.png)
@@ -126,9 +127,10 @@ To print the barcodes you have to follow the below steps:
 
 ### Custom Print Settings
 
-* You can also apply your custom `Page Settings` to print customized barcodes.
+ You can also apply your custom `Page Settings` to print customized barcodes.
 
 
+* Click on `Page Settings` button.
 * If you click on `Page` option then it will be appear like below.
 
 
@@ -151,6 +153,7 @@ To print the barcodes you have to follow the below steps:
      ![Barcode Labels page lines](img/barcode-labels-page-lines.png)
 
 * In this page you can apply lines per your need.
+* When you are done, click `Apply` button to see your changes in prints layouts.
 
 ## Complete Printing and Start New Queue
 
@@ -164,4 +167,5 @@ To do so, please follow the below steps:
 
 * All your generated barcode labels will be marked as completed and the `Print Barcodes` will become empty.
 * Now you can generate new barcodes like before.
+
 
