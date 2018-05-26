@@ -29,7 +29,7 @@ To add books to the barcode queue, please follow the below steps:
      ![Barcode Labels add more book](img/barcode-labels-add-more-book.png)
 
 
-* If you click on the `Add Multiple Books` option, you can add multiple books to the Barcode Queue by their accession number.
+* If you click on the `Add Multiple Books` option, you can add multiple books to the Barcode Queue by their accession number. Please enter accession number separated by comma.
 
     ![Barcode Labels add multiple books](img/barcode-labels-add-multiple-books.png)
 
@@ -42,13 +42,15 @@ To add books to the barcode queue, please follow the below steps:
     ![Barcode Labels add member more no](img/barcode-labels-more-member-no.png)
 
 
-* Once you click on `Add to Queue` button, then step one will be completed and all your items will be gone to the Generate Barcodes section. and you can also see how much items you have added in the Generate Barcode Section.
+* Once you click on `Add to Queue` button, then step one will be completed and all your items will be available in Generate Barcodes section and you can also see how many items you have added in the Generate Barcode Section.
  
     ![Barcode Labels items number](img/barcode-labels-items-number.png)
 
 ## Generate Barcodes
 
 Generate Barcodes is the section where actions are taken depend upon the currently added items on the Barcode Queue.
+Once you have added items to barcodes queue, you need to generate the barcode labels. This option applies to the currently added items to the barcode queue. If no item is in the queue, then this option will be disabled.
+
 
 To Generate Barcodes, please follow the below steps:
 
