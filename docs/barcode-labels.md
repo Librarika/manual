@@ -1,10 +1,12 @@
 # Barcode Labels
 
-Barcode Labels is the section that can be accessed by the librarian only.in this section the librarian can add single or multiple books and also add member barcode to the barcode queue.once books added to the queue then the librarian can generate barcodes.after the barcodes are generated then they can print them out for the library member.barcodes are very useful for the librarian as well as the library members.
+Barcode Labels is the section that can be accessed by the librarians only. In this section the librarian can add single or multiple books and also add member barcode to the Barcode Queue. Once books are added to the queue then the librarian can generate barcodes. After the barcodes are generated they can print them out in standard label stationary or normal papers. Barcodes are very useful for the librarians as well as the library members. 
+
+**Some barcode scanners can't scan small numbers. Hence, it is recommended to use barcodes that is at least 6-8 characters long so that all barcode scanner can scan them accurately.**
 
 ## Add to Barcode Queue
 
-Add To Barcode Queue is the section where single or multiple books and also the member barcodes is used to added to the queue.
+Add To Barcode Queue is the section where single or multiple books and also the member barcodes are used to added to the queue.
 
 To add books to the barcode queue, please follow the below steps:
 
@@ -44,7 +46,7 @@ To add books to the barcode queue, please follow the below steps:
  
     ![Barcode Labels items number](img/barcode-labels-items-number.png)
 
-## Generte Barcodes
+## Generate Barcodes
 
 Generate Barcodes is the section where actions are taken depend upon the currently added items on the Barcode Queue.
 
