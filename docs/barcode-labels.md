@@ -111,7 +111,22 @@ To print the barcodes you have to follow the below steps:
       ![Barcode Labels print barcodes](img/barcode-labels-print-barcodes.png)
 
 
-* In the `Page Settings` section there are so many options are given such as Presets, Page, Margins, Label and Lines.
+
+* Now to print the labels, click on `Print` button and in chrome browser it will appear as shown below.
+
+     ![Barcode Labels page print](img/barcode-labels-page-print.png)
+
+* Click on `More Settings` and select the desired paper size and marging as shown below. Paper size may vary depending on the type of label you want to print.
+
+     ![Barcode Labels more settings](img/barcode-labels-more-settings.png)
+
+* Please make sure that you choose **None** in the `Margins` option.
+* All of your labels should be properly placed in print layout correctly. If so then you are ready to print them out.
+* For a precuation, please print a small quantity of labels as a first step.
+
+### Custom Print Settings
+
+* You can also apply your custom `Page Settings` to print customized barcodes.
 
 
 * If you click on `Page` option then it will be appear like below.
@@ -136,17 +151,6 @@ To print the barcodes you have to follow the below steps:
      ![Barcode Labels page lines](img/barcode-labels-page-lines.png)
 
 * In this page you can apply lines per your need.
-* Now if you want to print them then you can click on `Print` and it will appear like below.
-
-     ![Barcode Labels page print](img/barcode-labels-page-print.png)
-
-* In this page you can change **Destination**, you can give the amount of **Pages**, **Copies** and you can also choose the two sided **Option** if you need.
-* Now if you click on `More Settings` then you can see more options.
-
-     ![Barcode Labels more settings](img/barcode-labels-more-settings.png)
-
-* Among all those options always choose **None** in the `Margins` option.
-* Now if your all settings are ready then you can simply print them out.
 
 ## Complete Printing and Start New Queue
 
