@@ -58,22 +58,24 @@ To Generate Barcodes, please follow the below steps:
 
      ![Barcode Labels generate barcodes](img/barcode-labels-generate-barcodes.png)
 
-* Here at first you can see the `Object Type` options like, one is **Accession** which is used to Generating barcode label  for library material.and the other is **Member** which is used to Generating barcode label for member ID card.
+* At first, please select `Object Type` to either Accession or Member to generate barcodes for library materials or member id cards respectively.
+
 
      ![Barcode Labels object type](img/barcode-labels-object-type.png) 
 
-* If you want to add the items in the Queue according to `Add Member Barcode` then you have to select the **Member** option must. and this will **Generate Member Barcodes** for you.
 
-* If want to `Generate Book Barcodes` then you have to select the **Accession** option must.
 
-* You don't need to change the `Code Type` option.
-* You can give the `Width Factor` and `Height` per your barcode size.
-* Now in `Line 1, Line 2, Line 3` you can give a title to your barcode such as Book Title, Call Number and Custom Text.
+* Select the desired `Code Type` by default CODE 128 is selected. We suggest to use CODE 128 or CODE 39 for better scannability.
+
+     
+
+* You can specify the `Width Factor` and `Height` for your barcode image.
+* Now in `Line 1, Line 2, Line 3` you can give a title to your barcode such as Book Title, Call Number and Custom Text. If you select Call Number then also select `Binding Fold Option` below.
 
      ![Barcode Labels for line_1](img/barcode-labels-for-line_1.png) 
 
 
-* If you choose the `Custom Text` option then a text box will be appear and you can give any text per your choice.
+* If you choose the `Custom Text` option then a text box will be appear and you can give any text as your choice.
 
      ![Barcode Labels for line text](img/barcode-labels-line-text.png) 
 
@@ -81,34 +83,37 @@ To Generate Barcodes, please follow the below steps:
 
      ![Barcode Labels for show text](img/barcode-labels-show-text.png)
 
-* if you want to `Generate Bind folds` Barcodes then you must have to select the **Binding Fold Option** otherwise you don't need to select it.
+* if you want to Generate Bind fold Barcodes then you need to select the **Binding Fold Option** otherwise leave it unchecked.
 
      ![Barcode Labels for bind folds](img/barcode-labels-bind-folds.png)  
 
 
-* Now you don't need to change the `Remove Prefix` option.it is good to be auto selected.
-* At last if you click the **Submit** button then all your generated barcodes will be gone to the Print Barcodes section and you can also see the number of generated barcodes in the Print Barcodes section.
+* Please do not change `Remove Prefix` option, leave it checked.
+* When you are done, click the `Submit` button then all your selected barcodes will be generated and you will be moved to Print Barcodes section. You can also see the number of generated barcodes in the Print Barcodes queue.
 
      ![Barcode Labels for print](img/barcode-labels-print.png)
 
 
 ## Print Barcodes
 
-Print Barcodes is the section where you can print out the barcodes which you have been generated so far.
+Print Barcodes is the section where you can print out the barcodes which you have been generated already.
 
 To print the barcodes you have to follow the below steps:
 
-* Click on `Print Barcodes` and a page will be appear like below.
+* If you are very new to this page, you will see the `Page Settings` page as shown below.
+
+     ![Barcode Labels page presets](img/barcode-labels-page-presets.png)
+
+
+* Select a pre configured print setting from the `Saved Setting` drop down and click `Apply`.
+* A page will appear like below. If you come to this section later times, you will land on this print layout page by default.
 
       ![Barcode Labels print barcodes](img/barcode-labels-print-barcodes.png)
 
-* If you want to change the previous settings then you can click on `Page Settings` option.
+
 * In the `Page Settings` section there are so many options are given such as Presets, Page, Margins, Label and Lines.
-* At first you can see the `Presets` option by default.
 
-    ![Barcode Labels page presets](img/barcode-labels-page-presets.png)
 
-* In this page you can 
 * If you click on `Page` option then it will be appear like below.
 
 
