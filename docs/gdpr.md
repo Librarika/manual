@@ -49,8 +49,7 @@ The parties agree as follows:
 
 2.6 Librarika Data. Notwithstanding anything to the contrary in the Agreement (including this DPA), Customer acknowledges that Librarika shall have a right to use and disclose data relating to and/or obtained in connection with the operation, support and/or use of the Services for its legitimate business purposes, such as billing, account management, technical support, product development and sales and marketing. To the extent any such data is considered personal data under Data Protection Laws, Librarika is the Controller of such data and accordingly shall process such data in compliance with Data Protection Laws.
 
-3 Subprocessing:
-
+3. Subprocessing
 3.1 Authorized Sub-processors. Customer agrees that Librarika may engage Sub-processors to process Personal Data on Customer's behalf. The Sub-processors currently engaged by Librarika and authorized by Customer are listed in Annex A.
 
 3.2 Sub-processor Obligations. Librarika shall: (i) enter into a written agreement with the Sub-processor imposing data protection terms that require the Sub-processor to protect the Personal Data to the standard required by Data Protection Laws; and (ii) remain responsible for its compliance with the obligations of this DPA and for any acts or omissions of the Sub-processor that cause Librarika to breach any of its obligations under this DPA.
