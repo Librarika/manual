@@ -145,9 +145,14 @@ To print the barcodes you have to follow the below steps:
 
 ## Complete Printing and Start New Queue
 
-Complete Printing is the section where you can see the barcodes which have completed printing.and therefore you can Start a New Queue.you can not start a new queue until printing is complete.once you click ok on `Print Completed` all your barcode labels will be marked as completed and the **Print Barcodes** will become empty.now you can start a new queue like before.
+When you have items in the Print Queue sections, you can't generate new barcodes. In order to generate new barcodes, you need to complete current print queue and start over.
 
-You can see the page like below:
+To do so, please follow the below steps:
 
-![Barcode Labels print complete](img/barcode-labels-print-complete.png)
+* Please click ok on `Print Completed` and confirm. 
+
+    ![Barcode Labels print complete](img/barcode-labels-print-complete.png)
+
+* All your generated barcode labels will be marked as completed and the `Print Barcodes` will become empty.
+* Now you can generate new barcodes like before.
 
