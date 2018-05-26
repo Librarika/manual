@@ -147,7 +147,7 @@ To print the barcodes you have to follow the below steps:
 
      ![Barcode Labels page label](img/barcode-labels-page-label.png)
 
-* In this page you apply label per your choice.
+* In this page you can apply label per your choice.
 * If you click on `Lines` then it will be appear like below.
 
      ![Barcode Labels page lines](img/barcode-labels-page-lines.png)
@@ -161,11 +161,14 @@ When you have items in the Print Queue sections, you can't generate new barcodes
 
 To do so, please follow the below steps:
 
-* Please click ok on `Print Completed` and confirm. 
+* Please click on the `Print Completed` button and click ok to confirm. 
+
+    ![Barcode Labels print completed](img/barcode-labels-print-completed.png)
+
+* All your generated barcode labels will be marked as completed and the `Print Barcodes` will become empty.
 
     ![Barcode Labels print complete](img/barcode-labels-print-complete.png)
 
-* All your generated barcode labels will be marked as completed and the `Print Barcodes` will become empty.
 * Now you can generate new barcodes like before.
 
 
