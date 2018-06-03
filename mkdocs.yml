@@ -15,7 +15,7 @@ pages:
       - 'Barcode Labels': 'barcode-labels.md'
       - 'Member Area': 'member-area.md'
 #      - 'Users': 'users.md'
-#      - 'Bulk Actions': 'bulk-actions.md'
+      - 'Bulk Actions': 'bulk-actions.md'
     - 'Contributing': 'contribute.md'
     - 'About': 'about.md'
     - 'License': 'license.md'
