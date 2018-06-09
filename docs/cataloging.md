@@ -255,5 +255,5 @@ To add a new e-book, please follow the below steps:
 
 * Once uploaded, you item will be available in the OPAC.
 
-Note: Please make sure that you have enough copyright to share the e-book file with others.
+Note: Please make sure that you have enough copyright to share these e-book files with others.
 
