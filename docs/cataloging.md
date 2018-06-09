@@ -253,7 +253,7 @@ To add a new e-book, please follow the below steps:
 
 	![Upload e-book form](img/catalog-items-detail-upload-ebook.png)  
 
-* Once uploaded, you item will be available in the OPAC.
+* Once uploaded, your item will be available in the OPAC.
 
 Note: Please make sure that you have enough copyright to share these e-book files with others.
 
