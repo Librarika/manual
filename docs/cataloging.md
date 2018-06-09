@@ -228,4 +228,32 @@ Note: Instead of deleting a copy from your library, it is better to make it inac
 
 ## E-Books
 
-[...]
+You can upload one or more pdf or e-pub files for each of your e-book item in your catalog. In order to upload e-books, you must have e-book subscription enabled.
+
+### Add E-Book
+
+To add a new e-book, please follow the below steps: 
+
+* Please go to the `Dashboard -> Catalogs -> Catalog Items` section.
+* Click on the `Manual Add` button and the **Add media** form will be displayed as shown below.
+
+	![Manual add button](img/catalog-items-manual-add-button.png)
+
+* Select media type equals to **E-Books** from the dropdown menu.  
+
+	![Manual add form](img/catalog-items-manual-add-form.png)
+
+* Enter title and other information about the e-book item and click the `Submit` button once you are done. 
+* A new E-book item will be added to the catalog and you will be redirected to the item detail page.
+* Now scroll down the the E-Books section of the detail page.
+	
+	![E-book section in item detail page.](img/catalog-items-detail-ebook-section.png)  
+
+* Click on `Upload E-book` button to upload new pdf or e-pub file.
+
+	![Upload e-book form](img/catalog-items-detail-upload-ebook.png)  
+
+* Once uploaded, you item will be available in the OPAC.
+
+Note: Please make sure that you have enough copyright to share the e-book file with others.
+
