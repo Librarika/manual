@@ -30,10 +30,12 @@ Please update your library information carefully and make sure that they are up 
 	* The description field shoud contain a short description about your library, library business hours, rules, policies, etc. This field is very importat for your library site visitors as it will be displayed on the "Ask a Librarian" public page.
 	* The email address and phone number provided here will be displayed on the "Ask a Librarian" public page. However, you can individually turn off the display of email address, phone number from the preferences section. 
 	* Uncheck the **Private** checkbox to make your catalog publicly visible online. 
+* Now if you want to make your library private so that, only the members will be allowed to access the OPAC catalog.
+	* Please checked the **Private** checkbox to make your catalog members only.
 
 		If checked, your catalog will not be visible online, only member's with login access can access the information. This feature is suitable for corporate libraries.
 
-* Clik on the `Submit` button to save your changes.
+* Click on the `Submit` button to save your changes.
 
 ### Change / Update organization information
 

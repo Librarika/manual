@@ -8,6 +8,7 @@ pages:
     - 'Home': 'index.md'
     - 'User Guide': 
       - 'Getting Started': 'getting-started.md'
+      - 'OPAC': 'opacs.md'
       - 'Library': 'libraries.md'
       - 'Cataloging (Books)': 'cataloging.md'
       - 'Members (Patrons)': 'members.md'
