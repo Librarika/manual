@@ -93,3 +93,7 @@ To edit a circulation, please follow the below steps:
 * Edit or update necessary information regarding the circulation.
 * Click on the `Submit` button when you are done.
 
+## Circulation Issue
+
+Keep in mind that whenever checking out books you can not able to scroll past the 10th book even though you have several more copies of the same book in your library. Because **there is a cap limit of 10 items in auto complete dialogue box**.
+

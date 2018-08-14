@@ -181,6 +181,28 @@ To add a new copy to an existing media item, please follow the below steps:
 * Click on the `Submit` button when you are done
 * A new copy record will be created.
 
+### Add Multiple Copies
+
+To add multiple copies at once to an existing media item, please follow the below steps: 
+
+* Please go to the `Dashboard -> Catalogs -> Catalog Items` section.
+
+* Locate the item you want to add multiple copies to from your catalog and click on the `View` link on the right to that item.
+
+	![Catalog item view option](img/catalog-item-view-option.png)
+
+* Navigate to the copies section at the bottom of the page and you can see a `Add Multiple Copies` button.
+
+	![Catalog item copies section](img/catalog-item-multiple-copies-button.png)
+
+* Click on it and a `Add Multiple Copies` form will be appeared like below.
+
+	![Catalog item copies section](img/catalog-item-multiple-copies-section.png)
+
+* Enter necessary information regarding your copies.
+* Click on the `Submit` button when you are done
+* All your new copies record will be created.
+
 ### Edit Copy
 
 You can edit media copy information, change accession number, change branch, enable / disable circulation, published and active status flags, etc for a specific copy from the `Catalog Items` page. 
