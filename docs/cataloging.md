@@ -79,9 +79,9 @@ To use this method, please follow the below steps:
 * Click on the `Manual Add` button.
 * System will display the Add Media form.
 	
-	![Media edit form](img/media-manual-add-form.png)
+	![Media edit form](img/catalog-items-manual-add-form.png)
 
-* Enter book information with the details.
+* Enter book information with the details. Only the Title field is mandatory.
 * Click on the `Submit` button when you are done.
 * The data will be saved and you will be redirect to the view detail page.
 * Add relevant author information from this view page. You can add multiple authors one by one.
@@ -135,7 +135,7 @@ You can edit media information from the `Catalog Items` page.
 
 	![Catalog item view option](img/catalog-item-view-option.png)
 
-* Click on the `Edit Item` button, the below form will appear with existing information.
+* Then in the media view page click on the `Edit Item` button, the below form will appear with existing information.
 	
 	![Media edit form](img/media-edit-form.png)
 
@@ -257,13 +257,9 @@ You can upload one or more pdf or e-pub files for each of your e-book item in yo
 To add a new e-book, please follow the below steps: 
 
 * Please go to the `Dashboard -> Catalogs -> Catalog Items` section.
-* Click on the `Manual Add` button and the **Add media** form will be displayed as shown below.
+* Click on the `Manual Add` button and system will display the Add Media form. Now select media type equals to **E-Books** from the dropdown menu.  
 
-	![Manual add button](img/catalog-items-manual-add-button.png)
-
-* Select media type equals to **E-Books** from the dropdown menu.  
-
-	![Manual add form](img/catalog-items-manual-add-form.png)
+	![Manual add form](img/catalog-items-ebooks-add-form.png)
 
 * Enter title and other information about the e-book item and click the `Submit` button once you are done. 
 * A new E-book item will be added to the catalog and you will be redirected to the item detail page.
