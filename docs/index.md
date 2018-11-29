@@ -4,7 +4,7 @@ Librarika is a SaaS based Integrated Library System (ILS) platform built on the 
  
 Website: [https://librarika.com](https://librarika.com)
 
-Please contribute to imporve this document. See our [contribute](contribute.md) section for more detail.
+Please contribute to improve this document. See our [contribute](contribute.md) section for more detail.
 
 ---
 
@@ -35,7 +35,7 @@ All **librarika** libraries are hosted on the cloud at [https://librarika.com](h
 
 ## Built-in OPAC
 
-Online public catalog (OPAC) comes built-in with each **librarika** library. That means, you can instantly publish your catalog online or you can make your library private if you want to.
+Online public accesss catalog [OPAC](opacs.md) comes built-in with each **librarika** library. That means, you can instantly publish your catalog online or you can make your library private if you want to.
 
 ---
 

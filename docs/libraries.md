@@ -6,7 +6,7 @@ This section explains how to manage your library master data and other related i
 
 Please see the [create new library](getting-started.md#create-new-library) section in order to start a new free library. 
 
-If you want to subcribe to a Premium Plan, please create a free library first and then upgrade to the desired premium plan following the [upgrade to premium plan](#upgrade-to-premium-plan) instructions.
+If you want to subscribe to a Premium Plan, please create a free library first and then upgrade to the desired premium plan following the [upgrade to premium plan](#upgrade-to-premium-plan) instructions.
 
 ---
 
@@ -27,13 +27,15 @@ Please update your library information carefully and make sure that they are up 
 	![Library Information form](img/library-information-library-info.png)
 
 * Enter / update the information you want to change.
-	* The description field shoud contain a short description about your library, library business hours, rules, policies, etc. This field is very importat for your library site visitors as it will be displayed on the "Ask a Librarian" public page.
-	* The email address and phone number provided here will be displayed on the "Ask a Librarian" public page. However, you can individually turn off the display of email address, phone number from the preferences section. 
+	* The description field should contain a short description about your library, library business hours, rules, policies, etc. This field is very important for your library site visitors as it will be displayed on the "Ask a Librarian" public page.
+	* The email address and phone number provided here will be displayed on the "Ask a Librarian" public page. However, you can individually turn off the display of email address, phone number from the [preferences](#change-preferences) section. 
 	* Uncheck the **Private** checkbox to make your catalog publicly visible online. 
+* Now you want to make your library private so that, only the members will be allowed to access the OPAC catalog.
+	* Please checked the **Private** checkbox to make your catalog members only.
 
 		If checked, your catalog will not be visible online, only member's with login access can access the information. This feature is suitable for corporate libraries.
 
-* Clik on the `Submit` button to save your changes.
+* Click on the `Submit` button to save your changes.
 
 ### Change / Update organization information
 
@@ -50,13 +52,13 @@ Please update your organization information carefully and make sure that they ar
 	![Library Information form](img/library-information-organization-info.png)
 
 * Enter / update the information that you feel necessary.
-* Clik on `Submit` button to save your changes.
+* Click on `Submit` button to save your changes.
 
 ---
 
 ## Upload Library Logo
 
-Logo is the single most import thing that gives your library an official identity. Please update your library logo as soon as possible to make it looks professional. For personal library, it is ok to keep the default Librarika logo.
+Logo is the single most important thing that gives your library an official identity. Please update your library logo as soon as possible to make it looks professional. For personal library, it is ok to keep the default Librarika logo.
 
 We support 200x200 pixel size file in PNG/JPG format.
 
@@ -71,19 +73,19 @@ We support 200x200 pixel size file in PNG/JPG format.
 	![Library Information form](img/library-information-organization-info.png)
 
 * In Logo field click on the `browse` button and select a 200x200 pixel size png/jpg file.
-* Clik on the `Submit` button to save your changes.
+* Click on the `Submit` button to save your changes.
 
 ---
 
-## Change Prefereces
+## Change Preferences
 
-The preferences section is the single most important settings page for your library. Here you can change followings:
+The preferences section is the single most important settings page for your library. Here you can change the followings:
 
 * Basic options
 * Self-service settings
 * Request items settings
 * Notifications and Reminders settings
-* Apperances / themes / languages settings
+* Appearances / themes / languages settings
 
 **Steps to update preferences**:
 
@@ -96,8 +98,8 @@ The preferences section is the single most important settings page for your libr
 	![Library preference form](img/preference-reminders.png)
 
 * Set / Enter / update the value that you want.
-* Clik on the `Submit` button to save your changes.
-* You latest changes will be applied instantly.
+* Click on the `Submit` button to save your changes.
+* Your latest changes will be applied instantly.
 
 ---
 
@@ -129,18 +131,20 @@ To upgrade, please follow the below steps:
 
 ### Change or Update Payment / Billing Information
 
-For premium libraries, the payment method is charged automatically when the annual subscription expires. You may want to chnage / update payment information so that next renwal takes place without any service disruption.
+For premium libraries, the payment method is charged automatically when the annual subscription expires. You may want to change / update payment information so that next renwal takes place without any service disruption.
 
-You can change the payment method anytime. Please follow the below steps:
+You can change the payment information anytime. Please follow the below steps:
 
-* Please go to [https://2co.com](https://2co.com). 
+* Please go to [https://2co.com](https://2co.com).
+* Then Click on the `Login` icon on the right to the 2checkout page.
+* A **2CO- Customer Area** page will be appeared like below.
 
-	![2co order review form](img/2co-review-form.png)  
+	![2co my account form](img/2co-myAccount-form.png)
 
-* Make sure that you  see green lock icon with **2Checkout.com inc (US)** text on the browser's address bar as shown in the picture above.  
-* Enter your Order Number or Paypal Invoice ID and the email address which given at the time of purcase.
-* You will then see the payment and billing information detail with current subscription status. 
-* You can make make necessary changes here and save your changes.
+* Now create a account with your order number or email address that was used during the purchase.
+* Then you can update your credit card information.
+* When your current subscription expires, the system will automatically charge the credit card listed in your order profile and then generate an invoice.
+
 
 ##### Cancel Subscription
 
@@ -153,7 +157,7 @@ You can change the payment method anytime. Please follow the below steps:
 
 You can remove your library anytime from the dashboard. All you need is the _Library Admin_ permission in order to delete your library. When you delete a library, the library information and your own user account, catalogs, checkouts, members information and other related information will be removed.
 
-However, the individual login accounts created in Librarika platform either by library member or staff users will stay active even though they were part of your library users, this is becuase each user is treated independentaly in Librarika platform and one user can join multiple libraries using the same account.
+However, the individual login accounts created in Librarika platform either by library member or staff users will stay active even though they were part of your library users, this is becuase each user is treated independently in Librarika platform and one user can join multiple libraries using the same account.
 
 Note: If you are on any paid plan (Premium Plan or E-Book Plan), please let us know so that we can discontinue your subscription before you delete your library.
 
@@ -168,4 +172,4 @@ Note: If you are on any paid plan (Premium Plan or E-Book Plan), please let us k
 	![Remove library form](img/remove-library-form.png)
 
 * Check `Remove my Library` and `Confirm removal` options as shown above.
-* Clik on the `Submit` button.
+* Once you click on the `Submit` button your library will be deleted.

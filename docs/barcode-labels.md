@@ -171,4 +171,16 @@ To do so, please follow the below steps:
 
 * Now you can generate new barcodes like before.
 
+## Existing Barcode
 
+If you have already labeled your old items using existing barcode number then enter those barcode number into accession number field.
+
+To do so, please follow the below steps:
+
+* Please go to the Dashboard -> Catalogs -> Catalog Items  then locate the item you want to add multiple copy from your catalog and click on the Add Copy link on the right to that item.
+
+    ![Barcode Labels existing barcode](img/barcode-labels-existing-barcode.png)
+
+* Now in the Add Copy form enter that accession number in the Accession No field.
+
+* Then the old barcode and the new barcode will be same.
