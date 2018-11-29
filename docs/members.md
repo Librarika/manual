@@ -17,7 +17,7 @@ To add a member to your library, please follow the below steps:
 * Please go to the `Dashboard -> Circulations -> Members` section.
 
 * Click on `Add New Member` button.
-* Add new member form will be dsiplayed as shown below.
+* Add new member form will be displayed as shown below.
 
 	![Member add form](img/member-add-form.png)
 

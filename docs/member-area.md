@@ -145,7 +145,7 @@ To cancel your reservation, please follow the below steps:
     ![Member area cancel request form](img/member-area-cancel-request-form.png)
 
 * Now you must have to show a reason why you want to cancel your reservation, otherwise you can not Submit the form and an
-error message will be appear.
+error message will appear.
 
     ![Member area error message](img/member-area-error-message.png)
 
