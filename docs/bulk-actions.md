@@ -52,11 +52,15 @@ To do so, please follow the below steps:
 
         ![Bulk Actions category](img/bulk-actions-category.png) 
 
-    - The next one is the `ISBNs` where you can choose single or multiple ISBN numbers separated by a comma. You can leave this field empty if you do not want to enter this criteria.
+    - The next one is the `ISBNs` where you can choose single or multiple ISBN numbers separated by a comma or you can import them from your CSV file. You can leave this field empty if you do not want to enter this criteria.
 
         ![Bulk Actions isbns](img/bulk-actions-isbns.png) 
 
-    - Next in the `Active` option. You can choose if the Media is active or not.
+    - Next in the `Created Between` option. You can choose the date between the Media is created.
+
+        ![Bulk Actions active](img/bulk-actions-created-between.png)
+
+    - Then next one is the `Active` option. You can choose if the Media is active or not.
 
         ![Bulk Actions active](img/bulk-actions-active.png)
 
@@ -204,13 +208,12 @@ To create a New Bulk Action to Change Media Copy's Branch Info, please follow th
 * If you select the `Change Media Copy's Branch Info` a page will be shown like below.
 
     ![Bulk Actions change media copy's branch info](img/bulk-actions-change-branch-info.png)
-    ![Bulk Actions change media copy's branch info_2](img/bulk-actions-change-branch-info_2.png)
 
 * In this page you can see that two types of conditions are given. The first one is the `Media Conditions` which is as same as the **Update Medias** but here you also have to fulfill the second conditions which is the `Media Copy Conditions`.
 
 * In `Media Copy Conditions` you need to specify at least one conditions based on which the records will be updated. You can specify more than one criteria to further narrow down the selection. 
 
-    - The first one is the `ASN Numbers` where you can choose single or multiple accession numbers separated by a comma. You can leave this field empty if you do not want to enter this criteria.
+    - The first one is the `ASN Numbers` where you can choose single or multiple accession numbers separated by a comma or you can import them from your CSV file. You can leave this field empty if you do not want to enter this criteria.
 
         ![Bulk Actions asn numbers](img/bulk-actions-asn-numbers.png)
 
@@ -369,7 +372,7 @@ To create a New Bulk Action to Change Member's Booking Quota, please follow the 
     ![Bulk Actions change member's booking quota](img/bulk-actions-change-members-booking-quota.png)
 
 * Now you need to specify at least one conditions based on which records will be updated. You can specify more than one criteria to further narrow down the selection.
-    - The first option that you can see is hte `Member No` where you can choose single or multiple member numbers separated by a comma. You can leave this field empty if you do not want to enter this criteria.
+    - The first option that you can see is hte `Member No` where you can choose single or multiple member numbers separated by a comma or you can import them from your CSV file. You can leave this field empty if you do not want to enter this criteria.
 
         ![Bulk Actions member numbers](img/bulk-actions-member-numbers.png) 
 
