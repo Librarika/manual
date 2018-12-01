@@ -52,17 +52,21 @@ To do so, please follow the below steps:
 
         ![Bulk Actions category](img/bulk-actions-category.png) 
 
-    - The next one is the `ISBNs` where you can choose single or multiple ISBN numbers separated by a comma. You can leave this field empty if you do not want to enter this criteria.
+    - The next one is the `ISBNs` where you can choose single or multiple ISBN numbers separated by a comma or you can import them from your CSV file. You can leave this field empty if you do not want to enter this criteria.
 
         ![Bulk Actions isbns](img/bulk-actions-isbns.png) 
 
-    - Next in the `Active` option. You can choose if the Media is active or not.
+    - Next in the `Created Between` option. You can choose the date between the Media is created.
+
+        ![Bulk Actions active](img/bulk-actions-created-between.png)
+
+    - Then next one is the `Active` option. You can choose if the Media is active or not.
 
         ![Bulk Actions active](img/bulk-actions-active.png)
 
     - Then you can choose the `Published` and `Circulted` option same as the Active option.  
 
-* Once you finished all the selection in the `Change Media Category` criteria then click on the `NEXT` button and a page will shown like below.
+* Once you finished all the selection in the `Change Media Category` criteria then click on the `NEXT` button and a page will be appeared like below.
 
     ![Bulk Actions after selection](img/bulk-actions-after-selection.png) 
 
@@ -147,7 +151,7 @@ To create a New Bulk Action with the Set Media Active Flag, please follow the be
     ![Bulk Actions set media flag](img/bulk-actions-set-media-flag.png) 
 
 * Select one or more criteria from the **Select Criteria** form like before and click on NEXT button.
-* Now can choose the Set Media Active Flag in the Set Value form and click on NEXT when you are done.
+* Now you can choose the Set Media Active Flag in the Set Value form and click on NEXT when you are done.
 
     ![Bulk Actions media active flag](img/bulk-actions-media-active-flag.png)    
 
@@ -204,13 +208,12 @@ To create a New Bulk Action to Change Media Copy's Branch Info, please follow th
 * If you select the `Change Media Copy's Branch Info` a page will be shown like below.
 
     ![Bulk Actions change media copy's branch info](img/bulk-actions-change-branch-info.png)
-    ![Bulk Actions change media copy's branch info_2](img/bulk-actions-change-branch-info_2.png)
 
 * In this page you can see that two types of conditions are given. The first one is the `Media Conditions` which is as same as the **Update Medias** but here you also have to fulfill the second conditions which is the `Media Copy Conditions`.
 
 * In `Media Copy Conditions` you need to specify at least one conditions based on which the records will be updated. You can specify more than one criteria to further narrow down the selection. 
 
-    - The first one is the `ASN Numbers` where you can choose single or multiple accession numbers separated by a comma. You can leave this field empty if you do not want to enter this criteria.
+    - The first one is the `ASN Numbers` where you can choose single or multiple accession numbers separated by a comma or you can import them from your CSV file. You can leave this field empty if you do not want to enter this criteria.
 
         ![Bulk Actions asn numbers](img/bulk-actions-asn-numbers.png)
 
@@ -227,7 +230,7 @@ To create a New Bulk Action to Change Media Copy's Branch Info, please follow th
 
     - Then you can choose the `Copy Published` and `Copy Circulted` option same as the Copy Active option.
 
-* After selected one or more options click on the `NEXT` button and a page will shown like below.
+* After selected one or more options click on the `NEXT` button and a page will be shown like below.
 
     ![Bulk Actions select library branch](img/bulk-actions-select-library-branch.png)
 
@@ -368,8 +371,8 @@ To create a New Bulk Action to Change Member's Booking Quota, please follow the 
 
     ![Bulk Actions change member's booking quota](img/bulk-actions-change-members-booking-quota.png)
 
-* Now you need to specify at least one conditions based on which the records will be updated. You can specify more than one criteria to further narrow down the selection.
-    - The first option that you can see is hte `Member No` where you can choose single or multiple member numbers separated by a comma. You can leave this field empty if you do not want to enter this criteria.
+* Now you need to specify at least one conditions based on which records will be updated. You can specify more than one criteria to further narrow down the selection.
+    - The first option that you can see is hte `Member No` where you can choose single or multiple member numbers separated by a comma or you can import them from your CSV file. You can leave this field empty if you do not want to enter this criteria.
 
         ![Bulk Actions member numbers](img/bulk-actions-member-numbers.png) 
 
@@ -384,7 +387,7 @@ To create a New Bulk Action to Change Member's Booking Quota, please follow the 
         ![Bulk Actions member status](img/bulk-actions-member-status.png)
 
 
-* Once you finished all the selection in the `Change Member's Booking Quota` criteria then click on the `NEXT` button and a page will shown like below.
+* Once you finished all the selection in the `Change Member's Booking Quota` criteria then click on the `NEXT` button and a page will be shown like below.
 
     ![Bulk Actions member booking quota selection](img/bulk-actions-member--booking-quota-selection.png) 
 
@@ -439,7 +442,7 @@ To create a bulk action to Change Member's Type, please follow the below steps:
     ![Bulk Actions change member's type](img/bulk-actions-change-member's-type.png)
 
 * A **Select Criteria** form will appear same as **Change Member's Status** section mention above and after selecting all the criteria click on the NEXT button.
-* Now you must have to select your desired Member Type in the Set Value form otherwise it will shown an error message.
+* Now you must have to select your desired Member Type in the Set Value form otherwise it will show an error message.
 
     ![Bulk Actions set members type](img/bulk-actions-set-members-type.png)
 
