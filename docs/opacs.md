@@ -4,7 +4,7 @@ OPAC is a library acronym for "Online Public Access Catalog" When library staff 
 
 ### Purpose of OPAC
 
-An online public access catalog is an online database of materials held by a library or group of libraries. Users search a library catalog principally to locate books and other material available at a library. OPAC is the gateway to library's collection.
+An online public access catalog is an online database of materials held by a library or group of libraries. Users search a library catalog principally to locate items and other material available at a library. OPAC is the gateway to library's collection.
 
 # Home Page
 
@@ -23,7 +23,7 @@ A home page is refers to the first page that appears upon opening a website on w
 * You can view all of your library catalog from `Catalog` menu.
 * You can search the catalog by keyword and media types option from `Search Catalog`
 * You can also acccess other library resources from home page.
-* At last you can view all the newly arrived books and if you click one of them then you can also view all the information of that book.
+* At last you can view all the newly arrived items and if you click one of them then you can also view all the information of that book.
 
 # Catalog
 
@@ -44,9 +44,9 @@ A catalog is a collection of items found in a library to provide all the informa
 * Finally by clicking on the `Tags` button you can view the tags of your library catalog.
 
 
-# Catalog Search
+# Search Catalog
 
-Catalog Search is the section where you can search the entire library catalog items using a specific keyword or selecting a media type option. You can also browse the catalog by categories, authors, publishers or tags.
+Search Catalog is the section where you can search the entire library catalog items using a specific keyword or selecting a media type option. You can also browse the catalog by categories, authors, publishers or tags.
 
 * At first if you want to search the catalog by a specific media type option then choose any media from the dropdown menu like below.
 
@@ -77,36 +77,35 @@ Catalog Search is the section where you can search the entire library catalog it
 
 # Database A-Z
 
-Database A-Z is the section where you can browse your books by alphabetical order or numerical order.
+Database A-Z is the section where you can browse your items by alphabetical order or numerical order.
 
-* If you click on any character then you can see the list of books by that specific character.
-* Say for example, you have clicked on `B` then you can see all the list of books which are starting with B.
+* If you click on any character then you can see the list of items by that specific character.
+* Say for example, you have clicked on `B` then you can see all the list of items which are starting with B.
 
 	![OPAC database page](img/opac_database_a-z.png)
 
-* Like characters you can also browse your books by numbers (0-9).
+* Like characters you can also browse your items by numbers (0-9).
 
 # Top Collections
 
-Top Collections is the section where you can find those books which have higher checkouts, reviews and ratings.
+Top Collections is the section where you can find those items which have higher checkouts, reviews and ratings. Only 100 top collected items will be displayed.
 
-* If you click on `Top Collections` then all of the top books in your library will be appeared like below.
+* If you click on `Top Collections` then all of the top items in your library will be appeared like below.
 
  	![OPAC top collections page](img/opac_top_collection.png)
 
-* In the top collections page if you click on any **Column Headings** then you can find the  list of books by that column heading.
+* In the top collections page if you click on any **Column Headings** then you can find the  list of items by that column heading.
 
 # New Collections
 
-New Collections is the section where you can find those books which are added recently to a Library.
+New Collections is the section where you can find those items which are added recently to a Library. Only 100 new items will be displayed.
 
-* If you click on `New Collections` then all of the newly arrived books in your library will be appeared like below.
+* If you click on `New Collections` then all of the newly arrived items in your library will be appeared like below.
 
  	![OPAC new collections page](img/opac_new_collection.png)
 
-* In the new collections page if you click on any **Column Headings** then you can find the list of books by that column heading.
+* In the new collections page if you click on any **Column Headings** then you can find the list of items by that column heading.
 
-** Note: There is a limit in the top collections and new collections page. You can not able to scroll more than 100 book in these pages. **
 
 # My Account
 
@@ -115,6 +114,8 @@ My Account section is a powerful way to manage your library bookings, access his
 * If you click on `My Account` then a page will appear like below
 
 	![OPAC my account page](img/opac_my_account.png)
+
+* For other tabs please go to [Member Area](member-area) section.
 
 # Ask A Librarian
 
