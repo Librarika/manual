@@ -16,7 +16,7 @@ To do the bulk Actions, please follow the below steps:
 
 * Now if you click on `New Bulk Action` you can select the type of your Bulk Actions.
 
-    ![Bulk Actions select type](img/bulk-actions-select-type.png)
+    ![Bulk Actions select type](img/bulk-actions-select_type.png)
 
 
 * Here `Change Media Category` is the default type. you can also choose the other types of option.
@@ -56,7 +56,7 @@ To do so, please follow the below steps:
 
         ![Bulk Actions isbns](img/bulk-actions-isbns.png) 
 
-    - Next in the `Created Between` option. You can choose the date between the Media is created.
+    - Next is the `Created Between` option. You can choose the date between the Medias are created.
 
         ![Bulk Actions active](img/bulk-actions-created-between.png)
 
@@ -217,6 +217,9 @@ To create a New Bulk Action to Change Media Copy's Branch Info, please follow th
 
         ![Bulk Actions asn numbers](img/bulk-actions-asn-numbers.png)
 
+    - Next is the `Created Between` option. You can choose the date between the Media Copy's are created.
+
+        ![Bulk Actions active](img/bulk-actions-created-between.png)
 
     - Then you can choose the `Copy Branch` option as shown below.
 
@@ -375,6 +378,10 @@ To create a New Bulk Action to Change Member's Booking Quota, please follow the 
     - The first option that you can see is hte `Member No` where you can choose single or multiple member numbers separated by a comma or you can import them from your CSV file. You can leave this field empty if you do not want to enter this criteria.
 
         ![Bulk Actions member numbers](img/bulk-actions-member-numbers.png) 
+
+    - Next is the `Created Between` option. You can choose the date between the Members are created.
+
+        ![Bulk Actions active](img/bulk-actions-created-between.png)
 
     - The next option that you can see is the `Type` where you can choose any types of member.
 
