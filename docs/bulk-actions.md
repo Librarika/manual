@@ -41,7 +41,7 @@ To do so, please follow the below steps:
 
 * If you choose `Change Media Category` then a form will shown like below.
 
-    ![Bulk Actions change media cat](img/bulk-actions-change-media-cat.png)
+    ![Bulk Actions change media category](img/bulk-actions-change-media-category.png)
 
 * Now you need to specify at least one conditions based on which the records will be updated. You can specify more than one criteria to further narrow down the selection. 
     - The first option that you can see is the `Media Type` where you can choose any types of Media.
@@ -54,11 +54,11 @@ To do so, please follow the below steps:
 
     - The next one is the `ISBNs` where you can choose single or multiple ISBN numbers separated by a comma or you can import them from your CSV file. You can leave this field empty if you do not want to enter this criteria.
 
-        ![Bulk Actions isbns](img/bulk-actions-isbns.png) 
+        ![Bulk Actions isbns](img/bulk-actions-for-isbns.png) 
 
     - Next is the `Created Between` option. You can choose the date between the Medias are created.
 
-        ![Bulk Actions active](img/bulk-actions-created-between.png)
+        ![Bulk Actions created between](img/bulk-actions-created-between-date.png)
 
     - Then next one is the `Active` option. You can choose if the Media is active or not.
 
@@ -207,7 +207,7 @@ To create a New Bulk Action to Change Media Copy's Branch Info, please follow th
 
 * If you select the `Change Media Copy's Branch Info` a page will be shown like below.
 
-    ![Bulk Actions change media copy's branch info](img/bulk-actions-change-branch-info.png)
+    ![Bulk Actions change media copy's branch info](img/bulk-actions-change-copys-branch-info.png)
 
 * In this page you can see that two types of conditions are given. The first one is the `Media Conditions` which is as same as the **Update Medias** but here you also have to fulfill the second conditions which is the `Media Copy Conditions`.
 
@@ -215,11 +215,11 @@ To create a New Bulk Action to Change Media Copy's Branch Info, please follow th
 
     - The first one is the `ASN Numbers` where you can choose single or multiple accession numbers separated by a comma or you can import them from your CSV file. You can leave this field empty if you do not want to enter this criteria.
 
-        ![Bulk Actions asn numbers](img/bulk-actions-asn-numbers.png)
+        ![Bulk Actions asn nums](img/bulk-actions-asn-nums.png)
 
     - Next is the `Created Between` option. You can choose the date between the Media Copy's are created.
 
-        ![Bulk Actions active](img/bulk-actions-created-between.png)
+        ![Bulk Actions created between](img/bulk-actions-created-between-date.png)
 
     - Then you can choose the `Copy Branch` option as shown below.
 
@@ -372,16 +372,16 @@ To create a New Bulk Action to Change Member's Booking Quota, please follow the 
 
 * If you select the `Change Member's Booking Quota` a page will be shown like below.
 
-    ![Bulk Actions change member's booking quota](img/bulk-actions-change-members-booking-quota.png)
+    ![Bulk Actions change member's booking quota](img/bulk-actions-change-members-quota.png)
 
 * Now you need to specify at least one conditions based on which records will be updated. You can specify more than one criteria to further narrow down the selection.
     - The first option that you can see is hte `Member No` where you can choose single or multiple member numbers separated by a comma or you can import them from your CSV file. You can leave this field empty if you do not want to enter this criteria.
 
-        ![Bulk Actions member numbers](img/bulk-actions-member-numbers.png) 
+        ![Bulk Actions member no](img/bulk-actions-member-no.png) 
 
     - Next is the `Created Between` option. You can choose the date between the Members are created.
 
-        ![Bulk Actions active](img/bulk-actions-created-between.png)
+        ![Bulk Actions created between](img/bulk-actions-created-between-date.png)
 
     - The next option that you can see is the `Type` where you can choose any types of member.
 
