@@ -9,7 +9,7 @@ a new library in **Librarika**.
 
 Both new to Librarika and existing users can open a new library in Librarika platform. If you are new to the platform, please proceed to the [new user](#new-user) section for a fresh start. 
 
-For exiting users, please follow [existing user](#existing-user) section first before you start a new library. 
+For existing users, please follow [existing user](#existing-user) section first before you start a new library. 
 
 ### Existing User
 
@@ -28,7 +28,7 @@ Create a new library for the first time.
 
 * Enter information about your library in **Create New Library** form.
 	*	**Library Nickname:**
-	This is the single most import input for your library. Please keep it as short as possible, because this will be your library access URL. We prefer this to be less than 20 characters.
+	This is the single most important input for your library. Please keep it as short as possible, because this will be your library access URL. We prefer this to be less than 20 characters.
 
 	*	**Library Name:**
 	Enter full name of your library. Example: _The Liberty School Library_.
@@ -57,14 +57,14 @@ Once activated, you will receive a welcome email. You can now log into your liba
 
 Sometime, your mail server may reject the emails we sent from librarika. It mostly happens with corporate mail servers with custom domains. If that happens, please discuss with your system administrator to whitelist librarika.com domain for your organization.
 
-Email communication is very import for a library admin, so please make sure you receive the emails sent from Librarika. 
+Email communication is very important for a library admin, so please make sure you receive the emails sent from Librarika. 
 
 Otherwise, you will miss important emails regarding your library.
 
 
 #### Multiple Libraries
 
-It is ok to create multiple libraries under same the Librarika account.
+It is ok to create multiple libraries under the same Librarika account.
 
 ---
 

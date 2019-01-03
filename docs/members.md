@@ -1,14 +1,14 @@
 # Members (or Patrons)
 
-The members section is where you enlist all your members (or patrons) of your library. Only an unique _member no_ is necessary for a member to check our/in books from your library.
+The members section is where you enlist all your members (or patrons) of your library. Only an unique _member no_ is necessary for a member to check out/in books from your library.
 
-You can provde login access to a member if you wish but it is not a mandatory requirement from system's perspective. However, if you enable login access, system will ask for an unique email address for the member.
+You can provide login access to a member if you wish but it is not a mandatory requirement from system's perspective. However, if you enable login access, system will ask for an unique email address for the member.
 
 ### Booking Quota
 
 A booking quota is the total limit up to which a member can reqeust / check-out / reserve books (or items) at a given point of time. By default, a global variable for the booking quota is available under `Manage -> Preferences` section, but the global quota will be overridden with the individual booking quota if set specifically for a member.
 
-You can set individual booking quote for each member using the Add / Edit member method mentioned below. Again, if a individual quota not set, then global quota will be enforced.
+You can set individual booking quota for each member using the Add / Edit member method mentioned below. Again, if a individual quota not set, then global quota will be enforced.
 
 ### Add new member
 
@@ -17,7 +17,7 @@ To add a member to your library, please follow the below steps:
 * Please go to the `Dashboard -> Circulations -> Members` section.
 
 * Click on `Add New Member` button.
-* Add new member form will be dsiplayed as shown below.
+* Add new member form will be displayed as shown below.
 
 	![Member add form](img/member-add-form.png)
 
@@ -99,7 +99,7 @@ To delete a member from your library, please follow the below steps:
 
 	![Members page](img/members-page.png)
 
-* Member edit form will be dsiplayed with a button named `Delete Member` on the top of the section.
+* Member edit form will be displayed with a button named `Delete Member` on the top of the section.
 * Click on the `Delete Member` button
 * The member record will be deleted.
 
