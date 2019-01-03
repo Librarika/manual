@@ -1,6 +1,6 @@
 # Reports
 
-This is the section where you can view all the reports of your library depending on varoius topics such as catalog, circulation, member, overdue and others within a date range. You can find different filtering options on each reports. Also you can print them out or export them per your need. 
+This is the section where you can view all the reports of your library depending on varoius topics such as catalog, circulation, member, overdue and others within a date range. You can find different filtering options on each report. Also you can print them out or export them per your need. 
 
 To access this section, please follow the below steps:
 
@@ -51,20 +51,20 @@ Catalog Reports are based on your library catalog items and their related copies
 
 ## Circulation Reports
 
-Circulation Reports are mainly based on the circulated items and copies of your library catalog.
+Circulation Reports are mainly based on those items and copies which have been checked out from your library catalog.
 
 * If you scroll down the reports section then the next reports you can view is on circulation.
 
 	![Circulation Reports main page](img/reports_circulation_main_page.png)
 
-* At first you can see the circulation report on mostly issued items. To view this please click on the view report button below the `Mostly Issued Items` heading.
+* At first you can see the circulation report on those items which have highest number of checkouts. To view this please click on the view report button below the `Mostly Issued Items` heading.
 
 	![Circulation Reports mostly issued items](img/reports_circulation_mostly_issued_items.png)
 
 * Also you can filter all the mostly issued items by clicking on `Advance Options` button.
 	![Circulation Reports filter options](img/reports_circulation_filter_options.png)
 
-* Next you can see the circulation report on those items which are not much circulated. To view this please click on the view report button below the `Least Circulated Items` heading.
+* Next you can see the circulation report on those items which have lowest number of checkouts. To view this please click on the view report button below the `Least Circulated Items` heading.
 
 	![Circulation Reports least circulated items](img/reports_least_circulated_items.png)
 
@@ -73,24 +73,24 @@ Circulation Reports are mainly based on the circulated items and copies of your 
 
 	![Circulation Reports advance circulation report](img/reports_advance_circulation_report.png)
 	
-* Next the report is on mostly issued copies. You can view this by clicking on the view report button below the `Mostly Issued Copies` heading.
-* Finally the `Least Circulated Copies` from which you can view report on the least circulated copies of your library items.
+* Next the report is on those copies which have highest number of checkouts. You can view this by clicking on the view report button below the `Mostly Issued Copies` heading.
+* Finally the `Least Circulated Copies` from which you can view report on those copies which have lowest number of checkouts.
 
 ## Member Reports
 
-Member Reports are solely designated for the member of your library. 
+Member Reports are solely designated for all the members of your library. 
 
-* After circulation reports you can view the members reports in the reports page.
+* After the circulation reports you can view the reports on member.
 
 	![Member Reports main page](img/report_member_main_page.png)
 
-* At first you can view the reports on those members who are engage mostly in your library activities. To view this please click on the view button below `Mostly Engaged Members` heading. Then you can also filter your mostly engage member report if you click on the `Filter Options` on the top right corner of this page.
+* At first you can view the reports on those members who are engaged mostly in your library activities. To view this please click on the view button below `Mostly Engaged Members` heading. Also you can filter this report if you click on the `Filter Options` on the top right corner of this page.
 
 	![Member Reports filter options](img/report_member_filter_options.png)
  
 * Next you can view report on those members who are not much engaged in your library activities. Also you can use different filtering options like before.
-* Then the next one is the `Payment Balance` report which is based on only for those members whose payment balance are dues. 
-* Next one is the `Email Recipients` report on all the emails of your library members.
+* Then the next one is the `Payment Balance` report which is based on only for those members whose payment balance are dues.
+* Next one is the `Email Recipients` report where you can find all the emails of your library members.
 * At last you can export all the members of your library into a CSV file if you click on the `Export` button.
 
 ## Overdue Reports
@@ -105,13 +105,13 @@ Overdue Reports are based on the overdue items and copies of your library catalo
 
 	![Overdue Reports advance options](img/report_overdue_advance_options.png)
 
-* Then the next report is on the `Overdue Copies` for your library catalog items.
+* Then the next report is on the `Overdue Copies` of your library catalog items.
 
 
 ## Miscellaneous
 
 Miscellaneous reports are consisting of various types of listing such as categories, authors, publishers and tags of your library. You can Export all this reports into a CSV file from here.
 
-* At the end of reports section you can export all the miscellaneous reports depending on different catalogs of your library.
+* At the end of reports section you can export all the miscellaneous reports to keep backup of your records.
 
 	![Miscellaneous Reports](img/report_miscellaneous.png)
