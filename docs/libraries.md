@@ -91,14 +91,55 @@ The preferences section is the single most important settings page for your libr
 
 * Go to the **Prefereces** section from the dashboard.
 
-	![Library information menu](img/library-preference-menu.png)
+	![Library information menu](img/library-preferences-menu.png)
 
-* Click on tabs that you are interested to.
+* Click on the `Options` tab if not selected automatically.
+
+	![Library preference form](img/preferences-options.png)
 	
-	![Library preference form](img/preference-reminders.png)
+* Enter / update the information you want to change.
+	* The `Keep email private` checkbox has 3 options that you can set based on your own preference and it will be displayed on the "Ask a Librarian" page.
 
-* Set / Enter / update the value that you want.
-* Click on the `Submit` button to save your changes.
+		![Library preference option form](img/preferences-options-keep-email-private.png)
+
+	* Then if you checked the `Keep phone number private` checkbox then you can find 3 options to set and based on this setting it will be displayed on the "Ask a Librarian" page.
+
+		![Library preference option form](img/preferences-options-keep-phone-private.png)
+
+	* Next is the `Greetings` field where you can modify your verbage or welcome message for your library.
+	* The `Ebook URL Visibility` option set privacy for your E-book which is links with 5 options, that is Hide To All / Public / Member / Borrower Always / Active Borrower. You can set them independently for each of the items in your catalog.
+	* In the `Booking Quota` field you can assign a booking quota limit for a member up to which he / she can checkout books at a given time.
+	* Then the `Enable member access request` checkbox which you need to enable so that the new members can get accesss to your library.
+
+* If you click on the `Self Service` tab then it will be dispalyed as below.
+
+	![Library preference form](img/preferences-self-service.png)
+
+	* If you enable the `Enable member checkouts` and `Enable member check-ins` then your library members can self-checkout or check-in a book.
+	* Also you can set other options for your library members.
+
+* If you click on the `Request Items` tab then it will be dispalyed as below.
+
+	![Library preference form](img/preferences-request-items.png)
+
+	* If you enable the `Enable item request` then member can request your library item from their member area section.
+	* You can set 3 member type options whom can request library item online, that is All members / Regular members only / privileged members only.
+
+* If you click on the `Notifications/Reminders` tab then you can set reminders for your library members.
+
+	![Library preference form](img/preferences-reminders.png)
+
+	* Our system will send notification reminders to the members of your library based on this settings.
+
+* If you click on the `Appearance` tab then it will be dispalyed as below.
+
+	![Library preference form](img/preferences-appearance.png)
+
+	* From this page you can set premium color schemes for your library dashboard and OPAC. Also you can select your preferred language from the Language dropdown menu.
+
+* Finaly if you click on the `Upgrade` tab, then you can upgrade your library to your desired plan.
+* From the above tabs you can Set / Enter / Update the value that you want.
+* Click on the `Save Preferences` button to save your changes.
 * Your latest changes will be applied instantly.
 
 ---
@@ -122,7 +163,7 @@ To upgrade, please follow the below steps:
 	![My plan page](img/my-plan-page.png)
 
 * Click on "Show More Plans" link if you want to see more premium plans. 
-* Choose your desired plan and click on the `Upgrade Now` button next to the your choosen plan.
+* Choose your desired plan and click on the `Upgrade Now` button next to your choosen plan.
 * You will be prompted with a check-out form containing plan name, yearly subscription info and billing amount.
 * Complete the check-out procedure by entering billing information and payment method.
 * Your library will be upgraded to the Premium Plan instantly.
@@ -157,7 +198,7 @@ You can change the payment information anytime. Please follow the below steps:
 
 You can remove your library anytime from the dashboard. All you need is the _Library Admin_ permission in order to delete your library. When you delete a library, the library information and your own user account, catalogs, checkouts, members information and other related information will be removed.
 
-However, the individual login accounts created in Librarika platform either by library member or staff users will stay active even though they were part of your library users, this is becuase each user is treated independently in Librarika platform and one user can join multiple libraries using the same account.
+However, the individual login accounts created in Librarika platform either by library member or staff users will stay active even though they were part of your library users, this is because each user is treated independently in Librarika platform and one user can join multiple libraries using the same account.
 
 Note: If you are on any paid plan (Premium Plan or E-Book Plan), please let us know so that we can discontinue your subscription before you delete your library.
 
@@ -171,5 +212,6 @@ Note: If you are on any paid plan (Premium Plan or E-Book Plan), please let us k
 	
 	![Remove library form](img/remove-library-form.png)
 
-* Check `Remove my Library` and `Confirm removal` options as shown above.
+* Check `Remove my library` and `Remove my account` options as shown above.
+* Also check the `Confirm removal` option to confirm your removal request.
 * Once you click on the `Submit` button your library will be deleted.
