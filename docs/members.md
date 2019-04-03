@@ -47,7 +47,7 @@ To edit an existing member in your library, please follow the below steps:
 
 ### Import members
 
-You can peform bulk import of members to your library using our bulk import method. Please read our [Import Members][member_bulk_import] instruction page for more details on how to proceed.
+You can perform bulk import of members to your library using our bulk import method. Please read our [Import Members][member_bulk_import] instruction page for more details on how to proceed.
 
 ### Member Related Bookings
 
@@ -63,7 +63,7 @@ From members section you can find all the related circulations of your library m
 
 Librarika has a member only access area for the members (or patrons) of a library. If access is granted, member can login to the library using their credential and access the member area.
 
-In member area they can access following informtions:
+In member area they can access following informations:
 
 * View current checked-out items including due date and status.
 * View requested items with pending / approval status.
