@@ -32,12 +32,13 @@ To edit an existing member in your library, please follow the below steps:
 * Please go to the `Dashboard -> Circulations -> Members` section.
 * Locate the member record you want to edit.
 
-	![Members page](img/members-page.png)
+	![Members form](img/members-form.png)
 
-* Click on the `Edit` link on the right to that member.
-* Member edit form will be dsiplayed as shown below.
+* Click on the `Edit` icon on the right to that member.
+* Member edit form will be displayed as shown below.
 
-	![Member add form](img/member-edit-form.png)
+	![Member edit form](img/member-edit-form1.png)
+	![Member edit form](img/member-edit-form2.png)
 
 * Update necessary information regarding the member.
 * Click on the `Submit` button when you are done. 
@@ -47,6 +48,16 @@ To edit an existing member in your library, please follow the below steps:
 ### Import members
 
 You can peform bulk import of members to your library using our bulk import method. Please read our [Import Members][member_bulk_import] instruction page for more details on how to proceed.
+
+### Member Related Bookings
+
+From members section you can find all the related circulations of your library members. For example all the books a member has borrowed, whether they still have it or have returned it etc. By default you can see only the active bookings of a member but you can see other bookings also. However, you can also export them into a csv file.
+
+
+* To view your member related bookings please go to member view page and navigate to the bottom then you can see all the bookings like below. 
+
+	![Member related bookings](img/member-related-booking.png)
+
 
 ### Member area access
 
@@ -79,10 +90,7 @@ Alternatively, a member can create an account in *Librarika* platform indenenden
 
 Same way you can disable member login access from the edit member page. 
 
-To do so:
-
 * Go to the members edit page as per above [edit member](#edit-existing-member) instruction.
-	![Members edit form 2](img/member-disable-login.png)
 * Uncheck the `Allow Member Login` checkbox. 
 	* Unchecking only this option, will soft-disable the login access. You can enable the access later without requiring any new invitation email.
 * To permanently disable the login access, uncheck the `Remove Login` checkbox too.
@@ -95,9 +103,9 @@ To delete a member from your library, please follow the below steps:
 
 * Please go to the `Dashboard -> Circulations -> Members` section.
 
-* Locate the member record you want to delete and click on the `Edit` link on the right to that member.
+* Locate the member record you want to delete and click on the `Edit` icon on the right to that member.
 
-	![Members page](img/members-page.png)
+	![Members form](img/members-form.png)
 
 * Member edit form will be displayed with a button named `Delete Member` on the top of the section.
 * Click on the `Delete Member` button
