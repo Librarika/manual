@@ -1,25 +1,24 @@
 # Bulk Actions
 
-Our bulk actions method is used to update or delete your book, copy or member records in bulk. You can use this option to partially or fully select records from your library and apply bulk update or delete operation to those records matching the criteria.
+Bulk actions method is used to update or delete your book, copy or member records in bulk. You can use this option to partially or fully select records from your library and apply bulk update or delete operation to those records matching the criteria.
 
 To do the bulk Actions, please follow the below steps:
 
-* At first login to your library
-* Go to the `Others` option from the Main Menu.
-* Click on `Bulk Actions` from the `Others` dropdown Menu.
+* At first login to your library.
+* Please go to the `Dashboard -> Others -> Bulk Actions` option from the dropdown menu.
 
-    ![Bulk Actions dropdown menu](img/bulk-actions-menu.png)
+    ![Bulk Actions dropdown menu](img/bulk-actions-dropdown-menu.png)
 
-* After clicking on `Bulk Actions` a page will shown like below.
+* After clicking on `Bulk Actions` a page will be appeared like below.
   
     ![Bulk Actions main page](img/bulk-actions-main-page.png)
 
-* Now if you click on `New Bulk Action` you can select the type of your Bulk Actions.
+* Now if you click on `New Bulk Action` button then you can select the type of your Bulk Actions.
 
-    ![Bulk Actions select type](img/bulk-actions-select_type.png)
+    ![Bulk Actions select action type](img/bulk-actions-select-action-type.png)
 
 
-* Here `Change Media Category` is the default type. you can also choose the other types of option.
+* Here `Change media category` is the default type. you can also select the other types of actions per your choice.
 
 
 ## Update Medias
@@ -28,7 +27,7 @@ You can use bulk action method to update only medias information in your catalog
 
 To do so, please follow the below steps:
 
-* Click on `New Bulk Action` and a form will shown like before.
+* Click on `New Bulk Action` button and a select action type form will appear like before.
 * In this form various types of medias are given like below.
 
     ![Bulk Actions select media type](img/bulk-actions-select-media-type.png)
@@ -38,85 +37,83 @@ To do so, please follow the below steps:
 
 ### Change Media Category 
 
-
-* If you choose `Change Media Category` then a form will shown like below.
+* If you select `Change media category` then a form will be appeared like below.
 
     ![Bulk Actions change media category](img/bulk-actions-change-media-category.png)
 
 * Now you need to specify at least one conditions based on which the records will be updated. You can specify more than one criteria to further narrow down the selection. 
-    - The first option that you can see is the `Media Type` where you can choose any types of Media.
+    - The first option that you can see is the `Media Type` where you can choose any types of media per your need.
 
         ![Bulk Actions media type](img/bulk-actions-media-type.png) 
 
     - Then you can choose the `Category` option as shown below.
 
-        ![Bulk Actions category](img/bulk-actions-category.png) 
+        ![Bulk Actions select category](img/bulk-actions-select-category.png) 
 
     - The next one is the `ISBNs` where you can choose single or multiple ISBN numbers separated by a comma or you can import them from your CSV file. You can leave this field empty if you do not want to enter this criteria.
 
-        ![Bulk Actions isbns](img/bulk-actions-for-isbns.png) 
+        ![Bulk Actions isbns field](img/bulk-actions-isbns-field.png) 
 
-    - Next is the `Created Between` option. You can choose the date between the Medias are created.
+    - Next is the `Created Between` option where you can give the date range for the medias.
 
-        ![Bulk Actions created between](img/bulk-actions-created-between-date.png)
+        ![Bulk Actions created between field](img/bulk-actions-created-between-field.png)
 
-    - Then next one is the `Active` option. You can choose if the Media is active or not.
+    - Then next one is the `Active` option where you can choose if the media is active or not.
 
-        ![Bulk Actions active](img/bulk-actions-active.png)
+        ![Bulk Actions active field](img/bulk-actions-active-field.png)
 
-    - Then you can choose the `Published` and `Circulted` option same as the Active option.  
+    - Then you can choose the `Published` and `Circulted` option same as the `Active` option mentioned above.  
 
-* Once you finished all the selection in the `Change Media Category` criteria then click on the `NEXT` button and a page will be appeared like below.
+* Once you finished all the selection in the `Change media category` criteria then click on the `NEXT` button and a page will be appeared like below.
 
-    ![Bulk Actions after selection](img/bulk-actions-after-selection.png) 
+    ![Bulk Actions set value for media](img/bulk-actions-set-value-for-media.png) 
 
-* Here select the `Category` to which you wanted to updated with. Otherwise an error message will be shown.
+* Here please select the `Category` to which you wanted to updated with. Otherwise an error message will be shown.
 
-    ![Bulk Actions error message](img/bulk-actions-error-message.png)
+    ![Bulk Actions set value for media](img/bulk-actions-set-value-for-media-error.png)
 
-* After selecting the destination **Category** click on the **NEXT** button. Now you can review the changes and then Confirm it.
+* After selecting the destination **Category** click on the `NEXT` button. Now you can review your changes like below.
 
-    ![Bulk Actions review changes](img/bulk-actions-review-changes.png)    
+    ![Bulk Actions review changes for media](img/bulk-actions-review-changes-for-media.png)    
 
 * Click on `Confirm` button and your bulk actions will be created.
 
-    ![Bulk Actions created](img/bulk-actions-created.png) 
+    ![Bulk Actions created for media](img/bulk-actions-created-for-media.png)
+
+* To processed your bulk actions immediately please click on the `Process this action?` button.
 
 
 ### Change Media Tags
 
-To create a bulk action to Change Media Tags, please follow the bellow steps:
+To create a bulk action for changing media tags, please follow the bellow steps:
 
-* Click on the `New Bulk Action` button and choose Change Media Tags from the dropdown menu. 
+* Click on the `New Bulk Action` button and choose `Change media tags` from the dropdown menu. 
 
     ![Bulk Actions change media tags](img/bulk-actions-change-media-tags.png) 
 
-* A **Select Criteria** form will appear same as **Change Media Category** section mention above and after selecting all the criteria click on the NEXT button.
-* Now enter your desired Tags in the Set Value form and click on NEXT when you are done.
+* A **Select Criteria** form will appear same as **Change media category** section mention above and after selecting all the criteria click on the NEXT button.
+* Now enter your desired tags in the **Set Value** form and click on `NEXT` when you are done.
 
-    ![Bulk Actions media tags](img/bulk-actions-media-tags.png) 
+    ![Bulk Actions set value for media tags](img/bulk-actions-set-value-for-media-tags.png) 
 
-* Now review your changes and click on the confirm button. Your bulk actions will be saved.
+* Now review your changes and click on the confirm button. Your bulk actions will be created. Finally click on the process this action button so that your created bulk actions will be processed.
 
 
 ### Change Media Type
 
-To create a bulk action to Change Media Type, please follow the below steps:
+To create a bulk action for changing media type, please follow the below steps:
 
-* Click on `New Bulk Action` button and choose Change Media Type option from the dropdown menu. 
+* Click on `New Bulk Action` button and select `Change media type` option from the dropdown menu. 
 
     ![Bulk Actions change media type](img/bulk-actions-change-media-type.png)
 
-* A **Select Criteria** form will appear same as **Change Media Tags** section mention above and after selecting all the criteria click on the NEXT button.
-* Now you must have to select your desired Media Type in the Set Value form otherwise it will shown an error message.
+* A **Select Criteria** form will appear same as **Change media category** section mention above and after selecting all the criteria click on the NEXT button.
+* Now you must have to select your desired media type in the **Set Value** form otherwise it will shown an error message.
+* Many options are given in media type so you can choose any type per your need and click on `NEXT` button when you are done.
 
-    ![Bulk Actions media type2](img/bulk-actions-media-type_2.png)
+    ![Bulk Actions set value for media type](img/bulk-actions-set-value-for-media-type.png)
 
-* Many options are given in Media Type so you can choose any type per your need and click NEXT when you are done.
-
-    ![Bulk Actions media type options](img/bulk-actions-media-type-options.png)
-
-* Now review your changes and click on the confirm button. Once you confirm it your bulk actions will be saved.
+* Now review your changes and click on the confirm button. Once you confirm it your bulk actions will be created. Now you need to process your actions by clicking on process this action button.
 
 
 ## Delete Medias
