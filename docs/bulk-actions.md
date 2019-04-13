@@ -199,7 +199,7 @@ To do so, please follow the below steps:
 
 * Click on `New Bulk Action` button and you can see the **Media Copy** options like below.
 
-    ![Bulk Actions media copy options](img/bulk-actions-media-copy-options.png)
+    ![Bulk Actions media copy type](img/bulk-actions-media-copy-type.png)
 
 ### Change Media Copy's Branch Info
 
@@ -210,7 +210,7 @@ To create a bulk action for changing media copy's branch information, please fol
     ![Bulk Actions change copy branch info](img/bulk-actions-change-copy-branch-info1.png)
     ![Bulk Actions change copy branch info](img/bulk-actions-change-copy-branch-info2.png)
 
-* In this page you can see that there are two types of conditions. The first one is the `Media Conditions` which is as same as the **Update Medias** mentioned above. But here you also need to fulfill the second conditions which is the `Media Copy Conditions`
+* In this page you can see that there are two types of conditions. The first one is the `Media Conditions` which is as same as the **Update Medias** section mentioned above. But here you also need to fulfill the second conditions which is the `Media Copy Conditions`
 
 * In `Media Copy Conditions` you need to specify at least one condition based on which the records will be updated. You can specify more than one criteria to further narrow down the selection. 
 
@@ -239,7 +239,7 @@ To create a bulk action for changing media copy's branch information, please fol
     ![Bulk Actions set value copy branch info](img/bulk-actions-set-value-copy-branch-info.png)
 
 * Here select the `Library Branch` to which you wanted to updated with. Otherwise an error message will be shown.
-* Click on `NEXT` button and you can review the changes like below.
+* Click on `NEXT` button and you can review your changes like below.
 
     ![Bulk Actions select review copy branch info](img/bulk-actions-review-copy-branch-info.png)
 
@@ -254,18 +254,18 @@ To create a bulk action for changing media copy's branch information, please fol
 
 To create a bulk action for changing media copy's condition, please follow the below steps:
 
-* Click on `New Bulk Action` button and select `Change media copy's condition` option from the dropdown menu. 
+* Click on `New Bulk Action` button and select `Change copy condition` option from the dropdown menu. 
 
-    ![Bulk Actions change media copys condition](img/bulk-actions-media-copys-condition.png)
+    ![Bulk Actions change copy condition](img/bulk-actions-change-copy-condition.png)
 
 * A **Select Criteria** form will appear same as **Change Media Copy's Branch Info** section mention above and after selecting all the criteria click on the next button.
 * Now enter your desired condition in the **Set Value** form and click on `NEXT` button when you are done.
 
-    ![Bulk Actions set media copys condition](img/bulk-actions-set-media-copys-condition.png)    
+    ![Bulk Actions set change copy condition](img/bulk-actions-set-change-copy-condition.png)    
 
-* Now you can review your changes and click on the confirm button.
+* Now review your changes and click on the confirm button.
 
-    ![Bulk Actions confirm media copys condition](img/bulk-actions-confirm-media-copys-condition.png)
+    ![Bulk Actions review change copy condition](img/bulk-actions-review-change-copy-condition.png)
 
 * Once you confirm it your bulk actions will be saved.
 * Finally click on the `Process this action?` button to process your actions.
@@ -361,7 +361,7 @@ To create a bulk action with the media copy's published flag, please follow the 
 
 ## Update Members
 
-You can use bulk action method to update the members information in your catalog such as booking quota, group, status, type etc.
+You can use bulk action method to update the members information in your library such as booking quota, group, status, type etc.
 
 To do so, please follow the below steps:
 
@@ -411,7 +411,7 @@ To create a bulk action for changing member group, please follow the bellow step
 
 * At last click on the `Process this action?` button and your actions will be processed.
 
-### Change Member's Quota
+### Change Member's Booking Quota
 
 To create a bulk action for changing member booking quota, please follow the below steps:
 
@@ -436,7 +436,7 @@ To create a bulk action for changing member status, please follow the below step
     ![Bulk Actions change member status](img/bulk-actions-change-member-status.png) 
 
 * A **Select Criteria** form will appear same as **Change Member's Group** section mention above and after selecting all the criteria click on the `NEXT` button.
-* Now you must have to select the status in the **Set Value** form otherwise an error message will be shown.
+* Now you must have to select a status in the **Set Value** form otherwise an error message will be shown.
 
     ![Bulk Actions set value for member status](img/bulk-actions-set-value-for-member-status.png) 
 
@@ -459,7 +459,7 @@ To create a bulk action for changing member's type, please follow the below step
 
 * Click on the next button when you are done.
 * Now review your changes and click on the confirm button. Once you confirm it your bulk actions will be saved.
-* Please remember to click on the `Process this action?` button otherwise your created actions will not be processed.
+* Please remember to click on the `Process this action?` button for processing your actions.
 
 ## Delete Members
 
@@ -469,10 +469,9 @@ To do so, please follow the below steps:
 
 * Click on `New Bulk Action` button and select the `Remove members` option.
 
-    ![Bulk Actions remove members option](img/bulk-actions-remove-members-option.png) 
+    ![Bulk Actions remove members](img/bulk-actions-remove-members.png) 
 
-* Select one or more criteria from the **Select Criteria** form like before and click on the `NEXT` button.
-* A set options form will be shown like below.
+* Select one or more criteria from the **Select Criteria** form like before and click on the `NEXT` button. A form will be shown like below.
 
     ![Bulk Actions set options for remove members](img/bulk-actions-set-remove-members.png)   
 
