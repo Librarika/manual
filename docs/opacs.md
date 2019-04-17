@@ -8,7 +8,7 @@ An online public access catalog is an online database of materials held by a lib
 
 # Home Page
 
-A home page is refers to the first page that appears upon opening a website on web browser, sometimes called the start page. In this page you can view all the information and also the workflow of Librarika.
+A home page is refers to the first page that appears upon opening a website on web browser, sometimes called the start page. In this page you can view the workflow of your library.
 
 * In home page at first you can see all the menus and your profile icon bar. 
 	
@@ -18,7 +18,7 @@ A home page is refers to the first page that appears upon opening a website on w
 
 	![OPAC home page](img/opac_home_view_feature1.png)
 
-* You can create a free account on librarika by clicking on `Create Free Library` button.
+* You can create a free account on Librarika by clicking on `Create Free Library` button.
 * If you are already logged in then from the `Member Area` you can update your account settings.
 * You can view all of your library catalog from `Catalog` menu.
 * You can search the catalog by keyword and media types option from `Search Catalog`
@@ -48,7 +48,7 @@ A catalog is a collection of items found in a library to provide all the informa
 
 Search Catalog is the section where you can search the entire library catalog items using a specific keyword or selecting a media type option. You can also browse the catalog by categories, authors, publishers or tags.
 
-* At first if you want to search the catalog by a specific media type option then choose any media from the dropdown menu like below.
+* At first if you want to search the catalog by a specific media type option then choose that media from the dropdown menu like below.
 
 	![OPAC catalog search page](img/opac_catalog_search_mediatype.png)
 
@@ -98,7 +98,7 @@ Top Collections is the section where you can find those items which have higher 
 
 # New Collections
 
-New Collections is the section where you can find those items which are added recently to a Library. Only 100 new items will be displayed.
+New Collections is the section where you can find those items which has been added recently to your library. Only 100 new items will be displayed.
 
 * If you click on `New Collections` then all of the newly arrived items in your library will be appeared like below.
 
@@ -117,12 +117,12 @@ My Account section is a powerful way to manage your library bookings, access his
 
 * For other tabs please go to [Member Area](member-area) section.
 
-# Ask A Librarian
+# Ask a Librarian
 
-In this section You can ask any questions related to Librarika via E-mail.
+In this section you can contact with your library administrator and ask any questions related to your library via e-mail.
 
-* If you click on `Ask a Librarian` then a page will appear like below
+* Please click on `Ask a Librarian?` menu and a page will be appeared like below
 
 	![OPAC ask librarian page](img/opac_ask_librarian.png)
 
-* Feel free to ask anything related to our system because Librarika is always ready to give response to your queries.  
+* Here you can find all the contact information of your library. 
