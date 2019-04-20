@@ -11,7 +11,7 @@ You can add single or multiple books and members to the barcode queue.
 To do so, please follow the below steps:
 
 * At first login to your library.
-* Go to the  `Circulations` option from the Main Menu.
+* Go to the  `Circulations` option from the main menu.
 * Click on `Barcode Labels` from the `Circulations` dropdown menu.
 
     ![Barcode Labels dropdown menu](img/barcode-labels-dropdown-menu.png)
@@ -26,6 +26,10 @@ To do so, please follow the below steps:
 
         ![Barcode Labels add book](img/barcode-labels-add-book.png)
 
+    * Once you added one book to the queue, you can also add another book to the queue like below.
+
+        ![Barcode Labels add another book](img/barcode-labels-add-another-book.png)
+
     * If you click on the `Add Multiple Books` button then you can add multiple books to the Barcode Queue by their accession number. Please enter accession number separated by comma.
 
         ![Barcode Labels add multiple books](img/barcode-labels-add-multiple-books.png)
@@ -35,6 +39,10 @@ To do so, please follow the below steps:
     * If you click on the `Add Member Barcode` button, then you can add a member by his/her member number or name like below.
 
         ![Barcode Labels add member](img/barcode-labels-add-member.png)
+
+    * After you add one, you can also add another member as shown below.
+
+        ![Barcode Labels add another member](img/barcode-labels-add-another-member.png)
 
     * If you click on the `Add Multiple Members` button then you can add multiple members to the Barcode Queue by their member number or name. Please enter member number or name separated by comma.
 
@@ -152,7 +160,7 @@ To do so, please follow the below steps:
 
 ## Complete Printing and Start New Queue
 
-When you have items in the Print Barcodes section, you can't generate new barcodes. In order to generate new barcodes, you need to complete current print queue and start over.
+When you have items in the Print Barcodes section, you can't generate new barcodes. In order to generate new barcodes, you need to complete the current print queue and start over.
 
 To do so, please follow the below steps:
 
@@ -166,7 +174,7 @@ To do so, please follow the below steps:
 
 * Now you can generate new barcodes like before.
 
-## Existing Barcode
+## Custom Barcode
 
 If you have already labeled your old items using existing barcode number then enter those barcode number into accession number field.
 
@@ -181,6 +189,10 @@ To do so, please follow the below steps:
     ![Barcode Labels media copy edit form](img/media-copy-edit-form1.png)
     ![Barcode Labels media copy add form](img/media-copy-add-form2.png)
 
-* Now in the edit copy form replace the Librarika generated accession number with your old barcode number on the Accession No field.    
+* Now in the edit copy form replace the Librarika generated accession number with your own barcode number on the Accession No field.    
 
 * Then the old barcode and the new barcode will same.
+
+**For Bulk Import**:
+
+You can provide your catalog information along with your own (existing) accession number for barcode (existing) when adding your records using our [Bulk Import](cataloging.md#bulk-import) method. You can only use your existing barcode labels if they are numeric digit.

@@ -21,6 +21,8 @@ To add a member to your library, please follow the below steps:
 
 	![Member add form](img/member-add-form.png)
 
+* The `Type` field is used to separate the users in two levels, for example in a school the teachers / staffs should be under the privileged member type and the students should be under the regular member type.
+
 * Enter necessary information regarding the member. Only member no, name, type and status fields are mandatory.
 * Click on the `Submit` button when you are done
 * A new member record will be created.
@@ -51,7 +53,7 @@ You can perform bulk import of members to your library using our bulk import met
 
 ### Member Related Bookings
 
-From members section you can find all the related circulations of your library members. For example all the books a member has borrowed, whether they still have it or have returned it etc. By default you can see only the active bookings of a member but you can see other bookings also. However, you can also export them into a csv file.
+From members section you can find all the related circulations of your library members. For example all the books a member has borrowed, whether they still have it or have returned it etc. By default you can see only the active bookings of a member but you can see other bookings also. However, you can also export them into a CSV file.
 
 
 * To view your member related bookings please go to member view page and navigate to the bottom then you can see all the bookings like below. 
@@ -141,5 +143,76 @@ To access Member Requests:
 
 * Please go to the `Dashboard -> Circulations -> Members` section.
 * Click on the `Member Requests` button on top of the section.
+
+### Members Loan / Reservation Receipt
+
+Here you can find the receipt of those items which has been borrowed by your library members. Also you can find the item reservation receipt of your library members. 
+
+To do so, please follow the below steps:
+
+* Please go to the `Dashboard -> Circulations -> Members` section.
+* Locate the member record for loan or reservation receipt.
+
+	![Members form](img/members-form.png)
+
+* Click on the `View` icon on the right to that member.
+* Member details page will be appeared like below.
+
+	![Members view form](img/members-view-form.png)
+
+* For member loan receipt, please check the followings. 
+
+	* Click on the `Loan Receipt` button on top of the member details section.
+	* The loan receipt form will be appeared as shown below.
+
+		![Members loan receipt](img/members-loan-receipt.png)
+
+	* You can print the receipt if you click on the `Print Receipt` button.
+
+* For member reservation receipt, please check the followings. 
+
+	* Click on the `Reservation Receipt` button on top of the member details section.
+	* The reservation receipt form will be appeared as shown below.
+
+		![Members reservation receipt](img/members-reservation-receipt.png)
+
+	* You can print the receipt if you click on the `Print Receipt` button.
+
+## Members Payment Statement
+
+In this section you can find the account statement of any particular member. Also from this section you can apply various charges and payment to any specific member.
+
+To use this section, please follow the below steps:
+
+* Please go to the `Dashboard -> Circulations -> Members` section.
+* Locate that member whose statement you want to view. 
+
+	![Members form](img/members-form.png)
+
+* Click on the `View` icon on the right to that member.
+* Member details page will be appeared like below.
+
+	![Members view form](img/members-view-form.png)
+
+* Click on the `Statement` button from the top of this section.
+
+	![Members account statement](img/members-account-statement.png)
+
+* Also you can print the statement by clicking on the `Print Statement` button.
+* Now at the bottom of this section you can see two buttons.
+* If you want to add charge to your library member then you need to enable the fee item (Such as overdue charge) first. To enable fee item please go to the [Fees & Payments](fees-payments.md#how-to-activate-the-module) section and enable the overdue charge fee item.
+* Then click on the `Add Charge` button from the account statement section and a from will be appeared like below.
+
+	![Members add charge form](img/members-add-charge-form.png)
+
+* In the **Amount** field you can set the amount that you want to charge to any of your library member. 
+* If you want to add a payment, you need to enable the fee item (Payment) first. To do so please go to the [Fees & Payments](fees-payments.md#how-to-activate-the-module) section and enable the payment fee item.
+* Then click on the `Add Payment` button from the account statement section and a from will be appeared like below.
+
+	![Members add payment form](img/members-add-payment-form.png)
+
+* In the **Amount** field please enter the amount that you want to take from a member.
+* The amount will be set to 0 if your library member do not have any charge to pay.
+* Also amount under **Round Brackets** means member has extra balance on his / her wallet.
 
 [member_bulk_import]: https://librarika.com/spages/import-members "Bulk Import of Members"
