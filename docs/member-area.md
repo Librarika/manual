@@ -4,7 +4,7 @@ Member area is a special section for library members only, where they can access
 
 ## My Bookings
 
-My Bookings section will list all of your currently active bookings along with their due date and status.
+My bookings section will list all of your currently active bookings along with their due date and status.
 
 
 To view your active bookings, please follow the below steps:
@@ -22,7 +22,7 @@ To view your active bookings, please follow the below steps:
 
 ## Booking History
 
-Booking History will provide you all the history of the bookings that you have viewed.
+Booking history will provide you all the history of the bookings that you have viewed.
 
 To view your history of bookings, please follow the below steps:
 
@@ -43,7 +43,7 @@ To view your history of bookings, please follow the below steps:
   
 ## My Reviews
 
-My Reviews is the section that facilitate all the reviews on each of your library books.
+My reviews is the section that facilitate all the reviews on each of your library books.
 
 If you want to see all the reviews then you have to follow the below steps:
 
@@ -61,7 +61,7 @@ If you want to see all the reviews then you have to follow the below steps:
 
 ## Recently Viewed
 
-Recently Viewed section will show you all those books that you have been viewed recently.
+Recently viewed section will show you all those books that you have been viewed recently.
 
 * Like before from `My Account` go to the `Recently Viewed` option.
 * Click on it and you can see the books you have viewed recently like below.
@@ -73,7 +73,7 @@ Recently Viewed section will show you all those books that you have been viewed 
 
 ## Account Settings
 
-Account Settings is the section where you can update all the information of your library account.
+Account settings is the section where you can update all the information of your library account.
 
 * From `My Account` go to the account settings option. 
 * Click on `Account Settings` button and you can see all the information of your account like below.
@@ -92,7 +92,7 @@ Account Settings is the section where you can update all the information of your
 
 ## Submit Reservation Request
 
-Submit Reservation Request is the section where you can send a request for any books that you want to reserve.
+Submit reservation request is the section where you can send a request for any books that you want to reserve.
 
 To complete your reservation, please follow the below steps:
 
@@ -129,11 +129,11 @@ To complete your reservation, please follow the below steps:
 
 ## Cancel Reservation Request
 
-Cancel Reservation Request is the section where you can cancel your reservation request that you have been placed earlier.
+Cancel reservation request is the section where you can cancel your reservation request that you have been placed earlier.
 
 To cancel your reservation, please follow the below steps:
 
-* At first go to the Main Menu.
+* At first go to the main menu.
 * Click on `My Account` menu from the top.
 * You can see the `Cancel` button in your recent bookings section.
     

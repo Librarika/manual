@@ -4,7 +4,7 @@ Users are those who can administer or manage all the activities of your library 
 
 ## List Users
 
-List Users is the section where you can see all the list of users based on their roles. They have access to the library and can do all the regular managerial workings of the library. 
+Users is the section where you can see all the list of users based on their roles. They have access to the library and can do all the regular managerial workings of the library. 
 
 To view list admin or stuff users, please follow the below steps:
 
@@ -64,7 +64,7 @@ To do so, please follow the below steps:
 	![Users resend invite link](img/users-resend-invite-link.png)
 
 * Click on it and the invitation email will be send to the users email account for joining your library.
-* If a user click on the joining request, then the user will be able to join the library.
+* If an user click on the joining request, then that user will be able to join the library.
 * Now the status of this new user will be turned into **Active** from **Invited**.
 
 
@@ -75,7 +75,7 @@ You can change the groups or roles of a user by setting permissions for the user
 To set permissions, please follow the below steps:
 
 * Click on `Permissions` link from the users section.
-* A change permissions form will appear like below.
+* A form will be appeared like below.
 
 	![Users change permissions page](img/users-change-permissions-page.png)
 
@@ -90,7 +90,7 @@ You can also remove the permissions that you have given to the users for your li
 To remove the permissions, please follow the below steps:
 
 * Click on `Permissions` link from the users section.
-* Now the `Change Permissions` form will be appeared same as the **Add / Update Permission** mention above.
+* Now the `Change Permissions` form will be appeared same as the **Add / Update Permission** section mentioned above.
 * In the `Change Permissions` form you have to uncheck the gruops or roles options and click on **Save** button.
 
 	![Users remove permissions page](img/users-remove-permissions-page.png)
@@ -99,9 +99,9 @@ To remove the permissions, please follow the below steps:
 
 ## Linked Members
 
-Linked Members is the section where you can see the list of users who have access to the members area section of your library. Basically they are the members or patrons with log in access.
+Linked members is the section where you can see the list of users who have access to the members area section of your library. Basically they are the members or patrons with log in access.
 
-To view the list of Linked Members, please follow the below steps:
+To view the list of linked members, please follow the below steps:
 
 * Click on `Switch to Linked Members` button from the top of the users section.
 
