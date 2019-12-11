@@ -99,7 +99,7 @@ To edit a circulation, please follow the below steps:
 * Please go to the `Dashboard -> Circulations -> Circulations` section.
 * Locate the item you want to edit from your circulation records and click on the `Edit` link on the right to that item.
 
-	![Edit circulations link](img/circulations-edit-link.png)
+	![Edit circulations link](img/circulations-page.png)
 
 * An edit circulation form will appear as shown below.
 

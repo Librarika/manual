@@ -119,10 +119,10 @@ My Account section is a powerful way to manage your library bookings, access his
 
 # Ask A Librarian
 
-In this section You can ask any questions related to Librarika via E-mail.
+In this section you can contact with your library administrator and ask any questions related to your library via e-mail.
 
-* If you click on `Ask a Librarian` then a page will appear like below
+* Please click on `Ask a Librarian?` menu and a page will be appeared like below
 
 	![OPAC ask librarian page](img/opac_ask_librarian.png)
 
-* Feel free to ask anything related to our system because Librarika is always ready to give response to your queries.  
+* Here you can find all the contact information of your library.  
