@@ -192,16 +192,24 @@ To do so, please follow the below steps:
 
 * Now you can generate new barcodes like before.
 
-## Existing Barcode
+## Custom Barcode
 
 If you have already labeled your old items using existing barcode number then enter those barcode number into accession number field.
 
 To do so, please follow the below steps:
 
-* Please go to the Dashboard -> Catalogs -> Catalog Items  then locate the item you want to add multiple copy from your catalog and click on the Add Copy link on the right to that item.
+* Please go to the Dashboard -> Catalogs -> Catalog Items section then locate the item you want to edit from your catalog and click on the View icon on the right to that item. Navigate to the copies section at the bottom of the page. Click on the Edit icon on the right to that specific copy. 
+
+    ![Barcode Labels media copies section](img/catalog-item-multiple-copies-button.png) 
+
+* An edit copy form will be appeared like below.
 
     ![Barcode Labels existing barcode](img/barcode-labels-existing-barcode.png)
 
-* Now in the Add Copy form enter that accession number in the Accession No field.
+* Now in the edit copy form replace the Librarika generated accession number with your own barcode number on the Accession No field.    
 
-* Then the old barcode and the new barcode will be same.
+* Then the old barcode and the new barcode will same.
+
+**For Bulk Import**:
+
+You can provide your catalog information along with your own (existing) accession number for barcode (existing) when adding your records using our [Bulk Import](cataloging.md#bulk-import) method. You can only use your existing barcode labels if they are numeric digit.
