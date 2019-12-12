@@ -102,6 +102,29 @@ To Generate Barcodes, please follow the below steps:
      ![Barcode Labels print queue](img/barcode-labels-print-queue.png)
 
 
+## Bulk Delete Barcodes
+
+If you want to delete the queued or generated barcodes all together then you can use our **Delete Labels** option. 
+
+* To do so please go to the `Barcode Labels` section as shown below.
+
+    ![Barcode Labels barcode page](img/barcode-labels-main-page.png)
+
+* Then click on the `Delete Labels` button from the top of this section.
+
+    ![Barcode Labels delete](img/barcode-labels-delete-btn.png)
+
+* From the `Object Type` dropdown menu you can select either the member or accession number to delete your barcodes. If you select **All** then both member barcodes and item barcodes will be deleted.
+    
+    ![Barcode Labels object type](img/barcode-labels-delete-by-object-type.png)
+
+* Then from the `Label Type` dropdown menu you can select either you want to delete the queued barcodes or the generated barcodes.
+
+    ![Barcode Labels label type](img/barcode-labels-delete-by-label-type.png)
+
+* After selecting the object type and label type please click on the Delete button and barcodes will be deleted.
+
+
 ## Print Barcodes
 
 Print Barcodes is the section where you need to print out all the barcodes which you have been generated so far to complete the process. 
@@ -145,17 +168,17 @@ To do so, please follow the below steps:
 
      ![Barcode Labels page settings margins](img/barcode-labels-page-settings-margins.png)
 
-* In this page you can apply margins per your choice.
+* In this page you can apply margins per your need.
 * If you click on the `Label` tab then it will be appeared like below.
 
      ![Barcode Labels page settings label](img/barcode-labels-page-settings-label.png)
 
-* In this page you can apply label per your choice.
+* In this page you can change the font size of your barcodes. Also you can change the width, height, font and padding of the barcodes per your need.
 * If you click on the `Lines` tab then it will be appeared like below.
 
      ![Barcode Labels page settings lines](img/barcode-labels-page-settings-lines.png)
 
-* In this page you can apply lines per your need.
+* In this page you can apply the font size and text limit of the lines per your need.
 * When you are done, click on `Apply` button to see your changes in the print layout page.
 
 ## Complete Printing and Start New Queue
