@@ -115,7 +115,7 @@ If you have larger amount of circulation entries then you can use our filtering 
 To use this functionality, please follow the below steps:
 
 * Please go to the `Dashboard -> Circulations -> Circulations` section.
-* In the top corner of circulations page you can see a `Filter by ASN or ISBN` input box. Enter accession number or ISBN of the item in that box.
+* In the top corner of circulations page you can see a `Filter by ASN or ISBN or Member No` input box. Enter accession number or isbn or member no of the item in that box.
 	
 	![Circulations form filter box](img/circulations-form-filter-box.png)
 

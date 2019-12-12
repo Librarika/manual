@@ -135,6 +135,7 @@ The preferences section is the single most important settings page for your libr
 	* If you enable the `Notify on Overdue` checkbox then a reminder email will be send after X-hours of the overdue item. 
 	* If you enable the `Remind before due date` checkbox then a reminder email will be send before X-hours of the due date.
 	* If you enable the `Remind on reservation` checkbox then member will receive a reminder email before X-hours of the reservation date.
+	* Here the most important field is the `Notified Librarians` where you can set maximum of five librarians who will receive notification reminders if any member joined or requested a book.
 
 * If you click on the `Appearance` tab then it will be dispalyed as below.
 
@@ -146,6 +147,26 @@ The preferences section is the single most important settings page for your libr
 * From the above tabs you can set / enter / update the value that you want.
 * Click on the `Save Preferences` button to save your changes.
 * Your latest changes will be applied instantly.
+
+---
+
+## Create Library Branch
+
+To create a new library branch or update the information of your previous library branches please follow the below steps.
+
+* Please go to `Dashboard -> Manage -> Library Information` section then click on the **Manage Branches** button.
+* A page will be appeared like below.
+
+	![Library branch page](img/library-branch-page.png)
+
+* Then in the library branches page you will find the **Create New Branch** button.
+* Click on it and an add branch page will be displayed.
+
+	![Library add branch page](img/library-add-branch-page.png)
+
+* Then enter all the information related to your branch and click on the submit button and a new branch will be created.
+* To view all the details of your library branch please click on the `View` button on the next to that branch.
+* If you want to change any branch information then click on the `Edit` button on the next to that branch.
 
 ---
 
