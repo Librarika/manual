@@ -20,7 +20,7 @@ To add books to the barcode queue, please follow the below steps:
 
     ![Barcode Labels barcode page](img/barcode-labels-barcode-page.png)
 
-* Now if you click on the `Add Book` button then you can a add single book to the Barcode Queue by its accession number.
+* Now if you click on the `Add Book` button then you can add a single book to the Barcode Queue by it's accession number.
 
     ![Barcode Labels add book](img/barcode-labels-add-book.png)
 
@@ -117,7 +117,7 @@ If you want to delete the queued or generated barcodes all together then you can
 
     ![Barcode Labels label type](img/barcode-labels-delete-by-label-type.png)
 
-* After selecting the object type and label type please click on the Delete button and barcodes will be deleted.
+* After selecting the object type and label type please click on the `Delete` button and barcodes will be deleted.
 
 
 ## Print Barcodes
@@ -198,7 +198,7 @@ If you have already labeled your old items using existing barcode number then en
 
 To do so, please follow the below steps:
 
-* Please go to the Dashboard -> Catalogs -> Catalog Items section then locate the item you want to edit from your catalog and click on the View icon on the right to that item. Navigate to the copies section at the bottom of the page. Click on the Edit icon on the right to that specific copy. 
+* Please go to the `Dashboard -> Catalogs -> Catalog Items` section then locate the item you want to edit from your catalog and click on the `View` link on the right to that item. Navigate to the copies section at the bottom of the page. Click on the `Edit` link on the right to that specific copy. 
 
     ![Barcode Labels media copies section](img/catalog-item-multiple-copies-button.png) 
 
