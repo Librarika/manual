@@ -13,6 +13,7 @@ pages:
       - 'Cataloging (Books)': 'cataloging.md'
       - 'Members (Patrons)': 'members.md'
       - 'Circulations (Loans)': 'circulations.md'
+      - 'Fees & Payments': 'fees-payments.md'
       - 'Barcode Labels': 'barcode-labels.md'
       - 'Reports': 'reports.md'
       - 'Member Area': 'member-area.md'
