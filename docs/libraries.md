@@ -93,13 +93,80 @@ The preferences section is the single most important settings page for your libr
 
 	![Library information menu](img/library-preference-menu.png)
 
-* Click on tabs that you are interested to.
-	
+* Click on the `Options` tab if not selected automatically.
+
+	![Library preference form](img/preferences-options.png)
+
+* Enter / update the information you want to change.
+	* The `Keep email private` checkbox has 3 options that you can set based on your own preference and it will be displayed on the "Ask a Librarian" page.
+
+		![Library preference option form](img/preferences-options-keep-email-private.png)
+
+	* Then if you checked the `Keep phone number private` checkbox then you can find 3 options to set and based on this setting it will be displayed on the "Ask a Librarian" page.
+
+		![Library preference option form](img/preferences-options-keep-phone-private.png)
+
+	* Next is the `Greetings` field where you can modify your verbage or welcome message for your library.
+	* The `Ebook URL Visibility` option set privacy for your e-book which is links with 5 options, that is Hide To All / Public / Member / Borrower Always / Active Borrower. You can set them independently for each of the items in your catalog.
+	* The `Booking Time` option is the time interval in days in which **Booking Quota** limit will be executed.
+	* In the `Booking Quota` field you can assign a booking quota limit for a member up to which he / she can request / checkout / loan items at the **Booking Time** limit.
+	* Then the `Enable member access request` checkbox which you need to enable so that the new members can get accesss to your library.
+
+* If you click on the `Self Service` tab then it will be dispalyed like below.
+
+	![Library preference form](img/preferences-self-service.png)
+
+	* If you enable the `Enable member checkouts` and `Enable member check-ins` then your library members can self-checkout or check-in a book.
+	* Also you can set other options for your library members.
+
+* If you click on the `Request Items` tab then it will be dispalyed like below.
+
+	![Library preference form](img/preferences-request-items.png)
+
+	* If you enable the `Enable item request` then member can request your library item from their member area section.
+	* In the `Member` field you can set 3 member type options whom can request library item online, that is All members / Regular members only / Privileged members only.
+	* By default the action is pending for requesting an item. But you can choose the other option **Reserved** if you want to reserve that item for your member immediately.
+
+* If you click on the `Notifications/Reminders` tab then you can set reminders for your library members.
+
 	![Library preference form](img/preference-reminders.png)
 
-* Set / Enter / update the value that you want.
-* Click on the `Submit` button to save your changes.
+	* Our system will send notification reminders to the members of your library based on this settings.
+	* If you enable the `Notify on Overdue` checkbox then a reminder email will be send after X-hours of the overdue item. 
+	* If you enable the `Remind before due date` checkbox then a reminder email will be send before X-hours of the due date.
+	* If you enable the `Remind on reservation` checkbox then member will receive a reminder email before X-hours of the reservation date.
+	* **Here the most important field is the `Notified Librarians` where you can set maximum of five librarians who will receive notification reminders if any member joined or requested a book.**
+
+* If you click on the `Appearance` tab then it will be dispalyed as below.
+
+	![Library preference form](img/preferences-appearance.png)
+
+	* From this page you can set premium color schemes for your library dashboard and OPAC. Also you can select your preferred language from the Language dropdown menu.
+
+* Finaly if you click on the `Upgrade` tab, then you can upgrade your library to your desired plan.
+* From the above tabs you can set / enter / update the value that you want.
+* Click on the `Save Preferences` button to save your changes.
 * Your latest changes will be applied instantly.
+
+---
+
+## Create Library Branch
+
+To create a new library branch or update the information of your previous library branches please follow the below steps.
+
+* Please go to `Dashboard -> Manage -> Library Information` section then click on the **Manage Branches** button.
+* A page will be appeared like below.
+
+	![Library branch page](img/library-branch-page.png)
+
+* Then in the library branches page you will find the **Create New Branch** button.
+* Click on it and an add branch page will be displayed.
+
+	![Library add branch page](img/library-add-branch-page.png)
+
+* Then enter all the information related to your branch and click on the submit button and a new branch will be created.
+* To view all the details of your library branch please click on the `View` link on the next to that branch.
+* If you want to change any branch information then click on the `Edit` link on the next to that branch.
 
 ---
 
@@ -167,9 +234,10 @@ Note: If you are on any paid plan (Premium Plan or E-Book Plan), please let us k
 
 	![Library information menu](img/library-information-menu.png)
 
-* Click on the `Remove Library` Tab .
+* Click on the `Remove Library` Tab.
 	
 	![Remove library form](img/remove-library-form.png)
 
-* Check `Remove my Library` and `Confirm removal` options as shown above.
+* Check `Remove my library` and `Remove my account` options as shown above.
+* Also check the `Confirm removal` option to confirm your removal request.
 * Once you click on the `Submit` button your library will be deleted.
