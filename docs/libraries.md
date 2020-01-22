@@ -129,7 +129,7 @@ The preferences section is the single most important settings page for your libr
 
 * If you click on the `Notifications/Reminders` tab then you can set reminders for your library members.
 
-	![Library preference form](img/preference-reminders.png)
+	![Library preference form](img/preferences-reminders.png)
 
 	* Our system will send notification reminders to the members of your library based on this settings.
 	* If you enable the `Notify on Overdue` checkbox then a reminder email will be send after X-hours of the overdue item. 
