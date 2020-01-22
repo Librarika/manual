@@ -129,13 +129,13 @@ The preferences section is the single most important settings page for your libr
 
 * If you click on the `Notifications/Reminders` tab then you can set reminders for your library members.
 
-	![Library preference form](img/preferences-reminders.png)
+	![Library preference form](img/preferences-reminder.png)
 
 	* Our system will send notification reminders to the members of your library based on this settings.
 	* If you enable the `Notify on Overdue` checkbox then a reminder email will be send after X-hours of the overdue item. 
 	* If you enable the `Remind before due date` checkbox then a reminder email will be send before X-hours of the due date.
 	* If you enable the `Remind on reservation` checkbox then member will receive a reminder email before X-hours of the reservation date.
-	* Here the most important field is the `Notified Librarians` where you can set maximum of five librarians who will receive notification reminders if any member joined or requested a book.
+	* **Here the most important field is the `Notified Librarians` where you can set maximum of five librarians who will receive notification reminders if any member joined or requested a book**.
 
 * If you click on the `Appearance` tab then it will be dispalyed as below.
 
