@@ -34,7 +34,7 @@ To edit an existing member in your library, please follow the below steps:
 * Please go to the `Dashboard -> Circulations -> Members` section.
 * Locate the member record you want to edit.
 
-	![Members form](img/members-form.png)
+	![Members form](img/member-form.png)
 
 * Click on the `Edit` icon on the right to that member.
 * Member edit form will be displayed as shown below.
@@ -107,7 +107,7 @@ To delete a member from your library, please follow the below steps:
 
 * Locate the member record you want to delete and click on the `Edit` icon on the right to that member.
 
-	![Members form](img/members-form.png)
+	![Members form](img/member-form.png)
 
 * Member edit form will be displayed with a button named `Delete Member` on the top of the section.
 * Click on the `Delete Member` button
@@ -153,7 +153,7 @@ To do so, please follow the below steps:
 * Please go to the `Dashboard -> Circulations -> Members` section.
 * Locate the member record for loan or reservation receipt.
 
-	![Members form](img/members-form.png)
+	![Members form](img/member-form.png)
 
 * Click on the `View` icon on the right to that member.
 * Member details page will be appeared like below.
@@ -187,7 +187,7 @@ To use this section, please follow the below steps:
 * Please go to the `Dashboard -> Circulations -> Members` section.
 * Locate that member whose statement you want to view. 
 
-	![Members form](img/members-form.png)
+	![Members form](img/member-form.png)
 
 * Click on the `View` icon on the right to that member.
 * Member details page will be appeared like below.
