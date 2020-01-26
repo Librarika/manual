@@ -31,10 +31,11 @@ A catalog is a collection of items found in a library to provide all the informa
 
 * If you click on the catalog menu then a catalog of your library items will be appeared like below.
 
-	![OPAC catalog page](img/opac_catalog_page.png)
+	![OPAC catalog page](img/opac_catalogs_page.png)
 
 * Now you can view any item of your library catalog with necessary information.
 * If you click on the `Search Catalog` button on the top corner of your catalog page then you will go to the search page of your library.
+* If you click on the `All Branches` option then you can view the catalog based on a specific library branch. 
 * If you click on the `Categories` button then you can view all the list of your library categories. You can also see the amount of item under each category. By clicking on any specific category you can view all the items which are related to this category.
 
 	![OPAC catalog page](img/opac_categories_page.png)
