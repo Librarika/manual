@@ -4,7 +4,7 @@ repo_name: GitHub
 site_description: The free integrated library system - ILS 
 site_author: Librarika Team
 theme: readthedocs
-pages:
+nav:
     - 'Home': 'index.md'
     - 'User Guide': 
       - 'Getting Started': 'getting-started.md'
