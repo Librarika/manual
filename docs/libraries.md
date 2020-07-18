@@ -202,14 +202,12 @@ For premium libraries, the payment method is charged automatically when the annu
 
 You can change the payment information anytime. Please follow the below steps:
 
-* Please go to [https://2co.com](https://2co.com).
-* Then Click on the `Login` icon on the right to the 2checkout page.
-* A **2CO- Customer Area** page will be appeared like below.
+* At first please go to `Dashboard -> Manage -> My Plan` section.
+* Then in the **Billing Information** section you will find Payment Method, please click on Access Order as shown below.
 
-	![2co my account form](img/2co-myAccount-form.png)
+	![Billing info form](img/update-billing-info.png)
 
-* Now create an account with your order number or email address that was used during the purchase.
-* Then you can update your credit card information.
+* You will redirect to 2checkout.com where you can update your payment information if necessary.
 * When your current subscription expires, the system will automatically charge the credit card listed in your order profile and then generate an invoice.
 
 
@@ -234,7 +232,7 @@ Note: If you are on any paid plan (Premium Plan or E-Book Plan), please let us k
 
 	![Library information menu](img/library-information-menu.png)
 
-* Click on the `Remove Library` Tab .
+* Click on the `Remove Library` Tab.
 	
 	![Remove library tab](img/remove-library-tab.png)
 
