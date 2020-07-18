@@ -230,8 +230,7 @@ To add a new copy to an existing media item, please follow the below steps:
 
 * The `Add Copy` form will be displayed like below.
 
-	![Media copy add form](img/media-copy-add-form1.png)
-	![Media copy add form](img/media-copy-add-form2.png)
+	![Media copy add form](img/media-copy-add-form.png)
 
 * Enter necessary information regarding your copy.
 * Click on the `Submit` button when you are done
@@ -253,8 +252,7 @@ To add multiple copies at once to an existing media item, please follow the belo
 
 * Click on it and an `Add Multiple Copies` form will be appeared like below.
 
-	![Media copies section](img/media-add-multiple-copies-form1.png)
-	![Media copy add form](img/media-copy-add-form2.png)
+	![Media copies section](img/media-add-multiple-copies-form.png)
 
 * Please enter the number of copies that you wanted to add in the `No of Copies` field.
 * The `Copy from` field is the copy number that you want to start to add.
@@ -278,8 +276,7 @@ You can edit media copy information, change accession number, change branch, ena
 
 * Click on it and an Edit Copy form will be appeared like below.
 
-	![Media copy edit form](img/media-copy-edit-form1.png)
-	![Media copy add form](img/media-copy-add-form2.png)
+	![Media copy edit form](img/media-copy-edit-form.png)
 
 * Do make necessary changes.
 * Click on the `Submit` button when you are done and your changes will be saved.
@@ -298,7 +295,7 @@ You can delete an individual copy from your catalog. This will also delete all r
 	![Media form](img/media-form.png)
 
 * Navigate to the copies section at the bottom of the page.
-* Click on the `Delete` button on right to that copy and confirm your delete action.
+* Click on the `Delete` icon on right to that copy and confirm your delete action.
 	
 	![Media copies section](img/media-add-multiple-copies-button.png)
 
@@ -310,7 +307,7 @@ Note: Instead of deleting a copy from your library, it is better to make it inac
 
 ## E-Books
 
-You can upload one or more pdf or e-pub files for each of your e-book item in your catalog. In order to upload e-books, you must have e-book subscription enabled.
+You can upload one or more pdf or e-pub files for each of your e-book item in your catalog. In order to upload e-books, you must have e-book subscription enabled. To learn more about e-book hosting please visit at [https://librarika.com/spages/faq#ebooks] [e-book]
 
 ### Add E-Book
 
@@ -319,7 +316,7 @@ To add a new e-book, please follow the below steps:
 * Please go to the `Dashboard -> Catalogs -> Catalog Items` section.
 * Click on the `Manual Add` button and system will display the add new media form. Now select media type equals to **E-Books** from the dropdown menu.  
 
-	![Manual add form](img/media-ebooks-add-form.png)
+	![Manual add form](img/media-ebook-add-form.png)
 
 * Enter title and other information about the e-book item and click the `Submit` button once you are done. 
 * A new e-book item will be added to the catalog and you will be redirected to the item detail page.
@@ -373,7 +370,7 @@ You can edit an author information from `Authors` section.
 
 ### Delete Author
 
-You can delete an author from your library catalog. Please go to the [Edit Author](#edit-author) section and the edit author form will be displayed with a button named `Delete` on the top of the section. Click on it and confirm your delete action. 
+You can delete an author from your library catalog in two ways. Either you can delete it from the [Authors](#authors) section where you can see a delete icon on the next to that author which you want to delete. Or, you can go to the [Edit Author](#edit-author) section and the edit author form will be displayed with a button named `Delete` on the top of the section. Click on it and confirm your delete action. 
 
 --- 
 
@@ -413,7 +410,7 @@ You can edit publisher information from `Publishers` section.
 
 ### Delete Publisher
 
-You can delete a publisher from your library catalog. Please go to the [Edit Publisher](#edit-publisher) section and the edit publisher form will be displayed with a button named `Delete` on the top of the section. Click on it and confirm your delete action. 
+You can delete a publisher from your library catalog in two ways. Either you can delete it from the [Publishers](#publishers) section where you can see a delete icon on the next to that publisher which you want to delete. Or, you can go to the [Edit Publisher](#edit-publisher) section and the edit publisher form will be displayed with a button named `Delete` on the top of the section. Click on it and confirm your delete action. 
 
 ---
 
@@ -454,7 +451,7 @@ You can edit category information from `Categories` section.
 
 ### Delete Category
 
-You can delete a category from your library catalog. Please go to the [Edit Category](#edit-category) section and in the edit category page you can see a `Delete` button on the top of this page. Click on it and confirm your delete action.
+You can delete a category from your library catalog in two ways. Either you can delete it from the [Categories](#categories) section where you can see a delete icon on the next to that category which you want to delete. Or, you can go to the [Edit Category](#edit-category) section and in the edit category page you can see a `Delete` button on the top of this page. Click on it and confirm your delete action.
 
 ---
 
@@ -473,11 +470,25 @@ To use this section, please follow the below steps:
 
 	![Catalogs view tag form](img/catalogs-view-tag-form.png)
 
-* If you want to update a tag then please click on the `Edit` button and the below form will appear with existing information.
+* You can add a tag while entering your catalog item information. Also, you can add multiple tags in the Tag field. Please use comma separators while using multiple tags.
 
-	![Catalogs edit tag form](img/catalogs-edit-tag-form.png)
+### Edit Tag
 
+You can edit tag information from `Tags` section. 
+
+* Please go to the `Dashboard -> Catalogs -> Tags` section.
+
+* Locate the tag that you want to edit from tags section and click on the `Edit` icon on the right to that tag.
+* Then the below form will appear with existing information.
+
+	![Catalogs edit category form](img/catalogs-edit-tag-form.png)
+
+* Do make necessary changes to the tag entity.
 * Click on the `Submit` button when you are done and your changes will be saved.
+
+### Delete Tag
+
+You can delete a tag from your library catalog. Please go to the [Tags](#tags) section where you can see a `delete` icon on the next to that tag which you want to delete. Click on it and confirm your delete action.
 
 ---
 
@@ -492,5 +503,6 @@ To use this section, please follow the below steps:
 
 	![Catalogs review form](img/catalogs-review-form.png)
 
-* If you want to remove review from your catalog items then click on the `Delete` button on the right to that review.
+* If you want to remove review from your catalog items then click on the `Delete` icon on the right to that review.
 
+[e-book]: https://librarika.com/spages/faq#ebooks
