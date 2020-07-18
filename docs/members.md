@@ -23,6 +23,7 @@ To add a member to your library, please follow the below steps:
 
 * The `Type` field is used to separate the users in two levels, for example in a school the teachers / staffs should be under the privileged member type and the students should be under the regular member type.
 
+* If you want that members can check-in and check-out books by themselves then please turn on the `Allow Member Login` option.
 * Enter necessary information regarding the member. Only member no, name, type and status fields are mandatory.
 * Click on the `Submit` button when you are done
 * A new member record will be created.
@@ -39,8 +40,7 @@ To edit an existing member in your library, please follow the below steps:
 * Click on the `Edit` icon on the right to that member.
 * Member edit form will be displayed as shown below.
 
-	![Member edit form](img/member-edit-form1.png)
-	![Member edit form](img/member-edit-form2.png)
+	![Member edit form](img/member-edit-form.png)
 
 * Update necessary information regarding the member.
 * Click on the `Submit` button when you are done. 
