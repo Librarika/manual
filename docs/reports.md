@@ -1,6 +1,6 @@
 # Reports
 
-This is the section where you can view all the reports of your library depending on varoius topics such as catalog, circulation, member, overdue and others within a date range. You can find different filtering options on each report. Also you can print them out or export them per your need. 
+This is the section where you can view all the reports of your library depending on various topics such as catalog, circulation, member, overdue and others within a date range. You can find different filtering options on each report. Also you can print them out or export them per your need. 
 
 To access this section, please follow the below steps:
 

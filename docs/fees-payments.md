@@ -30,7 +30,7 @@ Please complete the following easy steps to setup your library. It should not ta
 
 * Then click on the `Transactions` button and a page will be appeared like below.
 
-	![Fees & Payments transactions module](img/fees-payments-transactions-module.png)
+	![Fees & Payments transactions module](img/fees-payments-transactions.png)
 
 * Here you can view all the transection details of your library members.
 * Now from the top of this section please click on the `Fees & Fines Settings` button.

@@ -209,8 +209,7 @@ To do so, please follow the below steps:
 
 * An edit copy form will be appeared like below.
 
-    ![Barcode Labels media copy edit form](img/media-copy-edit-form1.png)
-    ![Barcode Labels media copy add form](img/media-copy-add-form2.png)
+    ![Barcode Labels media copy edit form](img/media-copy-edit-form.png)
 
 * Now in the edit copy form replace the Librarika generated accession number with your own barcode number on the Accession No field.    
 

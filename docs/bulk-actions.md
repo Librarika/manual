@@ -5,7 +5,7 @@ Bulk actions method is used to update or delete your book, book copy or member r
 To do bulk actions, please follow the below steps:
 
 * At first login to your library.
-* Please go to the `Dashboard -> Others -> Bulk Actions` option from the dropdown menu.
+* Please go to the `Dashboard -> Manage -> Bulk Actions` option from the dropdown menu.
 
     ![Bulk Actions dropdown menu](img/bulk-actions-dropdown-menu.png)
 
@@ -244,9 +244,6 @@ To create a bulk action for changing media copy's branch information, please fol
     ![Bulk Actions select review copy branch info](img/bulk-actions-review-copy-branch-info.png)
 
 * Click on `Confirm` button and your bulk actions will be saved.
-
-    ![Bulk Actions created copy branch info](img/bulk-actions-created-copy-branch-info.png)
-
 * At last click on the `Process this action?` button for processing your actions.
 
 
@@ -406,9 +403,6 @@ To create a bulk action for changing member group, please follow the bellow step
     ![Bulk Actions review member group](img/bulk-actions-review-member-group.png)    
 
 * Click on `Confirm` button and your bulk actions will be saved.
-
-    ![Bulk Actions created by member group](img/bulk-actions-created-by-member-group.png) 
-
 * At last click on the `Process this action?` button and your actions will be processed.
 
 ### Change Member's Booking Quota

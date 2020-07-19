@@ -17,13 +17,13 @@ To view list admin or stuff users, please follow the below steps:
 
 	![Users main page](img/users-main-page.png)
 
-* If you click on the `View` link next to any user then you can see all the information of that specific user like below.
+* If you click on the `View` icon next to any user then you can see all the information of that specific user like below.
 
 	![Users user view page](img/users-view-page.png)
 
 * Here you can also see the group information of that user, if you click on the view icon from the **Group Memberships** table.
 
-	![Users view group info](img/users-view-group-info.png)
+	![Users view group info](img/users-group-info.png)
 
 * Now you can also view all the related members of that group.
 
@@ -47,7 +47,7 @@ To add a user, please follow the below steps:
 
 * Click on `Submit` button and a user will be invited to join your library and the status for this new user will be **Invited**.
 
-	![Users main page](img/users-main-page2.png)
+	![Users main page](img/user-with-invited-status.png)
 
 * Now the user needs to follow the invitation email and join the library. 
 
@@ -59,9 +59,9 @@ When you will create a new user an invitation email will automatically send to t
 To do so, please follow the below steps:
 
 * Please go to the `Users` section.
-* Locate that user whom you want to send the invitation email again from users section and click on the `Re-send Invite` link on the right to that user.
+* Locate that user whom you want to send the invitation email again from users section and click on the `Re-send Invite` button on the right to that user.
 
-	![Users resend invite link](img/users-resend-invite-link.png)
+	![Users resend invite link](img/user-resend-invite-button.png)
 
 * Click on it and the invitation email will be send to the users email account for joining your library.
 * If an user click on the joining request, then that user will be able to join the library.
@@ -74,7 +74,7 @@ You can change the groups or roles of a user by setting permissions for the user
 
 To set permissions, please follow the below steps:
 
-* Click on `Permissions` link from the users section.
+* Click on `Change Permissions` icon from the users section.
 * A form will be appeared like below.
 
 	![Users change permissions page](img/users-change-permissions-page.png)
@@ -89,7 +89,7 @@ You can also remove the permissions that you have given to the users for your li
 
 To remove the permissions, please follow the below steps:
 
-* Click on `Permissions` link from the users section.
+* Click on `Change Permissions` icon like before from the users section.
 * Now the `Change Permissions` form will be appeared same as the **Add / Update Permission** section mentioned above.
 * In the `Change Permissions` form you have to uncheck the gruops or roles options and click on **Save** button.
 
