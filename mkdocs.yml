@@ -19,6 +19,7 @@ nav:
       - 'Member Area': 'member-area.md'
       - 'Users': 'users.md'
       - 'Bulk Actions': 'bulk-actions.md'
+      - 'Batch Update': 'batch-update.md'
     - 'Contributing': 'contribute.md'
     - 'About': 'about.md'
     - 'License': 'license.md'
