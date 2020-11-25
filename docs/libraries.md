@@ -159,14 +159,15 @@ To create a new library branch or update the information of your previous librar
 
 	![Library branch page](img/library-branch-page.png)
 
-* Then in the library branches page you will find the **Create New Branch** button.
-* Click on it and an add branch page will be displayed.
+* Then in the library branches page you will find the **New Branch** button.
+* Click on it and an add new branch page will be displayed.
 
 	![Library add branch page](img/library-add-branch-page.png)
 
 * Then enter all the information related to your branch and click on the submit button and a new branch will be created.
-* To view all the details of your library branch please click on the `View` button on the next to that branch.
-* If you want to change any branch information then click on the `Edit` button on the next to that branch.
+* To view all the details of your library branch please click on the `View` icon on the next to that branch.
+* If you want to change any branch information then click on the `Edit` icon on the next to that branch.
+* Also, if you want to delete any branch information then click on the `Delete` icon on the next to that branch.
 
 ---
 
@@ -203,7 +204,7 @@ For premium libraries, the payment method is charged automatically when the annu
 You can change the payment information anytime. Please follow the below steps:
 
 * At first please go to `Dashboard -> Manage -> My Plan` section.
-* Then in the **Billing Information** section you will find Payment Method, please click on Access Order as shown below.
+* Then in the **Billing Information** section you will find Payment Method, please click on Access Order link as shown below.
 
 	![Billing info form](img/update-billing-info.png)
 
