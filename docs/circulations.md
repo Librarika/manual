@@ -4,7 +4,7 @@ The circulations section contains all the information regarding your check-outs,
 
 As a generic term, we also call this as "Media bookings" section.
 
-## List check-outs
+## List Check-outs
 
 You can access the list of all circulations related entries in this section under different status filters such as Pending, Reserved, Issued, Overdue, Cancelled, Returned etc. 
 
@@ -101,7 +101,7 @@ To edit a circulation, please follow the below steps:
 
 	![Circulation form](img/circulations-form.png)
 
-* An edit circulation form will appear as shown below.
+* An edit circulation form will be appeared as shown below.
 
 	![Circulation edit form](img/circulations-edit-form.png)
 
@@ -128,6 +128,3 @@ To use this functionality, please follow the below steps:
 ## Circulation Issue
 
 Keep in mind that whenever checking out books you can not able to scroll past the 10th book even though you have several more copies of the same book in your library. Because **there is a cap limit of 10 items in auto complete dialogue box**.
-
-
-

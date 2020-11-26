@@ -11,7 +11,7 @@ To view list admin or stuff users, please follow the below steps:
 * At first log in to your library.
 * Please go to the `Dashboard ->  Manage -> Users` dropdown menu.
 
-	![Users dropdown menu](img/users-dropdown-menu.png)
+	![Users dropdown menu](img/user-dropdown-menu.png)
 
 * Click on `Users` and a page will be appeared like below. Here you can see all the users of your library.
 
@@ -35,7 +35,7 @@ User with library admin privileges can add a new user and give them access to th
 To add a user, please follow the below steps:
 
 * Please go to the `Users` section from the `Manage` dropdown menu.
-* Click on `Add New User` button and a create user form will be appeared like below.
+* Click on `New User` button and a create user form will be appeared like below.
 
 	![Users add user form](img/users-add-user-form.png)
 
@@ -107,7 +107,7 @@ To view the list of linked members, please follow the below steps:
 
 	![Users linked members button](img/users-linked-members-button.png)
 
-* Now the `Linked Members` page will be appeared like below.
+* Now click on the switch to linked members button and the `Linked Members` page will be appeared like below.
 
 	![Users linked members page](img/users-linked-members-page.png)
 

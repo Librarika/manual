@@ -10,13 +10,13 @@ A booking quota is the total limit up to which a member can reqeust / check-out 
 
 You can set individual booking quota for each member using the Add / Edit member method mentioned below. Again, if a individual quota not set, then global quota will be enforced.
 
-### Add new member
+### Add New Member
 
 To add a member to your library, please follow the below steps:
 
 * Please go to the `Dashboard -> Circulations -> Members` section.
 
-* Click on `Add New Member` button.
+* Click on `New Member` button.
 * Add new member form will be displayed as shown below.
 
 	![Member add form](img/member-add-form.png)
@@ -28,7 +28,7 @@ To add a member to your library, please follow the below steps:
 * Click on the `Submit` button when you are done
 * A new member record will be created.
 
-### Edit existing member
+### Edit Existing Member
 
 To edit an existing member in your library, please follow the below steps:
 
@@ -47,7 +47,7 @@ To edit an existing member in your library, please follow the below steps:
 * Your changes will be saved.
 
 
-### Import members
+### Import Members
 
 You can perform bulk import of members to your library using our bulk import method. Please read our [Import Members][member_bulk_import] instruction page for more details on how to proceed.
 
@@ -58,10 +58,10 @@ From members section you can find all the related circulations of your library m
 
 * To view your member related bookings please go to member view page and navigate to the bottom then you can see all the bookings like below. 
 
-	![Member related bookings](img/member-related-booking.png)
+	![Member related bookings](img/member-related-bookings.png)
 
 
-### Member area access
+### Member Area Access
 
 Librarika has a member only access area for the members (or patrons) of a library. If access is granted, member can login to the library using their credential and access the member area.
 
@@ -75,9 +75,9 @@ In member area they can access following informations:
 
 Also, they can perform some activities that is otherwise not possible, such as: request item, write review, access catalogs in a private library.
 
-#### Enable member access
+#### Enable Member Access
 
-Enabling membr access is very easy. You can do it in following way:
+Enabling member access is very easy. You can do it in following way:
 
 * Go to the members edit page as per above [edit member](#edit-existing-member) instruction.
 * Enter email address of the member if empty.
@@ -88,7 +88,7 @@ Enabling membr access is very easy. You can do it in following way:
 
 Alternatively, a member can create an account in *Librarika* platform indenendently and submit `Member Access Request` to join your library. In this case, go to the [Member Requests](#member-requests) section as mentioned below and accept or reject the reqeust upon review.
 
-#### Disable member access
+#### Disable Member Access
 
 Same way you can disable member login access from the edit member page. 
 
@@ -99,7 +99,7 @@ Same way you can disable member login access from the edit member page.
 	* If unchecked, you can enable login access again with a new invitation email. 
 * Click on the `Submit` button when you are done.
 
-### Delete member
+### Delete Member
 
 To delete a member from your library, please follow the below steps:
 
@@ -109,8 +109,8 @@ To delete a member from your library, please follow the below steps:
 
 	![Members form](img/member-form.png)
 
-* Member edit form will be displayed with a button named `Delete Member` on the top of the section.
-* Click on the `Delete Member` button
+* Member edit form will be displayed with a button named `Delete` on the top of the section.
+* Click on the `Delete` button
 * The member record will be deleted.
 
 Related:
