@@ -73,4 +73,4 @@ System will apply / update overdue charges for currently overdue items on daily 
 
 #### Limitations
 
-Since, we have launched this module as early beta, please be aware of any bugs and issues that may arises and let us know if you feel anything. As a pre-caution, please take backup of your transaction information on regular basis.
+Please be aware of any bugs and issues that may arises and let us know if you feel anything. As a pre-caution, please take backup of your transaction information on regular basis.

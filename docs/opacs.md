@@ -6,7 +6,7 @@ OPAC is a library acronym for "Online Public Access Catalog" When library staff 
 
 An online public access catalog is an online database of materials held by a library or group of libraries. Users search a library catalog principally to locate items and other material available at a library. OPAC is the gateway to library's collection.
 
-# Home Page
+## Home Page
 
 A home page is refers to the first page that appears upon opening a website on web browser, sometimes called the start page. In this page you can view the workflow of your library.
 
@@ -25,7 +25,7 @@ A home page is refers to the first page that appears upon opening a website on w
 * You can also acccess other library resources from home page.
 * At last you can view all the newly arrived items and if you click one of them then you can also view all the information of that book.
 
-# Catalog
+## Catalog
 
 A catalog is a collection of items found in a library to provide all the information necessary to describe all item accurately both physically and intellectually in order to distinguish it from every other items.
 
@@ -45,7 +45,7 @@ A catalog is a collection of items found in a library to provide all the informa
 * Finally by clicking on the `Tags` button you can view the tags of your library catalog.
 
 
-# Search Catalog
+## Search Catalog
 
 Search Catalog is the section where you can search the entire library catalog items using a specific keyword or selecting a media type option. You can also browse the catalog by categories, authors, publishers or tags.
 
@@ -76,7 +76,7 @@ Search Catalog is the section where you can search the entire library catalog it
 * You can also clear your searching history if you click on the `Clear` button.
 
 
-# Database A-Z
+## Database A-Z
 
 Database A-Z is the section where you can browse your items by alphabetical order or numerical order.
 
@@ -87,7 +87,7 @@ Database A-Z is the section where you can browse your items by alphabetical orde
 
 * Like characters you can also browse your items by numbers (0-9).
 
-# Top Collections
+## Top Collections
 
 Top Collections is the section where you can find those items which have higher checkouts, reviews and ratings. Only 100 top collected items will be displayed.
 
@@ -97,7 +97,7 @@ Top Collections is the section where you can find those items which have higher 
 
 * In the top collections page if you click on any **Column Headings** then you can find the  list of items by that column heading.
 
-# New Collections
+## New Collections
 
 New Collections is the section where you can find those items which has been added recently to your library. Only 100 new items will be displayed.
 
@@ -108,7 +108,7 @@ New Collections is the section where you can find those items which has been add
 * In the new collections page if you click on any **Column Headings** then you can find the list of items by that column heading.
 
 
-# My Account
+## My Account
 
 My Account section is a powerful way to manage your library bookings, access histories, favorite items and other activities through out your entire membership life cycle.
 
@@ -118,7 +118,7 @@ My Account section is a powerful way to manage your library bookings, access his
 
 * For other tabs please go to [Member Area](member-area) section.
 
-# Ask a Librarian
+## Ask a Librarian
 
 In this section you can contact with your library administrator and ask any questions related to your library via e-mail.
 
