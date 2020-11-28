@@ -181,7 +181,7 @@ To do so, please follow the below steps:
 * In this page you can apply the font size and text limit of the lines per your need.
 * When you are done, click on `Apply` button to see your changes in the print layout page.
 
-## Complete Printing and Start New Queue
+### Complete Printing and Start New Queue
 
 When you have items in the Print Barcodes section, you can't generate new barcodes. In order to generate new barcodes, you need to complete the current print queue and start over.
 

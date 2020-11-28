@@ -212,7 +212,7 @@ You can change the payment information anytime. Please follow the below steps:
 * When your current subscription expires, the system will automatically charge the credit card listed in your order profile and then generate an invoice.
 
 
-#### Cancel Subscription
+## Cancel Subscription
 
 * Also, you can cancel the subscription using the same process mentioned above.
 * Please note that, once cancelled, no future payment will be made to this order.

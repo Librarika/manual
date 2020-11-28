@@ -49,7 +49,7 @@ catalog, members and circulations.
 
 --- 
 
-### Note: 
+# Note: 
 
 This document is a work in progress. Please ignore if there is any gramartical mistakes and let us 
 know so that we can correct them accordingly.
