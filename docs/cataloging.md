@@ -233,7 +233,8 @@ To add a new copy to an existing media item, please follow the below steps:
 
 	![Media copy add form](img/media-copy-add-form.png)
 
-* Enter necessary information regarding your copy.
+* If you enter any remarks on the `Remarks` field then you will see a **View Remarks** link on the copies section. By clicking that link you can view your remarks. 
+* Enter other necessary information regarding your copy.
 * Click on the `Submit` button when you are done
 * A new copy record will be created.
 
@@ -249,7 +250,7 @@ To add multiple copies at once to an existing media item, please follow the belo
 
 * Navigate to the copies section at the bottom of the page and you can see an `Add Multiple Copies` button.
 
-	![Media copies section](img/media-add-multiple-copies-button.png)
+	![Media copies section](img/media-add-multiple-copies-btn.png)
 
 * Click on it and an `Add Multiple Copies` form will be appeared like below.
 
@@ -273,7 +274,7 @@ You can edit media copy information, change accession number, change branch, ena
 
 * Navigate to the copies section at the bottom of the page and you can see an `Edit` icon on right to that specific copy.
 
-	![Media copies section](img/media-add-multiple-copies-button.png)
+	![Media copies section](img/media-add-multiple-copies-btn.png)
 
 * Click on it and an Edit Copy form will be appeared like below.
 
@@ -298,7 +299,7 @@ You can delete an individual copy from your catalog. This will also delete all r
 * Navigate to the copies section at the bottom of the page.
 * Click on the `Delete` icon on right to that copy and confirm your delete action.
 	
-	![Media copies section](img/media-add-multiple-copies-button.png)
+	![Media copies section](img/media-add-multiple-copies-btn.png)
 
 * The copy entity will then be deleted from the library.
 
