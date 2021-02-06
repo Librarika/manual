@@ -44,12 +44,12 @@ Online public accesss catalog [OPAC](opacs.md) comes built-in with each **librar
 **Librarika** provides both iPhone and Android apps for librarians to scan barcodes, upload cover photos as well as manage 
 catalog, members and circulations.
 
-[<img src="https://ae85df921b92073b52e8-a126a45a4c59e90797d94cd877fbe744.ssl.cf3.rackcdn.com/static-pages/Download_on_the_App_Store_Badge_US-UK_135x40.svg" />](https://itunes.apple.com/us/app/librarika/id1102502605) [<img style="width: 155px; height:60px;" src="https://ae85df921b92073b52e8-a126a45a4c59e90797d94cd877fbe744.ssl.cf3.rackcdn.com/static-pages/google-play-badge.png" />](https://play.google.com/store/apps/details?id=com.librarika.android.dev&hl=en)
+[<img class="app-icons ios" src="https://ae85df921b92073b52e8-a126a45a4c59e90797d94cd877fbe744.ssl.cf3.rackcdn.com/static-pages/Download_on_the_App_Store_Badge_US-UK_135x40.svg" />](https://itunes.apple.com/us/app/librarika/id1102502605) [<img class="app-icons android" src="https://ae85df921b92073b52e8-a126a45a4c59e90797d94cd877fbe744.ssl.cf3.rackcdn.com/static-pages/google-play-badge.png" />](https://play.google.com/store/apps/details?id=com.librarika.android.dev&hl=en)
 
 
 --- 
 
-### Note: 
+# Note: 
 
 This document is a work in progress. Please ignore if there is any gramartical mistakes and let us 
 know so that we can correct them accordingly.

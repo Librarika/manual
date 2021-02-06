@@ -1,9 +1,16 @@
-site_name: Librarika Manual (Beta)
+site_name: Librarika Manual
 repo_url: https://github.com/Librarika/manual.git
 repo_name: GitHub
 site_description: The free integrated library system - ILS 
 site_author: Librarika Team
-theme: readthedocs
+theme:
+    name: 'material'
+    logo: 'img/logo-tr.png'
+    favicon: 'img/logo.png'
+markdown_extensions:
+  - admonition
+extra_css:
+  - 'css/extra.css'
 nav:
     - 'Home': 'index.md'
     - 'User Guide': 
@@ -19,6 +26,7 @@ nav:
       - 'Member Area': 'member-area.md'
       - 'Users': 'users.md'
       - 'Bulk Actions': 'bulk-actions.md'
+      - 'Batch Update': 'batch-update.md'
     - 'Contributing': 'contribute.md'
     - 'About': 'about.md'
     - 'License': 'license.md'

@@ -30,7 +30,7 @@ Please complete the following easy steps to setup your library. It should not ta
 
 * Then click on the `Transactions` button and a page will be appeared like below.
 
-	![Fees & Payments transactions module](img/fees-payments-transactions-module.png)
+	![Fees & Payments transactions module](img/fees-payments-transactions.png)
 
 * Here you can view all the transection details of your library members.
 * Now from the top of this section please click on the `Fees & Fines Settings` button.
@@ -67,10 +67,10 @@ Please complete the following easy steps to setup your library. It should not ta
 * And you are now ready to collect payments.
 * Also you can activate the other types of fee item same as mentioned above.
 
-#### Overdue Charges
+## Overdue Charges
 
 System will apply / update overdue charges for currently overdue items on daily basis. Once the item is returned you can edit / adjust the applied overdue amount.
 
-#### Limitations
+## Limitations
 
-Since, we have launched this module as early beta, please be aware of any bugs and issues that may arises and let us know if you feel anything. As a pre-caution, please take backup of your transaction information on regular basis.
+Please be aware of any bugs and issues that may arises and let us know if you feel anything. As a pre-caution, please take backup of your transaction information on regular basis.
