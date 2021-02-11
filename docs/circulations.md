@@ -17,6 +17,10 @@ You can access the list of all circulations related entries in this section unde
 
 	![Circulations all dropdown menu](img/circulations-all-dropdown-menu.png)
 
+* If you click on the `Identifiers` column then you can sort the circulations using different types of identifier like isbn, isbn13, issn, asin and more.
+
+	![Circulations identifiers](img/circulations-identifiers.png)
+
 ## Check-out Item
 
 To check-out or loan an item to a member of your library, please follow the below steps:
@@ -24,19 +28,19 @@ To check-out or loan an item to a member of your library, please follow the belo
 * Please go to the `Dashboard -> Circulations -> Circulations` section.
 * Click on the `Circulate Item` button.
 
-	![Quick circulation form](img/circulations-quick-circulation-form.png)
+	![Quick circulation form](img/circulations-quick-circulation.png)
 
 * First enter member number or member name. An auto-select list will appear, please select the member from the list.
 
-	![Quick circulation form](img/circulations-quick-circulation-form-1.png)
+	![Quick circulation form](img/circulations-quick-circulation-1.png)
  
-* Then enter accession number or book title. An auto-select list will appear with green / red indicator, please select the item with green indicator. Red indicator means, the item is not available for check-out.
+* Then enter accession number, book title or any identifier like isbn, asin, lccn and more. An auto-select list will appear with green / red indicator, please select the item with green indicator. Red indicator means, the item is not available for check-out.
 
-	![Quick circulation form](img/circulations-quick-circulation-form-2.png)
+	![Quick circulation form](img/circulations-quick-circulation-2.png)
 
 * Change the return date if you wish to.
 
-	![Quick circulation form](img/circulations-quick-circulation-form-3.png)
+	![Quick circulation form](img/circulations-quick-circulation-3.png)
 
 * Click on the `Submit` button when you are done.
 
@@ -46,13 +50,13 @@ To check-in or receive an item from a member, please follow the below steps:
 
 * Please go to the `Dashboard -> Circulations -> Circulations` section.
 * Click on the `Quick Return` button.
-* Enter the accession number of the item you want to check-in. An auto-select list will appear with green / red indicators. Your item should have red indicator.
+* Enter the accession number, book title or any identifier of the item that you want to check-in. An auto-select list will appear with green / red indicators. Your item should have red indicator.
 
-	![Quick circulation form](img/circulations-check-in-form1.png)
+	![Quick circulation form](img/circulations-check-in.png)
 
 * Select the item from the list.
 
-	![Quick circulation form](img/circulations-check-in-form2.png)
+	![Quick circulation form](img/circulations-check-in-1.png)
 
 * Enter any remark note in the remark input box, if you want to.
 * Click on the `Submit` button when you are done.
@@ -67,15 +71,17 @@ To reserve an item on behalf of a member, please follow the below steps:
 
 	![Reserve item form](img/circulations-reserve-item-form.png)
 
-* Enter member number, accession number, booking date, return date etc.
-* Select status as "Reserved".
+* Enter member number or member name for whom you want to reserve.
+* Then enter the accession number, title or any identifier of the item that you want to reserve.
+* Also enter booking date and return date of the item.
+* Select status as **Reserved**.
 * Click on the `Submit` button when you are done.
 
 ## Change Return Date
 
 You can update / extend return date of any circulation record specially that has already been issued but not yet returned. 
 
-To update or extend an item from a member, please follow the below steps:
+To update or extend an item for a member, please follow the below steps:
 
 * Please go to the `Dashboard -> Circulations -> Circulations` section.
 * Click on the `Quick Extend` button.
@@ -84,9 +90,6 @@ To update or extend an item from a member, please follow the below steps:
 	![Quick circulation form](img/circulations-quick-extend-form1.png)
 
 * Select the item from the list.
-
-	![Quick circulation form](img/circulations-quick-extend-form2.png)
-
 * Enter any remark note in the remark input box, if you want to.
 * Click on the `Submit` button when you are done.
 
@@ -121,7 +124,7 @@ To use this functionality, please follow the below steps:
 
 * An auto-select list will appear, select the item from the list. All related circulations of the selected item will appear as shown below.
 	
-	![Circulations form filter result](img/circulations-form-filter-result.png)
+	![Circulations filter result](img/circulations-filter-result.png)
 
 * Now you can perform any action regarding your needs for circulations.
 

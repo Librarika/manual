@@ -27,20 +27,24 @@ Catalog reports are mainly based on your library catalog items and their related
 * Now you can view how many items are resides under each branch. Also you can print them out if you need.
 * Next if you click on the view report button below the `Catalog Items` heading then the catalog items page will appear as shown below.
 
-	![Catalog Reports on catalog items](img/reports_on_catalog_item.png)
+	![Catalog Reports on catalog items](img/report_on_catalog_item.png)
 
 * If you click on the `Filter Options` on the top right corner of this page then you can find several filtering options for your catalog items.
 
 	![Catalog Reports filter options](img/reports_on_catalog_filter_options.png)
 
 * Now you can enter any fields from which you want to filter and click on the `Filter` button once you are done.
+* Also, you can sort the catalog item reports using different types of identifier.
+
+	![Catalog Reports identifiers](img/reports_catalog_identifier_options.png)
+
 * Next if you click on the `All Copies` view report button then you can view all the copies of your library catalog items.
 
-	![Catalog Reports on all copies](img/reports_on_all_copies.png)
+	![Catalog Reports on all copies](img/report_on_all_copies.png)
 
 * Also you can view all the copies in a particular date range like below.
 
-	![Catalog Reports catalog by date range](img/reports_on_all_copies_by_date.png)
+	![Catalog Reports catalog by date range](img/report_on_all_copies_by_date.png)
 
 * Next you can view reports only for the newly arrived copies under each item from `New Copies` report. Also you can view this within a date range.
 * Then you can view all the copies by their location from `Copies By Location` report.
@@ -107,7 +111,7 @@ Overdue Reports are based on the overdue items and copies of your library catalo
 
 * Then the next report is on the `Overdue Copies` of your library catalog items.
 	
-	![Overdue Reports on copies](img/reports_on_overdue_copies.png)
+	![Overdue Reports on copies](img/report_on_overdue_copies.png)
 
 ## Miscellaneous
 
