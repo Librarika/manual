@@ -3,15 +3,10 @@ repo_url: https://github.com/Librarika/manual.git
 repo_name: GitHub
 site_description: The free integrated library system - ILS 
 site_author: Librarika Team
-theme:
-    name: 'material'
-    logo: 'img/logo-tr.png'
-    favicon: 'img/logo.png'
-markdown_extensions:
-  - admonition
+theme: readthedocs
 extra_css:
   - 'css/extra.css'
-nav:
+pages:
     - 'Home': 'index.md'
     - 'User Guide': 
       - 'Getting Started': 'getting-started.md'
