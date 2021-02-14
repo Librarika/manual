@@ -205,7 +205,7 @@ To do so, please follow the below steps:
 
 * Please go to the `Dashboard -> Catalogs -> Catalog Items` section then locate the item you want to edit from your catalog and click on the `View` icon on the right to that item. Navigate to the copies section at the bottom of the page. Click on the `Edit` icon on the right to that specific copy. 
 
-    ![Barcode Labels media copies section](img/media-add-multiple-copies-button.png) 
+    ![Barcode Labels media copies section](img/media-add-multiple-copies-btn.png) 
 
 * An edit copy form will be appeared like below.
 
