@@ -30,7 +30,7 @@ To check-out or loan an item to a member of your library, please follow the belo
 
 	![Quick circulation form](img/circulations-quick-circulation-form-1.png)
  
-* Then enter accession number or book title. An auto-select list will appear with green / red indicator, please select the item with green indicator. Red indicator means, the item is not available for check-out.
+* Then enter accession number or isbn or book title. An auto-select list will appear with green / red indicator, please select the item with green indicator. Red indicator means, the item is not available for check-out.
 
 	![Quick circulation form](img/circulations-quick-circulation-form-2.png)
 
@@ -46,7 +46,7 @@ To check-in or receive an item from a member, please follow the below steps:
 
 * Please go to the `Dashboard -> Circulations -> Circulations` section.
 * Click on the `Quick Return` button.
-* Enter the accession number of the item you want to check-in. An auto-select list will appear with green / red indicators. Your item should have red indicator.
+* Enter the accession number or isbn or title of the item you want to check-in. An auto-select list will appear with green / red indicators. Your item should have red indicator.
 
 	![Quick circulation form](img/circulations-check-in-form1.png)
 
@@ -67,7 +67,9 @@ To reserve an item on behalf of a member, please follow the below steps:
 
 	![Reserve item form](img/circulations-reserve-form.png)
 
-* Enter member number, accession number, booking date, return date etc.
+* Enter member number or name for whom you want to reserve.
+* Then enter the accession number or isbn or title of the item that you want to reserve.
+* Next enter the booking date and return date.
 * Select status as "Reserved".
 * Click on the `Submit` button when you are done.
 
@@ -79,7 +81,7 @@ To update or extend an item from a member, please follow the below steps:
 
 * Please go to the `Dashboard -> Circulations -> Circulations` section.
 * Click on the `Quick Extend` button.
-* Enter the accession number of the item you want to extend. An auto-select list will appear with red indicators.
+* Enter the accession number or isbn or title of the item you want to extend. An auto-select list will appear with red indicators.
 
 	![Quick circulation form](img/circulations-extend-form1.png)
 

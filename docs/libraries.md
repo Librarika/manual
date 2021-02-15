@@ -198,7 +198,7 @@ To upgrade, please follow the below steps:
 
 ### Change or Update Payment / Billing Information
 
-For premium libraries, the payment method is charged automatically when the annual subscription expires. You may want to change / update payment information so that next renwal takes place without any service disruption.
+For premium libraries, the payment method is charged automatically when the annual subscription expires. You may want to change / update payment information so that next renewal takes place without any service disruption.
 
 You can change the payment information anytime. Please follow the below steps:
 

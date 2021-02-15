@@ -171,7 +171,7 @@ You can delete a category from your library catalog. Please go to the [Edit Cate
 
 ## Tags
 
-Tags is the section where you can add a tag for your library catalog. You can also check under which catalog item you have added your tag.
+Tags is the section where you can view all the tag of your library catalog that you have added while adding your items. You can also check under how many catalog items you have added those tags.
 
 To use this section, please follow the below steps:
 
@@ -184,11 +184,13 @@ To use this section, please follow the below steps:
 
 	![Catalogs tag view form](img/catalogs-tag-view-form.png)
 
-* If you want to remove tag from your catalog items then click on the `Edit` link and the edit tag form will appear like below. 
+* If you want to edit any tag then click on the `Edit` link and the edit tag form will appear like below. 
 
 	![Catalogs tag edit form](img/catalogs-tag-edit-form.png)
 
-* Now uncheck the `Is_Published` checkbox and click on the `Submit` button then your tag will be removed.
+* Now update the `Is_Published` checkbox and click on the `Submit` button.
+
+Please note: You can not delete any tag from your library as it has catalog items under it. However, if you want to remove tag from a specific item then go to the [Edit Media](#edit-media) section and remove it from Tags field and click on the submit button.
 
 ---
 
@@ -250,6 +252,7 @@ To use this method, please follow the below steps:
 	![Media edit form](img/catalog-items-manual-add-form.png)
 
 * Enter book information with the details. Only the Title field is mandatory.
+* In the `Tags` field you can add a single or multiple tag for your library catalog item. While adding multiple tags please use a comma separator between them.
 * Click on the `Submit` button when you are done.
 * The data will be saved and you will be redirect to the view detail page.
 * Add relevant author information from this view page. You can add multiple authors one by one.
