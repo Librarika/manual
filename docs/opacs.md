@@ -53,6 +53,9 @@ Search Catalog is the section where you can search the entire library catalog it
 
 	![OPAC catalog search page](img/opac_catalog_search_mediatype.png)
 
+* If you want to search the catalog by library branch then choose the library branch like below.
+	![OPAC catalog search page](img/opac_catalog_search_branch.png)
+
 * If you want to search the catalog by any keyword then choose the `Default` mode. You can also use specific search field such as ISBN/ISSN, Title, Publisher and more options for a better result.
 
 	![OPAC catalog search page](img/opac_catalog_search_keyword.png)
@@ -72,6 +75,10 @@ Search Catalog is the section where you can search the entire library catalog it
 * You can browse the catalog by tags if you click on `Tags`
 
 	![OPAC catalog search page](img/opac_catalog_search_tags.png)
+
+* You can browse the catalog by series if you click on `Series`
+
+	![OPAC catalog search page](img/opac_catalog_search_series.png)
 
 * You can also clear your searching history if you click on the `Clear` button.
 
