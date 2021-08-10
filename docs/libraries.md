@@ -30,8 +30,8 @@ Please update your library information carefully and make sure that they are up 
 	* The description field should contain a short description about your library, library business hours, rules, policies, etc. This field is very important for your library site visitors as it will be displayed on the "Ask a Librarian" public page.
 	* The email address and phone number provided here will be displayed on the "Ask a Librarian" public page. However, you can individually turn off the display of email address, phone number from the [preferences](#change-preferences) section. 
 	* Uncheck the **Private** checkbox to make your catalog publicly visible online. 
-* Now you want to make your library private so that, only the members will be allowed to access the OPAC catalog.
-	* Please checked the **Private** checkbox to make your catalog members only.
+* Now if you want to make your library private so that, only the members will be allowed to access the OPAC catalog.
+	* Please checked the **Private** checkbox from the `Library Info` tab.
 
 		If checked, your catalog will not be visible online, only member's with login access can access the information. This feature is suitable for corporate libraries.
 
@@ -72,7 +72,7 @@ We support 200x200 pixel size file in PNG/JPG format.
 	
 	![Library Information form](img/library-information-organization-info.png)
 
-* In Logo field click on the `browse` button and select a 200x200 pixel size png/jpg file.
+* In the logo field click on the `browse` button and select a 200x200 pixel size png/jpg file.
 * Click on the `Submit` button to save your changes.
 
 ---
@@ -91,12 +91,12 @@ The preferences section is the single most important settings page for your libr
 
 * Go to the **Prefereces** section from the dashboard.
 
-	![Library information menu](img/library-preference-menu.png)
+	![Library information menu](img/library-preferences-menu.png)
 
 * Click on the `Options` tab if not selected automatically.
 
 	![Library preference form](img/preferences-options.png)
-
+	
 * Enter / update the information you want to change.
 	* The `Keep email private` checkbox has 3 options that you can set based on your own preference and it will be displayed on the "Ask a Librarian" page.
 
@@ -129,13 +129,13 @@ The preferences section is the single most important settings page for your libr
 
 * If you click on the `Notifications/Reminders` tab then you can set reminders for your library members.
 
-	![Library preference form](img/preference-reminders.png)
+	![Library preference form](img/preferences-reminder.png)
 
 	* Our system will send notification reminders to the members of your library based on this settings.
 	* If you enable the `Notify on Overdue` checkbox then a reminder email will be send after X-hours of the overdue item. 
 	* If you enable the `Remind before due date` checkbox then a reminder email will be send before X-hours of the due date.
 	* If you enable the `Remind on reservation` checkbox then member will receive a reminder email before X-hours of the reservation date.
-	* **Here the most important field is the `Notified Librarians` where you can set maximum of five librarians who will receive notification reminders if any member joined or requested a book.**
+	* **Here the most important field is the `Notified Librarians` where you can set maximum of five librarians who will receive notification reminders if any member joined or requested a book**.
 
 * If you click on the `Appearance` tab then it will be dispalyed as below.
 
@@ -159,20 +159,21 @@ To create a new library branch or update the information of your previous librar
 
 	![Library branch page](img/library-branch-page.png)
 
-* Then in the library branches page you will find the **Create New Branch** button.
-* Click on it and an add branch page will be displayed.
+* Then in the library branches page you will find the **New Branch** button.
+* Click on it and an add new branch page will be displayed.
 
 	![Library add branch page](img/library-add-branch-page.png)
 
 * Then enter all the information related to your branch and click on the submit button and a new branch will be created.
-* To view all the details of your library branch please click on the `View` link on the next to that branch.
-* If you want to change any branch information then click on the `Edit` link on the next to that branch.
+* To view all the details of your library branch please click on the `View` icon on the next to that branch.
+* If you want to change any branch information then click on the `Edit` icon on the next to that branch.
+* Also, if you want to delete any branch information then click on the `Delete` icon on the next to that branch.
 
 ---
 
 ## Upgrade to Premium Plan
 
-You can upgrade your library to a premium plan anytime you want from the Dashboard. It takes only just few minutes. The upgradation process is same for both new and existing libraries.
+You can upgrade your library to a premium plan anytime you want from the dashboard. It takes only just few minutes. The upgradation process is same for both new and existing libraries.
 
 To upgrade, please follow the below steps:
 
@@ -180,40 +181,38 @@ To upgrade, please follow the below steps:
 
 	![Dashboard user menu](img/dashboard-user-menu.png)
 
-* Click on the "My Plan" option from the "Manage" dropdown menu.
+* Click on the `My Plan` option from the `Manage` dropdown menu.
 	
 	![Dashboard my plan menu](img/my-plan-menu.png)
 
-* The My Plan page will be displayed as shown below.
+* The `My Plan` page will be displayed as shown below.
 
 	![My plan page](img/my-plan-page.png)
 
 * Click on "Show More Plans" link if you want to see more premium plans. 
-* Choose your desired plan and click on the `Upgrade Now` button next to the your choosen plan.
+* Choose your desired plan and click on the `Upgrade Now` button next to your choosen plan.
 * You will be prompted with a check-out form containing plan name, yearly subscription info and billing amount.
 * Complete the check-out procedure by entering billing information and payment method.
-* Your library will be upgraded to the Premium Plan instantly.
+* Your library will be upgraded to the **Premium Plan** instantly.
 
 ---
 
 ### Change or Update Payment / Billing Information
 
-For premium libraries, the payment method is charged automatically when the annual subscription expires. You may want to change / update payment information so that next renwal takes place without any service disruption.
+For premium libraries, the payment method is charged automatically when the annual subscription expires. You may want to change / update payment information so that next renewal takes place without any service disruption.
 
 You can change the payment information anytime. Please follow the below steps:
 
-* Please go to [https://2co.com](https://2co.com).
-* Then Click on the `Login` icon on the right to the 2checkout page.
-* A **2CO- Customer Area** page will be appeared like below.
+* At first please go to `Dashboard -> Manage -> My Plan` section.
+* Then in the **Billing Information** section you will find Payment Method, please click on Access Order link as shown below.
 
-	![2co my account form](img/2co-myAccount-form.png)
+	![Billing info form](img/update-billing-info.png)
 
-* Now create a account with your order number or email address that was used during the purchase.
-* Then you can update your credit card information.
+* You will redirect to 2checkout.com where you can update your payment information if necessary.
 * When your current subscription expires, the system will automatically charge the credit card listed in your order profile and then generate an invoice.
 
 
-##### Cancel Subscription
+## Cancel Subscription
 
 * Also, you can cancel the subscription using the same process mentioned above.
 * Please note that, once cancelled, no future payment will be made to this order.
@@ -224,7 +223,7 @@ You can change the payment information anytime. Please follow the below steps:
 
 You can remove your library anytime from the dashboard. All you need is the _Library Admin_ permission in order to delete your library. When you delete a library, the library information and your own user account, catalogs, checkouts, members information and other related information will be removed.
 
-However, the individual login accounts created in Librarika platform either by library member or staff users will stay active even though they were part of your library users, this is becuase each user is treated independently in Librarika platform and one user can join multiple libraries using the same account.
+However, the individual login accounts created in Librarika platform either by library member or staff users will stay active even though they were part of your library users, this is because each user is treated independently in Librarika platform and one user can join multiple libraries using the same account.
 
 Note: If you are on any paid plan (Premium Plan or E-Book Plan), please let us know so that we can discontinue your subscription before you delete your library.
 
@@ -236,7 +235,7 @@ Note: If you are on any paid plan (Premium Plan or E-Book Plan), please let us k
 
 * Click on the `Remove Library` Tab.
 	
-	![Remove library form](img/remove-library-form.png)
+	![Remove library tab](img/remove-library-tab.png)
 
 * Check `Remove my library` and `Remove my account` options as shown above.
 * Also check the `Confirm removal` option to confirm your removal request.

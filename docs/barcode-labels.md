@@ -6,48 +6,51 @@ Barcode Labels is the section that can be accessed by the librarians only. In th
 
 ## Add to Barcode Queue
 
-Add To Barcode Queue is the section where single or multiple books and also the member barcodes are used to added to the queue.
+You can add single or multiple books and members to the barcode queue.
 
-To add books to the barcode queue, please follow the below steps:
+To do so, please follow the below steps:
 
 * At first login to your library.
-* Go to the  `Circulations` option from the Main Menu.
+* Go to the  `Circulations` option from the main menu.
 * Click on `Barcode Labels` from the `Circulations` dropdown menu.
 
     ![Barcode Labels dropdown menu](img/barcode-labels-dropdown-menu.png)
 
 * After clicking on `Barcode Labels` you can see the options like below.
 
-    ![Barcode Labels barcode page](img/barcode-labels-barcode-page.png)
+    ![Barcode Labels main page](img/barcode-labels-main-page.png)
 
-* Now if you click on the `Add Book` button then you can add a single book to the Barcode Queue by it's accession number.
+    **Steps to add books to the barcode queue**
 
-    ![Barcode Labels add book](img/barcode-labels-add-book.png)
+    * If you click on the `Add Book` button then you can add a single book to the Barcode Queue by it's accession number.
 
-* Once you have added one book to the Queue, you can also add more books to the Queue like below.
+        ![Barcode Labels add book](img/barcode-labels-add-book.png)
 
-     ![Barcode Labels add more book](img/barcode-labels-add-more-book.png)
+    * Once you added one book to the queue, you can also add another book to the queue like below.
 
+        ![Barcode Labels add another book](img/barcode-labels-add-another-book.png)
 
-* If you click on the `Add Multiple Books` button, you can add multiple books to the Barcode Queue by their accession number. Please enter accession number separated by comma.
+    * If you click on the `Add Multiple Books` button then you can add multiple books to the Barcode Queue by their accession number. Please enter accession number separated by comma.
 
-    ![Barcode Labels add multiple books](img/barcode-labels-add-multiple-books.png)
+        ![Barcode Labels add multiple books](img/barcode-labels-add-multiple-books.png)
 
-* If you click on the `Add Member Barcode` button, then you can add a member like below.
+    ** Steps to add members to the barcode queue**
 
-    ![Barcode Labels add member no](img/barcode-labels-member-no.png)
+    * If you click on the `Add Member Barcode` button, then you can add a member by his/her member number or name like below.
 
- * After you add one, you can also add more member as shown below.
+        ![Barcode Labels add member](img/barcode-labels-add-member.png)
 
-    ![Barcode Labels add member more no](img/barcode-labels-more-member-no.png)
+    * After you add one, you can also add another member as shown below.
 
-* If you click on the `Add Multiple Members` button, you can add multiple members to the Barcode Queue by their member no. Please enter member no separated by comma.
+        ![Barcode Labels add another member](img/barcode-labels-add-another-member.png)
 
-    ![Barcode Labels add multiple members](img/barcode-labels-multiple-member-no.png)
+    * If you click on the `Add Multiple Members` button then you can add multiple members to the Barcode Queue by their member number or name. Please enter member number or name separated by comma.
 
-* Once you click on `Add to Queue` button, then step one will be completed and all your items will be available in Generate Barcodes section and you can also see how many items you have added in the Generate Barcode Section.
+        ![Barcode Labels add multiple members](img/barcode-labels-add-multiple-members.png)
+
+* Once you click on  `Add to Queue` button, then step one will be finished and all your items will be available in Generate Barcodes section. Also you can see how many items you have added in the Generate Barcode Section.
  
-    ![Barcode Labels items number](img/barcode-labels-items-number.png)
+    ![Barcode Labels queued items number](img/barcode-labels-queued-items-number.png)
 
 ## Generate Barcodes
 
@@ -57,9 +60,10 @@ Once you have added items to barcodes queue, you need to generate the barcode la
 
 To Generate Barcodes, please follow the below steps:
 
-* Click on `Generate Barcodes` and a page will be appear like this.
+* Click on `Generate Barcodes` and a page will be appeared like below.
 
-     ![Barcode Labels generate barcodes](img/barcode-labels-generate-barcodes.png)
+     ![Barcode Labels generate barcodes form](img/barcode-labels-generate-barcodes-form1.png)
+     ![Barcode Labels generate barcodes form](img/barcode-labels-generate-barcodes-form2.png)
 
 * At first, please select `Object Type` to either Accession or Member to generate barcodes for library materials or member id cards respectively.
 
@@ -79,23 +83,24 @@ To Generate Barcodes, please follow the below steps:
      ![Barcode Labels for line_1](img/barcode-labels-for-line_1.png) 
 
 
-* If you choose the `Custom Text` option then a text box will be appear and you can give any text as your choice.
+* If you choose the `Custom Text` option then a text box will appear and you can give any text per your need.
 
      ![Barcode Labels for line text](img/barcode-labels-line-text.png) 
 
-* Now if choose all this your barcode will be appear like below.
+* Now if choose all this your barcode will appear like below.
 
      ![Barcode Labels for show text](img/barcode-labels-show-text.png)
 
-* if you want to Generate Bind fold Barcodes then you need to select the **Binding Fold Option** otherwise leave it unchecked.
+* If you want to Generate Bind fold Barcodes then you need to select the **Binding Fold Option** otherwise leave it unchecked.
 
-     ![Barcode Labels for bind folds](img/barcode-labels-bind-folds.png)  
+     ![Barcode Labels for binding fold](img/barcode-labels-binding-fold.png)  
 
 
 * Please do not change `Remove Prefix` option, leave it checked.
-* When you are done, click the `Submit` button then all your selected barcodes will be generated and you will be moved to Print Barcodes section. You can also see the number of generated barcodes in the Print Barcodes queue.
+* When you are done, click on the `Submit` button then all your selected barcodes will be generated and you will be moved to the Print Barcodes section. You can also see the number of generated barcodes in the Print Barcodes section.
 
-     ![Barcode Labels for print](img/barcode-labels-print.png)
+     ![Barcode Labels print queue](img/barcode-labels-print-queue.png)
+
 
 ## Bulk Delete Barcodes
 
@@ -103,7 +108,7 @@ If you want to delete the queued or generated barcodes all together then you can
 
 * To do so please go to the `Barcode Labels` section as shown below.
 
-    ![Barcode Labels barcode page](img/barcode-labels-barcode-page.png)
+    ![Barcode Labels barcode page](img/barcode-labels-main-page.png)
 
 * Then click on the `Delete Labels` button from the top of this section.
 
@@ -122,19 +127,19 @@ If you want to delete the queued or generated barcodes all together then you can
 
 ## Print Barcodes
 
-Print Barcodes is the section where you can print out the barcodes which you have been generated already.
+Print Barcodes is the section where you need to print out all the barcodes which you have been generated so far to complete the process. 
 
-To print the barcodes you have to follow the below steps:
+To print the barcodes please follow the below steps:
 
 * If you click on the `Print Barcodes` option then a print layout page will be appeared along with the generated barcodes like below.
 
-    ![Barcode Labels print barcodes](img/barcode-labels-print-barcodes.png)
+    ![Barcode Labels print barcodes page](img/barcode-labels-print-barcodes-page.png)
 
 * Now to print the labels, click on `Print` button and in chrome browser it will appear as shown below.
 
-     ![Barcode Labels page print](img/barcode-labels-page-print.png)
+     ![Barcode Labels print page](img/barcode-labels-print-page.png)
 
-* Click on `More Settings` and select the desired paper size and marging as shown below. Paper size may vary depending on the type of label you want to print.
+* Click on `More Settings` and select the desired paper size and margins as shown below. Paper size may vary depending on the type of label you want to print.
 
      ![Barcode Labels more settings](img/barcode-labels-more-settings.png)
 
@@ -142,53 +147,53 @@ To print the barcodes you have to follow the below steps:
 * All of your labels should be properly placed in print layout correctly. If so then you are ready to print them out.
 * For a precuation, please print a small quantity of labels as a first step.
 
-
 ### Custom Print Settings
 
-You can also apply your custom `Page Settings` to print customized barcodes.
+You can also apply your preferred settings for printing customized barcodes.
 
 To do so, please follow the below steps:
 
 * Click on the `Page Settings` button and a page will be appeared as shown below.
 
-    ![Barcode Labels page presets](img/barcode-labels-page-presets.png)
+     ![Barcode Labels page settings presets](img/barcode-labels-page-settings-presets.png)
 
-* Select a pre configured print setting from the `Saved Setting` drop down and click `Apply`. We have some common label settings for Roll type and Sheet type barcode label.
+* Select a pre-configured print setting from the `Saved Setting` drop down and click `Apply`. We have some common label settings for Roll type and Sheet type barcode label.
+
 * Next if you click on the `Page` tab then it will be appeared like below.
 
-    ![Barcode Labels page](img/barcode-labels-page.png)
-
+    ![Barcode Labels page settings page](img/barcode-labels-page-settings-page-tab.png)
+      
 * In this page you can give Page Type, Page Size, Page Orientation, Width, Height and Labels/Page per your need.
-* If you click on `Margins` tab then it will be appeared like below.
+* If you click on the `Margins` tab then it will be appeared like below.
 
-    ![Barcode Labels page margins](img/barcode-labels-page-margins.png)
+     ![Barcode Labels page settings margins](img/barcode-labels-page-settings-margins.png)
 
 * In this page you can apply margins per your need.
-* If you click on `Label` tab then it will be appeared like below.
+* If you click on the `Label` tab then it will be appeared like below.
 
-    ![Barcode Labels page label](img/barcode-labels-page-label.png)
+     ![Barcode Labels page settings label](img/barcode-labels-page-settings-label.png)
 
 * In this page you can change the font size of your barcodes. Also you can change the width, height, font and padding of the barcodes per your need.
-* If you click on `Lines` tab then it will be appeared like below.
+* If you click on the `Lines` tab then it will be appeared like below.
 
-    ![Barcode Labels page lines](img/barcode-labels-page-lines.png)
+     ![Barcode Labels page settings lines](img/barcode-labels-page-settings-lines.png)
 
 * In this page you can apply the font size and text limit of the lines per your need.
-* When you are done, click `Apply` button to see your changes in prints layouts.
+* When you are done, click on `Apply` button to see your changes in the print layout page.
 
-## Complete Printing and Start New Queue
+### Complete Printing and Start New Queue
 
-When you have items in the Print Queue sections, you can't generate new barcodes. In order to generate new barcodes, you need to complete current print queue and start over.
+When you have items in the Print Barcodes section, you can't generate new barcodes. In order to generate new barcodes, you need to complete the current print queue and start over.
 
 To do so, please follow the below steps:
 
-* Please click on the `Print Completed` button and click ok to confirm. 
+* Please click on the `Print Completed` button and then click ok to confirm. 
 
     ![Barcode Labels print completed](img/barcode-labels-print-completed.png)
 
-* All your generated barcode labels will be marked as completed and the `Print Barcodes` will become empty.
+* All your generated barcode labels will be marked as completed and the `Print Barcodes` queue will become empty.
 
-    ![Barcode Labels print complete](img/barcode-labels-print-complete.png)
+    ![Barcode Labels print complete page](img/barcode-labels-print-complete-page.png)
 
 * Now you can generate new barcodes like before.
 
@@ -198,13 +203,13 @@ If you have already labeled your old items using existing barcode number then en
 
 To do so, please follow the below steps:
 
-* Please go to the `Dashboard -> Catalogs -> Catalog Items` section then locate the item you want to edit from your catalog and click on the `View` link on the right to that item. Navigate to the copies section at the bottom of the page. Click on the `Edit` link on the right to that specific copy. 
+* Please go to the `Dashboard -> Catalogs -> Catalog Items` section then locate the item you want to edit from your catalog and click on the `View` icon on the right to that item. Navigate to the copies section at the bottom of the page. Click on the `Edit` icon on the right to that specific copy. 
 
-    ![Barcode Labels media copies section](img/catalog-item-multiple-copies-button.png) 
+    ![Barcode Labels media copies section](img/media-add-multiple-copies-btn.png) 
 
 * An edit copy form will be appeared like below.
 
-    ![Barcode Labels existing barcode](img/barcode-labels-existing-barcode.png)
+    ![Barcode Labels media copy edit form](img/media-copy-edit-form.png)
 
 * Now in the edit copy form replace the Librarika generated accession number with your own barcode number on the Accession No field.    
 
@@ -213,3 +218,27 @@ To do so, please follow the below steps:
 **For Bulk Import**:
 
 You can provide your catalog information along with your own (existing) accession number for barcode (existing) when adding your records using our [Bulk Import](cataloging.md#bulk-import) method. You can only use your existing barcode labels if they are numeric digit.
+
+## Spine Labels
+
+Spine labels make it easier for library users to locate their favourite resources. To generate spine labels please follow the below procedure.
+
+* At first please follow the instructions in the [Add to Barcode Queue](#add-to-barcode-queue) section mentioned above.
+* After adding books to the queue please click on the `Generate Barcodes` button.
+* Now in the `Generate Barcodes` section please select **call number** in the line 1 or line 2 or line 3 any of these options like below.
+
+    ![Barcode Labels spine label](img/spine-label-options.png)
+
+* Next turn on the `Binding fold option`. If you turn on this option then a new option called `Hide Label` will be appeared like below.
+
+    ![Barcode Labels spine label](img/spine-label-hide-label-option.png)
+
+* Next turn on the `Hide Label` option. By turning this on the barcode will be hidden and it will work as spine label.
+
+    ![Barcode Labels spine label](img/spine-label.png)
+
+* Then click on the `Submit` button and your labels will be saved.
+
+    ![Barcode Labels spine label](img/spine-label-print.png)
+
+* Now you can print them out. Also, please remember to click on the `Print Completed?` button after printing your labels otherwise you can not add new items to the queue. 

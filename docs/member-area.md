@@ -1,16 +1,16 @@
 # Member Area
 
-Member area is a special section for library members only, where they can access their own activity with the library. This section is only available for library members and not available for library staff.
+Member area is a special section for library members only, where they can access their own activity with the library. This section is not available to any library staff.
 
 ## My Bookings
 
-My bookings section list all of your currently active bookings along with their due date and status.
+My bookings section will list all of your currently active bookings along with their due date and status.
 
 
 To view your active bookings, please follow the below steps:
 
 * Please login to your library.
-* Click on `Member Area` section from the Main menu.
+* Click on `My Account` menu from the top.
 
 	![Member area main menu](img/member-area-main-menu.png)
 
@@ -22,20 +22,20 @@ To view your active bookings, please follow the below steps:
 
 ## Booking History
 
-Booking History will provide you all the history of the bookings that you have viewed.
+Booking history will provide you all the history of the bookings that you have viewed.
 
 To view your history of bookings, please follow the below steps:
 
 * You have to login first. 
-* Click on `My Account` section from the Main Menu.
+* Click on `My Account` menu from the top.
 
     ![Member area main menu](img/member-area-main-menu.png)
 
-* After clicking my account the `Booking History` will appear as shown below.
+* My account page will appear with the button named `Booking History` as shown below.
 
     ![Member area booking history](img/member-booking-history.png)
 
- * Then all the recent history will be appear like below.
+ * Click on it and all your recent booking history will be appeared.
 
     ![Member area list history](img/member-area-booking-history.png)
 
@@ -43,48 +43,47 @@ To view your history of bookings, please follow the below steps:
   
 ## My Reviews
 
-My Reviews is the page that facilitate all the reviews of your library books.
+My reviews is the section that facilitate all the reviews on each of your library books.
 
-If you want to see all the reviews then you have to follow the steps:
+If you want to see all the reviews then you have to follow the below steps:
 
-* At first login and go to my account like before.
+* At first login to your library and go to my account menu like before.
 * In `My Account` section you can see the button `My Reviews` like below.
 
     ![Member area my reviews](img/member-area-my-reviews.png)
 
-* If you click it then you can see all the reviews of you books like below.
+* If you click on it then you can see the review on your books like below.
 
     ![Member area my reviews list](img/member-area-list-reviews.png)
 
-* Now you can view all the books that you have reviewed.
+* Now you can view all those books that have been reviewed so far.
 * You can also see the details of the books by clicking on its title and also view the reviews written by other people.
 
 ## Recently Viewed
 
-Recently Viewed section will show you all the books that you have recently viewed.
+Recently viewed section will show you all those books that you have been viewed recently.
 
 * Like before from `My Account` go to the `Recently Viewed` option.
 * Click on it and you can see the books you have viewed recently like below.
 
     ![Member area my reviews list](img/member-area-recently-viewed.png)
 
-* When you view this page you can also see the details of each book by clicking on its title.
-* Here you can also give your book review which is not previously reviewed.
+* When you view this page you can see the details of each book by clicking on its title. From there you can also give your review on that book.
 
 
 ## Account Settings
 
-Account Settings is the section where you can update all of your account information.
+Account settings is the section where you can update all the information of your library account.
 
 * From `My Account` go to the account settings option. 
-* Click on `Account Settings`  and you can see all the information of your account
-  that you want to update like below.
+* Click on `Account Settings` button and you can see all the information of your account like below.
 
     ![Member area account settings](img/member-area-account-setting.png)
 
-* If you want to change your password then enter your current password, new password and confirm new password.
+* Now you can update any information of your account.
+* If you want to change your password then please enter current password, new password and confirm new password fields.
 * If you do not want to change your password then leave all passwords field empty.
-* After updating all information you have to click `Save Settings` as shown below.
+* After updating all information you have to click on `Save Settings` button as shown below.
     
     ![Member area save settings](img/member-area-save-setting.png)
 
@@ -93,7 +92,7 @@ Account Settings is the section where you can update all of your account informa
 
 ## Submit Reservation Request
 
-Submit Reservation Request is the section where you can send a request for any books that you want to reserve.
+Submit reservation request is the section where you can send a request for any books that you want to reserve.
 
 To complete your reservation, please follow the below steps:
 
@@ -104,11 +103,11 @@ To complete your reservation, please follow the below steps:
 
 
 * In the `Catalog Search` page you can search any books that you want to reserve.
-* Now search your needed book and it will be appear as shown below.
+* Now search your needed book and it will appear as shown below.
 
     ![Member area catalog search](img/member-area-catalog-search.png)
 
-* If you click the `Title` of the book then all of its details will be shown up like below.
+* If you click on the `Title` of the book then all of its detail will be shown up like below.
 
     ![Member area catalog search details](img/member-area-catalog-search-details.png)
 
@@ -116,11 +115,11 @@ To complete your reservation, please follow the below steps:
 
     ![Member area catalog request](img/member-area-catalog-request.png)
 
-* If you click the `Request` button then your reservation request form will be appear.
+* If you click on the `Request` button then your reservation request form will appear.
 
     ![Member area catalog request form](img/member-area-catalog-request-form.png) 
 
-* Now you can give your reservation date and also you can write a simple note about it, then click on `Submit`.
+* Now you can give your reservation date and also you can write a simple note about it, then click on `Submit` button.
 * Once you submit this form your request will be placed successfully like below.
 
     ![Member area catalog request success](img/member-area-catalog-request-success.png) 
@@ -130,27 +129,26 @@ To complete your reservation, please follow the below steps:
 
 ## Cancel Reservation Request
 
-Cancel Reservation Request is the section where you can cancel your reservation request that you have been placed earlier.
+Cancel reservation request is the section where you can cancel your reservation request that you have been placed earlier.
 
 To cancel your reservation, please follow the below steps:
 
-* At first go to the Main Menu.
-* Click on `My Account` section of your Main Menu.
-* You can see the `Cancel` button in your Recent Bookings.
+* At first go to the main menu.
+* Click on `My Account` menu from the top.
+* You can see the `Cancel` button in your recent bookings section.
     
     ![Member area request cancel](img/member-area-cancel-request.png) 
 
-* Click on `Cancel` and you can see the cancel reservation form of your book like below.
+* Click on `Cancel` button and you can see the cancel reservation form of your book like below.
 
     ![Member area cancel request form](img/member-area-cancel-request-form.png)
 
-* Now you must have to show a reason why you want to cancel your reservation, otherwise you can not Submit the form and an
-error message will appear.
+* Now you must have to show a reason why you want to cancel your reservation, otherwise you can not submit the form and an error message will be shown.
 
     ![Member area error message](img/member-area-error-message.png)
 
-* After giving your reason you can Submit your form.
-* Once you click on `Submit` your cancellation will be confirmed like below.
+* After giving your reason you can submit your form.
+* Once you click on `Submit` button your cancellation will be confirmed like below.
 
     ![Member area cancel success](img/member-area-cancel-success.png)
 

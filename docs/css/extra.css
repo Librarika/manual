@@ -1,0 +1,13 @@
+.md-header{
+	background-color: #2980B9 !important;
+}
+a.md-nav__link--active, .md-content a {
+	color: #2980B9 !important;
+}
+.app-icons {
+	vertical-align: middle !important;
+}
+.android {
+	width: 155px !important; 
+	height:60px !important;
+}
