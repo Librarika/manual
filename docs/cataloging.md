@@ -45,7 +45,7 @@ Tips: If your existing barcode labels are numeric digit then you can add them as
 
 You can access all your catalog items along with their associated copy's information from the `Dashboard -> Catalogs -> Catalog Items` section. Clicking on the `View` icon next to a Catalog Item will display the item detail containing all the copies. You can edit / modify / delete those information for this same detail page.
 
-![Media form identifiers](img/media-form-identifiers.png)
+![Media form identifiers](img/media-list.png)
 
 * Here if you click on the `Identifiers` column then you can sort the catalog items using different types of identifier like isbn, isbn13, issn, asin and more.
 
@@ -85,7 +85,7 @@ To use this method, please follow the below steps:
 * Click on the `Manual Add` button.
 * System will display the add new item form.
 	
-	![Media add form](img/manual-add-form.png)
+	![Media add form](img/media-manual-add.png)
 
 * You can select different types of media according to your library preference from the `Media Type` dropdown menu.
 	
@@ -200,11 +200,11 @@ You can edit media information from the `Catalog Items` page.
 
 * Locate the item you want to edit from your catalog and click on the `View` icon on the right to that item.
 
-	![Media form ](img/media-form.png)
+	![Media view detail ](img/media-list-view.png)
 
 * Then in the media view page click on the `Edit Item` button, the below form will appear with existing information.
 	
-	![Media edit form](img/media-edit-form.png)
+	![Media edit form](img/media-edit.png)
 
 * Do make necessary changes to the media entity.
 * Click on the `Submit` button when you are done and your changes will be saved.
@@ -216,7 +216,7 @@ You can delete a title from your catalog. Deleting a title will also delete all 
 * Please go to the `Dashboard -> Catalogs -> Catalog Items` section.
 * Locate the item you want to delete from your catalog and click on the `View` icon on the right to that item.
 
-	![Media form](img/media-form.png)
+	![Media form](img/media-list-view.png)
 
 * Click on the `Delete this item?` button and confirm your delete action.
 	
@@ -238,7 +238,7 @@ To add a new copy to an existing media item, please follow the below steps:
 
 * Locate the item you want to add copy from your catalog and click on the `Add Copy` icon on the right to that item.
 
-	![Media form](img/media-form.png)
+	![Media form](img/media-list-add-copy.png)
 
 * The `Add New Copy` form will be displayed like below.
 
@@ -257,7 +257,7 @@ To add multiple copies at once to an existing media item, please follow the belo
 
 * Locate the item you want to add multiple copies from your catalog and click on the `View` icon on the right to that item.
 
-	![Media form](img/media-form.png)
+	![Media form](img/media-list-view.png)
 
 * Navigate to the copies section at the bottom of the page and you can see an `Add Multiple Copies` button.
 
@@ -281,7 +281,7 @@ You can edit media copy information, change accession number, change branch, ena
 
 * Locate the item you want to edit from your catalog and click on the `View` icon on the right to that item.
 
-	![Media form](img/media-form.png)
+	![Media form](img/media-list-view.png)
 
 * Navigate to the copies section at the bottom of the page and you can see an `Edit` icon on right to that specific copy.
 
@@ -305,7 +305,7 @@ You can delete an individual copy from your catalog. This will also delete all r
 * Please go to the `Dashboard -> Catalogs -> Catalog Items` section.
 * Locate the item you want to delete from your catalog and click on the `View` icon on the right to that item.
 
-	![Media form](img/media-form.png)
+	![Media form](img/media-list-view.png)
 
 * Navigate to the copies section at the bottom of the page.
 * Click on the `Delete` icon on right to that copy and confirm your delete action.
