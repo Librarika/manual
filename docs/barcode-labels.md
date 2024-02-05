@@ -205,7 +205,7 @@ To do so, please follow the below steps:
 
 * Please go to the `Dashboard -> Catalogs -> Catalog Items` section then locate the item you want to edit from your catalog and click on the `View` icon on the right to that item. Navigate to the copies section at the bottom of the page. Click on the `Edit` icon on the right to that specific copy. 
 
-    ![Barcode Labels media copies section](img/media-add-multiple-copies-button.png) 
+    ![Barcode Labels media copies section](img/media-add-multiple-copies-btn.png) 
 
 * An edit copy form will be appeared like below.
 
@@ -218,3 +218,27 @@ To do so, please follow the below steps:
 **For Bulk Import**:
 
 You can provide your catalog information along with your own (existing) accession number for barcode (existing) when adding your records using our [Bulk Import](cataloging.md#bulk-import) method. You can only use your existing barcode labels if they are numeric digit.
+
+## Spine Labels
+
+Spine labels make it easier for library users to locate their favourite resources. To generate spine labels please follow the below procedure.
+
+* At first please follow the instructions in the [Add to Barcode Queue](#add-to-barcode-queue) section mentioned above.
+* After adding books to the queue please click on the `Generate Barcodes` button.
+* Now in the `Generate Barcodes` section please select **call number** in the line 1 or line 2 or line 3 any of these options like below.
+
+    ![Barcode Labels spine label](img/spine-label-options.png)
+
+* Next turn on the `Binding fold option`. If you turn on this option then a new option called `Hide Label` will be appeared like below.
+
+    ![Barcode Labels spine label](img/spine-label-hide-label-option.png)
+
+* Next turn on the `Hide Label` option. By turning this on the barcode will be hidden and it will work as spine label.
+
+    ![Barcode Labels spine label](img/spine-label.png)
+
+* Then click on the `Submit` button and your labels will be saved.
+
+    ![Barcode Labels spine label](img/spine-label-print.png)
+
+* Now you can print them out. Also, please remember to click on the `Print Completed?` button after printing your labels otherwise you can not add new items to the queue. 

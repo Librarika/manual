@@ -32,13 +32,13 @@ Please complete the following easy steps to setup your library. It should not ta
 
 	![Fees & Payments transactions module](img/fees-payments-transactions.png)
 
-* Here you can view all the transection details of your library members.
+* Here you can view all the transaction details of your library members.
 * Now from the top of this section please click on the `Fees & Fines Settings` button.
 * The fee settings form will be appeared like below.
 
 	![Fees & Payments fee settings module](img/fees-payments-fee-settings-module.png)
 
-* To add "Overdue Charge" fee item please click on the `Fee Items` button from the `Transections` module.
+* To add "Overdue Charge" fee item please click on the `Fee Items` button from the `Transactions` module.
 * A form named `Fees` will be appeared like below.
 
 	![Fees & Payments fees module](img/fees-payments-fees-module.png)
@@ -57,7 +57,7 @@ Please complete the following easy steps to setup your library. It should not ta
 
 	![Fees & Payments edit fee item](img/fees-payments-edit-fee-item.png)
 	
-* To add "Payment" fee item please click on the `Fee Items` button from the `Transections` module.
+* To add "Payment" fee item please click on the `Fee Items` button from the `Transactions` module.
 * Again click on the `Enable New Fee` button and select `Payment` as fee type.
 * Click on the `Submit` button and your fee item will be saved.
 * You have now added two fee items as listed below.

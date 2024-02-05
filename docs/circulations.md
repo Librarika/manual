@@ -50,6 +50,7 @@ To check-in or receive an item from a member, please follow the below steps:
 
 * Please go to the `Dashboard -> Circulations -> Circulations` section.
 * Click on the `Quick Return` button.
+
 * Enter the accession number, book title or any identifier of the item that you want to check-in. An auto-select list will appear with green / red indicators. Your item should have red indicator.
 
 	![Quick circulation form](img/circulations-check-in.png)
@@ -85,7 +86,7 @@ To update or extend an item for a member, please follow the below steps:
 
 * Please go to the `Dashboard -> Circulations -> Circulations` section.
 * Click on the `Quick Extend` button.
-* Enter the accession number of the item you want to extend. An auto-select list will appear with red indicators.
+* Enter the accession number or isbn or title of the item you want to extend. An auto-select list will appear with red indicators.
 
 	![Quick circulation form](img/circulations-quick-extend-form1.png)
 
