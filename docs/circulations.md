@@ -11,15 +11,15 @@ You can access the list of all circulations related entries in this section unde
 * Please go to the `Dashboard -> Circulations -> Circulations` page.
 * Circulation records will be displayed as shown below:
 
-	![Circulations form](img/circulations-form.png)
+	![Circulations form](img/circulations.png)
 
 * Now you can view all the different status filters in the `All` dropdown menu.
 
-	![Circulations all dropdown menu](img/circulations-all-dropdown-menu.png)
+	![Circulations all dropdown menu](img/circulation-all.png)
 
 * If you click on the `Identifiers` column then you can sort the circulations using different types of identifier like isbn, isbn13, issn, asin and more.
 
-	![Circulations identifiers](img/circulations-identifiers.png)
+	![Circulations identifiers](img/circulation-identifiers.png)
 
 ## Check-out Item
 
@@ -103,7 +103,7 @@ To edit a circulation, please follow the below steps:
 * Please go to the `Dashboard -> Circulations -> Circulations` section.
 * Locate the item you want to edit from your circulation records and click on the `Edit` button next to that item.
 
-	![Circulation form](img/circulations-form.png)
+	![Circulation form](img/circulations.png)
 
 * An edit circulation form will be appeared as shown below.
 
@@ -125,7 +125,7 @@ To use this functionality, please follow the below steps:
 
 * An auto-select list will appear, select the item from the list. All related circulations of the selected item will appear as shown below.
 	
-	![Circulations filter result](img/circulations-filter-result.png)
+	![Circulations filter result](img/circulation-search.png)
 
 * Now you can perform any action regarding your needs for circulations.
 
