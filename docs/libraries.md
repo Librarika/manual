@@ -85,26 +85,27 @@ The preferences section is the single most important settings page for your libr
 * Self-service settings
 * Request items settings
 * Notifications and Reminders settings
+* SSO
 * Appearances / themes / languages settings
 
 **Steps to update preferences**:
 
 * Go to the **Prefereces** section from the dashboard.
 
-	![Library information menu](img/library-preferences-menu.png)
+	![Library information menu](img/library-preference-menu.png)
 
 * Click on the `Options` tab if not selected automatically.
 
-	![Library preference form](img/preferences-options.png)
+	![Library preference form](img/library-preference-options.png)
 	
 * Enter / update the information you want to change.
 	* The `Keep email private` checkbox has 3 options that you can set based on your own preference and it will be displayed on the "Ask a Librarian" page.
 
-		![Library preference option form](img/preferences-options-keep-email-private.png)
+		![Library preference option form](img/library-preference-keep-email-private.png)
 
 	* Then if you checked the `Keep phone number private` checkbox then you can find 3 options to set and based on this setting it will be displayed on the "Ask a Librarian" page.
 
-		![Library preference option form](img/preferences-options-keep-phone-private.png)
+		![Library preference option form](img/library-preference-keep-phone-private.png)
 
 	* Next is the `Greetings` field where you can modify your verbage or welcome message for your library.
 	* The `Ebook URL Visibility` option set privacy for your e-book which is links with 5 options, that is Hide To All / Public / Member / Borrower Always / Active Borrower. You can set them independently for each of the items in your catalog.
@@ -114,14 +115,14 @@ The preferences section is the single most important settings page for your libr
 
 * If you click on the `Self Service` tab then it will be dispalyed like below.
 
-	![Library preference form](img/preferences-self-service.png)
+	![Library preference form](img/library-preference-self-service.png)
 
 	* If you enable the `Enable member checkouts` and `Enable member check-ins` then your library members can self-checkout or check-in a book.
 	* Also you can set other options for your library members.
 
 * If you click on the `Request Items` tab then it will be dispalyed like below.
 
-	![Library preference form](img/preferences-request-items.png)
+	![Library preference form](img/library-preference-request-items.png)
 
 	* If you enable the `Enable item request` then member can request your library item from their member area section.
 	* In the `Member` field you can set 3 member type options whom can request library item online, that is All members / Regular members only / Privileged members only.
@@ -129,7 +130,7 @@ The preferences section is the single most important settings page for your libr
 
 * If you click on the `Notifications/Reminders` tab then you can set reminders for your library members.
 
-	![Library preference form](img/preferences-reminder.png)
+	![Library preference form](img/library-preference-reminders.png)
 
 	* Our system will send notification reminders to the members of your library based on this settings.
 	* If you enable the `Notify on Overdue` checkbox then a reminder email will be send after X-hours of the overdue item. 
@@ -137,9 +138,17 @@ The preferences section is the single most important settings page for your libr
 	* If you enable the `Remind on reservation` checkbox then member will receive a reminder email before X-hours of the reservation date.
 	* **Here the most important field is the `Notified Librarians` where you can set maximum of five librarians who will receive notification reminders if any member joined or requested a book**.
 
+* If you click on the `SSO` tab then you can enable the SSO login for your library.
+
+	![Library preference form](img/library-preference-sso.png)
+
+	* If you enable the `Enable SSO` then your members & users can login to your library using SAML2.
+	* The `ACS URL` & `ACS Entity Id` fields are provided by Librarika. You need to copy and paste these URL into the SP Configuration section of your SAML provider. The work `raynux` will be replaced with your library `subdomain`.
+	* From the `SAML Provider` list you need to choose your SAML provider then provide the `IdP Entity` `IdP SSO Service URL` & `IdP x509cert` accordingly. You will get the `IdP Entity` `IdP SSO Service URL` & `IdP x509cert` from the `METADATA` of your SAML provider.
+
 * If you click on the `Appearance` tab then it will be dispalyed as below.
 
-	![Library preference form](img/preferences-appearance.png)
+	![Library preference form](img/library-preference-appearance.png)
 
 	* From this page you can set premium color schemes for your library dashboard and OPAC. Also you can select your preferred language from the Language dropdown menu.
 

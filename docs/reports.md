@@ -17,7 +17,7 @@ Catalog reports are mainly based on your library catalog items and their related
 
 * If you click on the `Catalog Reports` from the reports menu then you can see the catalog reports like below.
 
-	![Catalog reports](img/report_on_catalog.png)
+	![Catalog reports](img/report-on-catalog.png)
 
 * At first you can view the report of `Summary` on your catalog items. 
 * If you click on the view report button below the summary heading then an item summary page will appear like below.
@@ -27,20 +27,24 @@ Catalog reports are mainly based on your library catalog items and their related
 * Now you can view how many items are resides under each branch. Also you can print them out if you need.
 * Next if you click on the view report button below the `Catalog Items` heading then the catalog items page will appear as shown below.
 
-	![Catalog Reports on catalog items](img/reports_on_catalog_item.png)
+	![Catalog Reports on catalog items](img/report-catalog-items.png)
 
 * If you click on the `Filter Options` on the top right corner of this page then you can find several filtering options for your catalog items.
 
 	![Catalog Reports filter options](img/reports_on_catalog_filter_options.png)
 
 * Now you can enter any fields from which you want to filter and click on the `Filter` button once you are done.
+* Also, you can sort the catalog item reports using different types of identifier.
+
+	![Catalog Reports identifiers](img/report-catalog-items-identifiers.png)
+
 * Next if you click on the `All Copies` view report button then you can view all the copies of your library catalog items.
 
-	![Catalog Reports on all copies](img/reports_on_all_copies.png)
+	![Catalog Reports on all copies](img/report-catalog-copies.png)
 
 * Also you can view all the copies in a particular date range like below.
 
-	![Catalog Reports catalog by date range](img/reports_on_all_copies_by_date.png)
+	![Catalog Reports catalog by date range](img/report-catalog-copies-calendar.png)
 
 * Next you can view reports only for the newly arrived copies under each item from `New Copies` report. Also you can view this within a date range.
 * Then you can view all the copies by their location from `Copies By Location` report.
@@ -59,14 +63,14 @@ Circulation reports are mainly based on those items and copies which have been c
 
 * At first you can see the circulation report on those items which have highest number of checkouts. To view this please click on the view report button below the `Mostly Issued Items` heading.
 
-	![Circulation Reports on mostly issued items](img/report_on_mostly_issued_item.png)
+	![Circulation Reports on mostly issued items](img/report-mostly-issued-items.png)
 
 * Also you can filter all the mostly issued items by clicking on `Advance Options` button.
 	![Circulation Reports filter options](img/reports_circulation_filter_options.png)
 
 * Next you can see the circulation report on those items which have lowest number of checkouts. To view this please click on the view report button below the `Least Circulated Items` heading.
 
-	![Circulation Reports on least circulated items](img/report_on_least_circulated_item.png)
+	![Circulation Reports on least circulated items](img/report-least-circulated-items.png)
 
 * Next one is the `Advance Report` where you can find more advance functionality for filtering your circulations.
 * If you click on the `Filter Options` on the top right corner of the advance report page then several filtering options will appear like below.
@@ -82,7 +86,7 @@ Member Reports are solely designated for all the members of your library.
 
 * After the circulation reports you can view the reports on member.
 
-	![Member Reports main page](img/report_on_member.png)
+	![Member Reports main page](img/report-on-member.png)
 
 * At first you can view the reports on those members who are engaged mostly in your library activities. To view this please click on the view report button below `Mostly Engaged Members` heading. Also you can filter this report if you click on the `Filter Options` on the top right corner of this page.
 
@@ -107,7 +111,7 @@ Overdue Reports are based on the overdue items and copies of your library catalo
 
 * Then the next report is on the `Overdue Copies` of your library catalog items.
 	
-	![Overdue Reports on copies](img/reports_on_overdue_copies.png)
+	![Overdue Reports on copies](img/report-overdue-copies.png)
 
 ## Miscellaneous
 
@@ -115,4 +119,4 @@ Miscellaneous reports are consisting of various types of listing such as categor
 
 * At last from the reports menu you can export all the miscellaneous reports to keep backup of your records.
 
-	![Miscellaneous Reports](img/reports_on_miscellaneous.png)
+	![Miscellaneous Reports](img/report-on-miscellaneous.png)

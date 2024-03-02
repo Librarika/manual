@@ -58,7 +58,7 @@ From members section you can find all the related circulations of your library m
 
 * To view your member related bookings please go to member view page and navigate to the bottom then you can see all the bookings like below. 
 
-	![Member related bookings](img/member-related-bookings.png)
+	![Member related bookings](img/member-profile-related-bookings.png)
 
 
 ### Member Area Access
