@@ -51,14 +51,14 @@ Search Catalog is the section where you can search the entire library catalog it
 
 * At first if you want to search the catalog by a specific media type option then choose that media from the dropdown menu like below.
 
-	![OPAC catalog search page](img/opac_catalog_search_mediatype.png)
+	![OPAC catalog search page](img/opac-catalog-search-media-types.png)
 
 * If you want to search the catalog by library branch then choose the library branch like below.
-	![OPAC catalog search page](img/opac_catalog_search_branch.png)
+	![OPAC catalog search page](img/opac-catalog-search-branches.png)
 
 * If you want to search the catalog by any keyword then choose the `Default` mode. You can also use specific search field such as ISBN/ISSN, Title, Publisher and more options for a better result.
 
-	![OPAC catalog search page](img/opac_catalog_search_keyword.png)
+	![OPAC catalog search page](img/opac-catalog-search-keywords.png)
 
 * You can browse the catalog by categories if you click on `Categories`
 
@@ -79,6 +79,10 @@ Search Catalog is the section where you can search the entire library catalog it
 * You can browse the catalog by series if you click on `Series`
 
 	![OPAC catalog search page](img/opac_catalog_search_series.png)
+
+* You can browse the catalog by call numbers if you click on `Call Numbers`
+
+	![OPAC catalog search page](img/opac-catalog-search-call-numbers.png)
 
 * You can also clear your searching history if you click on the `Clear` button.
 

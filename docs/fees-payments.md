@@ -30,7 +30,7 @@ Please complete the following easy steps to setup your library. It should not ta
 
 * Then click on the `Transactions` button and a page will be appeared like below.
 
-	![Fees & Payments transactions module](img/fees-payments-transactions.png)
+	![Fees & Payments transactions module](img/transaction-list.png)
 
 * Here you can view all the transaction details of your library members.
 * Now from the top of this section please click on the `Fees & Fines Settings` button.
@@ -70,6 +70,12 @@ Please complete the following easy steps to setup your library. It should not ta
 ## Overdue Charges
 
 System will apply / update overdue charges for currently overdue items on daily basis. Once the item is returned you can edit / adjust the applied overdue amount.
+
+## Download Transactions
+
+* You can download the transactions in a CSV file by clicking on the `Export` button.
+* Additionally, you have the option to download transactions based on transaction types. Simply select either `Debit` or `Credit` from the transaction list, then click on the `Export` button.
+* To download transactions for a specific member, you'll need to visit the member's profile first. Then navigate to the `Statement` and click on the `Export Transactions`.
 
 ## Limitations
 
