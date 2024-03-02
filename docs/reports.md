@@ -17,7 +17,7 @@ Catalog reports are mainly based on your library catalog items and their related
 
 * If you click on the `Catalog Reports` from the reports menu then you can see the catalog reports like below.
 
-	![Catalog reports](img/report_on_catalog.png)
+	![Catalog reports](img/report-on-catalog.png)
 
 * At first you can view the report of `Summary` on your catalog items. 
 * If you click on the view report button below the summary heading then an item summary page will appear like below.
@@ -86,7 +86,7 @@ Member Reports are solely designated for all the members of your library.
 
 * After the circulation reports you can view the reports on member.
 
-	![Member Reports main page](img/report_on_member.png)
+	![Member Reports main page](img/report-on-member.png)
 
 * At first you can view the reports on those members who are engaged mostly in your library activities. To view this please click on the view report button below `Mostly Engaged Members` heading. Also you can filter this report if you click on the `Filter Options` on the top right corner of this page.
 
@@ -119,4 +119,4 @@ Miscellaneous reports are consisting of various types of listing such as categor
 
 * At last from the reports menu you can export all the miscellaneous reports to keep backup of your records.
 
-	![Miscellaneous Reports](img/reports_on_miscellaneous.png)
+	![Miscellaneous Reports](img/report-on-miscellaneous.png)
