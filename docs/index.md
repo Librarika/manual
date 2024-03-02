@@ -4,6 +4,8 @@ Librarika is a SaaS based Integrated Library System (ILS) platform built on the 
  
 Website: [https://librarika.com](https://librarika.com)
 
+Documentation for the legacy dashboard can be found at [https://docs.librarika.com/en/legacy](https://docs.librarika.com/en/legacy)
+
 Please contribute to improve this document. See our [contribute](contribute.md) section for more detail.
 
 ---

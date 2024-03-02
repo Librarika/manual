@@ -1,6 +1,6 @@
 # Getting Started
 
-Getting sarted with Librarika is super easy. It only takes few minutes to start 
+Getting started with Librarika is super easy. It only takes few minutes to start 
 a new library in **Librarika**.
 
 ---
