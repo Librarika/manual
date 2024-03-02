@@ -6,7 +6,7 @@ site_author: Librarika Team
 theme: readthedocs
 extra_css:
   - 'css/extra.css'
-pages:
+nav:
     - 'Home': 'index.md'
     - 'User Guide': 
       - 'Getting Started': 'getting-started.md'
