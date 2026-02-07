@@ -152,3 +152,9 @@ To cancel your reservation, please follow the below steps:
 
     ![Member area cancel success](img/member-area-cancel-success.png)
 
+
+## Self-Checkout and Self-Return
+
+If your library has self-service enabled, members can check out and return items directly from the member area without staff involvement. Members can check out items from the catalog page and return items from the My Bookings section.
+
+For detailed instructions on setting up self-checkout and self-return, see the [Self-Service](self-service.md) page.

@@ -72,3 +72,6 @@ site/
 [Bb]in
 [Ii]nclude
 pip-selfcheck.json
+
+# Knowledgebase
+.knowledgebase/

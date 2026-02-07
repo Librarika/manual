@@ -117,8 +117,15 @@ The preferences section is the single most important settings page for your libr
 
 	![Library preference form](img/library-preference-self-service.png)
 
-	* If you enable the `Enable member checkouts` and `Enable member check-ins` then your library members can self-checkout or check-in a book.
-	* Also you can set other options for your library members.
+	* **Enable member checkouts** -- Allow members to check out items by themselves from the catalog.
+	* **Enable member check-ins** -- Allow members to return (check-in) items by themselves from their My Account page.
+	* **Enable check-ins for overdue** -- Allow members to return items even if they are overdue. If disabled, overdue items can only be returned by library staff.
+	* **Member type** -- Select which member types are allowed to use self-service: All members, Regular members only, or Privileged members only.
+	* **Checkout Time** -- The default checkout duration (in days) for self-service checkouts.
+	* **Checkout Limit** -- The maximum checkout duration (in days) that a member can select.
+	* **Checkout Quota** -- The maximum number of items a member can have checked out at the same time through self-service.
+
+	For more details on self-service options, see the [Self-Service](self-service.md) page. For kiosk-based checkout with barcode scanners, see [SIP2 Integration](sip2.md).
 
 * If you click on the `Request Items` tab then it will be dispalyed like below.
 
@@ -143,8 +150,10 @@ The preferences section is the single most important settings page for your libr
 	![Library preference form](img/library-preference-sso.png)
 
 	* If you enable the `Enable SSO` then your members & users can login to your library using SAML2.
-	* The `ACS URL` & `ACS Entity Id` fields are provided by Librarika. You need to copy and paste these URL into the SP Configuration section of your SAML provider. The work `raynux` will be replaced with your library `subdomain`.
-	* From the `SAML Provider` list you need to choose your SAML provider then provide the `IdP Entity` `IdP SSO Service URL` & `IdP x509cert` accordingly. You will get the `IdP Entity` `IdP SSO Service URL` & `IdP x509cert` from the `METADATA` of your SAML provider.
+	* The `ACS URL` & `ACS Entity Id` fields are provided by Librarika. You need to copy and paste these URL into the SP Configuration section of your SAML provider.
+	* From the `SAML Provider` list you need to choose your SAML provider then provide the `IdP Entity`, `IdP SSO Service URL` & `IdP x509cert` accordingly. You will get these values from the `METADATA` of your SAML provider.
+
+	For detailed setup instructions, supported providers, and troubleshooting, see the [SSO / SAML Integration](sso-saml.md) page.
 
 * If you click on the `Appearance` tab then it will be dispalyed as below.
 
