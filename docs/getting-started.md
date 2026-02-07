@@ -53,6 +53,8 @@ Now you need to verify your library before you can start entering books. Please 
 
 Once activated, you will receive a welcome email. You can now log into your libary and start using.
 
+**Note:** After activation, you will receive a few onboarding emails with tips to help you get started, such as reminders to catalog your first items. These emails are limited and will stop automatically after the initial setup period.
+
 #### Have not received activation email yet?
 
 Sometime, your mail server may reject the emails we sent from librarika. It mostly happens with corporate mail servers with custom domains. If that happens, please discuss with your system administrator to whitelist librarika.com domain for your organization.

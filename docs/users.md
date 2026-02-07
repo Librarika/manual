@@ -2,6 +2,10 @@
 
 Users are those who can administer or manage all the activities of your library depending on their role. They can log into the library dashboard and do regular managerial activities. They can also add or remove a user from the library.
 
+**Users vs Members:** Users and Members are different concepts in Librarika. Users are staff accounts with access to the library dashboard for managerial activities. Members (or Patrons) are library-specific records for people who borrow items. A person can be both a user and a member. For more details on members, see the [Members](members.md) page.
+
+**Editing user information:** User accounts are independent and can be linked to multiple libraries across the Librarika platform. As a library admin, you can change a user's role and permissions, but you cannot directly edit their personal details (name, email, etc.). Users manage their own personal information through their Account Settings by clicking on their profile icon.
+
 ## List Users
 
 Users is the section where you can see all the list of users based on their roles. They have access to the library and can do all the regular managerial workings of the library. 
@@ -39,7 +43,12 @@ To add a user, please follow the below steps:
 
 	![Users add user form](img/users-add-user-form.png)
 
-* Now enter the email address and select the roles either administrator, assistant or staff for creating a new user. After selecting email address a **Name** input field will appear like below.
+* Now enter the email address and select the roles for the new user. Available roles are:
+	* **Administrator** -- Full access to all library settings and management features.
+	* **Assistant** -- Access to day-to-day library operations such as circulations and cataloging.
+	* **Staff** -- Limited access for basic operational tasks.
+* The **Employee** checkbox is a tracking label for your own reference -- it helps you identify which users are employees of your organization. It does not affect any permissions or functionality.
+* After selecting email address a **Name** input field will appear like below.
 
 	![Users add user form name field](img/users-add-user-form-name-field.png)
 
