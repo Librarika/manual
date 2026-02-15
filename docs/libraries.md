@@ -127,6 +127,10 @@ The preferences section is the single most important settings page for your libr
 
 	For more details on self-service options, see the [Self-Service](self-service.md) page. For kiosk-based checkout with barcode scanners, see [SIP2 Integration](sip2.md).
 
+* If you click on the `Hold Queue` tab then you can configure the hold queue feature for your library. The hold queue allows members to place holds on items that are currently checked out and wait in a queue until the item becomes available.
+
+	For detailed information on all hold queue settings and how the feature works, see the [Hold Queue](hold-queue.md) page.
+
 * If you click on the `Request Items` tab then it will be dispalyed like below.
 
 	![Library preference form](img/library-preference-request-items.png)

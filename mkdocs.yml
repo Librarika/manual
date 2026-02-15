@@ -15,6 +15,7 @@ nav:
       - 'Cataloging (Books)': 'cataloging.md'
       - 'Members (Patrons)': 'members.md'
       - 'Circulations (Loans)': 'circulations.md'
+      - 'Hold Queue': 'hold-queue.md'
       - 'Self-Service': 'self-service.md'
       - 'Fees & Payments': 'fees-payments.md'
       - 'Barcode Labels': 'barcode-labels.md'

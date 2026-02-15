@@ -129,6 +129,14 @@ To use this functionality, please follow the below steps:
 
 * Now you can perform any action regarding your needs for circulations.
 
+## Hold Queue
+
+The hold queue allows members to place holds on items that are currently checked out and wait in a queue until the item becomes available. Staff can manage holds, view the hold shelf, and fulfill holds from the dashboard.
+
+For detailed instructions, see the [Hold Queue](hold-queue.md) page.
+
+---
+
 ## Circulation Issue
 
 Keep in mind that whenever checking out books you can not able to scroll past the 10th book even though you have several more copies of the same book in your library. Because **there is a cap limit of 10 items in auto complete dialogue box**.
