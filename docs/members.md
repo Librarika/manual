@@ -23,7 +23,7 @@ To add a member to your library, please follow the below steps:
 
 * The `Type` field is used to separate the users in two levels, for example in a school the teachers / staffs should be under the privileged member type and the students should be under the regular member type.
 
-* If you want that members can check-in and check-out books by themselves then please turn on the `Allow Member Login` option.
+* If you want that members can check-in and check-out books by themselves then please turn on the `Allow Member Login` option. See [Self-Service](self-service.md) for details on enabling self-service checkout and check-in.
 * Enter necessary information regarding the member. Only member no, name, type and status fields are mandatory.
 * Click on the `Submit` button when you are done
 * A new member record will be created.
@@ -72,6 +72,7 @@ In member area they can access following informations:
 * View past check-out history with status. 
 * View recently viewed / favorited items.
 * Write review to the past check-out items.
+* Self-checkout and self-return items (if [self-service](self-service.md) is enabled).
 
 Also, they can perform some activities that is otherwise not possible, such as: request item, write review, access catalogs in a private library.
 

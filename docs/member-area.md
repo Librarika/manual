@@ -90,6 +90,14 @@ Account settings is the section where you can update all the information of your
 * Once you click the save settings button your given information will be saved.
 * Now whenever you visit this page you can view your information or update your info.
 
+## My Holds
+
+If your library has the hold queue feature enabled, you can place holds on items that are currently checked out and manage your holds from the My Holds section.
+
+For detailed instructions on placing holds, viewing your hold queue position, and managing your holds (suspend, activate, cancel), see the [Hold Queue - Member Self-Service](hold-queue.md#my-holds-member-self-service) page.
+
+---
+
 ## Submit Reservation Request
 
 Submit reservation request is the section where you can send a request for any books that you want to reserve.
@@ -152,3 +160,9 @@ To cancel your reservation, please follow the below steps:
 
     ![Member area cancel success](img/member-area-cancel-success.png)
 
+
+## Self-Checkout and Self-Return
+
+If your library has self-service enabled, members can check out and return items directly from the member area without staff involvement. Members can check out items from the catalog page and return items from the My Bookings section.
+
+For detailed instructions on setting up self-checkout and self-return, see the [Self-Service](self-service.md) page.
