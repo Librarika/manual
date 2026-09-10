@@ -51,7 +51,7 @@ Create a new library for the first time.
 
 Now you need to verify your library before you can start entering books. Please open the activation email you have received from Librarika in your mailbox. Click on the activation link to activate your library.
 
-Once activated, you will receive a welcome email. You can now log into your libary and start using.
+Once activated, you will receive a welcome email. You can now log into your library and start using.
 
 **Note:** After activation, you will receive a few onboarding emails with tips to help you get started, such as reminders to catalog your first items. These emails are limited and will stop automatically after the initial setup period.
 
@@ -135,7 +135,7 @@ You can proactively join a library by submitting the member access request from 
 
 * Click on the `Submit` button and your request will be submitted.
 * You will then receive a confirmation message on the screen regarding your submission.
-* Once submitted, depending on the library prolicy, a library offical will review your request and assign you a library "**Member No**" for future access.
+* Once submitted, depending on the library policy, a library official will review your request and assign you a library "**Member No**" for future access.
 * If accepted, you can then log into that specific library and access the member only area.
 
 [Librarika]: https://librarika.com/  "Librarika ILS - The Free Library Management System"
