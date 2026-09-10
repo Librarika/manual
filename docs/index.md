@@ -53,5 +53,4 @@ catalog, members and circulations.
 
 # Note: 
 
-This document is a work in progress. Please ignore if there is any gramartical mistakes and let us 
-know so that we can correct them accordingly.
+This document is a work in progress. Please let us know if you notice any grammatical mistakes.

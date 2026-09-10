@@ -75,3 +75,6 @@ pip-selfcheck.json
 
 # Knowledgebase
 .knowledgebase/
+
+# Local personal files (not part of the manual)
+financial-projections/
