@@ -34,7 +34,7 @@ To check-out or loan an item to a member of your library, please follow the belo
 
 	![Quick circulation form](img/circulations-quick-circulation-1.png)
  
-* Then enter accession number, book title or any identifier like isbn, asin, lccn and more. An auto-select list will appear with green / red indicator, please select the item with green indicator. Red indicator means, the item is not available for check-out.
+* Then enter accession number, book title or any identifier like isbn, asin, lccn and more. An auto-select list of up to 10 copies will appear with green / red indicator, please select the item with green indicator. Red indicator means, the item is not available for check-out. When checking out, available copies are listed first. To search by title, type at least 4 characters.
 
 	![Quick circulation form](img/circulations-quick-circulation-2.png)
 
@@ -112,14 +112,14 @@ To edit a circulation, please follow the below steps:
 * Edit or update necessary information regarding the circulation.
 * Click on the `Submit` button when you are done.
 
-## Extra Fuctionality
+## Extra Functionality
 
 If you have larger amount of circulation entries then you can use our filtering option so that you can easily find any entry and perform all the circulation related activities.
 
 To use this functionality, please follow the below steps:
 
 * Please go to the `Dashboard -> Circulations -> Circulations` section.
-* In the top corner of circulations page you can see a `Filter by ASN or ISBN or Member No` input box. Enter accession number or isbn or member no of the item in that box.
+* In the top corner of circulations page you can see a `Filter by ASN/ISBN/Call No/Member No` input box. Enter the accession number, ISBN or call number of the item, or the member number, in that box.
 	
 	![Circulations form filter box](img/circulations-form-filter-box.png)
 

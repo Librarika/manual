@@ -12,7 +12,7 @@ The module is based on charges that you can apply and payments that you can coll
 * Apply payment.
 * Apply various other charges.
 * View Member's full account statement.
-* Access payment matrics such as daily payments, charges.
+* Access payment metrics such as daily payments and charges.
 * Suspend member borrowing activity based on automatic threshold value.
 * And more.
 
@@ -38,6 +38,7 @@ Please complete the following easy steps to setup your library. It should not ta
 
 	![Fees & Payments fee settings module](img/fees-payments-fee-settings-module.png)
 
+* Switch on **Enabled fees & fines** and click `Submit`. Without it, no overdue fines are charged, even if the Overdue Charge fee item is enabled.
 * To add "Overdue Charge" fee item please click on the `Fee Items` button from the `Transactions` module.
 * A form named `Fees` will be appeared like below.
 

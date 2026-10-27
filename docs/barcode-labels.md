@@ -36,7 +36,7 @@ To do so, please follow the below steps:
 
     ** Steps to add members to the barcode queue**
 
-    * If you click on the `Add Member Barcode` button, then you can add a member by his/her member number or name like below.
+    * If you click on the `Add Member Barcode` button, then you can add a member by their member number like below.
 
         ![Barcode Labels add member](img/barcode-labels-add-member.png)
 
@@ -44,11 +44,13 @@ To do so, please follow the below steps:
 
         ![Barcode Labels add another member](img/barcode-labels-add-another-member.png)
 
-    * If you click on the `Add Multiple Members` button then you can add multiple members to the Barcode Queue by their member number or name. Please enter member number or name separated by comma.
+    * If you click on the `Add Multiple Members` button then you can add multiple members to the Barcode Queue by their member number. Please enter member numbers separated by comma. Names are not accepted.
 
         ![Barcode Labels add multiple members](img/barcode-labels-add-multiple-members.png)
 
 * Once you click on  `Add to Queue` button, then step one will be finished and all your items will be available in Generate Barcodes section. Also you can see how many items you have added in the Generate Barcode Section.
+
+**Queue limit:** the Barcode Queue holds up to 100 labels, or 500 on the Basic Pro, Silver, Gold, Platinum and Unlimited plans. You can keep adding until the queue is full, and a full queue can still be generated. If adding several books or members at once would go over the limit, nothing is added and you are told how many more fit. Generate the queue first, or add fewer items.
  
     ![Barcode Labels queued items number](img/barcode-labels-queued-items-number.png)
 
@@ -187,7 +189,7 @@ When you have items in the Print Barcodes section, you can't generate new barcod
 
 To do so, please follow the below steps:
 
-* Please click on the `Print Completed` button and then click ok to confirm. 
+* Please click on the `Print Completed?` button and then click ok to confirm. 
 
     ![Barcode Labels print completed](img/barcode-labels-print-completed.png)
 

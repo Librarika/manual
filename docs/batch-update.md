@@ -29,6 +29,9 @@ To do so, please follow the below steps:
 * After selecting catalog copies option you will see some text hints, please read them carefully.
 * Before uploading catalog copies CSV file please make sure that **Id, Accession No, Copy No, Branch, Is Active, Is Published and Circulation Enabled** column must be present in your file. Because this fields are required.
 * Moreover, you can only update the **Accession No, Copy No, Branch, Binding, Condition, Edition, Location, Price, Is Active, Is Published, Circulation Enabled, Included Materials, Remarks** of your catalog copies file.
+* An **Accession No** must be a number of at most 18 digits. It must be unique: it can't appear twice in your file, or belong to another copy of your library that is not in the file. You can swap accession numbers between copies that are both in the file.
+* **Copy No** must be a number too.
+* One file can hold up to 2,000 copies.
 * After editing necessary information please upload the catalog copies CSV file into your library. You will see that your catalog copies information has been updated successfully.
 
 ## Update Members
@@ -43,7 +46,9 @@ To do so, please follow the below steps:
 
 * After selecting the members option you will see some text hints. please read them carefully.
 * Before uploading the members CSV file please make sure that **Id, Member No , Name, Type, Member Login and Email** column must be present in your file. Because this fields are required.
-* Moreover, you can only update the **Member No, Name, Email, Phone, Address, Type, Member Group, Member Login, Status** of your members CSV file.
+* Moreover, you can only update the **Member No, Name, Email, Phone, Booking Quota, Address, Type, Member Group, Member Login, Status, Remarks** of your members CSV file.
+* **Booking Quota** can't be more than 99999. An empty Booking Quota or Remarks cell clears the value.
+* One file can hold up to 500 members.
 * After editing necessary information of your members please upload the file into your library. You will see that members information has been updated successfully.
 
 ## FAQ

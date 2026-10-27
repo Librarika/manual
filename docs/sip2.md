@@ -12,51 +12,49 @@ SIP2 (Standard Interchange Protocol 2) is an industry-standard protocol used by 
 
 To use SIP2-based self-checkout, you will need:
 
-* A **paid Librarika plan** (Basic Pro, Silver, or Gold).
-* A **SIP2 license** -- SIP2 is licensed separately on a per-terminal basis. The Gold plan includes 1 SIP2 terminal by default; for other plans, you need to purchase a SIP2 license. Contact Librarika support for pricing.
+* A **SIP2 licence for each terminal** -- Librarika sets up and licenses each terminal for you. Contact Librarika support for availability on your plan and for pricing.
+* A **dedicated staff account for each terminal** -- an active user account in your library that is used only by that terminal, not a person's own login.
 * **Kiosk hardware** -- A computer or tablet to serve as the self-checkout terminal.
 * A **barcode scanner** -- To scan member IDs and item barcodes.
-* **SIP2-compatible kiosk software** -- Software that connects to Librarika via the SIP2 protocol (see [Librarika Kiosk App](#librarika-kiosk-app-coming-soon) below).
+* **SIP2-compatible kiosk software** -- Software that connects to Librarika via the SIP2 protocol such as the [Librarika Kiosk App](#librarika-kiosk-app) below.
 
-## Plan & Licensing
+## Licensing
 
-SIP2 is licensed separately on a per-terminal basis. Each terminal that connects to Librarika requires its own SIP2 license.
-
-* **Gold Plan** -- Includes 1 SIP2 terminal by default.
-* **Basic Pro / Silver Plans** -- SIP2 licenses must be purchased separately.
-* **Additional terminals** -- Available for all paid plans with per-terminal pricing. Contact Librarika support for pricing details.
+SIP2 is licensed per terminal. Each terminal that connects to Librarika needs its own licence, which Librarika links to the terminal's staff account. A licence runs for a set period (usually a year); after its end date the terminal keeps working only for a short grace period. A licence can also list the IP addresses the terminal may connect from. Contact Librarika support for pricing and to add, move or renew a terminal.
 
 ## Connection Details
 
 * **Protocol**: SIP2 over TLS (encrypted)
 * **Port**: 6009
-* **Activation**: SIP2 connections must be manually activated by Librarika staff. Please contact support after subscribing to get your SIP2 terminal set up.
+* **Institution ID (AO)**: your library's subdomain, for example `mylibrary` for `mylibrary.librarika.com`.
+* **Login**: the terminal's dedicated staff account (username and password).
+* **Allowed IPs**: if the licence lists IP addresses, the terminal must connect from one of them.
+* **Activation**: SIP2 terminals are set up by Librarika staff. Please contact support to get your SIP2 terminal set up.
 
 ## Setup Steps
 
-1. **Subscribe** to a paid Librarika plan (Basic Pro, Silver, or Gold).
-2. **Contact Librarika support** to purchase a SIP2 license (if not included in your plan) and request activation. Provide the number of terminals you need.
+1. **Create a staff account** in your library for each terminal (see [Users](users.md)).
+2. **Contact Librarika support** to license and activate your terminals. Tell them the number of terminals, each terminal's account, and the IP addresses the terminals connect from.
 3. **Configure your kiosk software** with the SIP2 connection details provided by Librarika staff.
 4. **Print barcode labels** for your catalog items and member cards. See [Barcode Labels](barcode-labels.md) for instructions.
 5. **Test** the connection by performing a test checkout and check-in at your kiosk.
 
-## Librarika Kiosk App (Coming Soon)
+## Librarika Kiosk App
 
-Librarika is developing its own kiosk application for self-checkout terminals. The app is designed to work seamlessly with Librarika's SIP2 service and will include:
+Librarika has its own kiosk app for self-checkout terminals. It works with Librarika's SIP2 service and includes:
 
 * **Patron login with barcode scanner** -- Members scan their library card to log in.
 * **Multi-item checkout and return** -- Check out or return multiple items in a single session.
 * **Session auto-logout** -- Automatically logs out the patron after a period of inactivity.
 * **Admin panel** -- Configure branding, timeouts, receipt printing, and other settings.
-* **Cross-platform** -- Built with Electron and React, available for Windows, Mac, and Linux.
 
-Stay tuned for updates on the Librarika Kiosk App release.
+See the [Librarika Kiosk App](https://librarika.com/spages/librarika-kiosk-app) page for downloads and supported systems.
 
 ## FAQ
 
 **Is SIP2 available on the free plan?**
 
-No. SIP2 requires a paid plan (Basic Pro, Silver, or Gold) and a separate SIP2 license purchased on a per-terminal basis. The Gold plan includes 1 SIP2 terminal by default; other plans require purchasing the license separately.
+Each SIP2 terminal needs its own licence from Librarika. Contact Librarika support to ask about SIP2 for your plan and about pricing.
 
 **Do I need a barcode scanner?**
 
@@ -64,7 +62,7 @@ Yes. SIP2 kiosk-based checkout requires a barcode scanner to scan member IDs and
 
 **Can I use third-party kiosk software?**
 
-Yes. Any SIP2-compatible kiosk software can connect to Librarika. Librarika is also developing its own [Kiosk App](#librarika-kiosk-app-coming-soon) for a seamless experience.
+Yes. Any SIP2-compatible kiosk software can connect to Librarika. Librarika also has its own [Kiosk App](#librarika-kiosk-app).
 
 **Can two kiosks share one SIP2 licence?**
 

@@ -100,7 +100,7 @@ Database A-Z is the section where you can browse your items by alphabetical orde
 
 ## Top Collections
 
-Top Collections is the section where you can find those items which have higher checkouts, reviews and ratings. Only 100 top collected items will be displayed.
+Top Collections is the section where you can find the most viewed items of your library, ranked by how often their detail pages have been viewed. Only the top 100 items are displayed.
 
 * If you click on `Top Collections` then all of the top items in your library will be appeared like below.
 

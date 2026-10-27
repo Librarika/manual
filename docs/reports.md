@@ -48,6 +48,8 @@ Catalog reports are mainly based on your library catalog items and their related
 
 * Next you can view reports only for the newly arrived copies under each item from `New Copies` report. Also you can view this within a date range.
 * Then you can view all the copies by their location from `Copies By Location` report.
+* `Copies With Price` lists the copies that have a price, most expensive first. You can filter it and export it to CSV.
+* `Donated Copies` lists the copies that came from a purchase marked as a donation. You can filter it and export it to CSV.
 * Next report is only for those copies which have been booked. If you click on the `Booked Copies` view report button then you can view all the booked copies of your library catalog items.
 * Next you can export all the titles in CSV format if you click on the Export button below the `Export all titles` heading.
 * Finally you can export all the copies in CSV format if you click on the Export button below the `Export all copies` heading.
@@ -95,6 +97,7 @@ Member Reports are solely designated for all the members of your library.
 * Next you can view report on those members who are not much engaged in your library activities. To view this please click on the view report button below `Least Engaged Members` heading. Also you can use different filtering options like before.
 * Then the next one is the `Payment Balance` report which is based on only for those members whose payment balance are dues.
 * Next one is the `Email Recipients` report where you can find all the emails of your library members.
+* `Mostly Circulated Members` lists the members with the most circulation history. You can filter it, for example by booking status, and export it to CSV.
 * At last you can export all the members of your library into a CSV file if you click on the `Export` button.
 
 ## Overdue Reports
@@ -115,9 +118,10 @@ Overdue Reports are based on the overdue items and copies of your library catalo
 
 ## Miscellaneous
 
-Miscellaneous reports are consisting of various types of listing such as categories, authors, publishers and tags of your library. You can Export all this reports into a CSV file from here.
+Miscellaneous reports are consisting of various types of listing such as categories, authors, publishers, tags and purchases of your library. You can Export all this reports into a CSV file from here.
 
 * At last from the reports menu you can export all the miscellaneous reports to keep backup of your records.
+* `Export all purchases` exports all the purchases of your library to a CSV file.
 
 	![Miscellaneous Reports](img/report-on-miscellaneous.png)
 

@@ -42,7 +42,7 @@ To enable self-service checkout and check-in for your library members, follow th
 	* **Member type** -- Select which member types are allowed to use self-service: All members, Regular members only, or Privileged members only.
 	* **Checkout Time** -- The default checkout duration (in days) for self-service checkouts.
 	* **Checkout Limit** -- The maximum checkout duration (in days) that a member can select.
-	* **Checkout Quota** -- The maximum number of items a member can have checked out at the same time through self-service.
+	* **Checkout Quota** -- The maximum number of items a member can have checked out at the same time. Self-checkout counts every item the member has issued or overdue, including items issued by staff.
 
 * Click the `Save Preferences` button to save your changes.
 
@@ -64,7 +64,7 @@ Members can return items by following these steps:
 1. Log in to the library.
 2. Click on `My Account` from the top menu.
 3. Find the item in the active bookings list.
-4. Click the `Return` button next to the item.
+4. Click the `Check-in` button next to the item.
 5. The item will be returned immediately.
 
 ---

@@ -60,7 +60,7 @@ Please update your organization information carefully and make sure that they ar
 
 Logo is the single most important thing that gives your library an official identity. Please update your library logo as soon as possible to make it looks professional. For personal library, it is ok to keep the default Librarika logo.
 
-We support 200x200 pixel size file in PNG/JPG format.
+We support PNG, JPG and GIF files from 200x200 up to 800x800 pixels. Larger images are resized to 200x200, so a square image looks best.
 
 **Steps to upload logo**:
 
@@ -72,7 +72,7 @@ We support 200x200 pixel size file in PNG/JPG format.
 	
 	![Library Information form](img/library-information-organization-info.png)
 
-* In the logo field click on the `browse` button and select a 200x200 pixel size png/jpg file.
+* In the logo field click on the `browse` button and select a PNG, JPG or GIF file between 200x200 and 800x800 pixels.
 * Click on the `Submit` button to save your changes.
 
 ---
@@ -81,16 +81,19 @@ We support 200x200 pixel size file in PNG/JPG format.
 
 The preferences section is the single most important settings page for your library. Here you can change the followings:
 
-* Basic options
-* Self-service settings
-* Request items settings
-* Notifications and Reminders settings
-* SSO
-* Appearances / themes / languages settings
+* `Options` -- basic options
+* `Self Service` -- self-service settings
+* `Request items` -- request items settings
+* `Hold Queue` -- hold queue settings
+* `Notifications / Reminders` -- notifications and reminders settings
+* `SIP2` -- your library's SIP2 terminals (only shown when your library has one)
+* `SSO` -- single sign-on
+* `Appearance` -- themes and languages
+* `Upgrade` -- upgrade your plan
 
 **Steps to update preferences**:
 
-* Go to the **Prefereces** section from the dashboard.
+* Go to the **Preferences** section from the dashboard.
 
 	![Library information menu](img/library-preference-menu.png)
 
@@ -109,11 +112,11 @@ The preferences section is the single most important settings page for your libr
 
 	* Next is the `Greetings` field where you can modify your verbage or welcome message for your library.
 	* The `Ebook URL Visibility` option set privacy for your e-book which is links with 5 options, that is Hide To All / Public / Member / Borrower Always / Active Borrower. You can set them independently for each of the items in your catalog.
-	* The `Booking Time` option is the time interval in days in which **Booking Quota** limit will be executed.
-	* In the `Booking Quota` field you can assign a booking quota limit for a member up to which he / she can request / checkout / loan items at the **Booking Time** limit.
-	* Then the `Enable member access request` checkbox which you need to enable so that the new members can get accesss to your library.
+	* The `Booking Time` option is the default loan length in days. It sets the default **Return Date** in the circulation form.
+	* The `Booking Quota` field is the maximum number of items a member can have requested, checked out or on loan at a time, all combined.
+	* Then the `Enable member access request` switch, which you need to enable so that new members can ask for access to your library.
 
-* If you click on the `Self Service` tab then it will be dispalyed like below.
+* If you click on the `Self Service` tab then it will be displayed like below.
 
 	![Library preference form](img/library-preference-self-service.png)
 
@@ -131,7 +134,7 @@ The preferences section is the single most important settings page for your libr
 
 	For detailed information on all hold queue settings and how the feature works, see the [Hold Queue](hold-queue.md) page.
 
-* If you click on the `Request Items` tab then it will be dispalyed like below.
+* If you click on the `Request items` tab then it will be displayed like below.
 
 	![Library preference form](img/library-preference-request-items.png)
 
@@ -139,15 +142,20 @@ The preferences section is the single most important settings page for your libr
 	* In the `Member` field you can set 3 member type options whom can request library item online, that is All members / Regular members only / Privileged members only.
 	* By default the action is pending for requesting an item. But you can choose the other option **Reserved** if you want to reserve that item for your member immediately.
 
-* If you click on the `Notifications/Reminders` tab then you can set reminders for your library members.
+* If you click on the `Notifications / Reminders` tab then you can set reminders for your library members.
 
 	![Library preference form](img/library-preference-reminders.png)
 
-	* Our system will send notification reminders to the members of your library based on this settings.
-	* If you enable the `Notify on Overdue` checkbox then a reminder email will be send after X-hours of the overdue item. 
-	* If you enable the `Remind before due date` checkbox then a reminder email will be send before X-hours of the due date.
-	* If you enable the `Remind on reservation` checkbox then member will receive a reminder email before X-hours of the reservation date.
+	* Our system will send notification reminders to the members of your library based on these settings.
+	* `Notify on overdue.` -- members get an email when an item is overdue, after the hours chosen in `Notify after`.
+	* `Remind before due date.` -- members get an email the chosen number of hours (`Remind before`) before the due date.
+	* `Remind on reservation.` -- members get an email the chosen number of hours (`Remind before`) before the reservation date.
+	* `Notify librarians on reservation.` -- librarians get a notification when a reservation request is placed.
+	* `Notify librarians on checkout.` -- librarians get a notification when a member checks out an item (paid plans only).
+	* `Send review item reminder.` -- members get an email asking for a review when they return an item. It is on by default; only paid plans can turn it off.
 	* **Here the most important field is the `Notified Librarians` where you can set maximum of five librarians who will receive notification reminders if any member joined or requested a book**.
+
+* If your library has SIP2 terminals, a `SIP2` tab lists them with their allowed IP addresses, licence end date, status and when each was last used. To add, move or renew a terminal, contact Librarika support. See [SIP2 Integration](sip2.md).
 
 * If you click on the `SSO` tab then you can enable the SSO login for your library.
 
@@ -156,10 +164,12 @@ The preferences section is the single most important settings page for your libr
 	* If you enable the `Enable SSO` then your members & users can login to your library using SAML2.
 	* The `ACS URL` & `ACS Entity Id` fields are provided by Librarika. You need to copy and paste these URL into the SP Configuration section of your SAML provider.
 	* From the `SAML Provider` list you need to choose your SAML provider then provide the `IdP Entity`, `IdP SSO Service URL` & `IdP x509cert` accordingly. You will get these values from the `METADATA` of your SAML provider.
+	* `SSO only on the website` -- members and staff can sign in to your library's website with SSO only.
+	* `SSO only on the mobile app` -- in the Librarika app, members and staff can open your library only after signing in with your library's SSO. App sign-ins with a password, Google or Apple are refused for your library.
 
 	For detailed setup instructions, supported providers, and troubleshooting, see the [SSO / SAML Integration](sso-saml.md) page.
 
-* If you click on the `Appearance` tab then it will be dispalyed as below.
+* If you click on the `Appearance` tab then it will be displayed as below.
 
 	![Library preference form](img/library-preference-appearance.png)
 
@@ -226,11 +236,12 @@ For premium libraries, the payment method is charged automatically when the annu
 You can change the payment information anytime. Please follow the below steps:
 
 * At first please go to `Dashboard -> Manage -> My Plan` section.
-* Then in the **Billing Information** section you will find Payment Method, please click on Access Order link as shown below.
+* Then in the **Billing Information** section click `Update Payment Method` next to the payment type.
 
 	![Billing info form](img/update-billing-info.png)
 
-* You will redirect to 2checkout.com where you can update your payment information if necessary.
+* Payments are handled by FastSpring. Click `Access My Account`, enter your billing email, and use the one-time link FastSpring emails you to sign in and update your payment method.
+* Subscriptions paid through 2Checkout are discontinued. Renew them through FastSpring from the same page.
 * When your current subscription expires, the system will automatically charge the credit card listed in your order profile and then generate an invoice.
 
 

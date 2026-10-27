@@ -29,7 +29,7 @@ The following settings are available under the Hold Queue tab in Preferences:
 | **Allow copy-level holds** | Members can place holds on a specific copy of a title. | On |
 | **Hold Expiration** | Number of days before an unfulfilled hold expires automatically. | 180 |
 | **Pickup Window** | Number of days a member has to pick up an item after it becomes ready. | 7 |
-| **Fulfillment Mode** | How holds are fulfilled when items are returned. **Auto Assign:** Automatically assign returned items to waiting holds. **Notify & Confirm:** Notify the member and wait for confirmation before assigning. **Staff Manual:** Staff manually assigns items to holds. | Auto Assign |
+| **Fulfillment Mode** | How holds are fulfilled when items are returned. **Auto Assign:** A returned item is set aside for the next waiting hold, which becomes ready for pickup. **Staff Manual:** Returned items are not set aside. Staff choose which hold gets an item with Mark Ready on the Holds page. | Auto Assign |
 | **Auto-ready on placement** | When a hold is placed and a copy is currently available, automatically mark the hold as ready for pickup instead of placing it in the queue. | Off |
 | **Enable recall** | When a hold is placed, shorten the due date for the current borrower to encourage earlier return. | Off |
 | **Recall Period** | Number of days the current borrower has after a recall is triggered. | 7 |
@@ -99,7 +99,7 @@ To temporarily pause a hold:
 * Select the date until which the hold should be suspended.
 * Click `Submit` to suspend the hold.
 
-The hold will maintain its queue position but will be skipped during fulfillment until the suspension date passes. Suspended holds are automatically reactivated when the suspension date arrives.
+The hold will maintain its queue position but will be skipped during fulfillment until the suspension date passes. Suspended holds are automatically reactivated on the day after the suspension date.
 
 **Activate a Hold**
 
@@ -302,13 +302,14 @@ Holds are managed using a first-in, first-out (FIFO) queue:
 
 ### Fulfillment Modes
 
-The system supports three fulfillment modes that control what happens when a checked-out item is returned:
+The system supports two fulfillment modes that control what happens when a checked-out item is returned:
 
 | Mode | Behavior |
 |------|----------|
 | **Auto Assign** | The returned item is automatically assigned to the next waiting hold. The hold is marked as Ready and the member is notified. This is the default and recommended mode. |
-| **Notify & Confirm** | The member is notified that a copy is available and must confirm before the item is assigned to their hold. |
-| **Staff Manual** | Staff must manually assign returned items to waiting holds using the Mark Ready action. |
+| **Staff Manual** | Returned items are not set aside for holds. Staff choose which hold gets an item with the Mark Ready action on the Holds page. |
+
+**Note:** Earlier versions also listed a **Notify & Confirm** mode. It had no confirmation step and worked like Auto Assign. Libraries that had it selected keep working as Auto Assign.
 
 ### Recall System
 
@@ -325,7 +326,7 @@ When enabled, the recall system helps speed up item availability:
 The system runs automated background tasks to manage the hold queue:
 
 * **Expired holds** -- Waiting holds that exceed the Hold Expiration days and Ready holds that exceed the Pickup Window are automatically marked as Expired.
-* **Suspended holds** -- Holds that have passed their suspension end date are automatically reactivated to Waiting status.
+* **Suspended holds** -- Holds are automatically reactivated to Waiting status on the day after their suspension end date.
 * **Queue reassignment** -- When a Ready hold expires, the system automatically offers the item to the next Waiting hold in the queue.
 
 ---
