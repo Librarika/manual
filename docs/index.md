@@ -1,57 +1,65 @@
-# Librarika
+# Librarika Manual
 
-Librarika is a SaaS based Integrated Library System (ILS) platform built on the cloud. 
- 
-Website: [https://librarika.com](https://librarika.com)
+[Librarika](https://librarika.com) is a cloud-based Integrated Library System (ILS) made by Raynux. Libraries use it in a web browser to manage their catalog, members, loans, holds, fines and reports, and to publish an online public catalog (OPAC). Librarika is hosted at [librarika.com](https://librarika.com), so there is nothing to install.
 
-Documentation for the legacy dashboard can be found at [https://docs.librarika.com/en/legacy](https://docs.librarika.com/en/legacy)
-
-Please contribute to improve this document. See our [contribute](contribute.md) section for more detail.
+This manual explains how to use each part of Librarika. If you are new, start with [Getting Started](getting-started.md).
 
 ---
 
 ## Overview
 
-**[Librarika](https://librarika.com)** is an open platform for anybody wanting to manage their physical or 
-virtual library catalog online using Integrated Library System (ILS). That includes 
-Universities, Colleges, Schools, Polytechnics, Medical Institutes, Public 
-Libraries, Non-profit organizations, Government Agencies, Corporate Offices, 
-Departments, Social Institutes, NGOs, Family and even a personal library.
-
-
-### Free Library Management Software
-
-Librarika offers free library plan. You can open your library in just few minutes and manage up to 2000 
-books (including copies) in your catalog. When you need more books limit, you can upgrade to premium plans.
-
-
-### Software or Hardware Requirements
-
-You do not need any additional software or hardware. Librarika is served right from the cloud.
-
-### Hosting Requirements
-
-All **librarika** libraries are hosted on the cloud at [https://librarika.com](https://librarika.com). You do not need any additional hosting.
+* **Who it is for:** school, college and university libraries, public libraries, institutes, organisations, and personal collections.
+* **Plans:** a free plan for up to 2,000 copies, and paid plans for larger collections and more features. See [Library](libraries.md) for plans and upgrades.
+* **Web address:** each library gets its own address, such as `mylibrary.librarika.com`, with its own public catalog.
+* **Languages:** the library website can be shown in 21 languages. Some translations are still incomplete.
 
 ---
 
-## Built-in OPAC
+## What this manual covers
 
-Online public accesss catalog [OPAC](opacs.md) comes built-in with each **librarika** library. That means, you can instantly publish your catalog online or you can make your library private if you want to.
+**Setting up**
+
+* [Getting Started](getting-started.md): create your library and sign in.
+* [Library](libraries.md): library information, branches, preferences, notifications and plans.
+* [Users](users.md): staff accounts, roles and branch access.
+
+**Daily work**
+
+* [Cataloging](cataloging.md): add titles and copies, import and export the catalog.
+* [Members](members.md): patrons, member groups and member logins.
+* [Circulations](circulations.md): check out and check in items.
+* [Hold Queue](hold-queue.md): holds on items that are checked out.
+* [Fees & Payments](fees-payments.md): fines, fees and payments.
+* [Barcode Labels](barcode-labels.md): labels for items and member cards.
+* [Reports](reports.md): catalog, circulation, member and purchase reports.
+* [Bulk Actions](bulk-actions.md) and [Batch Update](batch-update.md): change many records at once.
+
+**For members**
+
+* [OPAC](opacs.md): the public online catalog.
+* [Member Area](member-area.md): what members see when they sign in.
+* [Self-Service](self-service.md): members check items out and in from a browser or phone.
+
+**Kiosks, sign-in and security**
+
+* [SIP2 Integration](sip2.md): connect self-checkout kiosks, including the [Librarika Kiosk App](https://librarika.com/spages/librarika-kiosk-app).
+* [SSO / SAML](sso-saml.md): sign in with your organisation's single sign-on.
+* [Sign-in & Security](sign-in-and-security.md): ways to sign in, sign-in history and signing out other devices.
 
 ---
 
-## Mobile Apps
+## Mobile app
 
-**Librarika** provides both iPhone and Android apps for librarians to scan barcodes, upload cover photos as well as manage 
-catalog, members and circulations.
+The Librarika app for iPhone and Android is for both staff and members. Staff can scan barcodes, add cover photos and manage the catalog, members and loans. Members can browse the catalog, see their loans and balance, and check items out and in.
 
-[<img class="app-icons ios" src="https://ae85df921b92073b52e8-a126a45a4c59e90797d94cd877fbe744.ssl.cf3.rackcdn.com/static-pages/Download_on_the_App_Store_Badge_US-UK_135x40.svg" />](https://itunes.apple.com/us/app/librarika/id1102502605) [<img class="app-icons android" src="https://ae85df921b92073b52e8-a126a45a4c59e90797d94cd877fbe744.ssl.cf3.rackcdn.com/static-pages/google-play-badge.png" />](https://play.google.com/store/apps/details?id=com.librarika.android.dev&hl=en)
+[<img class="app-icons ios" src="https://ae85df921b92073b52e8-a126a45a4c59e90797d94cd877fbe744.ssl.cf3.rackcdn.com/static-pages/Download_on_the_App_Store_Badge_US-UK_135x40.svg" alt="Download on the App Store" />](https://itunes.apple.com/us/app/librarika/id1102502605) [<img class="app-icons android" src="https://ae85df921b92073b52e8-a126a45a4c59e90797d94cd877fbe744.ssl.cf3.rackcdn.com/static-pages/google-play-badge.png" alt="Get it on Google Play" />](https://play.google.com/store/apps/details?id=com.librarika.android.dev&hl=en)
 
+---
 
---- 
+## Policies
 
-# Note: 
+[Privacy Policy](https://librarika.com/spages/privacy-policy) · [Terms of Use](https://librarika.com/spages/terms-and-conditions-of-use) · [GDPR Statement](https://librarika.com/spages/gdpr-statement) · [Data Processing Agreement](https://librarika.com/spages/customer-gdpr-data-processing-agreement) · [Sub-processors](https://librarika.com/spages/sub-processors)
 
-This document is a work in progress. Please ignore if there is any gramartical mistakes and let us 
-know so that we can correct them accordingly.
+## Help
+
+For questions about your library or plan, [contact us](https://librarika.com/spages/contact). To suggest a correction to this manual, see [Contributing](contribute.md).
