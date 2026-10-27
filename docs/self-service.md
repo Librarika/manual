@@ -94,3 +94,19 @@ No. SIP2 requires a paid plan and a separate per-terminal license. See [SIP2 Int
 **Can members check out items from their phone?**
 
 Yes. With online self-service enabled, members can log in and check out items from any device with a web browser, including smartphones and tablets.
+
+**Why can't a member see the `Checkout` button?**
+
+The `Checkout` button appears next to a copy only when **Enable member checkouts** is on, the member's type matches the **Member type** setting, the copy is not already checked out, and the item is marked as circulating. Check these in [Enable Self-Service for Your Library](#enable-self-service-for-your-library).
+
+**Why can't a member return an overdue item themselves?**
+
+If **Enable check-ins for overdue** is off, the `Check-in` button is hidden for overdue items in the member's account, and only library staff can check them in. Turn the setting on if you want members to return overdue items themselves.
+
+**Does the Checkout Quota count items checked out by staff?**
+
+Yes. The quota counts every item the member currently has checked out or overdue, no matter who issued it. If a member already has that many items, self-checkout is refused until they return something.
+
+**Can unpaid fees stop a member from checking out?**
+
+Yes, if your library uses [Fees & Payments](fees-payments.md) with **Suspend activity** turned on. When the member's balance reaches the **Suspension Limit**, self-checkout shows "Sorry, you have reached the maximum dues limit."

@@ -140,3 +140,39 @@ For detailed instructions, see the [Hold Queue](hold-queue.md) page.
 ## Circulation Issue
 
 Keep in mind that whenever checking out books you can not able to scroll past the 10th book even though you have several more copies of the same book in your library. Because **there is a cap limit of 10 items in auto complete dialogue box**.
+
+---
+
+## FAQ
+
+**Why can't I check out an item to a member?**
+
+The form shows the reason. The most common ones are: the member is not active, the item is already checked out, circulation is turned off for the item, the member has reached their booking quota, the member already has this copy, or the member's unpaid dues have reached the limit set in [Fees & Payments](fees-payments.md).
+
+**Why doesn't the book appear in the list when I type its title?**
+
+The list shows at most 10 matches, and a title search starts only after you type at least 4 letters. Typing the accession number or ISBN is the quickest way to find the exact copy (see [Circulation Issue](#circulation-issue)).
+
+**How many items can a member borrow?**
+
+Up to the `Booking Quota` set in Preferences, or the member's own quota if one is set on their record. The quota counts pending requests, reservations and checked-out (including overdue) items together. See [Change Preferences](libraries.md#change-preferences) and [Booking Quota](members.md#booking-quota).
+
+**What is the default return date and how do I change it?**
+
+It is today plus the `Booking Time` (in days) from the `Options` tab of Preferences. You can still pick a different return date for each check-out in the form.
+
+**When does an item become Overdue?**
+
+Automatically, once its return date has passed and it has not been checked in. You don't need to change the status yourself.
+
+**Can I extend an item that is already overdue?**
+
+Yes. Use `Quick Extend`, confirm that you want to extend the overdue item, and choose a new return date that is not in the past. The status changes back to Issued. The extension is refused if the new dates overlap another booking of the same copy.
+
+**I checked in the wrong item. How do I undo it?**
+
+Find the record in the circulations list, click `Edit`, set **Status** back to Issued and click `Submit`. The edit form changes only the dates, status and remark; to change the member or the item, create a new check-out instead.
+
+**What do the Accept, Cancel and Issue buttons do?**
+
+On a Pending request, `Accept` reserves the item and `Cancel` declines the request; members with a login account get an email either way. On a Reserved record, the `Issue` button appears from the booking date onwards and checks the item out to the member.

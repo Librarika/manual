@@ -80,3 +80,36 @@ System will apply / update overdue charges for currently overdue items on daily 
 ## Limitations
 
 Please be aware of any bugs and issues that may arises and let us know if you feel anything. As a pre-caution, please take backup of your transaction information on regular basis.
+## FAQ
+
+**Which plans include Fees & Payments?**
+
+Fees & Payments is available on the **Basic Pro**, **Silver**, **Gold**, **Platinum** and **Unlimited** plans. On other plans, the Fees & Payments menu shows an activation page instead.
+
+**Why are no overdue charges being added?**
+
+Two things are needed: **Enabled fees & fines** must be ticked in `Fees & Fines Settings`, and an **Overdue Charge** fee item must be enabled under `Fee Items`. See [How to activate the module](#how-to-activate-the-module).
+
+**How is the overdue charge calculated?**
+
+The charge is the overdue amount per day multiplied by the number of days the item is past its due date. Each overdue checkout has one charge, which is updated every day until the item is returned.
+
+**Why can't I edit or delete an overdue charge?**
+
+While the item is still overdue, its charge is highlighted in the transaction list and keeps growing, so the edit and delete icons are hidden. Once the item is returned, you can edit or delete the charge.
+
+**How do I record a payment from a member?**
+
+Click `Add Payment` on the `Transactions` page or on the member's statement, then enter the member number and the amount. A **Payment** fee item must be enabled first, otherwise there is nothing to choose in the form.
+
+**I entered a payment or charge by mistake. How do I fix it?**
+
+Open the transaction and click `Edit Transaction` to correct it, or use the delete (trash) icon in the `Transactions` list to remove it. The member's balance is recalculated straight away.
+
+**Can unpaid fees stop a member from borrowing?**
+
+Yes. Tick **Suspend activity** in `Fees & Fines Settings` and set a **Suspension Limit**. When a member's balance reaches that limit, staff checkouts, member self-checkouts and member requests are refused until the balance goes down.
+
+**Can members see how much they owe?**
+
+Yes. When fees and fines are enabled, members see their current balance next to the "My Account" heading in their member area.

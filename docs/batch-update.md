@@ -45,3 +45,37 @@ To do so, please follow the below steps:
 * Before uploading the members CSV file please make sure that **Id, Member No , Name, Type, Member Login and Email** column must be present in your file. Because this fields are required.
 * Moreover, you can only update the **Member No, Name, Email, Phone, Address, Type, Member Group, Member Login, Status** of your members CSV file.
 * After editing necessary information of your members please upload the file into your library. You will see that members information has been updated successfully.
+
+## FAQ
+
+**Which plans can use Batch Update?**
+
+Paid plans only (Basic Pro, Silver, Gold and above). On the free plan, Librarika shows "Please upgrade your plan first in order to modify your records using batch update." and opens the plan page.
+
+**How many rows can I upload at once?**
+
+Up to 2,000 catalog copies or 500 members per CSV file. A copies file with more rows is refused with "Too many records, please split them into multiple CSV files."; for members, only the first 500 rows are read, so split larger files yourself.
+
+**Can I add new members or copies with Batch Update?**
+
+No. Batch Update only changes records that already exist, matched by the `Id` column from your export, so do not change or remove the Id. To add new records, use [Import Members](members.md#import-members) or [Bulk Import](cataloging.md#bulk-import).
+
+**Is anything changed before I confirm?**
+
+No. After you upload, Librarika shows a review page first. Nothing is saved until you click `Update Now` (copies) or `Update ... member(s)` (members).
+
+**What happens if some rows have errors?**
+
+For copies, Librarika lists the errors and saves nothing until you fix them and upload again. For members, the review page marks each row as Ok or shows its errors; rows with errors are skipped and only the Ok rows are updated.
+
+**What happens if I leave a cell empty?**
+
+An empty cell clears that value, for example the phone number or the copy location (an empty Price becomes 0). For copies, a column you leave out completely is not changed; for members, keep every column from the export, because a missing column is treated as empty.
+
+**Why do I get "Please provide a valid branch name."?**
+
+The `Branch` value must exactly match the name of an existing branch in your library. For members, a `Member Group` name that does not exist yet is created as a new group, so check the spelling.
+
+**Will members get an email?**
+
+Yes, if you set `Member Login` to Yes for a member who does not have a login yet, Librarika sends them an invitation email. Setting it to No turns off sign-in for that member, so check this column before you upload.

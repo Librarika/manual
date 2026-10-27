@@ -26,6 +26,7 @@ nav:
       - 'Batch Update': 'batch-update.md'
       - 'SIP2 Integration': 'sip2.md'
       - 'SSO / SAML': 'sso-saml.md'
+      - 'Sign-in & Security': 'sign-in-and-security.md'
     - 'Contributing': 'contribute.md'
     - 'About': 'about.md'
     - 'License': 'license.md'

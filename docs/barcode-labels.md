@@ -242,3 +242,32 @@ Spine labels make it easier for library users to locate their favourite resource
     ![Barcode Labels spine label](img/spine-label-print.png)
 
 * Now you can print them out. Also, please remember to click on the `Print Completed?` button after printing your labels otherwise you can not add new items to the queue. 
+## FAQ
+
+**Why can't I generate new barcodes?**
+
+Labels from your last batch are still waiting in Print Barcodes. Print them, then click `Print Completed?` to empty the print queue, as described in [Complete Printing and Start New Queue](#complete-printing-and-start-new-queue). You can still add items to the queue in the meantime.
+
+**I queued both books and members. Why were only some of them generated?**
+
+`Generate Barcodes` works on one `Object Type` (Accession or Member) at a time. The other kind stays in the queue: print the first batch, click `Print Completed?`, then generate again with the other object type.
+
+**How many items can I add to the queue?**
+
+The queue holds up to 100 items, or 500 on paid plans (Basic Pro, Silver, Gold, Platinum and Unlimited). When the limit is reached, generate and print the current labels, or remove some with [Delete Labels](#bulk-delete-barcodes), before adding more.
+
+**Why was an item not added to the queue?**
+
+An item or member that is already queued or generated cannot be added again; adding it on its own shows "Already added this item to the queue." With `Add Multiple Books`, accession numbers that are not purely numeric are ignored, so add those with `Add Book` one at a time.
+
+**I clicked `Print Completed?` by mistake. Can I undo it?**
+
+No. Marking labels as completed cannot be reverted. To get those labels again, add the items to the queue again and generate them as a new batch.
+
+**How do I reprint a label I printed before?**
+
+Add the book or member to the barcode queue again, then generate and print it as usual. Labels that were marked as completed can be queued again.
+
+**Should I untick `Remove Prefix`?**
+
+No, leave it ticked. The prefix is an experimental feature that puts an extra letter in front of the barcode (A for items, P for members), and it is not yet supported throughout Librarika. It only works with CODE 128 and CODE 39.

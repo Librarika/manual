@@ -82,7 +82,7 @@ Search Catalog is the section where you can search the entire library catalog it
 
 * You can browse the catalog by call numbers if you click on `Call Numbers`
 
-	![OPAC catalog search page](img/opac-catalog-search-call-numbers.png)
+	![OPAC catalog search page](img/opac-search-catalog-call-numbers.png)
 
 * You can also clear your searching history if you click on the `Clear` button.
 
@@ -127,7 +127,7 @@ My Account section is a powerful way to manage your library bookings, access his
 
 	![OPAC my account page](img/opac_my_account.png)
 
-* For other tabs please go to [Member Area](member-area) section.
+* For other tabs please go to [Member Area](member-area.md) section.
 
 ## Ask a Librarian
 
@@ -138,3 +138,37 @@ In this section you can contact with your library administrator and ask any ques
 	![OPAC ask librarian page](img/opac_ask_librarian.png)
 
 * Here you can find all the contact information of your library. 
+
+## FAQ
+
+**Why do visitors see "This OPAC is private!" instead of our catalog?**
+
+Your library is marked **Private** in the `Library Info` tab of Library Information. A private catalog can only be opened by members and staff who are logged in. Untick **Private** if you want everyone to see it, see [Change Library Information](libraries.md#change-library-information).
+
+**I added a book but it does not show in the OPAC. Why?**
+
+The OPAC only lists titles that are marked **Active** and **Published** and that have at least one copy. Open the item in the dashboard, click `Edit Item` and check both options, and add a copy if the item has none.
+
+**How are the Top Collections chosen?**
+
+Top Collections lists the titles whose detail pages have been viewed the most, most viewed first. Only the top 100 titles are shown.
+
+**What appears in New Collections?**
+
+The 100 most recently added titles, newest first. As with the rest of the OPAC, only active and published titles with at least one copy are listed.
+
+**Can I see the catalog of just one branch?**
+
+Yes. Choose a branch from the `All Branches` dropdown on the Catalog page to see only titles that have at least one copy in that branch. Choose `All Branches` again to see the whole catalog.
+
+**How do I stop our email address or phone number showing on the Ask a Librarian page?**
+
+Go to Preferences, open the `Options` tab and switch on `Keep email private` or `Keep phone number private`. Then choose who can still see it (Hide To All, Show To Members Only or Show To Logged-in Users Only) and click `Save Preferences`.
+
+**Who can open an item's online link (URL)?**
+
+That depends on the `Ebook URL Visibility` setting in Preferences, which you can change for a single item with `URL Visibility` on its edit form. Public shows the link to everyone, Member to logged-in members, Borrower Always to members who have ever borrowed that item, Active Borrower only while the member has it checked out, and Hide To All to no one. The setting notes that this control works only with paid plans.
+
+**Why does the OPAC say "This OPAC is suspended!"?**
+
+The library's subscription has been suspended, so its catalog is closed to everyone until the subscription is active again. Members should contact the library; library staff can check the plan from the `My Plan` page.

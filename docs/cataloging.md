@@ -516,4 +516,40 @@ To use this section, please follow the below steps:
 
 * If you want to remove review from your catalog items then click on the `Delete` icon on the right to that review.
 
+---
+
+## FAQ
+
+**Smart Add says "The book already added to your library." What should I do?**
+
+A title with that ISBN is already in your catalog, so Smart Add does not create a second one. Follow the link to open the existing title and use `Add New Copy` to add your extra copy (see [Add Copy](#add-copy)).
+
+**Smart Add says "Unable to find book information online". Now what?**
+
+Smart Add could not find the ISBN in its online sources. Add the book with [Manual Add](#manual-add) instead; only the Title field is required.
+
+**Why does the copy form say the accession number is already taken?**
+
+Each accession number can be used by only one copy in your library, and each copy number only once within the same title. Choose a different number, or change the accession number of the copy that already uses it (see [Change Accession Number](#change-accession-number)).
+
+**How do I hide an item from the OPAC or stop it being lent, without deleting it?**
+
+Untick **Published** to remove it from the OPAC, untick **Circulation** to stop check-outs, or untick **Active** to do both. These options are on the title's edit form ([Edit Media](#edit-media)) and on each copy's edit form ([Edit Copy](#edit-copy)).
+
+**Why does it say "Please upgrade your plan first in order to add more items to your library."?**
+
+Your library has reached the number of records its plan allows. The count uses whichever is larger: your number of titles or your number of copies. You can check your plan and upgrade from the `My Plan` page (see [Upgrade to Premium Plan](libraries.md#upgrade-to-premium-plan)).
+
+**What happens to the items when I delete a category?**
+
+The items are not deleted. They are moved to a category called "Unknown", which is created automatically if you don't have one yet.
+
+**Why can't I delete a tag?**
+
+A tag can only be deleted when no catalog item uses it. Remove the tag from those items first through [Edit Media](#edit-media), then delete it.
+
+**What file types can I upload as e-books?**
+
+PDF and EPUB files only, and your library needs an active e-book subscription with enough storage left. See [Add E-Book](#add-e-book).
+
 [e-book]: https://librarika.com/spages/faq#ebooks

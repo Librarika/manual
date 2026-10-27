@@ -475,3 +475,37 @@ To do so, please follow the below steps:
 
 * Now review your changes and click on the confirm button. Your bulk actions will be saved.
 * Finally click on the `Process this action?` button and all your selected members will be deleted from your library.
+
+## FAQ
+
+**Can I undo a bulk action?**
+
+No. Once a bulk action has been processed, the changes are saved straight away and deleted records are removed permanently; the review page warns that the action is irreversible. Read the conditions on the review page carefully, and export a backup from [Reports](reports.md) before a large change or deletion.
+
+**Can I cancel a bulk action after I click Confirm?**
+
+There is no cancel button on your side. If the action still shows the status `Pending`, contact Librarika support straight away; a pending action can still be cancelled, but one that has been processed cannot.
+
+**Why is my bulk action still Pending?**
+
+Bulk Actions is in beta, and actions are processed in the background (some are checked and processed by Librarika), so there can be a delay. Open the action from the list to see its status; if you see the `Process this action?` button, you can click it to run the action yourself.
+
+**How many ISBNs, accession numbers or member numbers can I enter?**
+
+Up to 1,000 per field, typed in (separated by commas) or imported from a CSV file. If you enter more than 1,000, that list is ignored, so split it into several bulk actions and check that the list appears in the conditions on the review page.
+
+**Why do I get the message "Please specify at least one criteria."?**
+
+A bulk action needs at least one condition, so that you never change or delete your whole catalog or member list by accident. Fill in at least one field on the **Select Criteria** form.
+
+**Will deleting titles also delete authors, publishers or categories that other books still use?**
+
+No. These options only remove authors, publishers and categories that are no longer linked to any remaining title in your library.
+
+**How can I see how many records were changed?**
+
+Open the bulk action from the list (the eye icon). When the status is `Completed`, `Affected Items` shows how many records were updated or deleted.
+
+**My account only has access to some branches. Which copies will a bulk action change?**
+
+Copy actions only change copies in the branches you have access to, even if your conditions would match copies in other branches.

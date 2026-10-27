@@ -120,3 +120,37 @@ Miscellaneous reports are consisting of various types of listing such as categor
 * At last from the reports menu you can export all the miscellaneous reports to keep backup of your records.
 
 	![Miscellaneous Reports](img/report-on-miscellaneous.png)
+
+## FAQ
+
+**Why do I see Page 1, Page 2... links instead of a single Export button?**
+
+Each CSV file holds up to 5,000 records. If you have more than that, the export is split into several files, so click each page link to download all of them.
+
+**Why does a report only show the last 30 days?**
+
+Reports such as `Mostly Issued Items`, `Least Circulated Items`, `Mostly Engaged Members` and `New Copies` use a date range that starts at the last 30 days. Pick another range (for example This Month or a Custom Range) with the date range picker at the top of the page; Librarika remembers your choice while you move between reports.
+
+**Does the CSV export of the Advance Report include my filters?**
+
+Yes. `Export CSV` on the [Advance Report](#circulation-reports) exports the same list you filtered with `Filter Options`, not your whole circulation history.
+
+**How do I add members' email addresses or mailing addresses to the circulation export?**
+
+Open the `Advance Report`, click `Filter Options` and switch on `Include member's email address` and/or `Include member's mailing address`. The extra columns then appear in the report and in the CSV file.
+
+**How do I get a list of my members' email addresses?**
+
+Open the `Email Recipients` report under [Member Reports](#member-reports). You can filter the list, export it to CSV, or click `Copy Emails` to copy all the addresses to your clipboard.
+
+**How do I print a report?**
+
+Click the `Print Page` button on the report page. It prints what is currently shown on the screen, so apply your filters first.
+
+**Can I edit an exported file and upload it back?**
+
+Yes, for copies and members. The files from `Export all copies` and from the member `Export` can be edited and uploaded again with [Batch Update](batch-update.md). Other exports, such as categories or authors, are for keeping a backup or reusing in an import.
+
+**Why can't I see some reports or Export buttons?**
+
+Report links and Export buttons only appear if your user role has permission to use them. Ask your library admin if you need access.

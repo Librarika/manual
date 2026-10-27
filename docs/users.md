@@ -31,6 +31,16 @@ To view list admin or stuff users, please follow the below steps:
 
 * Now you can also view all the related members of that group.
 
+### Last Active
+
+The **Last active** column shows when each user last signed in to your library or opened it in the Librarika app.
+
+![Users list with the Last active column](img/users-last-active-column.png)
+
+* A dash (`—`) means the user hasn't signed in to your library since this was introduced.
+* Only their own sign-ins count. A visit by Librarika support never does.
+* You can't see a user's sign-in history, devices or addresses. Each user sees their own in [Sign-in activity](sign-in-and-security.md#sign-in-activity).
+
 
 ## Add User
 
@@ -122,3 +132,31 @@ To view the list of linked members, please follow the below steps:
 
 * All the patrons accounts are listed here. These users can not access admin dashboard by default. 
 * However, you can assign them admin permission, if you want them to be a part of your library management staff.
+
+---
+
+## FAQ
+
+**What does the Last active column show?**
+
+When the user last signed in to your library or opened it in the Librarika app. See [Last Active](#last-active).
+
+**Can I change a staff member's name, email or password?**
+
+No. Each person manages their own account in their settings. You can change their role or remove their permission (see [Add / Update Permission](#add-update-permission) and [Remove Permission](#remove-permission)).
+
+**An invited user didn't receive the email. What can I do?**
+
+Use [Resend Invitation](#resend-invitation), and ask them to check their spam folder.
+
+**Which password does an invited user choose?**
+
+A new password for Librarika, separate from their email and their organisation's SSO password. The invitation page explains this. See [Your Librarika password and your organisation's password](sign-in-and-security.md#your-librarika-password-and-your-organisations-password).
+
+**A staff member lost their phone. How do they sign it out?**
+
+They open their [Sign-in activity](sign-in-and-security.md#sign-in-activity) and click `Sign out` next to the phone, or change their password, which signs out every other session.
+
+**How do I stop someone from managing my library?**
+
+Remove their permission (see [Remove Permission](#remove-permission)). Their Librarika account stays, but they can no longer open your library's dashboard.

@@ -60,8 +60,28 @@ No. SIP2 requires a paid plan (Basic Pro, Silver, or Gold) and a separate SIP2 l
 
 **Do I need a barcode scanner?**
 
-Yes. SIP2 kiosk-based checkout requires a barcode scanner to scan member IDs and item barcodes. If you don't need hardware-based checkout, consider using [Online Self-Service](self-checkout.md#online-self-service) instead -- it works from any browser with no scanner needed.
+Yes. SIP2 kiosk-based checkout requires a barcode scanner to scan member IDs and item barcodes. If you don't need hardware-based checkout, consider using [Online Self-Service](self-service.md) instead -- it works from any browser with no scanner needed.
 
 **Can I use third-party kiosk software?**
 
 Yes. Any SIP2-compatible kiosk software can connect to Librarika. Librarika is also developing its own [Kiosk App](#librarika-kiosk-app-coming-soon) for a seamless experience.
+
+**Can two kiosks share one SIP2 licence?**
+
+No. Each terminal has its own licence and signs in with its own active staff account in your library. Use a separate account for each terminal, not a person's own login, because a terminal account is meant for SIP2 use only.
+
+**Where can I see my SIP2 terminals and when their licences end?**
+
+Go to `Manage -> Preferences` and open the `SIP2` tab (it appears once a terminal is licensed for your library). It shows each terminal's allowed IPs, licence end date, status and when it was last used. To add, move or renew a terminal, contact Librarika support.
+
+**Why has my kiosk stopped working?**
+
+Check the status on the `SIP2` tab in Preferences. The licence may have expired (after the end date the terminal keeps working only for a grace period), it may be suspended, or the kiosk may be connecting from an IP address that is not in its allowed list, for example after an internet provider change. Contact Librarika support to renew the licence or update the allowed IPs.
+
+**What can members do at a SIP2 kiosk?**
+
+Members can identify themselves, check out items and return them. Renewals, holds and fee payments are not available through SIP2.
+
+**Do kiosk checkouts follow my circulation rules?**
+
+Yes. The same checks apply as at the desk: an inactive member, a member who has reached their booking quota or dues limit, an item with circulation disabled, an item already issued, or an item on the hold shelf for another member is refused.

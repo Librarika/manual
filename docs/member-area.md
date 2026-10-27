@@ -89,6 +89,8 @@ Account settings is the section where you can update all the information of your
 
 * Once you click the save settings button your given information will be saved.
 * Now whenever you visit this page you can view your information or update your info.
+* On the same page you can choose how you sign in (**SSO sign-in**, **Enable Google Login**, **Sign in with Apple**) and see your **Sign-in activity**: where your account is signed in, with a `Sign out` button for each browser or phone. See [Sign-in & Security](sign-in-and-security.md).
+* Changing your password signs out your account everywhere else, including the mobile app.
 
 ## My Holds
 
@@ -166,3 +168,27 @@ To cancel your reservation, please follow the below steps:
 If your library has self-service enabled, members can check out and return items directly from the member area without staff involvement. Members can check out items from the catalog page and return items from the My Bookings section.
 
 For detailed instructions on setting up self-checkout and self-return, see the [Self-Service](self-service.md) page.
+
+---
+
+## FAQ
+
+**Which password do I use to sign in?**
+
+Your Librarika password, the one you created when you accepted the library's invitation. You can also use Google, Apple or your library's SSO. See [Ways to sign in](sign-in-and-security.md#ways-to-sign-in).
+
+**I forgot my password. What should I do?**
+
+Click `Forgot password?` on the login page and follow the email you receive.
+
+**How do I see where my account is signed in?**
+
+Open `Account Settings` and scroll to **Sign-in activity**. See [Sign-in activity](sign-in-and-security.md#sign-in-activity).
+
+**I left my account signed in on a library computer. What can I do?**
+
+Open **Sign-in activity** from another device and click `Sign out` next to that session, or `Sign out everywhere else`.
+
+**Can the library see my sign-ins?**
+
+The library's staff see only when you were last active in their library, not your history, devices or addresses.

@@ -100,6 +100,16 @@ Same way you can disable member login access from the edit member page.
 	* If unchecked, you can enable login access again with a new invitation email. 
 * Click on the `Submit` button when you are done.
 
+### Last Active
+
+The **Last active** column on the Members list shows when each member last signed in to your library or opened it in the Librarika app. It helps you see who still uses the library.
+
+![Members list with the Last active column](img/members-last-active-column.png)
+
+* A dash (`—`) means the member hasn't signed in since this was introduced, or has no Librarika account yet (for example, they haven't accepted the invitation).
+* Only the member's own sign-ins count. A visit by Librarika support never does.
+* You can't see a member's sign-in history, devices or addresses. Members see their own history in their [Sign-in activity](sign-in-and-security.md#sign-in-activity).
+
 ### Delete Member
 
 To delete a member from your library, please follow the below steps:
@@ -215,5 +225,29 @@ To use this section, please follow the below steps:
 * In the **Amount** field please enter the amount that you want to take from a member.
 * The amount will be set to 0 if your library member do not have any charge to pay.
 * Also amount under **Round Brackets** means member has extra balance on his / her wallet.
+
+---
+
+## FAQ
+
+**What does the Last active column show?**
+
+When the member last signed in to your library's website, or opened your library in the Librarika app. See [Last Active](#last-active).
+
+**Why does a member show a dash in Last active?**
+
+They haven't signed in since the column was introduced, or they don't have a Librarika account yet because they haven't accepted the invitation. You can re-send it with the `Re-send Invite` button.
+
+**Can I see where and when a member signed in?**
+
+No. Library staff see only the last active time. Each member sees their own full history in [Sign-in activity](sign-in-and-security.md#sign-in-activity).
+
+**A member can't sign in. What should I check?**
+
+Check that **Member Area Access** is enabled for them (see [Enable Member Access](#enable-member-access)) and that they accepted the invitation. If your library uses SSO, also see [SSO / SAML](sso-saml.md).
+
+**Can a member use Google or Apple to sign in?**
+
+Yes, if their Google or Apple account uses the same email address as their Librarika account. See [Ways to sign in](sign-in-and-security.md#ways-to-sign-in).
 
 [member_bulk_import]: https://librarika.com/spages/import-members "Bulk Import of Members"

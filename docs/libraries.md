@@ -262,3 +262,39 @@ Note: If you are on any paid plan (Premium Plan or E-Book Plan), please let us k
 * Check `Remove my library` and `Remove my account` options as shown above.
 * Also check the `Confirm removal` option to confirm your removal request.
 * Once you click on the `Submit` button your library will be deleted.
+
+---
+
+## FAQ
+
+**How do I make our catalog visible to members only?**
+
+Tick **Private** in the `Library Info` tab and click `Submit`. Visitors who are not logged in then see a "This OPAC is private!" page, while logged-in members and staff can still use the catalog.
+
+**Why won't my logo upload?**
+
+The logo must be a PNG, JPG or GIF image at least 200x200 pixels and no larger than 800x800 pixels. Larger images are resized to 200x200, so a square image looks best.
+
+**What do Booking Time and Booking Quota mean?**
+
+`Booking Time` is the default loan length in days, which sets the default Return Date in the circulation form. `Booking Quota` is the total number of items a member can have requested, reserved and checked out at the same time; a quota set on a single member's record replaces it for that member (see [Booking Quota](members.md#booking-quota)).
+
+**How many librarians can receive notifications?**
+
+Up to five. Pick them in the `Notified Librarians` list on the `Notifications / Reminders` tab.
+
+**Why do reminder emails arrive earlier or later than I expected?**
+
+Reminder times are calculated in UTC, not in your local time zone. Adjust the hours in the `Notifications / Reminders` tab to allow for the difference.
+
+**Can I use the premium color schemes on the free plan?**
+
+No. Premium color schemes in the `Appearance` tab are available on paid plans only; saving one on a free plan shows an error and the change is not saved. See [Upgrade to Premium Plan](#upgrade-to-premium-plan).
+
+**Why can't I delete a branch?**
+
+A branch that still has catalog copies assigned to it cannot be deleted. Move those copies to another branch (or delete them) first, then delete the branch.
+
+**Can I undo deleting my library?**
+
+No. Removing a library is permanent, and you cannot create a new library with the same nickname or email address afterwards. Login accounts of your members and staff stay active because they belong to the Librarika platform, not to your library.

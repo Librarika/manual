@@ -355,3 +355,39 @@ The hold queue system works alongside the existing reservation system:
 * Holds will wait until any active reservations on the item are cleared before being processed.
 
 For information on the reservation system, see the [Reserve Item](circulations.md#reserve-item) section in the Circulations page and the [Submit Reservation Request](member-area.md#submit-reservation-request) section in the Member Area page.
+
+---
+
+## FAQ
+
+**Why is there no `Place Hold` button when a copy is on the shelf?**
+
+The title-level `Place Hold` button only appears when every copy is checked out. If a copy is available, the catalog shows "Available copies exist - hold is not needed", and the member can borrow that copy instead.
+
+**Can a member place a hold on an item they already have checked out?**
+
+No. Librarika refuses the hold with the message "Member already has this item checked out."
+
+**Can a member have more than one hold on the same title?**
+
+No. A member can have only one active hold (Waiting, Ready or Suspended) per title, whether it is a title-level or a copy-level hold.
+
+**Do suspended holds count towards the Hold Quota?**
+
+Yes. Waiting, Ready and Suspended holds all count towards the member's [Hold Quota](#hold-queue-settings). Cancel a hold you no longer need to free up a place.
+
+**Can a Ready hold be suspended?**
+
+No. Only holds in **Waiting** status can be suspended. If the member cannot collect a Ready item in time, staff can cancel the hold from the [Hold Shelf](#hold-shelf).
+
+**I cancelled a hold by mistake. Can I undo it?**
+
+No. A cancelled hold cannot be reactivated. Place a new hold instead. The new hold joins the end of the queue, so the member does not get their old position back.
+
+**What if staff check out a hold-shelf item to a different member?**
+
+Librarika shows a warning that the item is on the hold shelf for another member, and staff can choose to continue. If you continue, the other member's hold is not moved to a different copy automatically.
+
+**Can a recall give the current borrower more time?**
+
+No. A [recall](#recall-system) only makes the due date earlier. If the borrower's due date already falls within the Recall Period, it is left unchanged.

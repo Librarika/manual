@@ -103,6 +103,7 @@ This is the simplest way to join a library. Open the invitation email in your ma
 		![Join library form new user](img/join-library-form-new-user.png)
 
 	* Enter _name_, _email address_ and _password_ for a new account.
+	* The password is a **new password for Librarika**, not your email account's password. If the library uses SSO, don't use your organisation's password here either: see [Your Librarika password and your organisation's password](sign-in-and-security.md#your-librarika-password-and-your-organisations-password).
 	* Click on the `I agree, please create my account` button. A new account will be created and you will be logged into it automatically.
 	* Now click on `Yes, please join me in.` button. You will then be joined to the library.
 
@@ -137,5 +138,33 @@ You can proactively join a library by submitting the member access request from 
 * You will then receive a confirmation message on the screen regarding your submission.
 * Once submitted, depending on the library prolicy, a library offical will review your request and assign you a library "**Member No**" for future access.
 * If accepted, you can then log into that specific library and access the member only area.
+
+---
+
+## FAQ
+
+**Can I create more than one library with the same account?**
+
+Yes. See [Multiple Libraries](#multiple-libraries).
+
+**I didn't receive the activation email. What now?**
+
+Check your spam folder, and ask your IT team to allow emails from librarika.com. See [Have not received activation email yet?](#have-not-received-activation-email-yet)
+
+**Can I sign up with Google or Apple?**
+
+Not yet. Google and Apple sign you in to an existing Librarika account with the same email address. Create your account with an email and password first; afterwards you can use Google or Apple. See [Ways to sign in](sign-in-and-security.md#ways-to-sign-in).
+
+**I was invited by a library. Do I need a new account?**
+
+No, if you already have a Librarika account: choose `No, I already have an account in Librarika` on the join form and log in. See [Join from invitation email](#a-join-from-invitation-email).
+
+**Which password do I choose when I join?**
+
+A new password for Librarika only. It's separate from your email password and from your school's or company's SSO password.
+
+**Is my account tied to one library?**
+
+No. Your Librarika account is yours: you use it on librarika.com, in every library you join, and in the mobile app.
 
 [Librarika]: https://librarika.com/  "Librarika ILS - The Free Library Management System"
