@@ -49,6 +49,7 @@ nav:
       - 'Account settings in the app': 'app-account-settings.md'
       - 'Troubleshooting': 'app-troubleshooting.md'
     - 'Help':
+      - 'FAQ': 'faq.md'
       - 'Contact us': 'https://librarika.com/spages/contact'
       - 'Contributing': 'contribute.md'
       - 'About': 'about.md'

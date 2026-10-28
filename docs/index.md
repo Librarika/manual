@@ -91,10 +91,29 @@ At a self-checkout kiosk, members see [Using a kiosk](using-a-kiosk.md); staff s
 
 ---
 
+## Glossary
+
+| Term | Meaning |
+|---|---|
+| **Librarika account** | Your own sign-in (email address and password), used in every library you belong to, on librarika.com and in the app. |
+| **librarika.com (the platform)** | The main Librarika site, where you create an account or a library and see **My Libraries**. Each library also has its own site, such as `mylibrary.librarika.com`. |
+| **Member** | Someone who borrows from a library. Some libraries say *patron*. |
+| **Staff** | People with a role in a library: library admin, staff (librarian) or assistant. |
+| **Library admin** | Staff who manage the library's settings, plan and users. |
+| **Two-step verification** | A second step after your password: a 6-digit code from an authenticator app on your phone. |
+| **Recovery code** | A one-time code you saved when you turned on two-step verification, for when you don't have your phone. |
+| **SSO (single sign-on)** | Signing in to a library with your school's or organisation's own login. |
+| **SAML** | The standard Librarika uses to talk to your organisation's sign-in for SSO. |
+| **Identity provider (IdP)** | Your organisation's sign-in service that SSO uses, such as Google Workspace or Microsoft Entra ID. |
+| **Kiosk** | A self-checkout computer at the library where members borrow and return items. |
+| **SIP2 terminal** | A kiosk or other device that connects to Librarika with the SIP2 standard. Each one needs its own licence and terminal account. |
+
+---
+
 ## Policies
 
 [Privacy Policy](https://librarika.com/spages/privacy-policy) · [Terms of Use](https://librarika.com/spages/terms-and-conditions-of-use) · [GDPR Statement](https://librarika.com/spages/gdpr-statement) · [Data Processing Agreement](https://librarika.com/spages/customer-gdpr-data-processing-agreement) · [Sub-processors](https://librarika.com/spages/sub-processors)
 
 ## Help
 
-For questions about your library or plan, [contact us](https://librarika.com/spages/contact). To suggest a correction to this manual, see [Contributing](contribute.md).
+Questions? See the [FAQ](faq.md). For questions about your library or plan, [contact us](https://librarika.com/spages/contact). To suggest a correction to this manual, see [Contributing](contribute.md).
