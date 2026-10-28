@@ -29,9 +29,6 @@ For problems signing in, staff can also use [Helping people who can't sign in](h
 * Can I use the premium color schemes on the free plan?
 * Why can't I delete a branch?
 * Can I undo deleting my library?
-* Can we require two-step verification for our staff?
-* What does "Not enforced yet" mean on the Sign-in security page?
-* We think our passwords may have leaked. Can we make everyone choose a new one?
 
 **[Users & roles](users.md#faq)**
 
