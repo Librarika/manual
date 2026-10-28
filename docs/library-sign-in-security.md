@@ -41,6 +41,8 @@ When a requirement is on, a person who needs it and hasn't set it up is asked to
 
 The requirement follows the person: if someone belongs to several libraries and any one of them requires two-step verification, they need it for their whole account.
 
+Self-checkout kiosks that sign in with a licensed terminal account aren't affected. See [Kiosk app](kiosk-app.md#get-a-terminal-licence-and-account).
+
 ## Password length
 
 * **Minimum without two-step verification** and **Minimum with two-step verification** -- leave them empty to use Librarika's minimums (15 and 12 characters). You can only **raise** them, up to Librarika's maximum password length. Any other number is refused with *"The minimum password length can only be raised: use a number from … to …"* (the message shows the allowed range).
@@ -51,6 +53,7 @@ The requirement follows the person: if someone belongs to several libraries and 
 
 * **Ask for a new password if it was set before** -- enter a date as `YYYY-MM-DD`. Staff and members whose password was set before that date [choose a new one](passwords.md#choose-a-new-password) the next time they sign in with their password. Leave it empty for none.
 * Use it, for example, if you think passwords may have leaked.
+* Self-checkout kiosks that sign in with a licensed terminal account aren't affected. See [Kiosk app](kiosk-app.md#get-a-terminal-licence-and-account).
 * **On any plan**, [Librarika support](https://librarika.com/spages/contact) can set this date for your library. If your plan can't change these settings and you need everyone to choose new passwords, ask support. On those plans the date is the only setting that takes effect.
 
 Click `Save` when you are done. You see *"The security settings have been saved."*

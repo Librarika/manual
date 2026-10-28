@@ -1,12 +1,12 @@
 # SIP2 integration
 
-For libraries that need physical self-checkout stations -- such as school libraries, public libraries, or corporate libraries with walk-in access -- Librarika supports the **SIP2 protocol** for connecting self-checkout kiosks and other automation devices.
+**Who this is for:** library staff connecting a self-checkout kiosk or other SIP2 device. Using the Librarika Kiosk app? Go straight to [Kiosk app: setup and management](kiosk-app.md).
 
 If you are looking for browser-based self-checkout without any hardware, see [Online Self-Service](self-service.md#online-self-service) instead.
 
 ## What is SIP2?
 
-SIP2 (Standard Interchange Protocol 2) is an industry-standard protocol used by libraries worldwide to communicate between self-service devices (such as self-checkout kiosks, RFID gates, and automated book sorters) and the library management system. SIP2 allows these devices to perform checkouts, check-ins, and patron lookups without requiring direct access to the library dashboard.
+SIP2 (Standard Interchange Protocol 2) is the standard way self-service devices, such as self-checkout kiosks, talk to a library system. Librarika's SIP2 service lets these devices look up members, check items out and check them in.
 
 ## Requirements
 
@@ -20,22 +20,24 @@ To use SIP2-based self-checkout, you will need:
 
 ## Licensing
 
-SIP2 is licensed per terminal. Each terminal that connects to Librarika needs its own licence, which Librarika links to the terminal's staff account. A licence runs for a set period (usually a year); after its end date the terminal keeps working only for a short grace period. A licence can also list the IP addresses the terminal may connect from. Contact Librarika support for pricing and to add, move or renew a terminal.
+SIP2 is licensed per terminal. Each terminal that connects to Librarika needs its own licence, which Librarika links to the terminal's staff account. A licence runs for a set period (usually a year). After the end date the terminal keeps working for a grace period that Librarika sets; the `SIP2` tab shows *Licence ended: working until <date>*. A licence can also list the IP addresses the terminal may connect from. Contact Librarika support for pricing and to add, move or renew a terminal.
 
 ## Connection details
 
-* **Protocol**: SIP2 over TLS (encrypted)
-* **Port**: 6009
+* **Host**: `sip2.librarika.com`, port **6009** (SIP2 over TLS, encrypted). An unencrypted port is available only for addresses Librarika support has allowed.
 * **Institution ID (AO)**: your library's subdomain, for example `mylibrary` for `mylibrary.librarika.com`.
-* **Login**: the terminal's dedicated staff account (username and password). Use the account that Librarika support licensed for the terminal: a licensed terminal account is not asked for two-step verification or a new password, but an ordinary staff account is, and a kiosk can't answer. See [Kiosk app](kiosk-app.md#get-a-terminal-licence-and-account).
-* **Allowed IPs**: if the licence lists IP addresses, the terminal must connect from one of them.
-* **Activation**: SIP2 terminals are set up by Librarika staff. Please contact support to get your SIP2 terminal set up.
+* **Account**: the terminal's own staff account; see [Kiosk app](kiosk-app.md#get-a-terminal-licence-and-account).
+* **Login (93)**: CN = username (the account's email address), CO = password.
+* **Terminal password (AC)**: in every patron status, checkout and check-in message, `username:password` of the terminal account (its email address, a colon, its password).
+* **Supported messages**: login (93), patron status (23), checkout (11) and check-in (09).
+* **Card and item barcodes**: the patron identifier must be exactly the member's **Member No**; the item identifier is the copy's accession number.
+* **Allowed IPs**: if the licence lists IP addresses or ranges, the terminal must connect from one of them.
 
 ## Setup steps
 
-1. **Create a staff account** in your library for each terminal (see [Users](users.md)).
-2. **Contact Librarika support** to license and activate your terminals. Tell them the number of terminals, each terminal's account, and the IP addresses the terminals connect from.
-3. **Configure your kiosk software** with the SIP2 connection details provided by Librarika staff.
+1. **Create a staff account** in your library for each terminal, with the **Library Assistant** role, an email address you can open, and a password set from its invitation (see [Kiosk app](kiosk-app.md#get-a-terminal-licence-and-account)).
+2. **Contact Librarika support** to license and activate your terminals. Tell them the number of terminals, each terminal's account, and the IP addresses the terminals connect from. Ask for the licence **before** you require two-step verification for staff.
+3. **Enter the connection details above** in your kiosk software.
 4. **Print barcode labels** for your catalog items and member cards. See [Barcode Labels](barcode-labels.md) for instructions.
 5. **Test** the connection by performing a test checkout and check-in at your kiosk.
 
@@ -71,7 +73,7 @@ Go to `Manage -> Preferences` and open the `SIP2` tab (it appears once a termina
 
 **Why has my kiosk stopped working?**
 
-Check the status on the `SIP2` tab in Preferences. The licence may have expired (after the end date the terminal keeps working only for a grace period), it may be suspended, or the kiosk may be connecting from an IP address that is not in its allowed list, for example after an internet provider change. Contact Librarika support to renew the licence or update the allowed IPs.
+Check the status on the `SIP2` tab in Preferences. The licence may have expired (after the end date the terminal keeps working for a grace period that Librarika sets; the tab shows *Licence ended: working until <date>*), it may be suspended, or the kiosk may be connecting from an IP address that is not in its allowed list, for example after an internet provider change. Contact Librarika support to renew the licence or update the allowed IPs.
 
 **What can members do at a SIP2 kiosk?**
 
