@@ -35,7 +35,7 @@ On any plan, people can turn on [two-step verification](two-step-verification.md
 	* `Required for staff` -- everyone with a role in your library (*Library Administrator*, *Library Staff* and *Library Assistant*) must use it.
 	* `Required for staff and members` -- everyone, including members who can sign in.
 	* The note *"Security keys and passkeys come later."* means that for now two-step verification uses an authenticator app only.
-* **Also ask for the two-step code after signing in with Google, Apple or the library's SSO** -- by default, people who sign in with Google, Apple or SSO aren't asked for the code, because those services usually have their own two-step check. Tick this to ask for the code anyway. It only applies to people who have turned two-step verification on. This option is shown only when it is available for your library. If it shows *"Librarika already asks for it on every library."*, Librarika already asks everyone with two-step verification for the code after these sign-ins, whatever you tick here.
+* **Also ask for the two-step code after signing in with Google, Apple or the library's SSO** -- by default, people who sign in with Google, Apple or SSO aren't asked for the code, because those services usually have their own two-step check. Tick this to ask for the code anyway. It only applies to people who have turned two-step verification on. This option is shown only when it is available for your library. If it shows *"Librarika already asks for it on every library."*, Librarika already asks everyone with two-step verification for the code after these sign-ins, whatever you tick here. Like the requirement, this follows the person: someone who belongs to several libraries is asked for the code after these sign-ins if any of their libraries ticks it.
 
 When a requirement is on, a person who needs it and hasn't set it up is asked to set it up the next time they sign in with their password. They can't turn it off while it is required.
 
@@ -51,7 +51,7 @@ Self-checkout kiosks that sign in with a licensed terminal account aren't affect
 
 ## Ask for a new password
 
-* **Ask for a new password if it was set before** -- enter a date as `YYYY-MM-DD`. Staff and members whose password was set before that date [choose a new one](passwords.md#choose-a-new-password) the next time they sign in with their password. Leave it empty for none.
+* **Ask for a new password if it was set before** -- enter a date as `YYYY-MM-DD`. From that date on, staff and members whose password was set before it [choose a new one](passwords.md#choose-a-new-password) the next time they sign in with their password. A future date gives people time to change it themselves first. Leave it empty for none.
 * Use it, for example, if you think passwords may have leaked.
 * Self-checkout kiosks that sign in with a licensed terminal account aren't affected. See [Get a terminal licence and account](kiosk-app.md#get-a-terminal-licence-and-account).
 * **On any plan**, [Librarika support](https://librarika.com/spages/contact) can set this date for your library. If your plan can't change these settings and you need everyone to choose new passwords, ask support. On those plans the date is the only setting that takes effect.

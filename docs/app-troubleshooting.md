@@ -12,7 +12,7 @@
 |---|---|
 | *"Invalid username and password"* | Check your email and password. Forgot it? Tap `Forgot Password?`. |
 | *"Too many sign-in attempts. Please wait … seconds; retrying sooner extends the wait."* | Wait for the time shown, then try once. |
-| *"Please verify your email address in order to login."* | Open the confirmation email from Librarika and follow its link, then sign in again. Can't find it? Sign in on librarika.com to have it sent again. |
+| *"Please verify your email address in order to login."* | Your account's email address isn't confirmed yet. You see this after tapping Google or Apple, or after signing in with the password of an account that was never confirmed. Open the confirmation email from Librarika and follow its link, then sign in again. After Google or Apple, you can also sign in with your email and password instead. Can't find the email? Use `Forgot password?`: opening its link also confirms your address. |
 | *"You need to change your password. …"* | Tap `Change password on the website`, choose a new password, then sign in to the app with it. |
 | *"Your account needs two-step verification. …"* | Tap `Set up two-step verification` and set it up on the website, then sign in to the app. |
 | *"Please update the Librarika app to sign in. Your account uses two-step verification."* | Tap `Update the app` and install the update from the App Store or Google Play. On an older version without this button, close the app completely and open it again, or update it from the store. Until then, use your library's website. |

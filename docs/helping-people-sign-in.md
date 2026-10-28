@@ -15,7 +15,7 @@ Ask them to click `Forgot password?` on the **Log in** page, enter their email a
 
 ## Has to wait, or sees a captcha
 
-After two wrong passwords the **Log in** page asks for a captcha; after more, they have to wait (*"Please wait 30 seconds; retrying sooner extends the wait."*). The wait is short. Ask them to wait for the time shown and try once, or to use `Forgot password?` instead of guessing. See [Too many wrong passwords](passwords.md#too-many-wrong-passwords).
+After two wrong passwords the **Log in** page asks for a captcha; after more, they have to wait (*"Please wait 30 seconds; retrying sooner extends the wait."*). On a shared connection, such as a school network, many failed sign-ins from other people can also bring up the captcha; they tick it and continue. The wait is short. Ask them to wait for the time shown and try once, or to use `Forgot password?` instead of guessing. See [Too many wrong passwords](passwords.md#too-many-wrong-passwords).
 
 ## Asked to choose a new password
 
@@ -40,7 +40,7 @@ If your library requires two-step verification, people who haven't set it up are
 
 * **Invitation expired** (*"This invitation has expired. Please ask the library to send it again."*): invitations work for 30 days. Re-send it from the Members list (`Re-send Invite`) or the member's page (`Re-send Invitation Email`).
 * **"Member login is turned off for this membership. Please contact the library.":** turn on member access for them (see [Members](members.md#enable-member-access)).
-* **"Please verify your email address in order to login.":** their account's email isn't confirmed yet. They open the verification link Librarika emailed them (an account made on your **Join Library** page gets one straight away; the link works for 7 days and only while they are signed in), or use `Forgot password?`, which also confirms it.
+* **"Please verify your email address in order to login.":** appears when they sign in with Google or Apple (or, in the app, with the password of an account that was never confirmed) and their account's email isn't confirmed yet. They open the verification link Librarika emailed them (an account made on your **Join Library** page gets one straight away; the link works for 7 days and only while they are signed in), or use `Forgot password?`, which also confirms it.
 
 See [Member quick start](member-quick-start.md).
 

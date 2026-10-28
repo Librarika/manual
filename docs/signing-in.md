@@ -16,7 +16,7 @@ On the **Log in** page of a library (and of librarika.com) you can sign in with:
 
 * **Username and password**: your email address and your Librarika password. Click `Log in`.
 * **Google**: `Continue with Google`, with the Google account that uses the same email address as your Librarika account.
-* **Apple**: `Continue with Apple`, with your Apple ID, if it uses the same email address as your Librarika account. It is always available in the Librarika app; on the website it appears only where Librarika has turned Apple sign-in on.
+* **Apple**: `Continue with Apple`, with your Apple ID, if it uses the same email address as your Librarika account. It appears in the Librarika app where Librarika offers it (on iPhone, Google is shown only together with Apple), and on the website only where Librarika has turned Apple sign-in on.
 * **SSO** (single sign-on): `Sign in with SSO` (shown as a key icon when Google and Apple are also offered), your school's or organisation's own login. This button only appears in libraries that use [SSO](sso-saml.md). In those libraries the Google and Apple buttons are usually hidden.
 
 ![The Log in page on librarika.com, with Continue with Google and Continue with Apple](img/signin-librarika-login-buttons.png)
@@ -64,7 +64,7 @@ Your settings page is where you change how you sign in; other pages call it "you
 
 ![SSO sign-in list and the Google sign-in switch in Account Settings](img/signin-member-settings-sso-google.png)
 
-* **SSO sign-in** -- *"A library's single sign-on (SSO) can sign you in only if it is ticked here."* Untick a library to stop its SSO from signing in to your account. Each library shows when its SSO last signed you in (*last used …*), or *not used yet*. Staff settings also show how the library was added (for example *added when SSO created your account*). This list only appears if you belong to a library that uses SSO.
+* **SSO sign-in** -- *"A library's single sign-on (SSO) can sign you in only if it is ticked here."* (staff settings and the app say *switched on*) Untick a library to stop its SSO from signing in to your account. Each library shows when its SSO last signed you in (*last used …*), or *not used yet*. Staff settings also show how the library was added (for example *added when SSO created your account*). This list only appears if you belong to a library that uses SSO.
 * **Enable Google Login** and **Sign in with Apple** -- your own switches for Google and Apple.
 * Click `Save Settings` when you are done.
 
@@ -121,6 +121,8 @@ Links that confirm something open a page with a **button**, and only the button 
 | Activate a new library | **Activate your library** | `Activate my library` |
 | Remove your account | **Delete your account?** | `Delete my account` (or `Keep my account`) |
 | Reset your password | **Choose a new password** | `Save new password` |
+
+**An account you made on a library's Join page** gets a different verification link: it opens no page with a button and asks for no new password. It only confirms your address, and only while you are signed in to that account (if you are signed out, Librarika asks you to sign in first). You then see *"Your email address is verified."* and your **My Invites** page. It works for 7 days.
 
 The **Confirm it's you** email link is different: it works only in the same browser where you asked for it, while you are signed in.
 

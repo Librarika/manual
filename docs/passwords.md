@@ -13,6 +13,7 @@ Librarika's password rules are part of security improvements based on industry s
 When you choose a new password (when you join, change it or reset it), it must:
 
 * have **at least 15 characters**, or **at least 12** if you have [two-step verification](two-step-verification.md) turned on. Your library may ask for more (see [Password length](library-sign-in-security.md#password-length));
+* have **at most 128 characters**;
 * not be a **common password** or one that has appeared in a **data breach** somewhere on the internet;
 * not contain your **username, email address or name**;
 * not contain your **library's name** or the word "Librarika";
@@ -74,7 +75,8 @@ Sometimes Librarika shows **Choose a new password** right after you sign in, wit
 
 * Librarika support asked you to change it, for example after resetting your two-step verification;
 * your library asked everyone to choose a new password (see [Ask for a new password](library-sign-in-security.md#ask-for-a-new-password));
-* Librarika found that your password appeared in a data breach (Librarika may ask for this; it depends on your account).
+* Librarika found that your password appeared in a data breach (Librarika may ask for this; it depends on your account);
+* your library created your account in a member import with a password chosen by staff: you choose your own at your first sign-in.
 
 Enter a new password twice and click `Save password`. If you'd rather do it later, click `Sign out`; you will be asked again at your next sign-in.
 
@@ -86,6 +88,7 @@ To protect your account from people guessing passwords, Librarika slows down rep
 
 * After **two** wrong passwords, the **Log in** page asks you to complete a **captcha** ("I'm not a robot" check). If you skip it you see *"Please confirm you are a human!"*
 * After more wrong passwords, Librarika may make you wait a little before trying again. You see *"Please wait 30 seconds; retrying sooner extends the wait."* (the number of seconds varies). Wait for that time, then try again. Trying sooner makes the wait longer.
+* The captcha can also appear when many failed sign-ins come from the same internet connection (for example a school network), even if you typed your password right. Tick it and continue.
 * If someone keeps trying wrong passwords on your account, you get an **email** about it. If that wasn't you, nobody has got in: the email has a link to reset your password if you want to be safe.
 
 If you are not sure of your password, use [Forgot password?](#forgot-your-password) instead of guessing.

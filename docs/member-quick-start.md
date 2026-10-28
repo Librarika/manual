@@ -10,7 +10,7 @@
 
 When a library adds you as a member with an email address and turns on member access, you get an invitation email. Click the link in it. It opens your library's **Join Library** page.
 
-* The invitation works for **30 days**. If it has expired, you see *"This invitation has expired. Please ask the library to send it again."*
+* The invitation works for **30 days** (counted from the library's last change to your membership). If it has expired, you see *"This invitation has expired. Please ask the library to send it again."*
 * If you are already signed in to Librarika with a different email address, sign out first, then open the link again.
 
 **If the link doesn't work:**
@@ -57,7 +57,7 @@ Until your address is verified:
 Go to your library's website (for example `mylibrary.librarika.com`) and click `Login`. Enter your **Username** (your email) and password and click `Log in`, or use your library's SSO (`Sign in with SSO`, shown as a key icon when Google and Apple are also offered). See [Signing in](signing-in.md).
 
 * **Google:** to use `Continue with Google` with the account you made with a password, first sign in with your password, tick **Enable Google Login** in Account Settings and click `Save Settings`. If you skip this, you see *"Please enable the `Login with Google` option from the settings menu."*
-* **Apple:** `Continue with Apple` is always available in the Librarika app; on the website it appears only where Librarika has turned it on.
+* **Apple:** `Continue with Apple` appears in the Librarika app where Librarika offers it, and on the website only where Librarika has turned it on.
 
 ## 5. Use the Member Area
 
