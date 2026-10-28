@@ -251,3 +251,12 @@ Check that **Member Area Access** is enabled for them (see [Enable Member Access
 Yes, if their Google or Apple account uses the same email address as their Librarika account. See [Ways to sign in](sign-in-and-security.md#ways-to-sign-in).
 
 [member_bulk_import]: https://librarika.com/spages/import-members "Bulk Import of Members"
+
+**A member forgot their password or lost their phone. How can I help?**
+
+For a forgotten password, ask them to click `Forgot password?` on the login page. If they lost the phone with their authenticator app, they sign in with a recovery code; without recovery codes, they contact Librarika support. Staff can't see or reset members' passwords. See [Helping someone who can't sign in](sign-in-and-security.md#helping-someone-who-cant-sign-in).
+
+**Should we require two-step verification for members?**
+
+Only after telling them what to expect: they need an authenticator app on their phone and should save their recovery codes. You can start by requiring it for staff only. See [Good practice for your library](sign-in-and-security.md#good-practice-for-your-library).
+

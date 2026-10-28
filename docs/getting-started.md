@@ -39,7 +39,7 @@ Create a new library for the first time.
 		A verification email will be sent to this email address.
 
 	*	**Password (Admin):**
-	Enter a new password for your admin login and confirm the password. Please remember this password, as you will need it to log into your library.
+	Enter a new password for your admin login and confirm the password. Please remember this password, as you will need it to log into your library. Use at least 15 characters; a few unrelated words make a strong password that is easy to remember. See [Your password](sign-in-and-security.md#your-password).
 
 * Select a library type and country from the dropdown list.
 * Once, you are done, please click on the `I agree, please create my library` button.
@@ -103,7 +103,7 @@ This is the simplest way to join a library. Open the invitation email in your ma
 		![Join library form new user](img/join-library-form-new-user.png)
 
 	* Enter _name_, _email address_ and _password_ for a new account.
-	* The password is a **new password for Librarika**, not your email account's password. If the library uses SSO, don't use your organisation's password here either: see [Your Librarika password and your organisation's password](sign-in-and-security.md#your-librarika-password-and-your-organisations-password).
+	* The password is a **new password for Librarika**, not your email account's password. It needs at least 15 characters (see [What makes a good password](sign-in-and-security.md#what-makes-a-good-password)). If the library uses SSO, don't use your organisation's password here either: see [Your Librarika password and your organisation's password](sign-in-and-security.md#your-librarika-password-and-your-organisations-password).
 	* Click on the `I agree, please create my account` button. A new account will be created and you will be logged into it automatically.
 	* Now click on `Yes, please join me in.` button. You will then be joined to the library.
 
@@ -161,7 +161,7 @@ No, if you already have a Librarika account: choose `No, I already have an accou
 
 **Which password do I choose when I join?**
 
-A new password for Librarika only. It's separate from your email password and from your school's or company's SSO password.
+A new password for Librarika only. It's separate from your email password and from your school's or company's SSO password. Use at least 15 characters; see [What makes a good password](sign-in-and-security.md#what-makes-a-good-password).
 
 **Is my account tied to one library?**
 

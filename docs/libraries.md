@@ -91,6 +91,8 @@ The preferences section is the single most important settings page for your libr
 * `Appearance` -- themes and languages
 * `Upgrade` -- upgrade your plan
 
+The `Sign-in security` button at the top of the Preferences page opens your library's [sign-in security settings](#sign-in-security).
+
 **Steps to update preferences**:
 
 * Go to the **Preferences** section from the dashboard.
@@ -179,6 +181,21 @@ The preferences section is the single most important settings page for your libr
 * From the above tabs you can set / enter / update the value that you want.
 * Click on the `Save Preferences` button to save your changes.
 * Your latest changes will be applied instantly.
+
+### Sign-in security
+
+Library administrators can decide how staff and members of the library sign in: whether they need two-step verification, the minimum password length, and a date before which passwords must be changed.
+
+* Go to **Preferences** and click the `Sign-in security` button.
+
+	![Sign-in security button on the Preferences page](img/libraries-preferences-sign-in-security-button.png)
+
+* Choose **Who needs it** for two-step verification: `Optional: each person chooses`, `Required for staff` or `Required for staff and members`.
+* Optionally raise the **Minimum without two-step verification** and **Minimum with two-step verification** password lengths (Librarika's minimums are 15 and 12 characters).
+* Optionally set **Ask for a new password if it was set before** to a date (`YYYY-MM-DD`).
+* Click `Save`.
+
+These settings can be changed on the **Gold**, **Platinum** and **Unlimited** plans. On other plans they are shown but can't be changed, and Librarika's own settings apply. For every option, what people see and how to help someone who is locked out, see [For library administrators](sign-in-and-security.md#for-library-administrators).
 
 ---
 
@@ -309,3 +326,16 @@ A branch that still has catalog copies assigned to it cannot be deleted. Move th
 **Can I undo deleting my library?**
 
 No. Removing a library is permanent, and you cannot create a new library with the same nickname or email address afterwards. Login accounts of your members and staff stay active because they belong to the Librarika platform, not to your library.
+
+**Can we require two-step verification for our staff?**
+
+Yes, on the Gold plan and higher. Go to **Preferences** > `Sign-in security` and set **Who needs it** to `Required for staff`. See [Sign-in security](#sign-in-security).
+
+**What does "Not enforced yet" mean on the Sign-in security page?**
+
+Librarika is still rolling out that setting. You can save it now; until it is enforced, sign-ins are only recorded where it would apply and nobody is stopped from signing in.
+
+**We think our passwords may have leaked. Can we make everyone choose a new one?**
+
+Yes. On the Gold plan and higher, set **Ask for a new password if it was set before** to today's date on the Sign-in security page. On any other plan, ask [Librarika support](https://librarika.com/spages/contact) to set the date for your library.
+

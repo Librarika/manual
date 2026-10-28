@@ -155,7 +155,15 @@ A new password for Librarika, separate from their email and their organisation's
 
 **A staff member lost their phone. How do they sign it out?**
 
-They open their [Sign-in activity](sign-in-and-security.md#sign-in-activity) and click `Sign out` next to the phone, or change their password, which signs out every other session.
+They open their [Sign-in activity](sign-in-and-security.md#sign-in-activity) and click `Sign out` next to the phone, or change their password, which signs out every other session. If the phone had their authenticator app, they sign in with a recovery code and use `Set up a new phone`. See [Lost your phone?](sign-in-and-security.md#lost-your-phone).
+
+**Can I turn off a staff member's two-step verification or reset their password?**
+
+No. They reset their own password with `Forgot password?`. If they lost their phone and their recovery codes, they contact Librarika support, who can turn off two-step verification after checking who they are. See [Helping someone who can't sign in](sign-in-and-security.md#helping-someone-who-cant-sign-in).
+
+**Can I require two-step verification for staff?**
+
+Yes, on the Gold plan and higher, in **Preferences** > `Sign-in security`. See [Sign-in security](sign-in-and-security.md#sign-in-security).
 
 **How do I stop someone from managing my library?**
 

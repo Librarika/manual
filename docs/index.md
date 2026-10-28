@@ -44,7 +44,7 @@ This manual explains how to use each part of Librarika. If you are new, start wi
 
 * [SIP2 Integration](sip2.md): connect self-checkout kiosks, including the [Librarika Kiosk App](https://librarika.com/spages/librarika-kiosk-app).
 * [SSO / SAML](sso-saml.md): sign in with your organisation's single sign-on.
-* [Sign-in & Security](sign-in-and-security.md): ways to sign in, sign-in history and signing out other devices.
+* [Sign-in & Security](sign-in-and-security.md): ways to sign in, passwords, two-step verification, sign-in history and signing out other devices.
 
 ---
 
