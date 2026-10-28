@@ -2,7 +2,11 @@
 
 [Librarika](https://librarika.com) is a cloud-based Integrated Library System (ILS) made by Raynux. Libraries use it in a web browser to manage their catalog, members, loans, holds, fines and reports, and to publish an online public catalog (OPAC). Librarika is hosted at [librarika.com](https://librarika.com), so there is nothing to install.
 
-This manual explains how to use each part of Librarika. If you are new, start with [Getting Started](getting-started.md).
+This manual explains how to use each part of Librarika. Pick the door that fits you:
+
+* **I run a library.** You set up and manage a library: catalog, members, loans and settings. Start with [Getting started](getting-started.md), then see [For library staff](#for-library-staff).
+* **I'm a library member.** A library invited you, or you borrow from a library that uses Librarika. See [For members](#for-members).
+* **Mobile app.** You use the Librarika app on an iPhone or Android phone, as a member or as staff. See [The Librarika app](mobile-app.md).
 
 ---
 
@@ -15,42 +19,53 @@ This manual explains how to use each part of Librarika. If you are new, start wi
 
 ---
 
-## What this manual covers
+## For library staff
 
 **Setting up**
 
-* [Getting Started](getting-started.md): create your library and sign in.
+* [Getting started](getting-started.md): create your library and sign in.
 * [Library](libraries.md): library information, branches, preferences, notifications and plans.
 * [Users](users.md): staff accounts, roles and branch access.
 
 **Daily work**
 
 * [Cataloging](cataloging.md): add titles and copies, import and export the catalog.
-* [Members](members.md): patrons, member groups and member logins.
+* [Members](members.md): members, member groups and member logins.
 * [Circulations](circulations.md): check out and check in items.
-* [Hold Queue](hold-queue.md): holds on items that are checked out.
-* [Fees & Payments](fees-payments.md): fines, fees and payments.
-* [Barcode Labels](barcode-labels.md): labels for items and member cards.
+* [Hold queue](hold-queue.md): holds on items that are checked out.
+* [Fees & payments](fees-payments.md): fines, fees and payments.
+* [Barcode labels](barcode-labels.md): labels for items and member cards.
 * [Reports](reports.md): catalog, circulation, member and purchase reports.
-* [Bulk Actions](bulk-actions.md) and [Batch Update](batch-update.md): change many records at once.
+* [Bulk actions](bulk-actions.md) and [Batch update](batch-update.md): change many records at once.
 
-**For members**
+---
 
-* [OPAC](opacs.md): the public online catalog.
-* [Member Area](member-area.md): what members see when they sign in.
-* [Self-Service](self-service.md): members check items out and in from a browser or phone.
+## For members
 
-**Kiosks, sign-in and security**
+* [Member Area](member-area.md): what you see when you sign in to your library.
+* [OPAC](opacs.md): the library's online catalog.
+* [Self-service](self-service.md): check items out and in from a browser or phone.
 
-* [SIP2 Integration](sip2.md): connect self-checkout kiosks, including the [Librarika Kiosk App](https://librarika.com/spages/librarika-kiosk-app).
+---
+
+## Your account (everyone)
+
+Your Librarika account is yours, not one library's. You use it on librarika.com, in every library you belong to and in the mobile app.
+
+* [Sign-in & security](sign-in-and-security.md): ways to sign in, passwords, two-step verification, sign-in activity and signing out other devices.
+
+---
+
+## Integrations
+
+* [SIP2 integration](sip2.md): connect self-checkout kiosks, including the [Librarika Kiosk App](https://librarika.com/spages/librarika-kiosk-app).
 * [SSO / SAML](sso-saml.md): sign in with your organisation's single sign-on.
-* [Sign-in & Security](sign-in-and-security.md): ways to sign in, passwords, two-step verification, sign-in history and signing out other devices.
 
 ---
 
 ## Mobile app
 
-The Librarika app for iPhone and Android is for both staff and members. Staff can scan barcodes, add cover photos and manage the catalog, members and loans. Members can browse the catalog, see their loans and balance, and check items out and in.
+The Librarika app for iPhone and Android is for both staff and members. See [The Librarika app](mobile-app.md).
 
 [<img class="app-icons ios" src="https://ae85df921b92073b52e8-a126a45a4c59e90797d94cd877fbe744.ssl.cf3.rackcdn.com/static-pages/Download_on_the_App_Store_Badge_US-UK_135x40.svg" alt="Download on the App Store" />](https://itunes.apple.com/us/app/librarika/id1102502605) [<img class="app-icons android" src="https://ae85df921b92073b52e8-a126a45a4c59e90797d94cd877fbe744.ssl.cf3.rackcdn.com/static-pages/google-play-badge.png" alt="Get it on Google Play" />](https://play.google.com/store/apps/details?id=com.librarika.android.dev&hl=en)
 
