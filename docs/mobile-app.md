@@ -58,7 +58,7 @@ You turn two-step verification on and off on the **website**, not in the app. If
 |---|---|---|
 | *"You need to change your password. Please sign in on the Librarika website to change it, then sign in to the app again."* | `Change password on the website` | Choose a new password on the website (see [Choose a new password](passwords.md#choose-a-new-password)), then sign in to the app with it. |
 | *"Your account needs two-step verification. …"* | `Set up two-step verification` | Set it up on the website, then sign in to the app. |
-| *"Please update the Librarika app to sign in. Your account uses two-step verification."* | — | Your app is an older version. Close the app completely and open it again; it updates itself when it starts. If the message stays, update Librarika from the App Store or Google Play. Until then, use your library's website. |
+| *"Please update the Librarika app to sign in. Your account uses two-step verification."* | `Update the app` | Tap `Update the app` and install the update from the App Store or Google Play. On an older version without this button, close the app completely and open it again, or update it from the store. Until then, use your library's website. |
 
 ---
 
@@ -104,6 +104,8 @@ Signing out ends the sign-in on Librarika too, and the phone stops receiving you
 ## Lost your phone?
 
 Sign in on the website, open your settings and, under **Where you are signed in**, click `Sign out` next to the lost phone. See [Sign out a device](sign-in-activity.md#sign-out-a-device). If the phone also had your authenticator app, see [Lost your phone?](two-step-verification.md#lost-your-phone).
+
+**You only sign in with your library's SSO?** Signing out other devices needs a password, Google or Apple sign-in. On librarika.com click `Forgot password?` and set a password from the email: that alone signs out every other device, including the lost phone. See [What people can't change after signing in with SSO](sso-saml.md#what-people-cant-change-after-signing-in-with-sso).
 
 ## App updates
 

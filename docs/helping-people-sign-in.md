@@ -40,13 +40,13 @@ If your library requires two-step verification, people who haven't set it up are
 
 * **Invitation expired** (*"This invitation has expired. Please ask the library to send it again."*): invitations work for 30 days. Re-send it from the Members list (`Re-send Invite`) or the member's page (`Re-send Invitation Email`).
 * **"Member login is turned off for this membership. Please contact the library.":** turn on member access for them (see [Members](members.md#enable-member-access)).
-* **"Please verify your email address in order to login.":** their account's email isn't confirmed yet. They use the link in the confirmation email, or `Forgot password?`, which also confirms it.
+* **"Please verify your email address in order to login.":** their account's email isn't confirmed yet. They open the verification link Librarika emailed them (an account made on your **Join Library** page gets one straight away; the link works for 7 days and only while they are signed in), or use `Forgot password?`, which also confirms it.
 
 See [Member quick start](member-quick-start.md).
 
 ## SSO problems
 
-* **"This library's SSO is not allowed to sign in to your account yet. …":** their account is also used elsewhere. They sign in once with their password or Google and tick your library under **SSO sign-in** in their settings.
+* **"This library's SSO is not allowed to sign in to your account yet. …":** their account is also used elsewhere. They sign in once with their password or Google and tick your library under **SSO sign-in** in their settings. If your library allows **SSO only on the website**, they do this on **librarika.com**, not on your library's login page (which accepts only SSO), then use `Sign in with SSO` on your library's page.
 * **"This library allows sign-in with its SSO only. Please sign in with SSO.":** your library allows SSO only. They use the `Sign in with SSO` button.
 * **"Your SSO login is either invalid or expired.":** they try again from your library's login page. If it keeps happening, check your SSO settings.
 

@@ -8,7 +8,7 @@
 
 ## Sign-in activity
 
-Near the bottom of **Account Settings**, above **Remove My Account**, you will find **Sign-in activity**. It shows where your account is signed in and every sign-in of the last 90 days.
+Open your settings (see [Your sign-in settings](signing-in.md#your-sign-in-settings)). **Members:** **Sign-in activity** is near the bottom of **Account Settings**, above **Remove My Account**. **Staff:** it is in **Settings**, below the tabs. It shows where your account is signed in and every sign-in of the last 90 days.
 
 ![Sign-in activity: last signed in, where you are signed in, and sign-in history](img/signin-activity-member.png)
 
@@ -34,7 +34,7 @@ Times are shown in the timezone of your Account Settings.
 * Click `Sign out everywhere else` to sign out every session except the one you are using.
 * A phone you sign out also stops receiving that account's notifications.
 
-To sign out other sessions you must be signed in with your password, Google or Apple, not with SSO.
+To sign out other sessions you must be signed in with your password, Google or Apple, not with SSO. If you only use SSO (or your library allows SSO only), see [No Librarika password?](sso-saml.md#what-people-cant-change-after-signing-in-with-sso): set a password on librarika.com with `Forgot password?`, which also signs out every other device.
 
 ### Don't recognise a sign-in?
 

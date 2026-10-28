@@ -23,7 +23,7 @@ To add a member to your library, please follow the below steps:
 
 * The `Type` field is used to separate the users in two levels, for example in a school the teachers / staffs should be under the privileged member type and the students should be under the regular member type.
 
-* If you want that members can check-in and check-out books by themselves then please turn on the `Allow Member Login?` option. See [Self-Service](self-service.md) for details on enabling self-service checkout and check-in.
+* Turn on `Allow Member Login?` and enter the member's email to send them a **Join Library** invitation as soon as you click `Submit` (the email is required then). Members who can sign in can use the [Member area](member-area.md) and, if you allow it, [Self-service](self-service.md).
 * Enter necessary information regarding the member. Only member no, name, type and status fields are mandatory.
 * Click on the `Submit` button when you are done
 * A new member record will be created.

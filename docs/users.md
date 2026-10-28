@@ -62,11 +62,21 @@ To add a user, please follow the below steps:
 
 * **Employee** (optional): link an employee profile from **Others** > **Employees** to this account.
 
-* Click on `Submit` button and a user will be invited to join your library and the status for this new user will be **Invited**.
+* Click `Submit`.
+	* **The email already has a Librarika account:** the person is added to your library at once, and no email is sent. Tell them to sign in and open your library from **My Libraries** on librarika.com, or from your library's own address.
+	* **A new account:** Librarika sends an invitation email, and the user shows as **Invited** until they accept it (see [Accept a staff invitation](#accept-a-staff-invitation)).
 
 	![Users main page](img/user-with-invited-status.png)
 
-* Now the user needs to follow the invitation email and join the library. 
+### Accept a staff invitation
+
+This is what the person you invited does:
+
+1. Open the invitation email from Librarika and click the link.
+2. On **Set up your account** (*"Enter your name and choose a password to finish setting up your Librarika account."*), enter your name and choose a password: at least 15 characters (see [Passwords](passwords.md#what-makes-a-good-password)).
+3. Click `Save and log in`. You are signed in to the library.
+
+The link works for **30 days**. If it has expired, you see *"This link has expired. Please request a new one."*: ask the library to send it again with `Re-send Invite` (see [Resend invitation](#resend-invitation)).
 
 
 ## Resend invitation

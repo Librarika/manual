@@ -26,8 +26,9 @@ Under **New to Librarika?** choose one:
 
 * **`Yes, I'm new to Librarika Platform`**: enter your **Name**, **Email** and a **Password**, then click `I agree, please create my account`.
 	* The password is a **new password for Librarika**, not your email password or your school's or organisation's password. It needs at least 15 characters; a few unrelated words work well. See [Passwords](passwords.md#what-makes-a-good-password).
-	* Use the **email address the invitation was sent to**. If you use another address, Librarika sends a verification link to that address, and the invitation can be accepted only by an account with the invited address. If you'd rather use another address, ask the library to change the email on your membership and send the invitation again.
+	* Use the **email address the invitation was sent to**. If you use another address, Librarika creates the account but doesn't add you to the library: the invitation can be accepted only by an account with the invited address. Open the verification link sent to the other address and choose your password again (the one you typed is replaced). Then ask the library to change the email on your membership to that address and send the invitation again.
 * **`No, I already have an account in Librarika`**: enter your **Username/Email** and **Password** and click `Login`. Forgot it? Click `Forgot Password?`.
+	* This works only if your account uses the **email address the invitation was sent to**. Otherwise you see *"You have been logged in with a different email address. Please logout first and follow the instructions again to create a new account."* Ask the library to change the email on your membership to your account's address and send the invitation again.
 
 ![Join library form](img/join-library-form.png)
 
@@ -41,7 +42,12 @@ Check that the account shown is yours, then click `Yes, please join me in.` You 
 
 ![Join library confirmation page](img/join-library-confirm-joining.png)
 
-**Good to know:** your password works straight away, but your email address isn't confirmed yet. To confirm it, use `Forgot password?` once: the reset link reaches your mailbox, which confirms the address. Until you do:
+**Good to know:** your password works straight away. Librarika also emails you a link to verify your email address: *"Your account has been created. We sent a verification link to …: open it to verify your email address."*
+
+* Open the link **while you are signed in to this account**. If you are signed out, Librarika asks you to sign in first and then verifies it. You see *"Your email address is verified."*
+* The link works for **7 days**. If it has expired, use `Forgot password?` on the **Log in** page: opening the reset link also verifies your address.
+
+Until your address is verified:
 
 * invitations from **other** libraries don't appear under **My Invites** on librarika.com;
 * signing in with Google or Apple may reset your account: your password then stops working and you are signed out everywhere, so set a new one with `Forgot password?`.

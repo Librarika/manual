@@ -40,7 +40,7 @@ Create a new library for the first time.
 	Enter your email address carefully. It is also your sign-in email. The activation email is sent to this address.
 
 	*	**Password (Admin)** and **Confirm Password:**
-	At least 15 characters. You choose your sign-in password again when you activate the library (see below); that second password is the one you sign in with.
+	At least 15 characters. You choose your sign-in password again when you activate the library (see below). The password you type here is replaced then: sign in with the one you choose on the activation page.
 
 	*	**Country:** the country your organisation is in.
 
@@ -56,7 +56,7 @@ Now you need to activate your library before you can start entering books. Open 
 * **New to Librarika:** you are then asked to choose the password for your account: *"Your library is activated. Please choose a password for your account to finish."* Enter it in **New password** and **Confirm new password** and click `Save new password`. This is the password you sign in with from now on. Use at least 15 characters; a few unrelated words make a strong password that is easy to remember. See [Passwords](passwords.md).
 * **Existing Librarika account:** your library is activated and your password doesn't change.
 
-The page with the button is there so that a mail scanner opening the link can't activate the library for you. Once activated, you receive a welcome email and can sign in to your library.
+The page with the button is there so that a mail scanner opening the link can't activate the library for you. Once activated, you receive a welcome email and can sign in to your library: sign in at [librarika.com][Librarika] and open your library from **My Libraries**, or go straight to your library's address (`<nickname>.librarika.com`).
 
 **Note:** After activation, you will receive a few onboarding emails with tips to help you get started, such as reminders to catalog your first items. These emails are limited and will stop automatically after the initial setup period.
 
@@ -79,8 +79,10 @@ After activating your library:
 1. Add your [library information](libraries.md#change-library-information) and [logo](libraries.md#upload-library-logo).
 2. Check the [Preferences](libraries.md#change-preferences): loan length, quotas, member requests and reminders.
 3. [Add staff](users.md#add-user) who will help run the library.
-4. [Add members](members.md#add-new-member) and [invite them to sign in](members.md#enable-member-access).
-5. Decide how people sign in: [Library sign-in security](library-sign-in-security.md) and, if your organisation has its own login, [Single sign-on](sso-saml.md).
+4. [Add your first titles and copies](cataloging.md).
+5. [Add members](members.md#add-new-member) and [invite them to sign in](members.md#enable-member-access).
+6. Lend your first item: [Check out item](circulations.md#check-out-item), or let members borrow by themselves with [Self-service](self-service.md).
+7. Decide how people sign in: [Library sign-in security](library-sign-in-security.md) and, if your organisation has its own login, [Single sign-on](sso-saml.md).
 
 ---
 
