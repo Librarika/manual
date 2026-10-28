@@ -8,13 +8,15 @@ Two-step verification adds a second step to signing in with your password. After
 
 It keeps your account safe **even if someone learns your password**: without your phone they can't sign in.
 
+**Not in your settings?** If you don't see **Two-step verification** in your Account Settings, it isn't available for your account yet. Nothing is wrong with your account.
+
 ### What you need
 
 An authenticator app on your phone, for example **Google Authenticator**, **Microsoft Authenticator** or **1Password**. Most authenticator apps work. The app works without an internet connection and doesn't need your phone number.
 
 ### Turn on two-step verification
 
-1. Open your settings: members click `My Account` > `Account Settings`; staff click the settings menu (gear icon) > `Settings`.
+1. Open your settings: members click `My Account` > `Account Settings`; staff click their name menu at the top right > `Settings` (gear icon).
 2. Find **Two-step verification** and click `Turn on`.
 
 	![Two-step verification section in Settings, showing Off and a Turn on button](img/signin-2sv-settings-off.png)

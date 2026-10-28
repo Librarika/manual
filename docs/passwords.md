@@ -42,7 +42,7 @@ The new rules apply only when you **choose a new password**. The password you ha
 
 ## Change your password
 
-1. Open your settings: members click `My Account` > `Account Settings`; staff click the settings menu (gear icon) > `Settings` and open the `Change Password` tab.
+1. Open your settings: members click `My Account` > `Account Settings`; staff click their name menu at the top right > `Settings` (gear icon) and open the `Change Password` tab.
 2. Enter your **Current password**, then the **New password** twice.
 3. Click `Save Settings`.
 
@@ -70,11 +70,11 @@ If you don't receive the email, check your spam folder. If you still have no ema
 
 ## Choose a new password
 
-Sometimes Librarika shows **Choose a new password** right after you sign in, with *"Your account needs a new password before you go on."* This happens when:
+Sometimes Librarika shows **Choose a new password** right after you sign in, with *"Your account needs a new password before you go on."* Librarika may ask for this when:
 
 * Librarika support asked you to change it, for example after resetting your two-step verification;
 * your library asked everyone to choose a new password (see [Ask for a new password](library-sign-in-security.md#ask-for-a-new-password));
-* Librarika found that your password appeared in a data breach.
+* Librarika found that your password appeared in a data breach (Librarika may ask for this; it depends on your account).
 
 Enter a new password twice and click `Save password`. If you'd rather do it later, click `Sign out`; you will be asked again at your next sign-in.
 
@@ -85,7 +85,7 @@ In the mobile app you may see *"You need to change your password. Please sign in
 To protect your account from people guessing passwords, Librarika slows down repeated failed sign-ins:
 
 * After **two** wrong passwords, the login page asks you to complete a **captcha** ("I'm not a robot" check). If you skip it you see *"Please confirm you are a human!"*
-* After more wrong passwords, you have to wait a little before trying again. You see *"Please wait 30 seconds; retrying sooner extends the wait."* (the number of seconds varies). Wait for that time, then try again. Trying sooner makes the wait longer.
+* After more wrong passwords, Librarika may make you wait a little before trying again. You see *"Please wait 30 seconds; retrying sooner extends the wait."* (the number of seconds varies). Wait for that time, then try again. Trying sooner makes the wait longer.
 * If someone keeps trying wrong passwords on your account, you get an **email** about it. If that wasn't you, nobody has got in: the email has a link to reset your password if you want to be safe.
 
 If you are not sure of your password, use [Forgot password?](#forgot-your-password) instead of guessing.

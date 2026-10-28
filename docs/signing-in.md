@@ -16,17 +16,20 @@ On the **Log in** page of a library (and of librarika.com) you can sign in with:
 
 * **Username and password**: your email address and your Librarika password. Click `Log in`.
 * **Google**: `Continue with Google`, with the Google account that uses the same email address as your Librarika account.
-* **Apple**: `Continue with Apple`, with your Apple ID, if it uses the same email address as your Librarika account.
-* **SSO** (single sign-on, the key icon): `Sign in with SSO`, your school's or organisation's own login. This button only appears in libraries that use [SSO](sso-saml.md). In those libraries the Google and Apple buttons are usually hidden.
+* **Apple**: `Continue with Apple`, with your Apple ID, if it uses the same email address as your Librarika account. It is always available in the Librarika app; on the website it appears only where Librarika has turned Apple sign-in on.
+* **SSO** (single sign-on): `Sign in with SSO` (shown as a key icon when Google and Apple are also offered), your school's or organisation's own login. This button only appears in libraries that use [SSO](sso-saml.md). In those libraries the Google and Apple buttons are usually hidden.
 
 ![The Log in page on librarika.com, with Continue with Google and Continue with Apple](img/signin-librarika-login-buttons.png)
+
+The `Continue with Apple` button in this picture appears only where Apple sign-in on the website is turned on.
 
 On [librarika.com](https://librarika.com) the page also has **Don't have an account?** `Create one`. On a library's page that uses SSO, the SSO, Google and Apple buttons appear side by side as small icon buttons under **or continue with**.
 
 **Good to know:**
 
 * Google and Apple sign you in to the Librarika account with the **same email address**.
-* Your account must be verified first. A new account that hasn't confirmed its email yet is asked to *"Please verify your email address in order to login."*
+* **Turn Google on first.** To use `Continue with Google` with an account you made with a password, first sign in with your password, tick **Enable Google Login** in your settings and click `Save Settings`. If you skip this, you see *"Please enable the `Login with Google` option from the settings menu."*
+* *"Please verify your email address in order to login."* appears only for Google and Apple sign-ins (and in the app) on an account whose email address isn't confirmed yet. Use `Forgot password?` once to confirm it.
 * Apple's **Hide My Email** option gives Librarika a private relay address (ending in `privaterelay.appleid.com`), which won't match your Librarika email. Choose **Share My Email** when Apple asks, or sign in with your password.
 * After two wrong passwords, the page asks you to tick a captcha before you try again. See [Too many wrong passwords](passwords.md#too-many-wrong-passwords).
 
@@ -43,7 +46,7 @@ On a library's website, signing up this way also asks that library to let you jo
 
 ### Signing in with your organisation's SSO
 
-If your library uses SSO, click the key icon on the library's login page and sign in on your organisation's page. You come back to the library already signed in.
+If your library uses SSO, click `Sign in with SSO` (or the key icon) on the library's login page and sign in on your organisation's page. You come back to the library already signed in.
 
 * Your organisation's SSO can only sign you in to libraries that are **ticked in your own [SSO sign-in list](#your-sign-in-settings)**. The library is ticked for you when its SSO created your account.
 * Some libraries allow **SSO only**. Their login page shows only the SSO button: *"This library uses its own sign-in (SSO). You will come back here after signing in."* A sign-in with a password, Google or from **My Libraries** on librarika.com is not accepted there; you see *"This library allows sign-in with its SSO only. Please sign in with SSO."* Your account still works everywhere else.
@@ -57,11 +60,11 @@ When you accept an invitation from a library, you create a **new password for Li
 
 ## Your sign-in settings
 
-Open your settings (the **My Settings** page): members click `My Account` > `Account Settings`, or `My Settings` in the name menu; staff click their name menu at the top right > `Settings`. Staff see the settings in tabs, such as `Social Logins` and `SSO Sign-in`.
+Open your settings (the **My Settings** page): members click `My Account` > `Account Settings`, or `My Settings` in the name menu; staff click their name menu at the top right > `Settings` (gear icon). Staff see the settings in tabs, such as `Social Logins` and `SSO Sign-in`.
 
 ![SSO sign-in list and the Google sign-in switch in Account Settings](img/signin-member-settings-sso-google.png)
 
-* **SSO sign-in** -- *"A library's single sign-on (SSO) can sign you in only if it is ticked here."* Untick a library to stop its SSO from signing in to your account. Each library shows why it is there (for example *added when SSO created your account* or *added by you*). This list only appears if you belong to a library that uses SSO.
+* **SSO sign-in** -- *"A library's single sign-on (SSO) can sign you in only if it is ticked here."* Untick a library to stop its SSO from signing in to your account. Each library shows when its SSO last signed you in (*last used …*), or *not used yet*. Staff settings also show how the library was added (for example *added when SSO created your account*). This list only appears if you belong to a library that uses SSO.
 * **Enable Google Login** and **Sign in with Apple** -- your own switches for Google and Apple.
 * Click `Save Settings` when you are done.
 

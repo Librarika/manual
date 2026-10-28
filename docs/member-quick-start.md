@@ -13,13 +13,20 @@ When a library adds you as a member with an email address and turns on member ac
 * The invitation works for **30 days**. If it has expired, you see *"This invitation has expired. Please ask the library to send it again."*
 * If you are already signed in to Librarika with a different email address, sign out first, then open the link again.
 
+**If the link doesn't work:**
+
+* *"Invitation code is either invalid or expired."* -- the library may have sent a newer invitation. Use the latest email, or ask the library for a new one.
+* *"Member login is turned off for this membership. Please contact the library."* -- ask the library to turn on your login.
+* *"You've already joined the library. Please sign in."* -- go to your library's website and log in.
+* *"Too many sign-up attempts. Please try again later."* -- wait a while, then try again.
+
 ## 2. Create your account, or sign in
 
 Under **New to Librarika?** choose one:
 
 * **`Yes, I'm new to Librarika Platform`**: enter your **Name**, **Email** and a **Password**, then click `I agree, please create my account`.
 	* The password is a **new password for Librarika**, not your email password or your school's or organisation's password. It needs at least 15 characters; a few unrelated words work well. See [Passwords](passwords.md#what-makes-a-good-password).
-	* Use the **email address the invitation was sent to**. If you use another address, Librarika sends a verification link to that address, and the invitation can be accepted only by an account with the invited address.
+	* Use the **email address the invitation was sent to**. If you use another address, Librarika sends a verification link to that address, and the invitation can be accepted only by an account with the invited address. If you'd rather use another address, ask the library to change the email on your membership and send the invitation again.
 * **`No, I already have an account in Librarika`**: enter your **Username/Email** and **Password** and click `Login`. Forgot it? Click `Forgot Password?`.
 
 ![Join library form](img/join-library-form.png)
@@ -30,15 +37,21 @@ If your library uses **SSO only**, the page shows a `Sign in with SSO` button in
 
 ## 3. Confirm and join
 
-Check that the account shown is yours, then click `Yes, please join me in.` You see *"Congratulations! You've sucessfully joined the library."*
+Check that the account shown is yours, then click `Yes, please join me in.` You see *"Congratulations! …"* and you are a member of the library.
 
 ![Join library confirmation page](img/join-library-confirm-joining.png)
 
-**Good to know:** an account created from an invitation link is ready to use straight away, but its email address isn't confirmed yet. Invitations from **other** libraries appear under **My Invites** on librarika.com only once your email address is confirmed. Resetting your password with `Forgot password?` confirms it, because the reset link reaches your mailbox.
+**Good to know:** your password works straight away, but your email address isn't confirmed yet. To confirm it, use `Forgot password?` once: the reset link reaches your mailbox, which confirms the address. Until you do:
+
+* invitations from **other** libraries don't appear under **My Invites** on librarika.com;
+* signing in with Google or Apple may reset your account: your password then stops working and you are signed out everywhere, so set a new one with `Forgot password?`.
 
 ## 4. Sign in next time
 
-Go to your library's website (for example `mylibrary.librarika.com`) and click `Login`. Enter your **Username** (your email) and password and click `Log in`, or use `Continue with Google`, `Continue with Apple` or your library's SSO (the key button). See [Signing in](signing-in.md).
+Go to your library's website (for example `mylibrary.librarika.com`) and click `Login`. Enter your **Username** (your email) and password and click `Log in`, or use your library's SSO (`Sign in with SSO`, shown as a key icon when Google and Apple are also offered). See [Signing in](signing-in.md).
+
+* **Google:** to use `Continue with Google` with the account you made with a password, first sign in with your password, tick **Enable Google Login** in Account Settings and click `Save Settings`. If you skip this, you see *"Please enable the `Login with Google` option from the settings menu."*
+* **Apple:** `Continue with Apple` is always available in the Librarika app; on the website it appears only where Librarika has turned it on.
 
 ## 5. Use the Member Area
 
@@ -50,7 +63,7 @@ Once signed in, click `My Account` to open the [Member Area](member-area.md): yo
 
 ## 6. Optional: turn on two-step verification
 
-Two-step verification protects your account even if someone learns your password. In your settings, find **Two-step verification** and click `Turn on`. You need an authenticator app on your phone. See [Two-step verification](two-step-verification.md). Your library may require it; if so, Librarika asks you to set it up when you sign in.
+Two-step verification protects your account even if someone learns your password. In your settings, find **Two-step verification** and click `Turn on`. If you don't see **Two-step verification** in your Account Settings, it isn't available for your account yet. Nothing is wrong with your account. You need an authenticator app on your phone. See [Two-step verification](two-step-verification.md). Your library may require it; if so, Librarika asks you to set it up when you sign in.
 
 ---
 
@@ -70,3 +83,15 @@ What happens next depends on the library:
 * *"This library already has a member with your email address. Please ask your library for an invitation."*
 
 The same **Join a library** window lists any **Invitations** for your email address, each with a `Join` button.
+
+---
+
+## FAQ
+
+**Which password do I choose when I join?**
+
+A new password for Librarika only. It's separate from your email password and from your school's or company's SSO password. Use at least 15 characters; see [What makes a good password](passwords.md#what-makes-a-good-password).
+
+**I already have a Librarika account. Do I need a new one?**
+
+No. Choose `No, I already have an account in Librarika` on the join form and sign in. See [2. Create your account, or sign in](#2-create-your-account-or-sign-in).

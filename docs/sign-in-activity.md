@@ -8,7 +8,7 @@
 
 ## Sign-in activity
 
-At the bottom of **Account Settings** you will find **Sign-in activity**. It shows where your account is signed in and every sign-in of the last 90 days.
+Near the bottom of **Account Settings**, above **Remove My Account**, you will find **Sign-in activity**. It shows where your account is signed in and every sign-in of the last 90 days.
 
 ![Sign-in activity: last signed in, where you are signed in, and sign-in history](img/signin-activity-member.png)
 

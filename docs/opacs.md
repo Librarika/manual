@@ -1,6 +1,6 @@
 # OPAC
 
-OPAC is a library acronym for "Online Public Access Catalog" When library staff use the term, we mean the Libraries Catalog.
+The OPAC (online catalog) is your library's public website, where you search and browse its books and other items.
 
 ### Purpose of OPAC
 
@@ -8,28 +8,22 @@ An online public access catalog is an online database of materials held by a lib
 
 ## Home page
 
-A home page is refers to the first page that appears upon opening a website on web browser, sometimes called the start page. In this page you can view the workflow of your library.
+The home page shows the library's menu, a search box and its newest items.
 
-* In home page at first you can see all the menus and your profile icon bar. 
-	
-	![OPAC home page](img/opac_home_menu.png)
-   
-* Then you can see two buttons. If you click on one of them like the `View All Features` button then you can see all the features of Librarika.
+![OPAC home page](img/opac_home_menu.png)
 
-	![OPAC home page](img/opac_home_view_feature1.png)
-
-* You can create a free account on Librarika by clicking on `Create Free Library` button.
-* If you are already signed in then from the `Member Area` you can update your account settings.
+* Buttons such as `View All Features` and `Create Free Library` are about Librarika itself; you don't need them to use your library.
+* If you are signed in, `My Account` opens your [Member Area](member-area.md), where you can also change your account settings.
 * You can view all of your library catalog from `Catalog` menu.
 * You can search the catalog by keyword and media types option from `Search Catalog`
-* You can also acccess other library resources from home page.
+* You can also access other library resources from the home page.
 * At last you can view all the newly arrived items and if you click one of them then you can also view all the information of that book.
 
 ## Catalog
 
 A catalog is a collection of items found in a library to provide all the information necessary to describe all item accurately both physically and intellectually in order to distinguish it from every other items.
 
-* If you click on the catalog menu then a catalog of your library items will be appeared like below.
+* If you click on the catalog menu then a catalog of your library items will appear like below.
 
 	![OPAC catalog page](img/opac_catalogs_page.png)
 
@@ -102,7 +96,7 @@ Database A-Z is the section where you can browse your items by alphabetical orde
 
 Top Collections is the section where you can find the most viewed items of your library, ranked by how often their detail pages have been viewed. Only the top 100 items are displayed.
 
-* If you click on `Top Collections` then all of the top items in your library will be appeared like below.
+* If you click on `Top Collections` then all of the top items in your library will appear like below.
 
  	![OPAC top collections page](img/opac_top_collection.png)
 
@@ -112,7 +106,7 @@ Top Collections is the section where you can find the most viewed items of your 
 
 New Collections is the section where you can find those items which has been added recently to your library. Only 100 new items will be displayed.
 
-* If you click on `New Collections` then all of the newly arrived items in your library will be appeared like below.
+* If you click on `New Collections` then all of the newly arrived items in your library will appear like below.
 
  	![OPAC new collections page](img/opac_new_collection.png)
 
@@ -121,19 +115,29 @@ New Collections is the section where you can find those items which has been add
 
 ## My Account
 
-My Account section is a powerful way to manage your library bookings, access histories, favorite items and other activities through out your entire membership life cycle.
+In `My Account` you see your loans, holds, history, reviews and settings.
 
-* If you click on `My Account` then a page will appear like below
+* Click `My Account` (sign in first). A page like this opens:
 
 	![OPAC my account page](img/opac_my_account.png)
 
 * For other tabs please go to [Member Area](member-area.md) section.
 
+## On an item's page
+
+Click a title to open its page. Each copy shows what you can do with it:
+
+* `Checkout` -- borrow it yourself, if your library allows self-checkout (see [Self-service](self-service.md#for-members)).
+* `Request` -- ask the library to reserve it for you (see [Submit reservation request](member-area.md#submit-reservation-request)).
+* `Hold` next to a copy that is out, or `Place Hold` when all copies are out -- join the queue for it (see [My holds](member-area.md#my-holds)).
+
+No buttons? Sign in first; if they still don't show, your library hasn't turned these on for your membership.
+
 ## Ask a librarian
 
 In this section you can contact with your library administrator and ask any questions related to your library via e-mail.
 
-* Please click on `Ask a Librarian?` menu and a page will be appeared like below
+* Please click on `Ask a Librarian?` menu and a page will appear like below
 
 	![OPAC ask librarian page](img/opac_ask_librarian.png)
 
@@ -141,13 +145,9 @@ In this section you can contact with your library administrator and ask any ques
 
 ## FAQ
 
-**Why do visitors see "This OPAC is private!" instead of our catalog?**
+**The catalog says "This OPAC is private!"**
 
-Your library is marked **Private** in the `Library Info` tab of Library Information. A private catalog can only be opened by members and staff who are logged in. Untick **Private** if you want everyone to see it, see [Change Library Information](libraries.md#change-library-information).
-
-**I added a book but it does not show in the OPAC. Why?**
-
-The OPAC only lists titles that are marked **Active** and **Published** and that have at least one copy. Open the item in the dashboard, click `Edit Item` and check both options, and add a copy if the item has none.
+Log in: only the library's members can see its catalog. Library staff can change this; see [Change Library Information](libraries.md#change-library-information).
 
 **How are the Top Collections chosen?**
 
@@ -161,14 +161,6 @@ The 100 most recently added titles, newest first. As with the rest of the OPAC, 
 
 Yes. Choose a branch from the `All Branches` dropdown on the Catalog page to see only titles that have at least one copy in that branch. Choose `All Branches` again to see the whole catalog.
 
-**How do I stop our email address or phone number showing on the Ask a Librarian page?**
-
-Go to Preferences, open the `Options` tab and switch on `Keep email private` or `Keep phone number private`. Then choose who can still see it (Hide To All, Show To Members Only or Show To Logged-in Users Only) and click `Save Preferences`.
-
-**Who can open an item's online link (URL)?**
-
-That depends on the `Ebook URL Visibility` setting in Preferences, which you can change for a single item with `URL Visibility` on its edit form. Public shows the link to everyone, Member to logged-in members, Borrower Always to members who have ever borrowed that item, Active Borrower only while the member has it checked out, and Hide To All to no one. The setting notes that this control works only with paid plans.
-
 **Why does the OPAC say "This OPAC is suspended!"?**
 
-The library's subscription has been suspended, so its catalog is closed to everyone until the subscription is active again. Members should contact the library; library staff can check the plan from the `My Plan` page.
+The library's catalog is closed for now. Contact your library. (Library staff: check the plan on the `My Plan` page.)

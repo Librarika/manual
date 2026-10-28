@@ -29,6 +29,8 @@ For problems signing in, staff can also use [Helping people who can't sign in](h
 * Can I use the premium color schemes on the free plan?
 * Why can't I delete a branch?
 * Can I undo deleting my library?
+* How do I stop our email address or phone number showing on the Ask a Librarian page?
+* Who can open an item's online link (URL)?
 
 **[Users & roles](users.md#faq)**
 
@@ -39,6 +41,7 @@ For problems signing in, staff can also use [Helping people who can't sign in](h
 * A staff member lost their phone. How do they sign it out?
 * Can I turn off a staff member's two-step verification or reset their password?
 * Can I require two-step verification for staff?
+* What does "Branch Restricted" mean in the Users list?
 * How do I stop someone from managing my library?
 
 **[Members](members.md#faq)**
@@ -61,6 +64,7 @@ For problems signing in, staff can also use [Helping people who can't sign in](h
 * What happens to the items when I delete a category?
 * Why can't I delete a tag?
 * What file types can I upload as e-books?
+* I added a book but it does not show in the OPAC. Why?
 
 **[Circulation](circulations.md#faq)**
 
@@ -173,15 +177,17 @@ For problems signing in, staff can also use [Helping people who can't sign in](h
 
 ## For members
 
+**[Member quick start](member-quick-start.md#faq)**
+
+* Which password do I choose when I join?
+* I already have a Librarika account. Do I need a new one?
+
 **[OPAC](opacs.md#faq)**
 
-* Why do visitors see "This OPAC is private!" instead of our catalog?
-* I added a book but it does not show in the OPAC. Why?
+* The catalog says "This OPAC is private!"
 * How are the Top Collections chosen?
 * What appears in New Collections?
 * Can I see the catalog of just one branch?
-* How do I stop our email address or phone number showing on the Ask a Librarian page?
-* Who can open an item's online link (URL)?
 * Why does the OPAC say "This OPAC is suspended!"?
 
 **[Member area](member-area.md#faq)**

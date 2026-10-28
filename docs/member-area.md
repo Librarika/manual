@@ -1,6 +1,6 @@
 # Member Area
 
-Member area is a special section for library members only, where they can access their own activity with the library. This section is not available to any library staff.
+The Member Area (`My Account`) is your own page in the library: loans, holds, history, reviews and settings.
 
 ## My bookings
 
@@ -22,7 +22,7 @@ To view your active bookings, please follow the below steps:
 
 ## Booking history
 
-Booking history will provide you all the history of the bookings that you have viewed.
+Your past loans and reservations, newest first.
 
 To view your history of bookings, please follow the below steps:
 
@@ -43,7 +43,7 @@ To view your history of bookings, please follow the below steps:
   
 ## My reviews
 
-My reviews is the section that facilitate all the reviews on each of your library books.
+The reviews you have written.
 
 If you want to see all the reviews then you have to follow the below steps:
 
@@ -81,8 +81,8 @@ Account settings is the section where you can update all the information of your
     ![Member area account settings](img/member-area-account-setting.png)
 
 * Now you can update any information of your account.
-* If you want to change your password then please enter current password, new password and confirm new password fields. The new password needs at least 15 characters (12 with two-step verification); a strength meter under the field shows which rules are still to meet. See [Your password](passwords.md).
-* If you do not want to change your password then leave all passwords field empty.
+* To change your password, under **Change your password** enter **Current password**, **New password** and **Confirm new password**. The new password needs at least 15 characters (12 with two-step verification); a strength meter under the field shows which rules are still to meet. See [Your password](passwords.md).
+* To keep your password, leave these fields empty.
 * After updating all information you have to click on `Save Settings` button as shown below.
     
     ![Member area save settings](img/member-area-save-setting.png)
@@ -91,7 +91,7 @@ Account settings is the section where you can update all the information of your
 * Now whenever you visit this page you can view your information or update your info.
 * On the same page you can choose how you sign in (**SSO sign-in**, **Enable Google Login**, **Sign in with Apple**) and see your **Sign-in activity**: where your account is signed in, with a `Sign out` button for each browser or phone. See [Signing in](signing-in.md#your-sign-in-settings) and [Sign-in activity](sign-in-activity.md).
 * Changing your password signs out your account everywhere else, including the mobile app, and you get an email about it.
-* Under **Two-step verification** you can turn on a second step for signing in: a code from an authenticator app on your phone. Click `Turn on` (or `Manage` when it is on). See [Two-step verification](two-step-verification.md).
+* Under **Two-step verification** (if you see it; it isn't available for every account yet) you can turn on a second step for signing in: a code from an authenticator app on your phone. Click `Turn on` (or `Manage` when it is on). See [Two-step verification](two-step-verification.md).
 * Before you change your password or email, or remove your account, Librarika may ask you to [confirm it's you](signing-in.md#confirm-its-you).
 
 ## My holds
@@ -176,12 +176,12 @@ Submit reservation request is the section where you can send a request for any b
 To complete your reservation, please follow the below steps:
 
 * First, sign in to your library.
-* Click on `Catalog Search` from the main menu.
+* Click on `Search Catalog` from the main menu.
     
     ![Member area catalog search](img/catalog-search.png)
 
 
-* In the `Catalog Search` page you can search any books that you want to reserve.
+* On the `Search Catalog` page you can search any books that you want to reserve.
 * Now search your needed book and it will appear as shown below.
 
     ![Member area catalog search](img/member-area-catalog-search.png)
@@ -256,7 +256,7 @@ Yes, we recommend it. It protects your account even if someone learns your passw
 
 **I lost my phone and can't enter my code. What do I do?**
 
-Enter one of your recovery codes instead of the code. If you have no recovery codes, contact your library or Librarika support. See [Lost your phone?](two-step-verification.md#lost-your-phone).
+Enter one of your recovery codes instead of the code. If you have no recovery codes, contact [Librarika support](https://librarika.com/spages/contact). Your library can't turn off two-step verification, but it can help you reach support. See [Lost your phone?](two-step-verification.md#lost-your-phone).
 
 **How do I see where my account is signed in?**
 

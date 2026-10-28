@@ -535,4 +535,8 @@ A tag can only be deleted when no catalog item uses it. Remove the tag from thos
 
 PDF and EPUB files only, and your library needs an active e-book subscription with enough storage left. See [Add E-Book](#add-e-book).
 
+**I added a book but it does not show in the OPAC. Why?**
+
+The OPAC only lists titles that are marked **Active** and **Published** and that have at least one copy. Open the item in the dashboard, click `Edit Item` and check both options, and add a copy if the item has none.
+
 [e-book]: https://librarika.com/spages/faq#ebooks
