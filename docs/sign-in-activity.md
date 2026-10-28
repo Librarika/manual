@@ -78,6 +78,7 @@ They can't see your history, your devices, your addresses or your activity in ot
 * Sign-in records are kept for **90 days**, then deleted automatically.
 * The full internet address is kept for 30 days to investigate misuse, then shortened. You always see it shortened.
 * Deleting your account deletes your sign-in history.
+* To get a copy of your sign-in records, click `Download my sign-in and security data` under **Sign-in activity** in your settings. You get a file (`librarika-sign-in-and-security-data.json`) with your sign-ins and security settings. It never contains your password, codes or full internet addresses.
 * See the [Privacy Policy](https://librarika.com/spages/privacy-policy) for details.
 
 ---

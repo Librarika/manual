@@ -64,6 +64,8 @@ When your password changes:
 
 Resetting your password signs you out on your other devices. It doesn't turn off two-step verification: when you next sign in, you still enter a code from your app (or a [recovery code](two-step-verification.md#recovery-codes)).
 
+Because the link reached your mailbox, a reset also confirms your email address if it wasn't confirmed yet.
+
 If you don't receive the email, check your spam folder. If you still have no email, ask your library which email address your account uses.
 
 ## Choose a new password
@@ -82,7 +84,7 @@ In the mobile app you may see *"You need to change your password. Please sign in
 
 To protect your account from people guessing passwords, Librarika slows down repeated failed sign-ins:
 
-* After a couple of wrong passwords, the login page asks you to complete a **captcha** ("I'm not a robot" check).
+* After **two** wrong passwords, the login page asks you to complete a **captcha** ("I'm not a robot" check). If you skip it you see *"Please confirm you are a human!"*
 * After more wrong passwords, you have to wait a little before trying again. You see *"Please wait 30 seconds; retrying sooner extends the wait."* (the number of seconds varies). Wait for that time, then try again. Trying sooner makes the wait longer.
 * If someone keeps trying wrong passwords on your account, you get an **email** about it. If that wasn't you, nobody has got in: the email has a link to reset your password if you want to be safe.
 

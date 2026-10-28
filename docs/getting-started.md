@@ -49,9 +49,12 @@ Create a new library for the first time.
 
 #### Activate Your Library
 
-Now you need to verify your library before you can start entering books. Please open the activation email you have received from Librarika in your mailbox. Click on the activation link to activate your library.
+Now you need to activate your library before you can start entering books. Open the activation email from Librarika and click the activation link. A page **Activate your library** opens (*"… is ready, it just needs activating."*). Click `Activate my library`.
 
-Once activated, you will receive a welcome email. You can now log into your libary and start using.
+* **New to Librarika:** you are then asked to choose the password for your account: *"Your library is activated. Please choose a password for your account to finish."* Enter it in **New password** and **Confirm new password** and click `Save new password`. This is the password you sign in with from now on.
+* **Existing Librarika account:** your library is activated and your password doesn't change.
+
+The page with the button is there so that a mail scanner opening the link can't activate the library for you. Once activated, you receive a welcome email and can sign in to your library.
 
 **Note:** After activation, you will receive a few onboarding emails with tips to help you get started, such as reminders to catalog your first items. These emails are limited and will stop automatically after the initial setup period.
 
