@@ -4,7 +4,7 @@
 
 **What you can do here:** find the frequently asked questions for each part of Librarika. Each page keeps its own FAQ at the bottom; this page lists them all.
 
-For problems signing in, staff can also use [Helping people who can't sign in](helping-people-sign-in.md), and app users [Troubleshooting the app](app-troubleshooting.md). Kiosk problems are covered in [Kiosk app: setup and management](kiosk-app.md#troubleshooting) and [Using a kiosk](using-a-kiosk.md#if-the-kiosk-refuses).
+For problems signing in, staff can also use [Helping people who can't sign in](helping-people-sign-in.md), and app users [Troubleshooting the app](app-troubleshooting.md). Kiosk problems are covered in [Kiosk app: setup and management](kiosk-app.md#troubleshooting) and [Using a kiosk](using-a-kiosk.md#if-the-kiosk-refuses), and SSO problems in [Single sign-on](sso-saml.md#troubleshooting).
 
 ---
 
@@ -24,9 +24,9 @@ For problems signing in, staff can also use [Helping people who can't sign in](h
 * How do I make our catalog visible to members only?
 * Why won't my logo upload?
 * What do Booking Time and Booking Quota mean?
-* How many librarians can receive notifications?
+* How many staff can receive notifications?
 * Why do reminder emails arrive earlier or later than I expected?
-* Can I use the premium color schemes on the free plan?
+* Can I use the premium colour schemes on the Free plan?
 * Why can't I delete a branch?
 * Can I undo deleting my library?
 * How do I stop our email address or phone number showing on the Ask a Librarian page?
@@ -155,7 +155,6 @@ For problems signing in, staff can also use [Helping people who can't sign in](h
 
 * Do I need a barcode scanner for self-checkout?
 * Do I need third-party software for online self-service?
-* Is SIP2 available on the free plan?
 * Can members check out items from their phone?
 * Why can't a member see the `Checkout` button?
 * Why can't a member return an overdue item themselves?
@@ -164,7 +163,7 @@ For problems signing in, staff can also use [Helping people who can't sign in](h
 
 **[SIP2 integration](sip2.md#faq)**
 
-* Is SIP2 available on the free plan?
+* Is SIP2 available on the Free plan?
 * Do I need a barcode scanner?
 * Can I use third-party kiosk software?
 * Can two kiosks share one SIP2 licence?

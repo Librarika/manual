@@ -1,5 +1,9 @@
 # Getting started
 
+**Who this is for:** anyone who wants to start a library in Librarika.
+
+**What you can do here:** create a library, activate it, and take the first steps: settings, staff, titles, members and your first loan.
+
 Create a library in a few minutes, then activate it from the email we send.
 
 ---
@@ -64,7 +68,7 @@ The page with the button is there so that a mail scanner opening the link can't 
 
 Some mail servers reject email from Librarika, mostly company or school mail servers with their own domain. If that happens, ask your IT team to allow email from librarika.com.
 
-Email from Librarika matters for a library administrator: it brings activation links, invitations and notices about your library, so make sure it reaches you.
+Email from Librarika matters for a library admin: it brings activation links, invitations and notices about your library, so make sure it reaches you.
 
 #### Multiple libraries
 

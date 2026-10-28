@@ -1,6 +1,6 @@
 # Single sign-on (SSO with SAML)
 
-**Who this is for:** library administrators who want staff and members to sign in with their school's or organisation's own login.
+**Who this is for:** library admins who want staff and members to sign in with their school's or organisation's own login.
 
 **What you can do here:** connect your identity provider to Librarika, decide whether SSO is the only way in, and fix common problems. For what members see when they sign in with SSO, see [Signing in](signing-in.md#signing-in-with-your-organisations-sso).
 
@@ -24,7 +24,7 @@ You need someone who can add a SAML application in your identity provider's admi
 
 ### Step 1: open the SSO tab
 
-In the sidebar, go to **Manage** > **Preferences** and open the `SSO` tab. Switch on **Enable SSO** (*"Member will be able to login using SAML2."*). The rest of the SSO settings appear.
+In the sidebar, go to `Manage` > `Preferences` and open the `SSO` tab. Switch on **Enable SSO** (*"Member will be able to login using SAML2."*). The rest of the SSO settings appear.
 
 ![The SSO tab in Preferences, with sample values](img/library-preference-sso.png)
 
@@ -70,7 +70,7 @@ Click `Save Preferences` and check that your values are still there after the pa
 
 ### Step 5: test
 
-After support confirms, open your library's login page in a private browser window and click `Sign in with SSO` (the key button). Sign in on your identity provider's page; you should come back to your library signed in. There is no separate test button.
+After support confirms, open your library's **Log in** page in a private browser window and click `Sign in with SSO` (the key button). Sign in on your identity provider's page; you should come back to your library signed in. There is no separate test button.
 
 ---
 
@@ -79,14 +79,14 @@ After support confirms, open your library's login page in a private browser wind
 Two switches on the `SSO` tab make SSO the only way into your library. They only work while **Enable SSO** is on.
 
 * **SSO only on the website**: *"Members and staff can sign in to this library's website with SSO only. Anyone signed in another way (password, Google, or from My Libraries on librarika.com) is signed out and asked to sign in with SSO."*
-	* The login page then shows only the SSO button.
+	* The **Log in** page then shows only the SSO button.
 	* You can switch it on only **while you are signed in with your library's SSO**, so you can't lock yourself out. Otherwise you see *"Saved, but "SSO only" for the web was not switched on: sign out, sign in with this library's SSO, then switch it on."*
 	* Google and Apple sign-ups aren't accepted for your library.
 
 	**Before you switch it on:**
 
 	1. Make sure your own Librarika email exists in your identity provider. An owner account such as library@yourschool.edu may not exist there; if so, sign in with an account that does and give it the **Library Administrator** role first (see [Users](users.md#add-user)).
-	2. If you also use Librarika in another library, sign in with your password and tick this library under **Settings** > **SSO sign-in** (see [Who SSO can sign in](#who-sso-can-sign-in)).
+	2. If you also use Librarika in another library, sign in with your password and tick this library under `Settings` > `SSO sign-in` (see [Who SSO can sign in](#who-sso-can-sign-in)).
 	3. Sign out, sign in with `Sign in with SSO`, then switch on **SSO only on the website** and click `Save Preferences`.
 * **SSO only on the mobile app**: *"In the Librarika mobile app, members and staff can open this library only after signing in with this library's SSO. App sign-ins with a password, Google or Apple are refused for this library."*
 
@@ -114,7 +114,7 @@ This protects accounts used in more than one library: one organisation's SSO can
 
 A session started with SSO can't change how the account signs in. To change their email address, turn on Google or Apple sign-in, change the SSO sign-in list, sign out other sessions or remove their account, people sign in with their password or Google. They see, for example, *"You signed in with SSO. Sign in with your password or Google to change your email address."*
 
-**No Librarika password, or the library allows SSO only?** An account created by SSO has no password its owner knows, and an SSO-only library's login page refuses password and Google sign-ins. Make these changes on **librarika.com** instead: click `Forgot password?` there, set a password from the email, then sign in on librarika.com with it and make the change. Resetting the password also signs out every other browser and phone, including a lost phone.
+**No Librarika password, or the library allows SSO only?** An account created by SSO has no password its owner knows, and an SSO-only library's **Log in** page refuses password and Google sign-ins. Make these changes on **librarika.com** instead: click `Forgot password?` there, set a password from the email, then sign in on librarika.com with it and make the change. Resetting the password also signs out every other browser and phone, including a lost phone.
 
 ### Passwords and SSO
 
@@ -136,7 +136,7 @@ In the Librarika app, people tap the SSO button (the key) on the sign-in screen,
 
 | What people see | What to do |
 |---|---|
-| *"Your SSO login is either invalid or expired."* | The sign-in took too long, was reused, or SSO isn't active yet. Try again from the library's login page. If it keeps happening, check the ACS URL, Entity ID and certificate on both sides, and ask support whether SSO is activated. |
+| *"Your SSO login is either invalid or expired."* | The sign-in took too long, was reused, or SSO isn't active yet. Try again from the library's **Log in** page. If it keeps happening, check the ACS URL, Entity ID and certificate on both sides, and ask support whether SSO is activated. |
 | *"Your organisation's sign-in did not send an email address. …"* | Set the Name ID in your identity provider to the user's email address. |
 | *"This library's SSO is not allowed to sign in to your account yet. …"* | The person's account is also used elsewhere. They sign in with their password or Google once and tick your library under **SSO sign-in** in their settings. |
 | *"More than one account uses this email address, so it cannot be signed in this way. …"* | Contact Librarika support. |

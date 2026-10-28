@@ -1,8 +1,12 @@
 # Reports
 
+**Who this is for:** library staff.
+
+**What you can do here:** view, print and export catalog, circulation, member and overdue reports.
+
 Reports show your catalog, circulation, members and overdue items, usually for a date range. Most reports have filters, a `Print Page` button and an `Export CSV` button. Each CSV file holds up to 5,000 records; larger exports are split into pages (see the [FAQ](#faq)).
 
-Go to `Dashboard -> Reports` and pick a group of reports.
+Go to `Reports` and pick a group of reports.
 
 ![Reports menu](img/reports_menu.png)
 
@@ -107,7 +111,7 @@ Click the `Print Page` button on the report page. It prints what is currently sh
 
 **Can I edit an exported file and upload it back?**
 
-Yes, for copies and members. The files from `Export all copies` and from the member `Export` can be edited and uploaded again with [Batch Update](batch-update.md). Other exports, such as categories or authors, are for keeping a backup or reusing in an import.
+Yes, for copies and members. The files from `Export all copies` and from the member `Export` can be edited and uploaded again with [Batch update](batch-update.md). Other exports, such as categories or authors, are for keeping a backup or reusing in an import.
 
 **Why can't I see some reports or Export buttons?**
 

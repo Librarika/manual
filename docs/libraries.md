@@ -1,4 +1,10 @@
-# Library
+# Library settings & plans
+
+<a id="library"></a>
+
+**Who this is for:** library admins.
+
+**What you can do here:** change your library's information, logo, branches and preferences, upgrade or cancel your plan, and delete the library.
 
 This section explains how to manage your library master data and other related information.
 
@@ -6,7 +12,7 @@ This section explains how to manage your library master data and other related i
 
 Please see the [create new library](getting-started.md#create-new-library) section in order to start a new free library. 
 
-If you want to subscribe to a Premium Plan, please create a free library first and then upgrade to the desired premium plan following the [upgrade to premium plan](#upgrade-to-premium-plan) instructions.
+To use a paid plan, create a library on the Free plan first, then upgrade it (see [Upgrade your plan](#upgrade-your-plan)).
 
 ---
 
@@ -33,15 +39,17 @@ Please update your library information carefully and make sure that they are up 
 * Now if you want to make your library private so that, only the members will be allowed to access the OPAC catalog.
 	* Please checked the **Private** checkbox from the `Library Info` tab.
 
-		If checked, your catalog will not be visible online, only member's with login access can access the information. This feature is suitable for corporate libraries.
+		If checked, your catalog will not be visible online, only members with member access can see it. This feature is suitable for corporate libraries.
 
 * Click on the `Submit` button to save your changes.
 
-### Change / update organization information
+<a id="change-update-organization-information"></a>
 
-Please update your organization information carefully and make sure that they are up to date. The email address and phone number that you enter in this page will not be available in public.
+### Change / update organisation information
 
-**Steps to update organization information**:
+Please update your organisation information carefully and make sure that they are up to date. The email address and phone number that you enter in this page will not be available in public.
+
+**Steps to update organisation information**:
 
 * Go to the **Library Information** section from the dashboard.
 
@@ -97,31 +105,31 @@ The `Sign-in security` button at the top of the Preferences page opens your libr
 
 * In the sidebar, go to `Manage` > `Preferences`.
 
-	![Library information menu](img/library-preference-menu.png)
+	![Preferences in the Manage menu](img/library-preference-menu.png)
 
 * Click on the `Options` tab if not selected automatically.
 
-	![Library preference form](img/library-preference-options.png)
+	![Preferences, Options tab](img/library-preference-options.png)
 	
 * Enter / update the information you want to change.
-	* The `Keep email private` checkbox has 3 options that you can set based on your own preference and it will be displayed on the "Ask a Librarian" page.
+	* The **Keep email private** checkbox has 3 options that you can set based on your own preference and it will be displayed on the "Ask a Librarian" page.
 
-		![Library preference option form](img/library-preference-keep-email-private.png)
+		![Keep email private options](img/library-preference-keep-email-private.png)
 
-	* Then if you checked the `Keep phone number private` checkbox then you can find 3 options to set and based on this setting it will be displayed on the "Ask a Librarian" page.
+	* Then if you checked the **Keep phone number private** checkbox then you can find 3 options to set and based on this setting it will be displayed on the "Ask a Librarian" page.
 
-		![Library preference option form](img/library-preference-keep-phone-private.png)
+		![Keep phone number private options](img/library-preference-keep-phone-private.png)
 
-	* Next is the `Greetings` field where you can modify your verbage or welcome message for your library.
-	* The `Ebook URL Visibility` option set privacy for your e-book which is links with 5 options, that is Hide To All / Public / Member / Borrower Always / Active Borrower. You can set them independently for each of the items in your catalog.
-	* The `Booking Time` option is the default loan length in days. It sets the default **Return Date** in the circulation form.
-	* The `Booking Quota` field is the maximum number of items a member can have requested, checked out or on loan at a time, all combined.
-	* `Enable member access request.` -- people with a Librarika account can ask to join your library. It is on by default; only paid plans can turn it off.
-	* `Join member automatically.` -- requests (including first SSO sign-ins) are accepted at once with the next member number. When it is off, they wait in [Member Requests](members.md#member-requests).
+	* Next is the **Greetings** field where you can modify your verbage or welcome message for your library.
+	* The **Ebook URL Visibility** option set privacy for your e-book which is links with 5 options, that is Hide To All / Public / Member / Borrower Always / Active Borrower. You can set them independently for each of the items in your catalog.
+	* The **Booking Time** option is the default loan length in days. It sets the default **Return Date** in the circulation form.
+	* The **Booking Quota** field is the maximum number of items a member can have requested, checked out or on loan at a time, all combined.
+	* **Enable member access request.** -- people with a Librarika account can ask to join your library. It is on by default; only some plans can turn it off (see [What each plan includes](#what-each-plan-includes)).
+	* **Join member automatically.** -- requests (including first SSO sign-ins) are accepted at once with the next member number. When it is off, they wait in [Member Requests](members.md#member-requests).
 
 * If you click on the `Self Service` tab then it will be displayed like below.
 
-	![Library preference form](img/library-preference-self-service.png)
+	![Preferences, Self Service tab](img/library-preference-self-service.png)
 
 	* **Enable member checkouts** -- Allow members to check out items by themselves from the catalog.
 	* **Enable member check-ins** -- Allow members to return (check-in) items by themselves from their My Account page.
@@ -131,32 +139,32 @@ The `Sign-in security` button at the top of the Preferences page opens your libr
 	* **Checkout Limit** -- the longest checkout a member can choose, in days (default 14).
 	* **Checkout Quota** -- the most items a member can have checked out at the same time through self-service (default 5).
 
-	For more details on self-service options, see the [Self-Service](self-service.md) page. For kiosk-based checkout with barcode scanners, see [SIP2 Integration](sip2.md).
+	For more details on self-service options, see the [Self-service](self-service.md) page. For kiosk-based checkout with barcode scanners, see [SIP2 integration](sip2.md).
 
 * If you click on the `Hold Queue` tab then you can configure the hold queue feature for your library. The hold queue allows members to place holds on items that are currently checked out and wait in a queue until the item becomes available.
 
-	For detailed information on all hold queue settings and how the feature works, see the [Hold Queue](hold-queue.md) page.
+	For detailed information on all hold queue settings and how the feature works, see the [Hold queue](hold-queue.md) page.
 
 * If you click on the `Request items` tab then it will be displayed like below.
 
-	![Library preference form](img/library-preference-request-items.png)
+	![Preferences, Request items tab](img/library-preference-request-items.png)
 
-	* If you enable the `Enable item request` then member can request your library item from their member area section.
-	* In the `Member` field you can set 3 member type options whom can request library item online, that is All members / Regular members only / Privileged members only.
+	* If you enable the **Enable item request** then member can request your library item from their member area section.
+	* In the **Member** field you can set 3 member type options whom can request library item online, that is All members / Regular members only / Privileged members only.
 	* By default the action is pending for requesting an item. But you can choose the other option **Reserved** if you want to reserve that item for your member immediately.
 
 * If you click on the `Notifications / Reminders` tab then you can set reminders for your library members.
 
-	![Library preference form](img/library-preference-reminders.png)
+	![Preferences, Notifications / Reminders tab](img/library-preference-reminders.png)
 
 	* Our system will send notification reminders to the members of your library based on these settings.
-	* `Notify on overdue.` -- members get an email when an item is overdue, after the hours chosen in `Notify after`.
-	* `Remind before due date.` -- members get an email the chosen number of hours (`Remind before`) before the due date.
-	* `Remind on reservation.` -- members get an email the chosen number of hours (`Remind before`) before the reservation date.
-	* `Notify librarians on reservation.` -- librarians get a notification when a reservation request is placed.
-	* `Notify librarians on checkout.` -- librarians get a notification when a member checks out an item (paid plans only).
-	* `Send review item reminder.` -- members get an email asking for a review when they return an item. It is on by default; only paid plans can turn it off.
-	* **Here the most important field is the `Notified Librarians` where you can set maximum of five librarians who will receive notification reminders if any member joined or requested a book**.
+	* **Notify on overdue.** -- members get an email when an item is overdue, after the hours chosen in **Notify after**.
+	* **Remind before due date.** -- members get an email the chosen number of hours (**Remind before**) before the due date.
+	* **Remind on reservation.** -- members get an email the chosen number of hours (**Remind before**) before the reservation date.
+	* **Notify librarians on reservation.** -- staff get a notification when a reservation request is placed.
+	* **Notify librarians on checkout.** -- staff get a notification when a member checks out an item (only on some plans: see [What each plan includes](#what-each-plan-includes)).
+	* **Send review item reminder.** -- members get an email asking for a review when they return an item. It is on by default; only some plans can turn it off (see [What each plan includes](#what-each-plan-includes)).
+	* **Here the most important field is **Notified Librarians**, where you can choose up to five staff who will receive notification reminders if any member joined or requested a book**.
 
 * If your library has SIP2 terminals, a `SIP2` tab lists them with their allowed IP addresses, licence end date, status and when each was last used. To add, move or renew a terminal, contact Librarika support. See [SIP2 integration](sip2.md).
 
@@ -166,18 +174,18 @@ The `Sign-in security` button at the top of the Preferences page opens your libr
 
 * If you click on the `Appearance` tab then it will be displayed as below.
 
-	![Library preference form](img/library-preference-appearance.png)
+	![Preferences, Appearance tab](img/library-preference-appearance.png)
 
-	* From this page you can set premium color schemes for your library dashboard and OPAC. Also you can select your preferred language from the Language dropdown menu.
+	* From this page you can set premium colour schemes for your library dashboard and OPAC (only on some plans: see [What each plan includes](#what-each-plan-includes)). Also you can select your preferred language from the Language dropdown menu.
 
-* The `Upgrade` tab links to your plan; see [Upgrade to premium plan](#upgrade-to-premium-plan).
+* The `Upgrade` tab links to your plan; see [Upgrade your plan](#upgrade-your-plan).
 * From the above tabs you can set / enter / update the value that you want.
 * Click on the `Save Preferences` button to save your changes.
 * Your latest changes will be applied instantly.
 
 ### Sign-in security
 
-Library administrators decide on the `Sign-in security` page (button at the top of **Preferences**) whether staff and members need two-step verification, the minimum password length, and a date before which passwords must be changed. These settings can be changed on the Gold plan and higher.
+Library admins decide on the `Sign-in security` page (button at the top of **Preferences**) whether staff and members need two-step verification, the minimum password length, and a date before which passwords must be changed. These settings can be changed on the Gold, Platinum, Diamond, Enterprise and Unlimited plans.
 
 For every option, see [Library sign-in security](library-sign-in-security.md); to help someone who is locked out, see [Helping people who can't sign in](helping-people-sign-in.md).
 
@@ -187,7 +195,7 @@ For every option, see [Library sign-in security](library-sign-in-security.md); t
 
 To create a new library branch or update the information of your previous library branches please follow the below steps.
 
-* Please go to `Dashboard -> Manage -> Library Information` section then click on the **Manage Branches** button.
+* Go to `Manage` > `Library Information`, then click on the **Manage Branches** button.
 * A page will be appeared like below.
 
 	![Library branch page](img/library-branch-page.png)
@@ -204,7 +212,9 @@ To create a new library branch or update the information of your previous librar
 
 ---
 
-## Upgrade to premium plan
+<a id="upgrade-to-premium-plan"></a>
+
+## Upgrade your plan
 
 You can upgrade your library to a paid plan at any time. The steps are the same for new and existing libraries.
 
@@ -231,13 +241,19 @@ Plans renew automatically each year until you cancel (see [Cancel subscription](
 
 ### What each plan includes
 
+The **Free** plan holds up to 2,000 titles or copies. The plans are Free, Basic Pro, Silver, Gold, Platinum, Diamond, Enterprise and Unlimited. This table is the one list of which plan includes what; the feature pages link here.
+
 | Feature | Plans that include it |
 |---|---|
-| Free plan | Up to 2,000 books or records |
-| Sign-in security settings | Gold, Platinum, Diamond, Enterprise, Unlimited |
-| Branch access for users | Gold, Platinum, Unlimited |
-| Single sign-on (SSO) | Ask [Librarika support](https://librarika.com/spages/contact) |
-| Premium colour schemes, turning off review reminders | Paid plans |
+| [Fees & payments](fees-payments.md) | Basic Pro, Silver, Gold, Platinum, Unlimited |
+| [Hold queue](hold-queue.md) | Basic Pro, Silver, Gold, Platinum, Unlimited |
+| [Barcode queue](barcode-labels.md#add-to-barcode-queue) of 500 labels (100 on other plans) | Basic Pro, Silver, Gold, Platinum, Unlimited |
+| [Batch update](batch-update.md) | Basic Pro, Silver, Gold, Platinum, Unlimited |
+| Premium colour schemes; turning off `Enable member access request.` and `Send review item reminder.`; `Notify librarians on checkout.` | Basic Pro, Silver, Gold, Platinum, Unlimited |
+| [Sign-in security settings](library-sign-in-security.md) | Gold, Platinum, Diamond, Enterprise, Unlimited |
+| [Branch access for users](users.md) | Gold, Platinum, Unlimited |
+| [Single sign-on (SSO)](sso-saml.md) | Ask [Librarika support](https://librarika.com/spages/contact) |
+| [SIP2 terminals](sip2.md) | Each terminal needs its own licence: ask [Librarika support](https://librarika.com/spages/contact) |
 
 The `My Plan` page shows the current list of plans and prices.
 
@@ -245,11 +261,11 @@ The `My Plan` page shows the current list of plans and prices.
 
 ### Change or update payment / billing information
 
-For premium libraries, the payment method is charged automatically when the annual subscription expires. You may want to change / update payment information so that next renewal takes place without any service disruption.
+On a paid plan, the payment method is charged automatically when the annual subscription expires. You may want to change / update payment information so that next renewal takes place without any service disruption.
 
 You can change the payment information anytime. Please follow the below steps:
 
-* At first please go to `Dashboard -> Manage -> My Plan` section.
+* Go to `Manage` > `My Plan`.
 * Then in the **Billing Information** section click `Update Payment Method` next to the payment type.
 
 	![Billing info form](img/update-billing-info.png)
@@ -262,18 +278,18 @@ You can change the payment information anytime. Please follow the below steps:
 ## Cancel subscription
 
 * Go to `Manage` > `My Plan` and click `Cancel Plan`.
-* This turns off auto-renewal. You keep full access until the end of the paid period, and that period isn't refunded. After that date your library returns to the free Basic plan.
+* This turns off auto-renewal. You keep full access until the end of the paid period, and that period isn't refunded. After that date your library returns to the Free plan.
 * To cancel an e-book storage subscription, contact Librarika support.
 
 ---
 
 ## Delete library
 
-You can remove your library anytime from the dashboard. All you need is the _Library Admin_ permission in order to delete your library. When you delete a library, the library information and your own user account, catalogs, checkouts, members information and other related information will be removed.
+You can remove your library anytime from the dashboard. You need the **Library Administrator** role to delete your library. When you delete a library, its information, catalog, checkouts, members and other library records are removed.
 
-However, the individual login accounts created in Librarika platform either by library member or staff users will stay active even though they were part of your library users, this is because each user is treated independently in Librarika platform and one user can join multiple libraries using the same account.
+The Librarika accounts of your staff and members are not deleted: they belong to each person, not to the library, and one account can be used in several libraries. Your own Librarika account is deleted too only if you also tick `Remove my account`.
 
-Note: If you are on any paid plan (Premium Plan or E-Book Plan), please let us know so that we can discontinue your subscription before you delete your library.
+Note: If you are on a paid plan or have an e-book storage subscription, please let us know so that we can discontinue your subscription before you delete your library.
 
 **Steps to delete a library**:
 
@@ -285,7 +301,7 @@ Note: If you are on any paid plan (Premium Plan or E-Book Plan), please let us k
 	
 	![Remove library tab](img/remove-library-tab.png)
 
-* Check `Remove my library` and `Remove my account` options as shown above.
+* Tick `Remove my library`. Tick `Remove my account` only if you also want to close your own Librarika account for good (you can't create a new account with the same email address afterwards).
 * Also check the `Confirm removal` option to confirm your removal request.
 * Once you click on the `Submit` button your library will be deleted.
 
@@ -305,7 +321,7 @@ The logo must be a PNG, JPG or GIF image at least 200x200 pixels and no larger t
 
 `Booking Time` is the default loan length in days, which sets the default Return Date in the circulation form. `Booking Quota` is the total number of items a member can have requested, reserved and checked out at the same time; a quota set on a single member's record replaces it for that member (see [Booking Quota](members.md#booking-quota)).
 
-**How many librarians can receive notifications?**
+**How many staff can receive notifications?**
 
 Up to five. Pick them in the `Notified Librarians` list on the `Notifications / Reminders` tab.
 
@@ -313,9 +329,9 @@ Up to five. Pick them in the `Notified Librarians` list on the `Notifications / 
 
 Reminder times are calculated in UTC, not in your local time zone. Adjust the hours in the `Notifications / Reminders` tab to allow for the difference.
 
-**Can I use the premium color schemes on the free plan?**
+**Can I use the premium colour schemes on the Free plan?**
 
-No. Premium color schemes in the `Appearance` tab are available on paid plans only; saving one on a free plan shows an error and the change is not saved. See [Upgrade to Premium Plan](#upgrade-to-premium-plan).
+No. Premium colour schemes in the `Appearance` tab are available only on the plans listed in [What each plan includes](#what-each-plan-includes); on other plans, saving one shows *"Sorry, premium colour schemes are available for paid plans only."* and the change is not saved. See [Upgrade your plan](#upgrade-your-plan).
 
 **Why can't I delete a branch?**
 
@@ -323,7 +339,7 @@ A branch that still has catalog copies assigned to it cannot be deleted. Move th
 
 **Can I undo deleting my library?**
 
-No. Removing a library is permanent, and you cannot create a new library with the same nickname or email address afterwards. Login accounts of your members and staff stay active because they belong to the Librarika platform, not to your library.
+No. Removing a library is permanent, and you cannot create a new library with the same nickname or email address afterwards. The Librarika accounts of your members and staff stay active, because they belong to each person, not to your library.
 
 **How do I stop our email address or phone number showing on the Ask a Librarian page?**
 

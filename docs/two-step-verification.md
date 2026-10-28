@@ -16,7 +16,7 @@ An authenticator app on your phone, for example **Google Authenticator**, **Micr
 
 ### Turn on two-step verification
 
-1. Open your settings: members click `My Account` > `Account Settings`; staff click their name menu at the top right > `Settings` (gear icon).
+1. Open your settings (see [Your sign-in settings](signing-in.md#your-sign-in-settings)): members click `My Account` > `Account Settings`; staff click their name menu at the top right > `Settings` (gear icon).
 2. Find **Two-step verification** and click `Turn on`.
 
 	![Two-step verification section in Settings, showing Off and a Turn on button](img/signin-2sv-settings-off.png)
@@ -103,7 +103,7 @@ If you belong to several libraries and **any** of them requires it, you need it 
 
 * **You still have your recovery codes:** sign in with a recovery code instead of the 6-digit code. Then open **Two-step verification** and click `Set up a new phone`.
 * **You still have your old phone** but are getting a new one: use `Set up a new phone` before you reset or give away the old phone.
-* **You have neither your phone nor your recovery codes:** contact your library or [Librarika support](https://librarika.com/spages/contact). Librarika support can turn off two-step verification for your account **after checking who you are**. When they do, you are signed out everywhere, you get an email, and at your next sign-in you [choose a new password](passwords.md#choose-a-new-password). Then turn two-step verification on again.
+* **You have neither your phone nor your recovery codes:** contact [Librarika support](https://librarika.com/spages/contact). Your library can't turn off two-step verification, but it can help you reach support. Librarika support can turn off two-step verification for your account **after checking who you are**. When they do, you are signed out everywhere, you get an email, and at your next sign-in you [choose a new password](passwords.md#choose-a-new-password). Then turn two-step verification on again.
 
 Your library's staff can't turn off two-step verification for you, but they can help you contact Librarika support.
 

@@ -1,8 +1,12 @@
 # Hold queue
 
-The hold queue feature allows members to place holds on items that are currently checked out or unavailable, and wait in a first-in, first-out (FIFO) queue until the item becomes available. Library staff can manage the hold queue, hold shelf, and fulfill holds through the circulation dashboard. Members can also place and manage their own holds from the catalog and member area.
+**Who this is for:** library staff, and members who place holds.
 
-**Availability:** Hold Queue is available on **Basic Pro**, **Silver**, **Gold**, **Platinum**, and **Unlimited** plans.
+**What you can do here:** turn on holds, manage the queue and the hold shelf, and see how holds move from waiting to checkout.
+
+The hold queue feature allows members to place holds on items that are currently checked out or unavailable, and wait in a first-in, first-out (FIFO) queue until the item becomes available. Library staff can manage the hold queue, hold shelf, and fulfil holds through the circulation dashboard. Members can also place and manage their own holds from the catalog and member area.
+
+**Plans:** Hold queue is available on the **Basic Pro**, **Silver**, **Gold**, **Platinum** and **Unlimited** plans (see [What each plan includes](libraries.md#what-each-plan-includes)).
 
 ---
 
@@ -10,7 +14,7 @@ The hold queue feature allows members to place holds on items that are currently
 
 To enable the hold queue feature for your library, please follow the below steps:
 
-* Go to the `Dashboard -> Manage -> Preferences` section.
+* Go to `Manage` > `Preferences`.
 * Click on the `Hold Queue` tab.
 * Check the `Enable hold queue` checkbox to activate the feature.
 * Configure the hold queue settings as described below.
@@ -46,7 +50,7 @@ Library staff can manage all hold-related activities from the Hold Queue section
 
 To view and manage all holds in your library:
 
-* Go to `Dashboard -> Circulations -> Hold Queue`.
+* Go to `Circulations` > `Hold Queue`.
 * The hold queue list will be displayed with all active holds.
 * Use the status dropdown to filter holds by status: **Active**, **Actionable**, **Waiting**, **Ready**, **Suspended**, **Fulfilled**, **Expired**, **Cancelled**, or **All**.
 	* **Active** (the default) -- Waiting, Ready and Suspended holds.
@@ -59,7 +63,7 @@ To view and manage all holds in your library:
 
 Staff can place holds on behalf of members. To place a hold:
 
-* Go to `Dashboard -> Circulations -> Hold Queue`.
+* Go to `Circulations` > `Hold Queue`.
 * Click on the `Place Hold` button.
 * The Place Hold form will appear.
 * Enter the member number or member name. An auto-select list will appear, please select the member from the list.
@@ -84,7 +88,7 @@ The member will be assigned a queue position and will receive a notification if 
 
 To view the details of a specific hold:
 
-* Go to `Dashboard -> Circulations -> Hold Queue`.
+* Go to `Circulations` > `Hold Queue`.
 * Click on the `View` icon (eye) next to the hold you want to view.
 * The hold detail page will display all information including member details, item details, hold type, queue position, status, and dates.
 
@@ -101,7 +105,7 @@ To temporarily pause a hold:
 * Select the date until which the hold should be suspended.
 * Click `Submit` to suspend the hold.
 
-The hold will maintain its queue position but will be skipped during fulfillment until the suspension date passes. Suspended holds are automatically reactivated on the day after the suspension date.
+The hold will maintain its queue position but will be skipped during fulfilment until the suspension date passes. Suspended holds are automatically reactivated on the day after the suspension date.
 
 **Activate a Hold**
 
@@ -129,7 +133,7 @@ When a copy becomes available and needs to be manually assigned to a waiting hol
 * If multiple copies are available, select the copy to assign.
 * The hold status will change to **Ready** and a pickup deadline will be calculated based on your Pickup Window setting.
 
-**Note:** When the Fulfillment Mode is set to **Auto Assign**, holds are automatically marked as ready when an item is returned (checked in). Manual marking is needed when using **Staff Manual** mode, or when you want to override the automatic process.
+**Note:** When **Fulfillment Mode** is set to **Auto Assign**, holds are automatically marked as ready when an item is returned (checked in). Manual marking is needed when using **Staff Manual** mode, or when you want to override the automatic process.
 
 ---
 
@@ -138,7 +142,7 @@ When a copy becomes available and needs to be manually assigned to a waiting hol
 When you check in an item (see [Check-in item](circulations.md#check-in-item)) that has waiting holds, the message ends with one of these:
 
 * **Hold assigned to next patron.** -- don't put the item back on the shelf. Put it on the hold shelf; it now appears in [Hold shelf](#hold-shelf) for that member, who is notified if notifications are on.
-* **N hold(s) remaining in queue.** -- other members are still waiting for this title. If the message doesn't also say **Hold assigned to next patron.** (for example with the **Staff Manual** fulfillment mode), the item wasn't set aside; use `Mark Ready` (see [Mark ready](#mark-ready)) to give it to a waiting member.
+* **N hold(s) remaining in queue.** -- other members are still waiting for this title. If the message doesn't also say **Hold assigned to next patron.** (for example with the **Staff Manual** fulfilment mode), the item wasn't set aside; use `Mark Ready` (see [Mark ready](#mark-ready)) to give it to a waiting member.
 
 ---
 
@@ -148,21 +152,23 @@ The hold shelf shows all holds that are in **Ready** status -- meaning the item 
 
 To access the hold shelf:
 
-* Go to `Dashboard -> Circulations -> Hold Queue` and click `Hold Shelf`.
+* Go to `Circulations` > `Hold Queue` and click `Hold Shelf`.
 * Ready holds will be displayed sorted by pickup deadline.
-* Items are color-coded based on urgency:
+* Items are colour-coded based on urgency:
 	* **Red** -- Pickup deadline has passed (overdue).
 	* **Yellow** -- Pickup deadline is within 2 days (expiring soon).
 	* **Normal** -- Pickup deadline is more than 2 days away.
 * Member contact information is displayed for easy communication.
-* Click `Checkout` to fulfill the hold and issue the item to the member.
+* Click `Checkout` to fulfil the hold and issue the item to the member.
 * Click `Cancel` to cancel the hold if the member does not pick up the item.
 
 **Note:** Ready holds that pass their pickup deadline will be automatically expired by the system, and the item will be offered to the next member in the queue.
 
 ---
 
-## Fulfill hold (checkout)
+<a id="fulfill-hold-checkout"></a>
+
+## Fulfil a hold (checkout)
 
 When a member comes to pick up a ready hold:
 
@@ -182,7 +188,7 @@ The hold demand page helps you identify high-demand items in your collection, wh
 
 To view hold demand:
 
-* Go to `Dashboard -> Circulations -> Hold Queue` and click `Hold Demand`.
+* Go to `Circulations` > `Hold Queue` and click `Hold Demand`.
 * The top 50 high-demand items will be displayed.
 * The following information is shown for each item:
 	* **Title** -- The item title.
@@ -191,7 +197,7 @@ To view hold demand:
 	* **Total Copies** -- Total number of copies in the collection.
 	* **Available** -- Number of copies currently available.
 	* **Ratio** -- Hold-to-copy ratio indicating demand level.
-* Ratio is color-coded:
+* Ratio is colour-coded:
 	* **Red** -- Ratio of 3 or higher (very high demand).
 	* **Yellow** -- Ratio of 2 or higher (high demand).
 
@@ -216,14 +222,14 @@ What members see and do (place a hold from the catalog, see their queue position
 | **Fulfilled** | Member has picked up the item (checked out). The hold is complete. |
 | **Expired** | Hold was not fulfilled before the expiration date (for Waiting holds) or the pickup deadline (for Ready holds). |
 | **Cancelled** | Hold was cancelled by the member or staff. |
-| **Suspended** | Hold is temporarily paused. It maintains its queue position but is skipped during fulfillment. |
+| **Suspended** | Hold is temporarily paused. It maintains its queue position but is skipped during fulfilment. |
 
 ### Hold types
 
 | Type | Description |
 |------|-------------|
 | **Title-level** | The member is waiting for any available copy of the item. When any copy is returned, it will be assigned to this hold. |
-| **Copy-level** | The member is waiting for a specific copy. Only that particular copy will fulfill this hold. |
+| **Copy-level** | The member is waiting for a specific copy. Only that particular copy will fulfil this hold. |
 
 ### Queue positions (FIFO)
 
@@ -232,10 +238,12 @@ Holds are managed using a first-in, first-out (FIFO) queue:
 * The first member to place a hold gets queue position 1.
 * Each subsequent hold gets the next position in the queue.
 * When a hold is cancelled or fulfilled, queue positions are recalculated automatically.
-* Suspended holds maintain their queue position but are skipped during fulfillment.
+* Suspended holds maintain their queue position but are skipped during fulfilment.
 * A member cannot place duplicate holds on the same title.
 
-### Hold fulfillment flow
+<a id="hold-fulfillment-flow"></a>
+
+### Hold fulfilment flow
 
 1. **Member or staff places a hold** -- A queue position is assigned. If **Auto-ready on placement** is enabled and a copy is currently available, the hold is immediately marked as Ready.
 2. **Item is returned (checked in)** -- The system automatically checks for waiting holds on the returned item.
@@ -244,9 +252,11 @@ Holds are managed using a first-in, first-out (FIFO) queue:
 5. **Member picks up item** -- Staff checks out the item to the member, and the hold is marked as Fulfilled.
 6. **If pickup deadline passes** -- The hold expires automatically, and the item is offered to the next member in the queue.
 
-### Fulfillment modes
+<a id="fulfillment-modes"></a>
 
-The system supports two fulfillment modes that control what happens when a checked-out item is returned:
+### Fulfilment modes
+
+The system supports two fulfilment modes that control what happens when a checked-out item is returned:
 
 | Mode | Behavior |
 |------|----------|

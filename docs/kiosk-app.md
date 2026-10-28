@@ -1,6 +1,6 @@
 # Kiosk app: setup and management
 
-**Who this is for:** library staff and administrators who run a self-checkout kiosk.
+**Who this is for:** library staff and admins who run a self-checkout kiosk.
 
 **What you can do here:** prepare a computer as a Librarika self-checkout kiosk, connect it to your library, set it up, keep it updated and fix common problems. For what members see at the kiosk, see [Using a kiosk](using-a-kiosk.md). For licences and connection details, see [SIP2 integration](sip2.md).
 
@@ -30,7 +30,7 @@ Each kiosk signs in to your library with its **own terminal account**: a staff a
 	* If your library requires two-step verification for staff, Librarika may ask this account to set it up when you first sign in with it on the website. Do so, and keep its recovery codes with your kiosk records. Once the account is licensed, the kiosk itself is never asked.
 	* If your library limits staff to branches, a terminal account limited to a branch can lend only that branch's items.
 2. Contact [Librarika support](https://librarika.com/spages/contact) with the account and the **public** internet (IP) address of the library's connection (open a browser on the kiosk and search *what is my IP*). Support can also allow a range, such as `203.0.113.0/24`. Support sets up the licence: its start and end dates (usually a year) and the allowed addresses. If your provider changes your address, the kiosk stops working until support updates it.
-3. Support confirms when the terminal is licensed. You can see it under **Manage** > **Preferences** > `SIP2`: *"SIP2 terminals licensed for this library. To add, move or renew a terminal, contact Librarika support."*
+3. Support confirms when the terminal is licensed. You can see it under `Manage` > `Preferences` > `SIP2`: *"SIP2 terminals licensed for this library. To add, move or renew a terminal, contact Librarika support."*
 
 **Why a licensed terminal account matters:** a kiosk can't type a two-step code or choose a new password. A **licensed** terminal account is therefore not asked for two-step verification or a new password, even if your library [requires two-step verification for staff](library-sign-in-security.md). Any account that Librarika support hasn't licensed as a terminal is asked: if a kiosk signs in with such an account and two-step verification is on (or a new password is due), the kiosk stops working. Always use the terminal account that Librarika support set up. The exemption covers only sign-ins from the kiosk; it also skips the check for leaked passwords.
 
@@ -53,7 +53,7 @@ The first time the app starts, the **Kiosk Setup** wizard opens. It has four ste
 1. **Admin PIN**: choose a PIN of **6 to 12 digits**. Staff use it to open the settings. Easy PINs (common ones, sequences such as `123456`, or repeats) are refused. Keep it safe.
 2. **Library Connection**:
 	* **Institution ID**: your library's subdomain, for example `mylibrary` if your library is at `mylibrary.librarika.com`.
-	* **Terminal Password**: **type the account's email address, a colon and the password, for example `kiosk1@mylibrary.org:your-password`.** The field is labelled Terminal Password but needs both.
+	* **Terminal Password**: **type the account's email address, a colon and the password, for example `kiosk1@yourschool.org:your-password`.** The field is labelled Terminal Password but needs both.
 3. Click `Start Using Kiosk`.
 4. Open the Admin Panel > **Kiosk Settings**, switch on **Start in Kiosk Mode** (and check that **Enable Kiosk Mode** is on), click `Save Settings`, then `Restart App`. Until you do this, the kiosk opens on the admin PIN screen every time it starts, for example after a power cut or a Windows update.
 
@@ -110,7 +110,7 @@ The kiosk checks for updates 10 seconds after it starts and every 4 hours. **Upd
 
 ## Check it works
 
-After setup, sign in at the kiosk with a test member's card, borrow one item and return it. Check both in [Circulation](circulations.md). On the `SIP2` tab in **Manage** > **Preferences**, **Last used** should now show today.
+After setup, sign in at the kiosk with a test member's card, borrow one item and return it. Check both in [Circulation](circulations.md). On the `SIP2` tab in `Manage` > `Preferences`, **Last used** should now show today.
 
 ---
 
@@ -120,9 +120,9 @@ After setup, sign in at the kiosk with a test member's card, borrow one item and
 |---|---|
 | **Unable to Connect to Library Server** banner and **Disconnected** at the top | The kiosk can't reach the SIP2 server. Check the internet connection. The kiosk retries by itself. If it never connects, the kiosk's internet address may not be allowed: ask Librarika support. |
 | *"This kiosk is not fully configured. Please ask library staff to complete setup."* | Open the Admin Panel and fill in **Institution ID** and **Terminal Password** under **SIP2 Settings**. |
-| Every member gets *"Your account is blocked. Please see library staff."* | Usually a kiosk problem, not the members: the terminal password is wrong, the licence has expired or is suspended, the kiosk connects from an address that isn't allowed, or the terminal account was asked for two-step verification or a new password. Check **SIP2 Settings**, check the licence under **Manage** > **Preferences** > `SIP2`, and contact Librarika support. On the `SIP2` tab, **Status** shows *Active*, *Licence ended: working until …* (grace period), *Expired*, *Starts …* or *Suspended*. **Last used** shows *Never* or a recent time: if it says *Never*, or hasn't changed since the problem started, the kiosk isn't reaching your library with this account; check **Institution ID** and **Terminal Password**. |
+| Every member gets *"Your account is blocked. Please see library staff."* | Usually a kiosk problem, not the members: the terminal password is wrong, the licence has expired or is suspended, the kiosk connects from an address that isn't allowed, or the terminal account was asked for two-step verification or a new password. Check **SIP2 Settings**, check the licence under `Manage` > `Preferences` > `SIP2`, and contact Librarika support. On the `SIP2` tab, **Status** shows *Active*, *Licence ended: working until …* (grace period), *Expired*, *Starts …* or *Suspended*. **Last used** shows *Never* or a recent time: if it says *Never*, or hasn't changed since the problem started, the kiosk isn't reaching your library with this account; check **Institution ID** and **Terminal Password**. |
 | One member gets *"Your account is blocked. Please see library staff."* | Check the member in Librarika: the barcode on the card must be exactly the member's **Member No**, including capital letters and leading zeros, and the member must be **Active**. |
-| A licence message such as *"This SIP2 terminal licence has expired. …"*, *"… is suspended. …"*, *"… is not licensed for this location. …"*, *"… is not licensed for this library. …"* or *"… has not started yet."* | Some SIP2 kiosks show these. At sign-in the Librarika Kiosk shows only *"Your account is blocked"* instead. Check the terminal's **Status** under **Manage** > **Preferences** > `SIP2`, then contact Librarika support to renew the licence or update the allowed addresses, for example after you changed internet provider. |
+| A licence message such as *"This SIP2 terminal licence has expired. …"*, *"… is suspended. …"*, *"… is not licensed for this location. …"*, *"… is not licensed for this library. …"* or *"… has not started yet."* | Some SIP2 kiosks show these. At sign-in the Librarika Kiosk shows only *"Your account is blocked"* instead. Check the terminal's **Status** under `Manage` > `Preferences` > `SIP2`, then contact Librarika support to renew the licence or update the allowed addresses, for example after you changed internet provider. |
 | *"Connection lost. Please check with library staff to confirm if … was checked out."* | The connection dropped during a loan. Check the item in [Circulation](circulations.md) and fix it at the desk if needed. |
 
 The kiosk's log files are in `%APPDATA%/Librarika Kiosk/logs/` on Windows, `~/Library/Logs/Librarika Kiosk/` on macOS and `~/.config/Librarika Kiosk/logs/` on Linux. Librarika support may ask for them; the **Activity Logs** CSV export is usually easier to send.

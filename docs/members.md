@@ -1,12 +1,18 @@
 # Members
 
+**Who this is for:** library staff who manage members.
+
+**What you can do here:** add, edit, import and delete members, invite them to sign in, handle member requests, and see receipts and payment statements.
+
 The members section lists all the members of your library (some libraries call them *patrons*). Only an unique _member no_ is necessary for a member to check out/in books from your library.
 
-You can provide login access to a member if you wish but it is not a mandatory requirement from system's perspective. However, if you enable login access, system will ask for an unique email address for the member.
+You can give a member **member access** (so they can sign in), but it isn't required. If you turn it on, Librarika asks for a unique email address for the member.
+
+## Manage members
 
 ### Booking quota
 
-A booking quota is the total limit up to which a member can reqeust / check-out / reserve books (or items) at a given point of time. By default, a global variable for the booking quota is available under `Manage -> Preferences` section, but the global quota will be overridden with the individual booking quota if set specifically for a member.
+A booking quota is the total limit up to which a member can request / check-out / reserve books (or items) at a given point of time. By default, a global variable for the booking quota is available under `Manage` > `Preferences` section, but the global quota will be overridden with the individual booking quota if set specifically for a member.
 
 You can set individual booking quota for each member using the Add / Edit member method mentioned below. Again, if a individual quota not set, then global quota will be enforced.
 
@@ -14,7 +20,7 @@ You can set individual booking quota for each member using the Add / Edit member
 
 To add a member to your library, please follow the below steps:
 
-* Please go to the `Dashboard -> Circulations -> Members` section.
+* Go to `Circulations` > `Members`.
 
 * Click on `New Member` button.
 * Add new member form will be displayed as shown below.
@@ -32,7 +38,7 @@ To add a member to your library, please follow the below steps:
 
 To edit an existing member in your library, please follow the below steps:
 
-* Please go to the `Dashboard -> Circulations -> Members` section.
+* Go to `Circulations` > `Members`.
 * Locate the member record you want to edit.
 
 	![Members form](img/member-form.png)
@@ -87,11 +93,11 @@ Enabling member access is very easy. You can do it in following way:
 * A "Join Library" invitation email will be sent to that email address.
 * Member needs to accept the invitation in order to connect with your library.
 
-Alternatively, a member can create an account in *Librarika* platform indenendently and submit `Member Access Request` to join your library. In this case, go to the [Member Requests](#member-requests) section as mentioned below and accept or reject the reqeust upon review.
+Alternatively, a member can create an account in *Librarika* platform indenendently and submit `Member Access Request` to join your library. In this case, go to the [Member Requests](#member-requests) section as mentioned below and accept or reject the request upon review.
 
 #### Disable member access
 
-Same way you can disable member login access from the edit member page. 
+Same way you can turn off member access from the edit member page. 
 
 * Go to the members edit page as per above [edit member](#edit-existing-member) instruction.
 * Turn off `Allow Member Login?`.
@@ -101,7 +107,7 @@ Same way you can disable member login access from the edit member page.
 
 ### Last active
 
-The **Last active** column on the Members list shows when each member last signed in to your library or opened it in the Librarika app. It helps you see who still uses the library.
+The **Last active** column on the Members list shows, for each member, when they last signed in to your library or opened it in the Librarika app (never counting Librarika support). It helps you see who still uses the library.
 
 ![Members list with the Last active column](img/members-last-active-column.png)
 
@@ -113,7 +119,7 @@ The **Last active** column on the Members list shows when each member last signe
 
 To delete a member from your library, please follow the below steps:
 
-* Please go to the `Dashboard -> Circulations -> Members` section.
+* Go to `Circulations` > `Members`.
 
 * Locate the member record you want to delete and click on the `Edit` icon on the right to that member.
 
@@ -137,7 +143,7 @@ Member group provides the flexibility to bulk edit / delete the belonging member
 
 To access Member Groups:
 
-* Please go to the `Dashboard -> Circulations -> Members` section.
+* Go to `Circulations` > `Members`.
 * Click on the `Member Groups` button on top of the section.
 
 
@@ -151,16 +157,16 @@ You can then either accept the request or decline the request. If you want to ac
 
 To access Member Requests:
 
-* Please go to the `Dashboard -> Circulations -> Members` section.
+* Go to `Circulations` > `Members`.
 * Click on the `Member Requests` button on top of the section.
 
-### Members loan / reservation receipt
+## Members loan / reservation receipt
 
 Here you can find the receipt of those items which has been borrowed by your library members. Also you can find the item reservation receipt of your library members. 
 
 To do so, please follow the below steps:
 
-* Please go to the `Dashboard -> Circulations -> Members` section.
+* Go to `Circulations` > `Members`.
 * Locate the member record for loan or reservation receipt.
 
 	![Members form](img/member-form.png)
@@ -194,7 +200,7 @@ In this section you can find the account statement of any particular member. Als
 
 To use this section, please follow the below steps:
 
-* Please go to the `Dashboard -> Circulations -> Members` section.
+* Go to `Circulations` > `Members`.
 * Locate that member whose statement you want to view. 
 
 	![Members form](img/member-form.png)
@@ -210,13 +216,13 @@ To use this section, please follow the below steps:
 
 * Also you can print the statement by clicking on the `Print Statement` button.
 * Now at the bottom of this section you can see two buttons.
-* If you want to add charge to your library member then you need to enable the fee item (Such as overdue charge) first. To enable fee item please go to the [Fees & Payments](fees-payments.md#how-to-activate-the-module) section and enable the overdue charge fee item.
+* If you want to add charge to your library member then you need to enable the fee item (Such as overdue charge) first. To enable fee item please go to the [Fees & payments](fees-payments.md#how-to-activate-the-module) section and enable the overdue charge fee item.
 * Then click on the `Add Charge` button from the account statement section and a from will be appeared like below.
 
 	![Members add charge form](img/members-add-charge-form.png)
 
 * In the **Amount** field you can set the amount that you want to charge to any of your library member. 
-* If you want to add a payment, you need to enable the fee item (Payment) first. To do so please go to the [Fees & Payments](fees-payments.md#how-to-activate-the-module) section and enable the payment fee item.
+* If you want to add a payment, you need to enable the fee item (Payment) first. To do so please go to the [Fees & payments](fees-payments.md#how-to-activate-the-module) section and enable the payment fee item.
 * Then click on the `Add Payment` button from the account statement section and a from will be appeared like below.
 
 	![Members add payment form](img/members-add-payment-form.png)
@@ -231,7 +237,7 @@ To use this section, please follow the below steps:
 
 **What does the Last active column show?**
 
-When the member last signed in to your library's website, or opened your library in the Librarika app. See [Last Active](#last-active).
+For each member, when they last signed in to your library or opened it in the Librarika app (never counting Librarika support). See [Last active](#last-active).
 
 **Why does a member show a dash in Last active?**
 
@@ -253,7 +259,7 @@ Yes, if their Google or Apple account uses the same email address as their Libra
 
 **A member forgot their password or lost their phone. How can I help?**
 
-For a forgotten password, ask them to click `Forgot password?` on the login page. If they lost the phone with their authenticator app, they sign in with a recovery code; without recovery codes, they contact Librarika support. Staff can't see or reset members' passwords. See [Helping someone who can't sign in](helping-people-sign-in.md).
+For a forgotten password, ask them to click `Forgot password?` on the **Log in** page. If they lost the phone with their authenticator app, they sign in with a recovery code; without recovery codes, they contact Librarika support. Staff can't see or reset members' passwords. See [Helping people who can't sign in](helping-people-sign-in.md).
 
 **Should we require two-step verification for members?**
 

@@ -1,12 +1,16 @@
 # Batch update
 
-Batch update method is used to edit mass amount of data at once and batch update them. For now batch update is only applicable to the catalog item copies and members of the library. Only CSV files are allowed for batch updating. Also, batch update feature is only available to paid libraries.
+**Who this is for:** library staff who change many records at once.
 
-**Tips:** Export copies from `Reports -> Catalog Reports -> Export all copies` and members from `Reports -> Member Reports -> Export all members`. Edit those files and keep the `Id` column: Batch update matches rows on it.
+**What you can do here:** update copies and members from an edited CSV file.
+
+Batch update method is used to edit mass amount of data at once and batch update them. For now batch update is only applicable to the catalog item copies and members of the library. Only CSV files are allowed for batch updating. Batch update is available on the plans listed in the [FAQ](#faq) below.
+
+**Tips:** Export copies from `Reports` > `Catalog Reports` > `Export all copies` and members from `Reports` > `Member Reports` > `Export all members`. Edit those files and keep the `Id` column: Batch update matches rows on it.
 
 To access this section, please follow the below steps:
 
-* Please go to `Dashboard -> Manage -> Batch Update` section.
+* Go to `Manage` > `Batch Update`.
 
 	![batch update menu](img/batch-update-menu.png)
 
@@ -59,7 +63,7 @@ To do so, please follow the below steps:
 
 **Which plans can use Batch Update?**
 
-Paid plans only (Basic Pro, Silver, Gold and above). On the free plan, Librarika shows "Please upgrade your plan first in order to modify your records using batch update." and opens the plan page.
+Batch update is available on the Basic Pro, Silver, Gold, Platinum and Unlimited plans (see [What each plan includes](libraries.md#what-each-plan-includes)). On other plans, Librarika shows "Please upgrade your plan first in order to modify your records using batch update." and opens the plan page.
 
 **How many rows can I upload at once?**
 

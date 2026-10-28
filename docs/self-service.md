@@ -1,4 +1,8 @@
-# Self-Service
+# Self-service
+
+**Who this is for:** members who borrow and return by themselves, and the staff who set it up.
+
+**What you can do here:** turn on self-checkout and self-return, and learn how members use them.
 
 Librarika offers two approaches for self-checkout: **Online Self-Service** and **Kiosk-Based Self-Service (SIP2)**. Online self-service allows members to check out and return items directly from their browser or phone, while kiosk-based self-service uses the industry-standard SIP2 protocol to connect physical self-checkout terminals with barcode scanners.
 
@@ -38,13 +42,13 @@ No `Checkout` button? Your library hasn't turned on self-checkout for your membe
 
 ### Online self-service
 
-Online self-service allows your library members to check out and return items directly from their browser without any staff involvement. Members simply log in, find the item they want, and click the checkout button.
+Online self-service allows your library members to check out and return items directly from their browser without any staff involvement. Members simply sign in, find the item they want, and click the checkout button.
 
 #### Prerequisites
 
 Before members can use self-service, make sure the following are in place:
 
-* **Member login access enabled** -- Each member must have login access turned on. See [Enable Member Access](members.md#enable-member-access) for instructions.
+* **Member access enabled** -- Each member must have member access turned on. See [Enable member access](members.md#enable-member-access) for instructions.
 * **Self-service preferences configured** -- The self-service settings must be enabled in your library preferences (see below).
 
 #### Enable self-service for your library
@@ -94,10 +98,6 @@ Only if you are using [kiosk-based (SIP2)](sip2.md) self-checkout. For online se
 
 No. Online self-service is a built-in feature of Librarika. Simply enable it in your library preferences and your members can start using it right away.
 
-**Is SIP2 available on the free plan?**
-
-Each SIP2 terminal needs its own licence from Librarika. Contact Librarika support about SIP2 for your plan and about pricing. See [SIP2 integration](sip2.md).
-
 **Can members check out items from their phone?**
 
 Yes. With online self-service enabled, members can sign in and check out items from any device with a web browser, including smartphones and tablets.
@@ -116,4 +116,4 @@ Yes. The quota counts every item the member currently has checked out or overdue
 
 **Can unpaid fees stop a member from checking out?**
 
-Yes, if your library uses [Fees & Payments](fees-payments.md) with **Suspend activity** turned on. When the member's balance reaches the **Suspension Limit**, self-checkout shows "Sorry, you have reached the maximum dues limit."
+Yes, if your library uses [Fees & payments](fees-payments.md) with **Suspend activity** turned on. When the member's balance reaches the **Suspension Limit**, self-checkout shows "Sorry, you have reached the maximum dues limit."

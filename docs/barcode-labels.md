@@ -1,6 +1,10 @@
 # Barcode labels
 
-Barcode Labels is the section that can be accessed by the librarians only. In this section the librarian can add single or multiple books and also add member barcode to the Barcode Queue. Once books are added to the queue then the librarian can generate barcodes. After the barcodes are generated they can print them out in standard label stationary or normal papers. Barcodes are very useful for the librarians as well as the library members. 
+**Who this is for:** library staff.
+
+**What you can do here:** queue items and member cards, and print barcode labels for them.
+
+Barcode labels is a section for library staff only. In this section staff can add single or multiple books and also add member barcode to the Barcode Queue. Once books are added to the queue then the librarian can generate barcodes. After the barcodes are generated they can print them out in standard label stationary or normal papers. Barcodes are very useful for the librarians as well as the library members. 
 
 **Some barcode scanners can't scan small numbers. Hence, it is recommended to use barcodes that is at least 6-8 characters long so that all barcode scanner can scan them accurately.**
 
@@ -205,7 +209,7 @@ If you have already labeled your old items using existing barcode number then en
 
 To do so, please follow the below steps:
 
-* Please go to the `Dashboard -> Catalogs -> Catalog Items` section then locate the item you want to edit from your catalog and click on the `View` icon on the right to that item. Navigate to the copies section at the bottom of the page. Click on the `Edit` icon on the right to that specific copy. 
+* Go to `Catalogs` > `Catalog Items`, then locate the item you want to edit from your catalog and click on the `View` icon on the right to that item. Navigate to the copies section at the bottom of the page. Click on the `Edit` icon on the right to that specific copy. 
 
     ![Barcode Labels media copies section](img/media-add-multiple-copies-btn.png) 
 

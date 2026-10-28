@@ -1,12 +1,18 @@
 # Circulation
 
-The circulations section contains all the information regarding your check-outs, check-ins, reservation requests, overdue items etc.
+**Who this is for:** library staff at the desk.
 
-## List check-outs
+**What you can do here:** check items out and in, extend loans, handle reservations and requests, and find overdue items.
+
+The circulations section contains all the information regarding your checkouts, check-ins, reservation requests, overdue items etc.
+
+<a id="list-check-outs"></a>
+
+## List checkouts
 
 You can access the list of all circulations related entries in this section under different status filters such as Pending, Reserved, Issued, Overdue, Cancelled, Returned etc. 
 
-* Please go to the `Dashboard -> Circulations -> Circulations` page.
+* Go to `Circulations` > `Circulations`.
 * Circulation records will be displayed as shown below:
 
 	![Circulations form](img/circulations.png)
@@ -19,44 +25,48 @@ You can access the list of all circulations related entries in this section unde
 
 	![Circulations identifiers](img/circulation-identifiers.png)
 
-## Check-out item
+<a id="check-out-item"></a>
 
-To check-out or loan an item to a member of your library, please follow the below steps:
+## Check out an item
 
-* Please go to the `Dashboard -> Circulations -> Circulations` section.
+To check out or lend an item to a member of your library, please follow the below steps:
+
+* Go to `Circulations` > `Circulations`.
 * Click on the `Circulate Item` button. The **Quick Circulation** form opens.
 
-	![Quick circulation form](img/circulations-quick-circulation.png)
+	![Quick Circulation form](img/circulations-quick-circulation.png)
 
 * First enter member number or member name. An auto-select list will appear, please select the member from the list.
 
-	![Quick circulation form](img/circulations-quick-circulation-1.png)
+	![Quick Circulation form: choose the member](img/circulations-quick-circulation-1.png)
  
-* Then enter accession number, book title or any identifier like isbn, asin, lccn and more. An auto-select list of up to 10 copies will appear with green / red indicator, please select the item with green indicator. Red indicator means, the item is not available for check-out. When checking out, available copies are listed first. To search by title, type at least 4 characters.
+* Then enter accession number, book title or any identifier like isbn, asin, lccn and more. An auto-select list of up to 10 copies will appear with green / red indicator, please select the item with green indicator. Red indicator means, the item is not available for checkout. When checking out, available copies are listed first. To search by title, type at least 4 characters.
 
-	![Quick circulation form](img/circulations-quick-circulation-2.png)
+	![Quick Circulation form: choose the copy](img/circulations-quick-circulation-2.png)
 
 * Change the return date if you wish to.
 
-	![Quick circulation form](img/circulations-quick-circulation-3.png)
+	![Quick Circulation form: return date](img/circulations-quick-circulation-3.png)
 
 * Click on the `Submit` button when you are done.
 * If the item is on the hold shelf for another member, or other members have holds on it, Librarika warns you first (*"Warning: This item is on the hold shelf for another member. Are you sure you want to proceed with checkout?"* or *"Warning: This item has active hold requests from other members. …"*). Continue only if you mean to; the other member's hold is not moved to another copy.
 
-## Check-in item
+<a id="check-in-item"></a>
 
-To check-in or receive an item from a member, please follow the below steps:
+## Check in an item
 
-* Please go to the `Dashboard -> Circulations -> Circulations` section.
+To check in or receive an item from a member, please follow the below steps:
+
+* Go to `Circulations` > `Circulations`.
 * Click on the `Quick Return` button.
 
 * Enter the accession number, book title or any identifier of the item that you want to check-in. An auto-select list will appear with green / red indicators. Your item should have red indicator.
 
-	![Quick circulation form](img/circulations-check-in.png)
+	![Quick Return form](img/circulations-check-in.png)
 
 * Select the item from the list.
 
-	![Quick circulation form](img/circulations-check-in-1.png)
+	![Quick Return form: choose the copy](img/circulations-check-in-1.png)
 
 * Enter any remark note in the remark input box, if you want to.
 * Click on the `Submit` button when you are done.
@@ -66,7 +76,7 @@ To check-in or receive an item from a member, please follow the below steps:
 
 To reserve an item on behalf of a member, please follow the below steps:
 
-* Please go to the `Dashboard -> Circulations -> Circulations` section.
+* Go to `Circulations` > `Circulations`.
 * Click on the `Reserve Item` button.
 * The Reserve Item form will be displayed as shown below.
 
@@ -84,23 +94,25 @@ You can update / extend return date of any circulation record specially that has
 
 To update or extend an item for a member, please follow the below steps:
 
-* Please go to the `Dashboard -> Circulations -> Circulations` section.
+* Go to `Circulations` > `Circulations`.
 * Click on the `Quick Extend` button.
 * Enter the accession number or isbn or title of the item you want to extend. An auto-select list will appear with red indicators.
 
-	![Quick circulation form](img/circulations-quick-extend-form1.png)
+	![Extend form](img/circulations-quick-extend-form1.png)
 
 * Select the item from the list.
 * Enter any remark note in the remark input box, if you want to.
 * Click on the `Submit` button when you are done.
 
-## Edit check-out
+<a id="edit-check-out"></a>
+
+## Edit a checkout
 
 You can edit any existing circulation entry, change return date, status etc from the circulations page.
 
 To edit a circulation, please follow the below steps:
 
-* Please go to the `Dashboard -> Circulations -> Circulations` section.
+* Go to `Circulations` > `Circulations`.
 * Locate the item you want to edit from your circulation records and click on the `Edit` button next to that item.
 
 	![Circulation form](img/circulations.png)
@@ -120,7 +132,7 @@ If you have many circulation entries, use the filter box to find an entry quickl
 
 To use this functionality, please follow the below steps:
 
-* Please go to the `Dashboard -> Circulations -> Circulations` section.
+* Go to `Circulations` > `Circulations`.
 * In the top corner of circulations page you can see a `Filter by ASN/ISBN/Call No/Member No` input box. Enter the accession number, ISBN or call number of the item, or the member number, in that box.
 	
 	![Circulations form filter box](img/circulations-form-filter-box.png)
@@ -139,7 +151,7 @@ To use this functionality, please follow the below steps:
 
 **Why can't I check out an item to a member?**
 
-The form shows the reason. The most common ones are: the member is not active, the item is already checked out, circulation is turned off for the item, the member has reached their booking quota, the member already has this copy, or the member's unpaid dues have reached the limit set in [Fees & Payments](fees-payments.md).
+The form shows the reason. The most common ones are: the member is not active, the item is already checked out, circulation is turned off for the item, the member has reached their booking quota, the member already has this copy, or the member's unpaid dues have reached the limit set in [Fees & payments](fees-payments.md).
 
 **Why doesn't the book appear in the list when I type its title?**
 
@@ -151,7 +163,7 @@ Up to the `Booking Quota` set in Preferences, or the member's own quota if one i
 
 **What is the default return date and how do I change it?**
 
-It is today plus the `Booking Time` (in days) from the `Options` tab of Preferences. You can still pick a different return date for each check-out in the form.
+It is today plus the `Booking Time` (in days) from the `Options` tab of Preferences. You can still pick a different return date for each checkout in the form.
 
 **When does an item become Overdue?**
 

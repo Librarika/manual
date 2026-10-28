@@ -65,7 +65,7 @@ If you get one of these emails and it wasn't you, [reset your password](password
 
 ## What your library's administrators can see
 
-A library's administrators see only one thing about your sign-ins: a **Last active** column on their **Users** and **Members** lists. It shows the last time you signed in to **their** library or opened it in the app.
+A library's admins see only one thing about your sign-ins: a **Last active** column on their **Users** and **Members** lists. It shows the last time you signed in to **their** library or opened it in the app.
 
 ![Users list with the Last active column](img/users-last-active-column.png)
 

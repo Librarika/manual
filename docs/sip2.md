@@ -2,6 +2,8 @@
 
 **Who this is for:** library staff connecting a self-checkout kiosk or other SIP2 device. Using the Librarika Kiosk app? Go straight to [Kiosk app: setup and management](kiosk-app.md).
 
+**What you can do here:** connect a SIP2 device: licences, connection details and setup steps.
+
 If you are looking for browser-based self-checkout without any hardware, see [Online Self-Service](self-service.md#online-self-service) instead.
 
 ## What is SIP2?
@@ -26,7 +28,7 @@ SIP2 is licensed per terminal. Each terminal that connects to Librarika needs it
 
 * **Host**: `sip2.librarika.com`, port **6009** (SIP2 over TLS, encrypted). An unencrypted port is available only for addresses Librarika support has allowed.
 * **Institution ID (AO)**: your library's subdomain, for example `mylibrary` for `mylibrary.librarika.com`.
-* **Account**: the terminal's own staff account; see [Kiosk app](kiosk-app.md#get-a-terminal-licence-and-account).
+* **Account**: the terminal's own staff account; see [Get a terminal licence and account](kiosk-app.md#get-a-terminal-licence-and-account).
 * **Login (93)**: CN = username (the account's email address), CO = password.
 * **Terminal password (AC)**: in every patron status, checkout and check-in message, `username:password` of the terminal account (its email address, a colon, its password).
 * **Supported messages**: login (93), patron status (23), checkout (11) and check-in (09).
@@ -35,11 +37,10 @@ SIP2 is licensed per terminal. Each terminal that connects to Librarika needs it
 
 ## Setup steps
 
-1. **Create a staff account** in your library for each terminal, with the **Library Assistant** role, an email address you can open, and a password set from its invitation (see [Kiosk app](kiosk-app.md#get-a-terminal-licence-and-account)).
-2. **Contact Librarika support** to license and activate your terminals. Tell them the number of terminals, each terminal's account, and the IP addresses the terminals connect from. Ask for the licence **before** you require two-step verification for staff.
-3. **Enter the connection details above** in your kiosk software.
-4. **Print barcode labels** for your catalog items and member cards. See [Barcode Labels](barcode-labels.md) for instructions.
-5. **Test** the connection by performing a test checkout and check-in at your kiosk.
+1. **Create a terminal account for each terminal and have it licensed:** see [Get a terminal licence and account](kiosk-app.md#get-a-terminal-licence-and-account). Ask for the licence **before** you require two-step verification for staff.
+2. **Enter the connection details above** in your kiosk software.
+3. **Print barcode labels** for your catalog items and member cards. See [Barcode labels](barcode-labels.md) for instructions.
+4. **Test** the connection by performing a test checkout and check-in at your kiosk.
 
 ## Librarika Kiosk App
 
@@ -51,7 +52,7 @@ Librarika has its own kiosk app for self-checkout terminals. Members scan their 
 
 ## FAQ
 
-**Is SIP2 available on the free plan?**
+**Is SIP2 available on the Free plan?**
 
 Each SIP2 terminal needs its own licence from Librarika. Contact Librarika support to ask about SIP2 for your plan and about pricing.
 
@@ -61,7 +62,7 @@ Yes. SIP2 kiosk-based checkout requires a barcode scanner to scan member IDs and
 
 **Can I use third-party kiosk software?**
 
-Yes. Any SIP2-compatible kiosk software can connect to Librarika. Librarika also has its own [Kiosk app](kiosk-app.md).
+Yes. Any SIP2-compatible kiosk software can connect to Librarika. Librarika also has its own kiosk app: see [Kiosk app: setup and management](kiosk-app.md).
 
 **Can two kiosks share one SIP2 licence?**
 
@@ -69,7 +70,7 @@ No. Each terminal has its own licence and signs in with its own active staff acc
 
 **Where can I see my SIP2 terminals and when their licences end?**
 
-Go to `Manage -> Preferences` and open the `SIP2` tab (it appears once a terminal is licensed for your library). It shows each terminal's allowed IPs, licence end date, status and when it was last used. To add, move or renew a terminal, contact Librarika support.
+Go to `Manage` > `Preferences` and open the `SIP2` tab (it appears once a terminal is licensed for your library). It shows each terminal's allowed IPs, licence end date, status and when it was last used. To add, move or renew a terminal, contact Librarika support.
 
 **Why has my kiosk stopped working?**
 

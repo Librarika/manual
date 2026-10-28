@@ -1,10 +1,14 @@
 # Fees & payments
 
+**Who this is for:** library staff who handle fines and payments.
+
+**What you can do here:** set up fees and fines, add charges, take payments and see a member's balance.
+
 Our fees and payments module allows libraries to collect fees and fines on various library activities. We tried to make this module very simple in terms of design and functionalities.
 
 The module is based on charges that you can apply and payments that you can collect from your library members.
 
-**Note:** Fees & Payments is available on the **Basic Pro**, **Silver**, **Gold**, **Platinum** and **Unlimited** plans.
+**Plans:** Fees & payments is available on the **Basic Pro**, **Silver**, **Gold**, **Platinum** and **Unlimited** plans (see [What each plan includes](libraries.md#what-each-plan-includes)).
 
 ## Features
 
@@ -22,7 +26,7 @@ The module is based on charges that you can apply and payments that you can coll
 
 Setting up takes a few minutes.
 
-* Go to `Dashboard -> Circulations -> Fees & Payments`.
+* Go to `Circulations` > `Fees & Payments`.
 
 	![Fees & Payments menu](img/fees-payments-menu.png)
 

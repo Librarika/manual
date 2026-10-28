@@ -42,7 +42,7 @@ The new rules apply only when you **choose a new password**. The password you ha
 
 ## Change your password
 
-1. Open your settings: members click `My Account` > `Account Settings`; staff click their name menu at the top right > `Settings` (gear icon) and open the `Change Password` tab.
+1. Open your settings (see [Your sign-in settings](signing-in.md#your-sign-in-settings)): members click `My Account` > `Account Settings`; staff click their name menu at the top right > `Settings` (gear icon) and open the `Change Password` tab.
 2. Enter your **Current password**, then the **New password** twice.
 3. Click `Save Settings`.
 
@@ -56,7 +56,7 @@ When your password changes:
 
 ## Forgot your password?
 
-1. On the login page, click `Forgot password?`.
+1. On the **Log in** page, click `Forgot password?`.
 2. Enter the email address you use to sign in and click `Email me a link`.
 3. You see *"If an account exists for that email address, we have sent a link to reset your password."* You see the same message whether or not the address has an account, so nobody can use this page to find out who has one.
 4. Open the email and click the link. The link works **once** and **expires after one hour**. If it has expired, ask for a new one.
@@ -84,7 +84,7 @@ In the mobile app you may see *"You need to change your password. Please sign in
 
 To protect your account from people guessing passwords, Librarika slows down repeated failed sign-ins:
 
-* After **two** wrong passwords, the login page asks you to complete a **captcha** ("I'm not a robot" check). If you skip it you see *"Please confirm you are a human!"*
+* After **two** wrong passwords, the **Log in** page asks you to complete a **captcha** ("I'm not a robot" check). If you skip it you see *"Please confirm you are a human!"*
 * After more wrong passwords, Librarika may make you wait a little before trying again. You see *"Please wait 30 seconds; retrying sooner extends the wait."* (the number of seconds varies). Wait for that time, then try again. Trying sooner makes the wait longer.
 * If someone keeps trying wrong passwords on your account, you get an **email** about it. If that wasn't you, nobody has got in: the email has a link to reset your password if you want to be safe.
 

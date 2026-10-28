@@ -17,7 +17,7 @@ When a library adds you as a member with an email address and turns on member ac
 
 * *"Invitation code is either invalid or expired."* -- the library may have sent a newer invitation. Use the latest email, or ask the library for a new one.
 * *"Member login is turned off for this membership. Please contact the library."* -- ask the library to turn on your login.
-* *"You've already joined the library. Please sign in."* -- go to your library's website and log in.
+* *"You've already joined the library. Please sign in."* -- go to your library's website and sign in.
 * *"Too many sign-up attempts. Please try again later."* -- wait a while, then try again.
 
 ## 2. Create your account, or sign in
@@ -61,11 +61,11 @@ Go to your library's website (for example `mylibrary.librarika.com`) and click `
 
 ## 5. Use the Member Area
 
-Once signed in, click `My Account` to open the [Member Area](member-area.md): your loans and reservations, holds, history, reviews and settings. You can also:
+Once signed in, click `My Account` to open the [Member area](member-area.md): your loans and reservations, holds, history, reviews and settings. You can also:
 
 * search the library's [online catalog (OPAC)](opacs.md);
 * check items out and in yourself, if your library allows it: see [Self-service](self-service.md);
-* use the [Librarika app](mobile-app.md) on your phone.
+* use the Librarika app on your phone (see [Get the app & sign in](mobile-app.md)).
 
 ## 6. Optional: turn on two-step verification
 
@@ -77,7 +77,7 @@ Two-step verification protects your account even if someone learns your password
 
 You can ask a library to let you join:
 
-1. Sign in on [librarika.com](https://librarika.com). No account yet? Click `Create one` on the login page.
+1. Sign in on [librarika.com](https://librarika.com). No account yet? Click `Create one` on the **Log in** page.
 2. Open **My Libraries** from your name menu and click `Join a library`.
 3. Under **Ask to join a library**, enter the **Library address** (for example `https://mylibrary.librarika.com`) and click `Send request`.
 

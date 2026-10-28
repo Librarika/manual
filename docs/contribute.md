@@ -14,6 +14,12 @@ files available under `docs` folder.
 
 The detail markdown writing style and syntaxes are available at MkDocs's [writing your docs](https://mkdocs.readthedocs.io/en/stable/user-guide/writing-your-docs/) section.
 
+Conventions used in this manual:
+
+* **Menu paths:** each menu item in code, separated by " > ", without a "Dashboard" prefix, for example "Go to `Circulations` > `Hold Queue`."
+* **Labels:** code for things you click (buttons, links, tabs, menu items); bold for page names, section names and field or checkbox labels.
+* **Words:** "sign in" for the action and "the **Log in** page" for the page; "member" (not patron) and "staff"; "library admin" for the *Library Administrator* role; British spelling in prose, with UI labels kept exactly as Librarika shows them.
+
 ---
 
 ## Submitting pull requests

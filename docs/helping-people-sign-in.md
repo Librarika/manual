@@ -1,6 +1,6 @@
 # Helping people who can't sign in
 
-**Who this is for:** library staff and administrators.
+**Who this is for:** library staff and library admins.
 
 **What you can do here:** find the right fix when a member or colleague can't sign in. Nobody at your library can see or set someone's password, turn off their two-step verification or see their recovery codes, so most fixes are steps the person takes themselves.
 
@@ -8,14 +8,14 @@
 
 ## Forgot their password
 
-Ask them to click `Forgot password?` on the login page, enter their email address and click `Email me a link`. The link works once, for one hour. See [Forgot your password?](passwords.md#forgot-your-password).
+Ask them to click `Forgot password?` on the **Log in** page, enter their email address and click `Email me a link`. The link works once, for one hour. See [Forgot your password?](passwords.md#forgot-your-password).
 
-* **No email arrives:** they check their spam folder. Then check which email address their account uses: open `Members` (or `Manage -> Users`), find them, and compare the email shown with the one they are typing. The reset email goes only to the address of their Librarika account.
+* **No email arrives:** they check their spam folder. Then check which email address their account uses: open `Members` (or `Manage` > `Users`), find them, and compare the email shown with the one they are typing. The reset email goes only to the address of their Librarika account.
 * **"Invalid username or password, try again.":** they may be using an old email address, or their account may use a different one than you think.
 
 ## Has to wait, or sees a captcha
 
-After two wrong passwords the login page asks for a captcha; after more, they have to wait (*"Please wait 30 seconds; retrying sooner extends the wait."*). The wait is short. Ask them to wait for the time shown and try once, or to use `Forgot password?` instead of guessing. See [Too many wrong passwords](passwords.md#too-many-wrong-passwords).
+After two wrong passwords the **Log in** page asks for a captcha; after more, they have to wait (*"Please wait 30 seconds; retrying sooner extends the wait."*). The wait is short. Ask them to wait for the time shown and try once, or to use `Forgot password?` instead of guessing. See [Too many wrong passwords](passwords.md#too-many-wrong-passwords).
 
 ## Asked to choose a new password
 
@@ -46,9 +46,9 @@ See [Member quick start](member-quick-start.md).
 
 ## SSO problems
 
-* **"This library's SSO is not allowed to sign in to your account yet. …":** their account is also used elsewhere. They sign in once with their password or Google and tick your library under **SSO sign-in** in their settings. If your library allows **SSO only on the website**, they do this on **librarika.com**, not on your library's login page (which accepts only SSO), then use `Sign in with SSO` on your library's page.
+* **"This library's SSO is not allowed to sign in to your account yet. …":** their account is also used elsewhere. They sign in once with their password or Google and tick your library under **SSO sign-in** in their settings. If your library allows **SSO only on the website**, they do this on **librarika.com**, not on your library's **Log in** page (which accepts only SSO), then use `Sign in with SSO` on your library's page.
 * **"This library allows sign-in with its SSO only. Please sign in with SSO.":** your library allows SSO only. They use the `Sign in with SSO` button.
-* **"Your SSO login is either invalid or expired.":** they try again from your library's login page. If it keeps happening, check your SSO settings.
+* **"Your SSO login is either invalid or expired.":** they try again from your library's **Log in** page. If it keeps happening, check your SSO settings.
 
 See [Single sign-on](sso-saml.md#troubleshooting).
 
@@ -64,4 +64,4 @@ A kiosk signs in with its own licensed terminal account, never a person's login.
 
 ## What you can and can't see
 
-Library administrators see only the **Last active** column on their **Users** and **Members** lists: *"Their last sign-in to this library, or use of it in the app, by themselves (never Librarika support)"*. You can't see whether someone has two-step verification on, their password, recovery codes, sign-in history or devices. See [What your library's administrators can see](sign-in-activity.md#what-your-librarys-administrators-can-see).
+Library admins see only the **Last active** column on their **Users** and **Members** lists: *"Their last sign-in to this library, or use of it in the app, by themselves (never Librarika support)"*. You can't see whether someone has two-step verification on, their password, recovery codes, sign-in history or devices. See [What your library's administrators can see](sign-in-activity.md#what-your-librarys-administrators-can-see).

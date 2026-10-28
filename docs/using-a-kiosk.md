@@ -48,7 +48,7 @@ Click `Logout` at the top when you are done. If you leave the kiosk alone, it si
 
 ## What the kiosk can't do
 
-You can't renew items, place holds or pay fines at the kiosk. Use the [Member area](member-area.md), the [Librarika app](mobile-app.md) or ask at the desk.
+You can't renew items, place holds or pay fines at the kiosk. Use the [Member area](member-area.md), the Librarika app (see [Get the app & sign in](mobile-app.md)) or ask at the desk.
 
 ---
 
@@ -57,7 +57,7 @@ You can't renew items, place holds or pay fines at the kiosk. Use the [Member ar
 | Message | What to do |
 |---|---|
 | *"Your account is blocked. Please see library staff."* | Ask at the desk. Your card may not be recognised, your membership may be inactive, or the kiosk itself may have a problem. |
-| *"This item is already checked out to another patron."* | The kiosk can't lend this item to you right now. It may be on loan or on hold for someone else, not for loan, or you may have reached your borrowing limit. Take it to the desk. |
+| *"This item is already checked out to another patron."* (the kiosk says *patron* for member) | The kiosk can't lend this item to you right now. It may be on loan or on hold for someone else, not for loan, or you may have reached your borrowing limit. Take it to the desk. |
 | *"Member inactive or invalid."* | Your membership isn't active. Ask at the desk. |
 | *"Your account cannot complete this action. Please see library staff."* | Ask at the desk. |
 | *"This item could not be checked out. Please try again or ask library staff for help."* | Try once more, then take the item to the desk. |

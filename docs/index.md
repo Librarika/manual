@@ -18,7 +18,7 @@ You have **one Librarika account**, and it belongs to you, not to a library. Wit
 ## Overview
 
 * **Who it is for:** school, college and university libraries, public libraries, institutes, organisations, and personal collections.
-* **Plans:** a free plan for up to 2,000 copies, and paid plans for larger collections and more features. See [Library settings & plans](libraries.md).
+* **Plans:** a Free plan for up to 2,000 titles or copies, and paid plans for larger collections and more features. See [Library settings & plans](libraries.md).
 * **Web address:** each library gets its own address, such as `mylibrary.librarika.com`, with its own public catalog.
 * **Languages:** the library website can be shown in 21 languages. Some translations are still incomplete.
 
@@ -69,6 +69,7 @@ You have **one Librarika account**, and it belongs to you, not to a library. Wit
 
 ## Your account (everyone)
 
+* [Sign-in & security overview](sign-in-and-security.md): every sign-in page in one place, and a quick guide for members.
 * [Signing in](signing-in.md): password, Google, Apple or your library's SSO.
 * [Passwords](passwords.md): the rules, changing your password and resetting a forgotten one.
 * [Two-step verification](two-step-verification.md): a code from your phone after your password.
@@ -97,16 +98,19 @@ At a self-checkout kiosk, members see [Using a kiosk](using-a-kiosk.md); staff s
 | Term | Meaning |
 |---|---|
 | **Librarika account** | Your own sign-in (email address and password), used in every library you belong to, on librarika.com and in the app. |
-| **librarika.com (the platform)** | The main Librarika site, where you create an account or a library and see **My Libraries**. Each library also has its own site, such as `mylibrary.librarika.com`. |
+| **librarika.com** | The main Librarika site, where you create an account or a library and see **My Libraries**. Each library also has its own site, such as `mylibrary.librarika.com`. |
 | **Member** | Someone who borrows from a library. Some libraries say *patron*. |
-| **Staff** | People with a role in a library: library admin, staff (librarian) or assistant. |
-| **Library admin** | Staff who manage the library's settings, plan and users. |
+| **Staff** | Anyone with a role in a library: *Library Administrator*, *Library Staff* or *Library Assistant*. |
+| **Library admin** | Short for the *Library Administrator* role, which manages the library's settings, plan, users and sign-in security. |
 | **Two-step verification** | A second step after your password: a 6-digit code from an authenticator app on your phone. |
 | **Recovery code** | A one-time code you saved when you turned on two-step verification, for when you don't have your phone. |
 | **SSO (single sign-on)** | Signing in to a library with your school's or organisation's own login. |
 | **SAML** | The standard Librarika uses to talk to your organisation's sign-in for SSO. |
 | **Identity provider (IdP)** | Your organisation's sign-in service that SSO uses, such as Google Workspace or Microsoft Entra ID. |
 | **Kiosk** | A self-checkout computer at the library where members borrow and return items. |
+| **Terminal account** | The staff account a kiosk uses, licensed by Librarika support; never a person's own login. |
+| **SSO only** | A library setting that allows sign-in to that library only through its SSO. |
+| **Last active** | The only sign-in information a library sees about a person: when they last signed in to that library or opened it in the app. |
 | **SIP2 terminal** | A kiosk or other device that connects to Librarika with the SIP2 standard. Each one needs its own licence and terminal account. |
 
 ---

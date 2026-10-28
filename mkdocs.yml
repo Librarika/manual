@@ -29,12 +29,11 @@ nav:
       - 'Self-service & kiosks':
         - 'Self-service': 'self-service.md'
         - 'SIP2 integration': 'sip2.md'
-        - 'Kiosk app: setup & management': 'kiosk-app.md'
+        - 'Kiosk app: setup and management': 'kiosk-app.md'
     - 'For members':
       - 'Member quick start': 'member-quick-start.md'
       - 'OPAC (online catalog)': 'opacs.md'
       - 'Member area': 'member-area.md'
-      - 'Self-service': 'self-service.md'
       - 'Using a kiosk': 'using-a-kiosk.md'
     - 'Your account (everyone)':
       - 'Sign-in & security overview': 'sign-in-and-security.md'
@@ -44,8 +43,8 @@ nav:
       - 'Sign-in activity & privacy': 'sign-in-activity.md'
     - 'Mobile app':
       - 'Get the app & sign in': 'mobile-app.md'
-      - 'For members': 'app-members.md'
-      - 'For library staff': 'app-staff.md'
+      - 'For members in the app': 'app-members.md'
+      - 'For library staff in the app': 'app-staff.md'
       - 'Account settings in the app': 'app-account-settings.md'
       - 'Troubleshooting': 'app-troubleshooting.md'
     - 'Help':

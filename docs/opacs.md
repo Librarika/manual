@@ -1,8 +1,16 @@
-# OPAC
+# OPAC (online catalog)
+
+<a id="opac"></a>
+
+**Who this is for:** everyone who searches a library's catalog.
+
+**What you can do here:** search and browse the catalog, open an item's page, and contact the library.
 
 The OPAC (online catalog) is your library's public website, where you search and browse its books and other items.
 
-### Purpose of OPAC
+<a id="purpose-of-opac"></a>
+
+## What the OPAC is for
 
 An online public access catalog is an online database of materials held by a library or group of libraries. Users search a library catalog principally to locate items and other material available at a library. OPAC is the gateway to library's collection.
 
@@ -13,7 +21,7 @@ The home page shows the library's menu, a search box and its newest items.
 ![OPAC home page](img/opac_home_menu.png)
 
 * Buttons such as `View All Features` and `Create Free Library` are about Librarika itself; you don't need them to use your library.
-* If you are signed in, `My Account` opens your [Member Area](member-area.md), where you can also change your account settings.
+* If you are signed in, `My Account` opens your [Member area](member-area.md), where you can also change your account settings.
 * You can view all of your library catalog from `Catalog` menu.
 * You can search the catalog by keyword and media types option from `Search Catalog`
 * You can also access other library resources from the home page.
@@ -45,38 +53,38 @@ Search Catalog is the section where you can search the entire library catalog it
 
 * At first if you want to search the catalog by a specific media type option then choose that media from the dropdown menu like below.
 
-	![OPAC catalog search page](img/opac-catalog-search-media-types.png)
+	![OPAC search by item type](img/opac-catalog-search-media-types.png)
 
 * If you want to search the catalog by library branch then choose the library branch like below.
-	![OPAC catalog search page](img/opac-catalog-search-branches.png)
+	![OPAC search by branch](img/opac-catalog-search-branches.png)
 
 * If you want to search the catalog by any keyword then choose the `Default` mode. You can also use specific search field such as ISBN/ISSN, Title, Publisher and more options for a better result.
 
-	![OPAC catalog search page](img/opac-catalog-search-keywords.png)
+	![OPAC search by keywords](img/opac-catalog-search-keywords.png)
 
 * You can browse the catalog by categories if you click on `Categories`
 
-	![OPAC catalog search page](img/opac_catalog_search_categories.png)
+	![OPAC search by category](img/opac_catalog_search_categories.png)
 
 * You can browse the catalog by authors if you click on `Authors`
 
-	![OPAC catalog search page](img/opac_catalog_search_authors.png)
+	![OPAC search by author](img/opac_catalog_search_authors.png)
 
 * You can browse the catalog by publishers if you click on `Publishers`
 
-	![OPAC catalog search page](img/opac_catalog_search_publishers.png)
+	![OPAC search by publisher](img/opac_catalog_search_publishers.png)
 
 * You can browse the catalog by tags if you click on `Tags`
 
-	![OPAC catalog search page](img/opac_catalog_search_tags.png)
+	![OPAC search by tag](img/opac_catalog_search_tags.png)
 
 * You can browse the catalog by series if you click on `Series`
 
-	![OPAC catalog search page](img/opac_catalog_search_series.png)
+	![OPAC search by series](img/opac_catalog_search_series.png)
 
 * You can browse the catalog by call numbers if you click on `Call Numbers`
 
-	![OPAC catalog search page](img/opac-search-catalog-call-numbers.png)
+	![OPAC search by call number](img/opac-search-catalog-call-numbers.png)
 
 * You can also clear your searching history if you click on the `Clear` button.
 
@@ -121,7 +129,7 @@ In `My Account` you see your loans, holds, history, reviews and settings.
 
 	![OPAC my account page](img/opac_my_account.png)
 
-* For other tabs please go to [Member Area](member-area.md) section.
+* For other tabs please go to [Member area](member-area.md) section.
 
 ## On an item's page
 
@@ -135,7 +143,7 @@ No buttons? Sign in first; if they still don't show, your library hasn't turned 
 
 ## Ask a librarian
 
-In this section you can contact with your library administrator and ask any questions related to your library via e-mail.
+In this section you can contact your library and ask any questions related to your library via e-mail.
 
 * Please click on `Ask a Librarian?` menu and a page will appear like below
 

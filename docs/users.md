@@ -1,10 +1,16 @@
-# Users
+# Users & roles
+
+<a id="users"></a>
+
+**Who this is for:** library admins.
+
+**What you can do here:** add staff, choose their roles and branch access, re-send invitations, and see when staff were last active.
 
 Users are those who can administer or manage all the activities of your library depending on their role. They can sign in to the library dashboard and do regular managerial activities. They can also add or remove a user from the library.
 
 **Users vs Members:** Users and Members are different concepts in Librarika. Users are staff accounts with access to the library dashboard for managerial activities. Members are library-specific records for people who borrow items. A person can be both a user and a member. For more details on members, see the [Members](members.md) page.
 
-**Editing user information:** User accounts are independent and can be linked to multiple libraries across the Librarika platform. As a library admin, you can change a user's role and permissions, but you cannot directly edit their personal details (name, email, etc.). Users manage their own personal information through their Account Settings by clicking on their profile icon.
+**Editing user information:** User accounts are independent and can be linked to multiple libraries in Librarika. As a library admin, you can change a user's role and permissions, but you cannot directly edit their personal details (name, email, etc.). Users manage their own personal information through their Account Settings by clicking on their profile icon.
 
 ## List users
 
@@ -13,7 +19,7 @@ Users is the section where you can see all the list of users based on their role
 To view list admin or stuff users, please follow the below steps:
 
 * First, sign in to your library.
-* Please go to the `Dashboard ->  Manage -> Users` dropdown menu.
+* Go to `Manage` > `Users`.
 
 	![Users dropdown menu](img/user-dropdown-menu.png)
 
@@ -33,7 +39,7 @@ To view list admin or stuff users, please follow the below steps:
 
 ### Last active
 
-The **Last active** column shows when each user last signed in to your library or opened it in the Librarika app.
+The **Last active** column shows, for each user, when they last signed in to your library or opened it in the Librarika app (never counting Librarika support).
 
 ![Users list with the Last active column](img/users-last-active-column.png)
 
@@ -60,7 +66,7 @@ To add a user, please follow the below steps:
 
 	![Users add user form name field](img/users-add-user-form-name-field.png)
 
-* **Employee** (optional): link an employee profile from **Others** > **Employees** to this account.
+* **Employee** (optional): link an employee profile from `Others` > `Employees` to this account.
 
 * Click `Submit`.
 	* **The email already has a Librarika account:** the person is added to your library at once, and no email is sent. Tell them to sign in and open your library from **My Libraries** on librarika.com, or from your library's own address.
@@ -140,7 +146,7 @@ To remove the permissions, please follow the below steps:
 
 ## Linked members
 
-Linked members is the section where you can see the list of users who have access to the members area section of your library. Basically they are the members or patrons with log in access.
+Linked members is the section where you can see the list of users who have access to the members area section of your library. They are the members who can sign in.
 
 To view the list of linked members, please follow the below steps:
 
@@ -161,7 +167,7 @@ To view the list of linked members, please follow the below steps:
 
 **What does the Last active column show?**
 
-When the user last signed in to your library or opened it in the Librarika app. See [Last Active](#last-active).
+For each user, when they last signed in to your library or opened it in the Librarika app (never counting Librarika support). See [Last active](#last-active).
 
 **Can I change a staff member's name, email or password?**
 
@@ -181,11 +187,11 @@ They open their [Sign-in activity](sign-in-activity.md#sign-in-activity) and cli
 
 **Can I turn off a staff member's two-step verification or reset their password?**
 
-No. They reset their own password with `Forgot password?`. If they lost their phone and their recovery codes, they contact Librarika support, who can turn off two-step verification after checking who they are. See [Helping someone who can't sign in](helping-people-sign-in.md).
+No. They reset their own password with `Forgot password?`. If they lost their phone and their recovery codes, they contact Librarika support, who can turn off two-step verification after checking who they are. See [Helping people who can't sign in](helping-people-sign-in.md).
 
 **Can I require two-step verification for staff?**
 
-Yes, on the Gold plan and higher, in **Preferences** > `Sign-in security`. See [Sign-in security](library-sign-in-security.md).
+Yes, on the Gold, Platinum, Diamond, Enterprise and Unlimited plans, in **Preferences** > `Sign-in security`. See [Library sign-in security](library-sign-in-security.md).
 
 **What does "Branch Restricted" mean in the Users list?**
 

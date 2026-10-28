@@ -1,5 +1,9 @@
 # Bulk actions
 
+**Who this is for:** library staff who change many records at once.
+
+**What you can do here:** select titles, copies or members by conditions, and update or delete them in one go.
+
 The page is labelled `Bulk Actions (Beta)`. Bulk actions are processed in the background after you confirm them, so there can be a delay before the changes appear. Some operations also change or delete associated records, so proceed with caution.
 
 Bulk actions method is used to update or delete your book, book copy or member records in bulk. You can use this option to partially or fully select records from your library and apply bulk update or delete operation to those records matching the criteria.
@@ -7,7 +11,7 @@ Bulk actions method is used to update or delete your book, book copy or member r
 To do bulk actions, please follow the below steps:
 
 * First, sign in to your library.
-* Please go to the `Dashboard -> Manage -> Bulk Actions` option from the dropdown menu.
+* Go to `Manage` > `Bulk Actions`.
 
     ![Bulk Actions dropdown menu](img/bulk-actions-dropdown-menu.png)
 
@@ -471,7 +475,7 @@ To do so, please follow the below steps:
 
     ![Bulk Actions set options for remove members](img/bulk-actions-set-remove-members.png)   
 
-* You can choose to delete related media bookings including reservations, issued items, overdue items. Related members with login access will also be deleted by default. Please choose this options very carefully.
+* You can choose to delete related media bookings including reservations, issued items, overdue items. Related members with member access will also be deleted by default. Please choose this options very carefully.
 
     ![Bulk Actions review remove members](img/bulk-actions-review-remove-members.png)
 
