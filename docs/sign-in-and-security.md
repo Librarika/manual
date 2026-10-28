@@ -36,7 +36,7 @@ On [librarika.com](https://librarika.com) the buttons read **Sign in with Google
 
 **Good to know:**
 
-* Google and Apple sign you in to an **existing** Librarika account with the **same email address**. They don't create a new account. If no account uses that email, you will see *"No user account is associated with the connected Google account. Please register a new account."*
+* Google and Apple sign you in to the Librarika account with the **same email address**. If you don't have a Librarika account yet, `Sign up with Google` or `Sign up with Apple` on the sign-up page creates one for you, with no new password to remember.
 * Your account must be verified first. A new account that hasn't confirmed its email yet is asked to *"verify your email address in order to login."*
 * Apple's **Hide My Email** option gives Librarika a private relay address (ending in `privaterelay.appleid.com`), which won't match your Librarika email. Choose **Share My Email** when Apple asks, or sign in with your password.
 
@@ -434,9 +434,9 @@ The Librarika app signs you in to your account, then you pick a library.
 
 ## FAQ
 
-**Why does Google say no account is associated with my Google account?**
+**Why does Librarika say no account uses my Google or Apple email?**
 
-Google signs you in only to a Librarika account with the same email address. Sign in with your password, or ask your library which email your account uses.
+Google and Apple sign you in only to the Librarika account with the same email address. If your Librarika account uses another email, sign in with your password, or ask your library which email your account uses. If you have no Librarika account yet, use `Sign up with Google` or `Sign up with Apple` on the sign-up page.
 
 **I used Apple's "Hide My Email". Why can't I sign in with Apple?**
 
