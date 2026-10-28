@@ -10,14 +10,26 @@ Library administrators can set how staff and members of their library sign in. G
 
 ![Sign-in security button on the Preferences page](img/libraries-preferences-sign-in-security-button.png)
 
-**Availability:** you can change these settings on the **Gold**, **Platinum** and **Unlimited** plans. On other plans the settings are shown but can't be changed, and Librarika's own settings apply.
-
 ![The library's Sign-in security page](img/libraries-sign-in-security.png)
+
+The page has three sections, **Two-step verification**, **Password length** and **Ask for a new password**, and a `Save` button. `Back To Preferences` returns to the Preferences page.
+
+## Which plans can change these settings
+
+You can change these settings on the **Gold**, **Platinum**, **Diamond**, **Enterprise** and **Unlimited** plans.
+
+On other plans (Free, Basic Pro and Silver) the page is shown but locked:
+
+* it says **Available on the Gold, Platinum, Diamond, Enterprise and Unlimited plans.** and *"Your library uses Librarika's sign-in protection: passwords of at least 15 characters, and two-step verification for anyone who turns it on."*;
+* the fields and `Save` are greyed out, and the date field says *Set by Librarika support*;
+* `Compare plans` opens the upgrade page, and `Contact support` is for asking everyone to choose a new password (see [Ask for a new password](#ask-for-a-new-password)).
+
+Everyone in your library can still turn on [two-step verification](two-step-verification.md) for themselves on any plan.
 
 ## Two-step verification
 
 * **Who needs it** -- choose one:
-	* `Optional: each person chooses` -- the default. Everyone can turn on [two-step verification](#two-step-verification) for themselves.
+	* `Optional: each person chooses` -- the default. Everyone can turn on [two-step verification](two-step-verification.md) for themselves.
 	* `Required for staff` -- everyone with a role in your library (librarians, administrators and other staff) must use it.
 	* `Required for staff and members` -- everyone, including members who can sign in.
 * **Also ask for the two-step code after signing in with Google, Apple or the library's SSO** -- by default, people who sign in with Google, Apple or SSO aren't asked for the code, because those services usually have their own two-step check. Tick this to ask for the code anyway. It only applies to people who have turned two-step verification on. This option is shown only when it is available for your library.
@@ -35,9 +47,10 @@ The requirement follows the person: if someone belongs to several libraries and 
 ## Ask for a new password
 
 * **Ask for a new password if it was set before** -- enter a date as `YYYY-MM-DD`. Staff and members whose password was set before that date [choose a new one](passwords.md#choose-a-new-password) the next time they sign in with their password. Leave it empty for none.
-* Use it, for example, if you think passwords may have leaked. If your library is on a plan where you can't change this setting and you need everyone to choose new passwords, ask [Librarika support](https://librarika.com/spages/contact) to set the date for you.
+* Use it, for example, if you think passwords may have leaked.
+* **On any plan**, [Librarika support](https://librarika.com/spages/contact) can set this date for your library. If your plan can't change these settings and you need everyone to choose new passwords, ask support. On those plans the date is the only setting that takes effect.
 
-Click `Save` when you are done.
+Click `Save` when you are done. You see *"The security settings have been saved."*
 
 ## "Not enforced yet"
 
