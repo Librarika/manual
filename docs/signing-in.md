@@ -107,7 +107,7 @@ Until you confirm, your **old address stays in use** for signing in and for emai
 * *"Another account already uses this email address. Please use a different one."* -- each address can belong to one account only.
 * *"You have asked to change your email address too many times. Please try again in an hour."* -- wait an hour.
 
-In the mobile app, the app asks for your current password first, then shows *"Pending: … — check your inbox"* until you confirm. See [The Librarika app](mobile-app.md).
+In the mobile app, the app asks for your current password first, then shows *"Pending: … — check your inbox"* until you confirm. See [Account settings in the app](app-account-settings.md#change-your-email-address).
 
 ---
 
@@ -142,19 +142,7 @@ Members can also remove their account in the mobile app (`Account` > `Delete Acc
 
 ## The mobile app
 
-The Librarika app signs you in to your account, then you pick a library.
-
-* The app offers the same choices as the website: password, **Google**, **Apple** and your library's **SSO**.
-* You stay signed in. The app renews its access in the background, so you don't need to sign in again every day.
-* `Sign out` in the app signs that phone out on Librarika too, and it stops getting your notifications.
-* Each phone appears in **Where you are signed in** with its name (for example *iPhone 15 · iOS 18*), so you can sign out a lost phone from the website.
-
-**Two-step verification in the app**
-
-* Turn two-step verification on and off on the website. When you sign in to the app with your password, the app asks for your code (or a recovery code) like the website does.
-* If your version of the app can't ask for the code yet, it shows *"Please update the Librarika app to sign in. Your account uses two-step verification."* Update the app from the App Store or Google Play. If no update is available yet, use the library's website in your phone's browser.
-* If your account needs two-step verification but you haven't set it up, set it up on the website first, then sign in to the app.
-* If Librarika asks you to choose a new password, do it on the website, then sign in to the app again.
+The app signs you in with the same account and the same choices: password, Google, Apple and your library's SSO, with your two-step code if you use it. See [Get the app & sign in](mobile-app.md).
 
 ---
 

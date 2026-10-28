@@ -77,7 +77,13 @@ You have **one Librarika account**, and it belongs to you, not to a library. Wit
 
 ## Mobile app and kiosks
 
-The Librarika app for iPhone and Android is for both staff and members. See [The Librarika app](mobile-app.md).
+The Librarika app for iPhone and Android is for both members and staff; your role in the library you open decides which screens you get.
+
+* [Get the app & sign in](mobile-app.md): install, sign in, choose a library.
+* [For members in the app](app-members.md): catalog, loans, holds, self-checkout, balance.
+* [For library staff in the app](app-staff.md): scanning, cataloging, cover photos, members, circulation.
+* [Account settings in the app](app-account-settings.md): profile, email, password, two-step verification.
+* [Troubleshooting the app](app-troubleshooting.md).
 
 At a self-checkout kiosk, members see [Using a kiosk](using-a-kiosk.md); staff set kiosks up with [Kiosk app: setup and management](kiosk-app.md).
 

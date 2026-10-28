@@ -54,7 +54,7 @@ See [Single sign-on](sso-saml.md#troubleshooting).
 
 ## Mobile app
 
-Most app problems have a message with a button, such as `Change password on the website` or `Update the app`. See [Troubleshooting the app](mobile-app.md).
+Most app problems have a message with a button, such as `Change password on the website` or `Update the app`. See [Troubleshooting the app](app-troubleshooting.md).
 
 ## Kiosks
 

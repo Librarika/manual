@@ -60,4 +60,4 @@ A setting may show **Not enforced yet: for now, sign-ins are only recorded where
 
 * **Require two-step verification for staff.** Staff accounts can change your catalog, members and settings, so they need the most protection.
 * **Before requiring it for everyone, tell your members.** Explain that they will need an authenticator app on their phone and should save their recovery codes. Point them to the [quick guide for members](sign-in-and-security.md#quick-guide-for-members).
-* **Members who use the mobile app:** if the app asks them to update after they turn on two-step verification, they can use your library's website until they do (see [The mobile app](signing-in.md#the-mobile-app)).
+* **Members who use the mobile app:** if the app asks them to update after they turn on two-step verification, they can use your library's website until they do (see [Troubleshooting the app](app-troubleshooting.md)).

@@ -43,7 +43,11 @@ nav:
       - 'Two-step verification': 'two-step-verification.md'
       - 'Sign-in activity & privacy': 'sign-in-activity.md'
     - 'Mobile app':
-      - 'The Librarika app': 'mobile-app.md'
+      - 'Get the app & sign in': 'mobile-app.md'
+      - 'For members': 'app-members.md'
+      - 'For library staff': 'app-staff.md'
+      - 'Account settings in the app': 'app-account-settings.md'
+      - 'Troubleshooting': 'app-troubleshooting.md'
     - 'Help':
       - 'Contact us': 'https://librarika.com/spages/contact'
       - 'Contributing': 'contribute.md'
