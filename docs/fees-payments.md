@@ -4,7 +4,7 @@ Our fees and payments module allows libraries to collect fees and fines on vario
 
 The module is based on charges that you can apply and payments that you can collect from your library members.
 
-**Note: Only premium libraries have access to this module.**
+**Note:** Fees & Payments is available on the **Basic Pro**, **Silver**, **Gold**, **Platinum** and **Unlimited** plans.
 
 ## Features
 
@@ -16,15 +16,17 @@ The module is based on charges that you can apply and payments that you can coll
 * Suspend member borrowing activity based on automatic threshold value.
 * And more.
 
-## How to activate the module
+## Set up fees and fines
 
-Please complete the following easy steps to setup your library. It should not take more than 5 minutes.
+<a id="how-to-activate-the-module"></a>
 
-* Please go to the `Dashboard -> Circulations -> Fees & Payments` from the dropdown menu.
+Setting up takes a few minutes.
+
+* Go to `Dashboard -> Circulations -> Fees & Payments`.
 
 	![Fees & Payments menu](img/fees-payments-menu.png)
 
-* Click on `Fees & Payments` option and a page will be appeared like below.
+* The **Fees & Payments** page opens:
 
 	![Fees & Payments main page](img/fees-payments-main-page.png)
 
@@ -78,9 +80,29 @@ System will apply / update overdue charges for currently overdue items on daily 
 * Additionally, you have the option to download transactions based on transaction types. Simply select either `Debit` or `Credit` from the transaction list, then click on the `Export` button.
 * To download transactions for a specific member, you'll need to visit the member's profile first. Then navigate to the `Statement` and click on the `Export Transactions`.
 
+## Charge a member
+
+Use this for a lost or damaged book, a card fee and similar charges.
+
+1. Go to `Transactions` and click `Add Charge` (or `Add Charge` on the member's statement).
+2. Enter the member number or name and choose the member.
+3. Choose the fee item, for example **Lost or damaged material charge**, and enter the amount.
+4. Click `Submit`.
+
+The fee item must be enabled under `Fee Items` first.
+
+## Suspend borrowing when a member owes too much
+
+1. Go to `Transactions` and click `Fees & Fines Settings`.
+2. Switch on **Suspend activity** and enter a **Suspension Limit** (an amount).
+3. Click `Submit`.
+
+When a member's balance reaches the limit, staff checkouts, member self-checkouts and member requests are refused until the balance goes down.
+
 ## Limitations
 
-Please be aware of any bugs and issues that may arises and let us know if you feel anything. As a pre-caution, please take backup of your transaction information on regular basis.
+Transactions is marked beta. Export your transactions now and then (see [Download transactions](#download-transactions)) to keep your own copy.
+
 ## FAQ
 
 **Which plans include Fees & Payments?**
@@ -89,7 +111,7 @@ Fees & Payments is available on the **Basic Pro**, **Silver**, **Gold**, **Plati
 
 **Why are no overdue charges being added?**
 
-Two things are needed: **Enabled fees & fines** must be ticked in `Fees & Fines Settings`, and an **Overdue Charge** fee item must be enabled under `Fee Items`. See [How to activate the module](#how-to-activate-the-module).
+Two things are needed: **Enabled fees & fines** must be ticked in `Fees & Fines Settings`, and an **Overdue Charge** fee item must be enabled under `Fee Items`. See [Set up fees and fines](#set-up-fees-and-fines).
 
 **How is the overdue charge calculated?**
 

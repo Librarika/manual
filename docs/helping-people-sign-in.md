@@ -10,7 +10,7 @@
 
 Ask them to click `Forgot password?` on the login page, enter their email address and click `Email me a link`. The link works once, for one hour. See [Forgot your password?](passwords.md#forgot-your-password).
 
-* **No email arrives:** they check their spam folder. Then check which email address their account uses: open the member (or user) in Librarika and compare. The reset email goes only to the address of their Librarika account.
+* **No email arrives:** they check their spam folder. Then check which email address their account uses: open `Members` (or `Manage -> Users`), find them, and compare the email shown with the one they are typing. The reset email goes only to the address of their Librarika account.
 * **"Invalid username or password, try again.":** they may be using an old email address, or their account may use a different one than you think.
 
 ## Has to wait, or sees a captcha

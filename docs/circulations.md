@@ -1,8 +1,6 @@
-# Circulations
+# Circulation
 
 The circulations section contains all the information regarding your check-outs, check-ins, reservation requests, overdue items etc.
-
-As a generic term, we also call this as "Media bookings" section.
 
 ## List check-outs
 
@@ -26,7 +24,7 @@ You can access the list of all circulations related entries in this section unde
 To check-out or loan an item to a member of your library, please follow the below steps:
 
 * Please go to the `Dashboard -> Circulations -> Circulations` section.
-* Click on the `Circulate Item` button.
+* Click on the `Circulate Item` button. The **Quick Circulation** form opens.
 
 	![Quick circulation form](img/circulations-quick-circulation.png)
 
@@ -43,6 +41,7 @@ To check-out or loan an item to a member of your library, please follow the belo
 	![Quick circulation form](img/circulations-quick-circulation-3.png)
 
 * Click on the `Submit` button when you are done.
+* If the item is on the hold shelf for another member, or other members have holds on it, Librarika warns you first (*"Warning: This item is on the hold shelf for another member. Are you sure you want to proceed with checkout?"* or *"Warning: This item has active hold requests from other members. …"*). Continue only if you mean to; the other member's hold is not moved to another copy.
 
 ## Check-in item
 
@@ -61,6 +60,7 @@ To check-in or receive an item from a member, please follow the below steps:
 
 * Enter any remark note in the remark input box, if you want to.
 * Click on the `Submit` button when you are done.
+* If the message ends with **Hold assigned to next patron.**, don't put the item back on the shelf. Put it on the hold shelf; it now appears in [Hold Shelf](hold-queue.md#hold-shelf) for that member. See [Check in an item someone is waiting for](hold-queue.md#check-in-an-item-someone-is-waiting-for).
 
 ## Reserve item
 
@@ -112,9 +112,11 @@ To edit a circulation, please follow the below steps:
 * Edit or update necessary information regarding the circulation.
 * Click on the `Submit` button when you are done.
 
-## Extra functionality
+## Find a loan
 
-If you have larger amount of circulation entries then you can use our filtering option so that you can easily find any entry and perform all the circulation related activities.
+<a id="extra-functionality"></a>
+
+If you have many circulation entries, use the filter box to find an entry quickly.
 
 To use this functionality, please follow the below steps:
 
@@ -129,17 +131,7 @@ To use this functionality, please follow the below steps:
 
 * Now you can perform any action regarding your needs for circulations.
 
-## Hold queue
-
-The hold queue allows members to place holds on items that are currently checked out and wait in a queue until the item becomes available. Staff can manage holds, view the hold shelf, and fulfill holds from the dashboard.
-
-For detailed instructions, see the [Hold Queue](hold-queue.md) page.
-
----
-
-## Circulation issue
-
-Keep in mind that whenever checking out books you can not able to scroll past the 10th book even though you have several more copies of the same book in your library. Because **there is a cap limit of 10 items in auto complete dialogue box**.
+<a id="hold-queue"></a><a id="circulation-issue"></a>
 
 ---
 
@@ -151,7 +143,7 @@ The form shows the reason. The most common ones are: the member is not active, t
 
 **Why doesn't the book appear in the list when I type its title?**
 
-The list shows at most 10 matches, and a title search starts only after you type at least 4 letters. Typing the accession number or ISBN is the quickest way to find the exact copy (see [Circulation Issue](#circulation-issue)).
+The list shows at most 10 matches, and a title search starts only after you type at least 4 letters. Typing the accession number or ISBN is the quickest way to find the exact copy (the list never scrolls past the 10th match, even when you have more copies of the same book).
 
 **How many items can a member borrow?**
 

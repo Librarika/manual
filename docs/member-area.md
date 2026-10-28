@@ -98,7 +98,74 @@ Account settings is the section where you can update all the information of your
 
 If your library has the hold queue feature enabled, you can place holds on items that are currently checked out and manage your holds from the My Holds section.
 
-For detailed instructions on placing holds, viewing your hold queue position, and managing your holds (suspend, activate, cancel), see the [Hold Queue - Member Self-Service](hold-queue.md#my-holds-member-self-service) page.
+Members can place and manage their own holds from the catalog and their account area.
+
+### Place hold from catalog
+
+Members can place holds on items from the catalog detail page:
+
+* Search for the item in the catalog.
+* Click on the item title to view its details.
+* If all copies are currently checked out, a `Place Hold` button will be displayed at the title level.
+
+* Click the `Place Hold` button.
+* A hold form will appear. If copy-level holds are enabled and multiple copies exist, you can select a specific copy.
+* Add any notes if needed.
+* Click `Submit` to place the hold.
+* A success message will appear with your queue position.
+
+Additionally, if copy-level holds are enabled, a `Hold` button will appear next to each individual copy that is currently checked out in the copies table.
+
+**Note:** The `Place Hold` button is only visible when:
+
+* The hold queue feature is enabled for the library.
+* You are signed in as a member.
+* Your member type matches the allowed member type setting (All, Regular, or Privileged).
+* The item is a circulating item.
+* Title-level holds are enabled (for the title-level button).
+* All copies are currently checked out (for the title-level button), or the specific copy is checked out (for copy-level buttons).
+
+If available copies exist, a message will be shown indicating that a hold is not needed since copies are available.
+
+### View my holds
+
+To view your active holds:
+
+* Click on `My Account` from the top menu.
+* Click on `My Holds` to view your hold list.
+* Each hold displays:
+	* **Title** -- The item title.
+	* **Hold Type** -- Title-level or Copy-level.
+	* **Queue Position** -- Your position in the queue.
+	* **Status** -- Current status with color-coded badge:
+		* **Blue (Waiting)** -- Waiting for a copy to become available.
+		* **Green (Ready)** -- Item is ready for pickup.
+		* **Yellow (Suspended)** -- Hold is temporarily paused.
+	* **Pickup Deadline** -- Displayed for Ready holds, showing the date by which you must pick up the item.
+
+**Note:** My Holds only shows your active holds (Waiting, Ready, and Suspended). Fulfilled, Expired, and Cancelled holds are not displayed here.
+
+### Suspend, activate, and cancel holds
+
+From the My Holds page, members can manage their holds:
+
+**Suspend a Hold**
+
+* Click the `Suspend` button next to a Waiting hold.
+* Select the date until which you want to pause the hold.
+* Click `Submit`.
+* Your hold will be paused but your queue position will be maintained.
+
+**Activate a Hold**
+
+* Click the `Activate` button next to a Suspended hold.
+* The hold will return to Waiting status and you can also activate it before the suspension date.
+
+**Cancel a Hold**
+
+* Click the `Cancel` button next to the hold.
+* Confirm the cancellation.
+* The hold will be cancelled and removed from the queue.
 
 ---
 

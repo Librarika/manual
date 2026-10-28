@@ -1,39 +1,20 @@
 # Cataloging
 
-Cataloging new books / items in **Librarika** platform is super easy. We have tried our level best to keep the interface simplified, so that our librarians can spent more time with their daily duties instead of working with complex cataloging tools.
-
-Our simplified cataloging interface enables novice user or people with very limited experience to manage their library perfectly. This makes **Librarika** a suitable platform for schools, small colleges, corporate offices, NGOs, personal libraries where dedicated skilled librarians are not always available.
+This page explains how to add and manage titles, copies, e-books, authors, publishers, categories, tags and reviews.
 
 ## Basics
 
-**Librarika** organizes books under two logical entities: Media and Media Copy. When a new book is added to a library, master book information is added once as `Media` entity, we also call this as title or title record. Other related info is added to the `Media Copy` entity with reference to the parent `Media` entity. Then when another copy of the same book is added, only a new `Media Copy` entity is created with reference to the previous parent `Media` entity.
+Librarika keeps each book as a **title** (title, ISBN, authors, publisher, cover and other details) with one or more **copies** (accession number, copy number, branch, location). Adding a second copy of the same book adds a copy to the existing title.
 
-##### Media entity
-
-Contains non-repeating fields such as title, ISBN, ISBN13, description, abstract, publisher, authors, cover photos etc.
-
-##### Media copy entity
-
-Contains uniquely identifiable data such as accession number, copy number, location, branch as well as some other information related to the copy.
-
-##### Relationship
-```
- 		Media (Single)
-			  |
- 	 	 	   --- Media Copies (Multiple)
-```
+<a id="media-entity"></a><a id="media-copy-entity"></a><a id="relationship"></a>
 
 ##### Accession number:
 
-When a new item is added to the catalog, the system assigns an auto-generated unique incremental accession number (numeric only) to each copy for your library. This accession number is then used to uniquely identify that specific copy during check-out / check-in / other system level activities. 
-
-System usually assigns this number starting from 1. The auto generation logic for new accession number is as below:
-
-	accession_number = max(accession_number) + 1
+Each copy gets an accession number (numbers only) that identifies that copy in check-out, check-in and everywhere else. Librarika gives each new copy the next free number: the highest accession number in your library plus 1, starting from 1. To start from, for example, 100001, give one copy that number.
 
 The same accession number field is used to generate barcode labels. If you plan to use barcode labels, you may need to start with a larger number (such as 100001) as some barcode scanner can not read small barcode properly.
 
-The auto generation of accession number doesn't happen when you do bulk import of books or items. In this case, system saves the value of accession number field right from the provided source file without checking the uniqueness. This is to provide the flexibility to the librarians so that they can migrate their existing barcodes easily.
+Accession numbers are not generated when you bulk import items. Librarika saves the accession numbers from your file as they are, and does not check them for you. This is to provide the flexibility to the librarians so that they can migrate their existing barcodes easily.
 
 Tips: If you edit the accession number of a book copy to 100001 which is the max accession value in your library, then next accession will be 100002. You can use this tips to start your library's accession number from any arbritary position. 
 
@@ -160,10 +141,10 @@ Librarika support bulk import of catalog items in CSV formats.
 
 #### a. Prepare your data
 
-* Read our [Import Items](https://demo.librarika.com/spages/import-items) detail instructions article for more critical information.
+* Read the [Import Items](https://librarika.com/spages/import-items) article: it describes every column of the import file.
 * See our sample google spread sheet at [Sample Import Format](https://docs.google.com/spreadsheets/d/1MOphgqXTbOs2YvzvFDjIVAzS8Z7aji58bpuVmDbTnb8/edit?usp=sharing).
 * Use google sheets to avoid UTF-8 encoding issue with Microsoft Excel. [Optional] 
-* Download the final CSV file directly from google docs using `File -> Download as -> Comma Separated Values (.csv)` to avoid issues. [Optional] 
+* Download the final CSV file directly from google docs using `File -> Download -> Comma-separated values (.csv)` to avoid issues. [Optional] 
 
 #### b. Check list
 
@@ -174,7 +155,7 @@ Please make sure followings before you go ahead with importing your data:
 * The source file is in correct CSV format. Use google sheets if possible.
 * The CSV file is UTF-8 encoded. MS Excel produce non UTF-8 CSV file.
 * Numeric columns contain numeric values. No string characters in numeric fields.
-* Accession number values are unique and not empty.
+* Accession number values are unique and not empty. Librarika does not check this for you.
 * As title and type fields are required so you must have to provide them. 
 * Books with multiple copies have sequential copy number starting from 1.
 
@@ -219,7 +200,7 @@ If your account is limited to some branches, you can delete a title only when al
 
 	![Media form](img/media-list-view.png)
 
-* Click the `Delete this item?` button and confirm your delete action.
+* Click `Delete this item?` (red button) and confirm.
 	
 	![Media view form](img/media-view-form.png)
 
@@ -321,7 +302,7 @@ Note: Instead of deleting a copy from your library, it is better to make it inac
 
 ## E-Books
 
-You can upload one or more pdf or e-pub files for each of your e-book item in your catalog. In order to upload e-books, you must have e-book subscription enabled. To learn more about e-book hosting please visit at [https://librarika.com/spages/faq#ebooks] [e-book]
+You can upload one or more pdf or e-pub files for each **E-Books** or **E-Journals** item in your catalog. In order to upload e-books, you must have e-book subscription enabled. To learn more about e-book hosting please visit at [https://librarika.com/spages/faq#ebooks] [e-book]
 
 ### Add E-Book
 
@@ -334,7 +315,7 @@ To add a new e-book, please follow the below steps:
 
 * Enter title and other information about the e-book item and click the `Submit` button once you are done. 
 * A new e-book item will be added to the catalog and you will be redirected to the item detail page.
-* Now scroll down to the E-Books section of the detail page and click on `Upload E-book` button to upload new pdf or e-pub file.
+* Now scroll down to the E-Books section of the detail page and click on `Upload E-Book` button to upload new pdf or e-pub file.
 	
 	![E-book section in item detail page.](img/media-detail-ebook-section.png)  
 

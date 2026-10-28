@@ -34,7 +34,7 @@ To do so, please follow the below steps:
 
         ![Barcode Labels add multiple books](img/barcode-labels-add-multiple-books.png)
 
-    ** Steps to add members to the barcode queue**
+    **Steps to add members to the barcode queue**
 
     * If you click on the `Add Member Barcode` button, then you can add a member by their member number like below.
 
@@ -50,9 +50,9 @@ To do so, please follow the below steps:
 
 * Once you click on  `Add to Queue` button, then step one will be finished and all your items will be available in Generate Barcodes section. Also you can see how many items you have added in the Generate Barcode Section.
 
+	![Barcode Labels queued items number](img/barcode-labels-queued-items-number.png)
+
 **Queue limit:** the Barcode Queue holds up to 100 labels, or 500 on the Basic Pro, Silver, Gold, Platinum and Unlimited plans. You can keep adding until the queue is full, and a full queue can still be generated. If adding several books or members at once would go over the limit, nothing is added and you are told how many more fit. Generate the queue first, or add fewer items.
- 
-    ![Barcode Labels queued items number](img/barcode-labels-queued-items-number.png)
 
 ## Generate barcodes
 

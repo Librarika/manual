@@ -8,6 +8,8 @@ You get these screens when you open a library from **Manage as Librarian** (see 
 
 **Permissions:** the app shows the same screens to library admins, staff and assistants. What each person may actually change is decided by Librarika, as on the website: if your role doesn't allow an action, Librarika refuses it. Your role is shown on your profile (**Library Admin**, **Library Staff** or **Library Assistant**). See [Users & roles](users.md).
 
+**Website only:** holds, fees and payments, barcode labels, reports, bulk actions, batch update and Preferences are only on the website.
+
 ---
 
 ## Dashboard
@@ -59,7 +61,7 @@ You see *"Cover photo updated"*.
 * **Check In**: enter or scan the **Accession No / ISBN**, with optional **Remarks**.
 * **Circulation History**: search *by member or title*, see **Active Loans** and **Overdue**, and edit a loan (**Edit Circulation**).
 
-The same rules apply as at the desk. See [Circulations](circulations.md).
+The same rules apply as at the desk. See [Circulation](circulations.md).
 
 ## Settings
 

@@ -5,6 +5,7 @@
 This manual explains how to use each part of Librarika. Pick the door that fits you:
 
 * **I run a library.** You set up and manage a library: catalog, members, loans and settings. Start with [Getting started](getting-started.md), then see [For library staff](#for-library-staff).
+* **I work at a library.** Your library added you as staff. Accept the invitation email (see [Users & roles](users.md#add-user)), sign in, then go to [Daily work](#for-library-staff).
 * **I'm a library member.** A library invited you, or you borrow from a library that uses Librarika. Start with the [Member quick start](member-quick-start.md).
 * **I use the app or a kiosk.** You use the Librarika app on a phone, as a member or as staff, or a self-checkout kiosk at your library. See [Mobile app and kiosks](#mobile-app-and-kiosks).
 
