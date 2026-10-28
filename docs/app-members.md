@@ -26,12 +26,13 @@ Some features depend on your library's settings: holds, item requests (reservati
 
 * Search with **Search books, authors, ISBN...**, or browse by **All Items**, **Categories**, **Authors**, **Publishers**, **Series** and **Tags**.
 * **New Arrivals**, **Popular** and **Recently Viewed** lists.
-* Tap a title to see **Item Details**: its copies and availability. From there you can `Checkout` or `Check In` a copy yourself (if your library allows it), and:
-	* `Place a Hold` on an item that is checked out: *"Join the waiting queue for this item. You'll be notified when a copy becomes available for pickup."* Choose **Title-level hold (any copy)** or **Copy-level hold (specific copy)**, when your library offers both.
-	* `Request Item`: *"Reserve a specific copy for a date range. The library will set it aside for you to pick up."*
-	* `Write a Review`.
+* Tap a title to see **Item Details**: its copies and availability. From there, if your library allows it:
+	* `Self Checkout` in the action bar, or `Checkout` next to an available copy: borrow it yourself. `Check In` appears next to a copy you have out.
+	* `Place Hold` when every copy is out, or `Hold` next to one checked-out copy, then `Place Hold` in the **Place a Hold** dialog: *"Join the waiting queue for this item. You'll be notified when a copy becomes available for pickup."* Choose **Title-level hold (any copy)** or **Copy-level hold (specific copy)**, when your library offers both.
+	* `Request`: choose a copy, **Start Date** and **Return Date**, then `Submit Request` (*"Reserve a specific copy for a date range. The library will set it aside for you to pick up."*).
+	* `Write Review` (or `Edit` if you already reviewed it).
 
-See [Hold queue](hold-queue.md) for how holds work.
+See [Member area: My holds](member-area.md#my-holds) for how holds work.
 
 ## My Loans
 
@@ -45,10 +46,13 @@ See [Hold queue](hold-queue.md) for how holds work.
 
 If your library allows [self-service](self-service.md), the barcode button on **My Loans** opens **Self Checkout**:
 
-1. Scan the item's barcode with the camera, or type its accession number (**SCAN OR ENTER ACCESSION NUMBER**).
-2. Check the dates and confirm. You see *"Checked out successfully! Due: …"*
+1. Under **SCAN OR ENTER ACCESSION NUMBER**, scan the barcode with the scan icon in the field, or type the accession number, and tap `Look Up`.
+2. Check the **Due Date**; tap it to change it, up to your library's maximum.
+3. Tap `Confirm Checkout`. You see *"Checked out successfully! Due: …"*
 
-To return an item yourself (if your library allows it), tap ⋮ next to the item under **Checkouts** and choose `Return Item`, or use `Check In` on the item's details. You see *"Returned! Thank you for returning …"*. You can also scan an item with `Scan Barcode` on **Home**. Your library may not allow returning overdue items this way.
+To return an item yourself (if your library allows it), tap ⋮ next to the item under **Checkouts** and choose `Return Item`, or use `Check In` on the item's details. **Self Check-In** opens: add **Notes (optional)** if you like, tap `Confirm Return`, then `Return`. You see *"Returned! Thank you for returning …"*. Your library may not allow returning overdue items this way.
+
+`Scan Barcode` on **Home** offers `Search Catalog`, `Check Out`, `Return Item` and `My Loans` (checkout and return only if your library allows them).
 
 If you see *"Copy not found. Please check the accession number."*, check the number on the label, or ask at the desk.
 
@@ -58,12 +62,13 @@ If you see *"Copy not found. Please check the accession number."*, check the num
 
 ## Balance
 
-`Account` > `Account Balance` shows your **Current Balance** and **Outstanding Fines**. You can't pay in the app: *"Contact the library to pay your balance."* See [Fees & payments](fees-payments.md).
+`Account` > `Account Balance` shows your **Current Balance** and **Outstanding Fines**. You can't pay in the app: *"Contact the library to pay your balance."* See [Member area](member-area.md).
 
 ## Notifications
 
 * The bell on **Home** opens **Notifications** from your account and your library.
 * To get notifications on your phone, turn on `Push Notifications` in the **Account** tab. If notifications are off in your phone's settings, the app asks you to turn them on there.
+* To turn them off, tap the switch and then `Open Settings`, and turn off notifications for Librarika there.
 
 ## Account
 

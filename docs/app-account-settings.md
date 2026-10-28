@@ -7,9 +7,11 @@
 These settings belong to your **Librarika account**, so they apply in every library and on the website too.
 
 * **Members:** the **Account** tab. Under **Account**: `Edit Profile`, `Change Password`, `Two-step verification`, `Notifications`, `Push Notifications` and `Account Balance`. Under **Library**: `Switch Library` and `Library Website`. Then help links, `Sign Out` and `Delete Account`.
-* **Staff:** the **Settings** tab. A **Current Library** card with `Switch Library`, then `Profile`, `Two-step verification`, `Push Notifications`, help links and `Logout`. Staff can't delete their account in the app; use the website (see [Remove your account](signing-in.md#remove-your-account)).
+* **Staff:** the **Settings** tab. A **Current Library** card with `Switch Library`, then `Profile`, `Two-step verification`, `Push Notifications`, help links and `Logout`. `Delete Account` is on the member **Account** tab only. If you are staff only, delete your account on the website (see [Remove your account](signing-in.md#remove-your-account)).
 
 ![Member Account tab](img/app-member-account.png) ![Staff Settings tab with Two-step verification](img/app-staff-settings.png)
+
+The `Two-step verification` row appears when it is available for your account (it isn't in the member picture).
 
 ---
 
@@ -55,6 +57,12 @@ These are the same settings as on the website (see [Your sign-in settings](signi
 
 Turn `Push Notifications` on to get library notices on your phone. If notifications are turned off in your phone's settings, the app shows **Notifications Disabled** and asks you to turn them on there.
 
+To turn them off, tap the switch: the app says *"To turn off notifications, please go to your device Settings."* Tap `Open Settings` and turn off notifications for Librarika there.
+
 ## Delete your account (members)
 
 `Account` > `Delete Account`. Enter your password, type `delete` and tap `Permanently Delete Account`, then confirm with `Delete My Account`. This closes your Librarika account for good, in every library. See [Remove your account](signing-in.md#remove-your-account).
+
+* **No password?** (you use Google, Apple or SSO): delete your account on the website, where you can ask for a confirmation link by email (see [Remove your account](signing-in.md#remove-your-account)).
+* **Signed in with SSO?** You see *"You signed in with SSO. Sign in with your password or Google to do this."* Sign out and sign in with your password or Google first.
+* **The only admin of a library?** You see *"Cannot delete this account. You are the only administrator of … Please add another admin first."* Add another admin first.

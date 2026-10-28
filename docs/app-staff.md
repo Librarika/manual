@@ -23,7 +23,7 @@ You get these screens when you open a library from **Manage as Librarian** (see 
 
 ## Scan barcodes
 
-`Scan Barcode` uses the phone's camera. Choose what the scan is for: `Smart Add`, `Check Out`, `Check In`, `Search Catalog` or `Search Members`. The first time, allow the app to use the camera; without it you see *"Camera permission is required to scan barcodes"*.
+Tap `Scan Barcode` and point the camera at the barcode. Then choose what to do with it: `Search Catalog`, `Smart Add`, `Check Out`, `Check In`, `Search Members` or `Circulations`. The first time, allow camera access; if you refused it, you see *"Camera permission is required to scan barcodes"* and a `Grant Permission` button.
 
 ## Catalog
 
@@ -33,23 +33,23 @@ You get these screens when you open a library from **Manage as Librarian** (see 
 	![Smart Add (ISBN) in the app](img/app-staff-smart-add.png)
 
 * **Add a title by hand**: tap `Add Manually` for the full form.
-* **Edit** a title (**Edit Media**), add or edit copies (**Add Copy**, **Edit Copy**), or delete them.
+* Open a title's **Media Details**: `Upload Cover`, `Edit Media`, `Add Copy`, or `Delete Media` (deletes the whole title). Each copy's ⋮ menu has `Edit`, `Check In` or `Checkout`, and `Delete`.
 * Manage **Categories** (**Add Category**).
 
 See [Cataloging](cataloging.md) for what each field means.
 
 ### Add a cover photo
 
-1. Open the title's **Media Details** and tap `Upload Cover Photo`.
+1. Open the title's **Media Details** and tap `Upload Cover`.
 2. Take a photo with the camera or pick one from the gallery.
-3. Crop it: **Book Cover (2:3)**, **Square (1:1)**, **DVD/Blu-ray (3:4)** or **Free-form**.
+3. In **Crop Ratio**, choose **Book Cover (2:3)**, **Square (1:1)**, **DVD/Blu-ray (3:4)** or **Free-form**, tap `Crop`, then adjust and confirm.
 
 You see *"Cover photo updated"*.
 
 ## Members
 
 * Search with **Search members** and open **Member Details**.
-* **Add Member**: photo, **First Name**, **Last Name**, **Member Number**, **Allow Login** and more. With **Allow Login**, the member gets an invitation to sign in (see [Members](members.md#member-area-access)).
+* **Add Member**: photo, **First Name**, **Last Name**, **Member Number**, **Allow Login** and more. Set **Allow Login** to `Yes` and enter the member's **Email** (without it you see *"Please enter email address for member login."*): Librarika emails them an invitation (see [Members](members.md#member-area-access)). **Member Details** shows *Invited* until they join, then *Joined*.
 * **Edit Member** and **Delete Member**.
 
 ## Circulations

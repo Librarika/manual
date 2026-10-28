@@ -15,7 +15,7 @@ The Librarika app for iPhone and Android serves **both members and library staff
 
 [<img class="app-icons ios" src="https://ae85df921b92073b52e8-a126a45a4c59e90797d94cd877fbe744.ssl.cf3.rackcdn.com/static-pages/Download_on_the_App_Store_Badge_US-UK_135x40.svg" alt="Download on the App Store" />](https://itunes.apple.com/us/app/librarika/id1102502605) [<img class="app-icons android" src="https://ae85df921b92073b52e8-a126a45a4c59e90797d94cd877fbe744.ssl.cf3.rackcdn.com/static-pages/google-play-badge.png" alt="Get it on Google Play" />](https://play.google.com/store/apps/details?id=com.librarika.android.dev&hl=en)
 
-You need a **Librarika account** to use the app. You can't create one in the app: sign up on [librarika.com](https://librarika.com) or accept your library's invitation first (see [Member quick start](member-quick-start.md)). To create a new library, sign up at librarika.com.
+You need a **Librarika account**. If you tap Google or Apple and no account has that email address yet, the app creates one, but it belongs to no library: you see **No Libraries Found** until you accept your library's invitation (see [Member quick start](member-quick-start.md)) or ask to join on librarika.com. To sign in with an email and password, or to create a library, sign up on [librarika.com](https://librarika.com) first.
 
 ---
 
@@ -46,9 +46,9 @@ If you turned on [two-step verification](two-step-verification.md), the app asks
 ![Enter your code screen in the app](img/app-mfa-code.png)
 
 1. On **Enter your code**, open your authenticator app and type the 6-digit code into **Code**. The app checks it as soon as you have typed six digits, or tap `Verify`.
-2. **Lost your phone?** Tap `Use a recovery code` and type one of your recovery codes into **Recovery code**.
+2. **Lost your phone?** Tap `Use a recovery code` and type one of your recovery codes into **Recovery code**. Tap `Use your authenticator app` to switch back, or `Cancel` to return to Sign In.
 
-You have 5 minutes to enter the code; after that, you see *"Your sign-in has expired. Please sign in again."* The app doesn't have a "don't ask again on this device" option, but it keeps you signed in (see below), so you rarely need a code.
+You have 5 minutes to enter the code (in the last minute the screen shows *"This sign-in expires in …"*); after that, you see *"Your sign-in has expired. Please sign in again."* The app doesn't have a "don't ask again on this device" option, but it keeps you signed in (see below), so you rarely need a code.
 
 You turn two-step verification on and off on the **website**, not in the app. If your library requires it and you haven't set it up, the app shows *"Your account needs two-step verification. Please set it up on the Librarika website, then sign in to the app again."* with a `Set up two-step verification` button.
 
@@ -58,7 +58,7 @@ You turn two-step verification on and off on the **website**, not in the app. If
 |---|---|---|
 | *"You need to change your password. Please sign in on the Librarika website to change it, then sign in to the app again."* | `Change password on the website` | Choose a new password on the website (see [Choose a new password](passwords.md#choose-a-new-password)), then sign in to the app with it. |
 | *"Your account needs two-step verification. …"* | `Set up two-step verification` | Set it up on the website, then sign in to the app. |
-| *"Please update the Librarika app to sign in. Your account uses two-step verification."* | `Update the app` | Your version of the app can't ask for the code. Update it from the App Store or Google Play. |
+| *"Please update the Librarika app to sign in. Your account uses two-step verification."* | — | Your app is an older version. Close the app completely and open it again; it updates itself when it starts. If the message stays, update Librarika from the App Store or Google Play. Until then, use your library's website. |
 
 ---
 
@@ -75,7 +75,7 @@ Tap a library to open it. Use **Search libraries** if you have many.
 
 **Staff and member in the same library?** The library appears in both groups; the row you tap decides which screens you get. To switch, use `Switch Library` and tap the other row.
 
-**No libraries?** You see **No Libraries Found** (*"Your account is not associated with any library yet."*). Accept your library's invitation, or ask to join a library on librarika.com (`My Libraries` > `Join a library`), then sign in to the app again.
+**No libraries?** You see **No Libraries Found** (*"Your account is not associated with any library yet."*). Accept your library's invitation, or ask to join a library on librarika.com (`My Libraries` > `Join a library`; the app's hint says *My Account*, but on the website the link is under **My Libraries**), then sign in to the app again.
 
 ### Switch library
 
@@ -96,7 +96,8 @@ Each phone appears in **Where you are signed in** on the website with its name (
 ## Sign out
 
 * **Members:** `Account` tab > `Sign Out`, then confirm with `Sign Out`.
-* **Staff:** `Settings` tab > `Logout`, or the ⋮ menu at the top > `Logout`.
+* **Staff:** `Settings` tab > `Logout` (or ⋮ > `Logout`). The app asks *"Are you sure you want to logout?"*; tap `OK`.
+* **Before you choose a library:** `Logout` at the bottom of **Select Library**.
 
 Signing out ends the sign-in on Librarika too, and the phone stops receiving your notifications.
 
@@ -105,5 +106,7 @@ Signing out ends the sign-in on Librarika too, and the phone stops receiving you
 Sign in on the website, open your settings and, under **Where you are signed in**, click `Sign out` next to the lost phone. See [Sign out a device](sign-in-activity.md#sign-out-a-device). If the phone also had your authenticator app, see [Lost your phone?](two-step-verification.md#lost-your-phone).
 
 ## App updates
+
+Your app version is at the bottom of the member **Account** tab and the staff **Settings** tab (*Version … (Build …)*); give it to support if they ask.
 
 When a new version is required, the app shows **Update Required** (*"A new version of Librarika is available. Please update to continue using the app."*) with `Update Now`. When an update is optional, it shows **Update Available** with `Not Now` and `Update`.
