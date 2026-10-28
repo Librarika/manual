@@ -1,4 +1,4 @@
-# Hold Queue
+# Hold queue
 
 The hold queue feature allows members to place holds on items that are currently checked out or unavailable, and wait in a first-in, first-out (FIFO) queue until the item becomes available. Library staff can manage the hold queue, hold shelf, and fulfill holds through the circulation dashboard. Members can also place and manage their own holds from the catalog and member area.
 
@@ -6,7 +6,7 @@ The hold queue feature allows members to place holds on items that are currently
 
 ---
 
-## Enable Hold Queue
+## Enable hold queue
 
 To enable the hold queue feature for your library, please follow the below steps:
 
@@ -16,7 +16,7 @@ To enable the hold queue feature for your library, please follow the below steps
 * Configure the hold queue settings as described below.
 * Click on the `Save Preferences` button to save your changes.
 
-### Hold Queue Settings
+### Hold queue settings
 
 The following settings are available under the Hold Queue tab in Preferences:
 
@@ -38,11 +38,11 @@ The following settings are available under the Hold Queue tab in Preferences:
 
 ---
 
-## Hold Queue (Staff)
+## Hold queue (staff)
 
 Library staff can manage all hold-related activities from the Hold Queue section in the Circulations menu.
 
-### View Hold Queue
+### View hold queue
 
 To view and manage all holds in your library:
 
@@ -53,7 +53,7 @@ To view and manage all holds in your library:
 
 **Note:** If the hold queue feature is disabled, a warning message will be displayed with a link to the settings page.
 
-### Place Hold (Staff)
+### Place hold (staff)
 
 Staff can place holds on behalf of members. To place a hold:
 
@@ -78,7 +78,7 @@ The member will be assigned a queue position and will receive a notification if 
 * The item has no active copies.
 * The member's account is not active.
 
-### View Hold Details
+### View hold details
 
 To view the details of a specific hold:
 
@@ -86,7 +86,7 @@ To view the details of a specific hold:
 * Click on the `View` icon (eye) next to the hold you want to view.
 * The hold detail page will display all information including member details, item details, hold type, queue position, status, and dates.
 
-### Hold Actions
+### Hold actions
 
 Staff can perform the following actions on holds from the hold queue list or detail page:
 
@@ -118,7 +118,7 @@ To cancel a hold:
 
 The hold will be cancelled, and queue positions will be recalculated for remaining holds. The member will receive a cancellation notification.
 
-### Mark Ready
+### Mark ready
 
 When a copy becomes available and needs to be manually assigned to a waiting hold:
 
@@ -131,7 +131,7 @@ When a copy becomes available and needs to be manually assigned to a waiting hol
 
 ---
 
-## Hold Shelf
+## Hold shelf
 
 The hold shelf shows all holds that are in **Ready** status -- meaning the item has been set aside and is waiting for the member to pick it up.
 
@@ -151,7 +151,7 @@ To access the hold shelf:
 
 ---
 
-## Fulfill Hold (Checkout)
+## Fulfill hold (checkout)
 
 When a member comes to pick up a ready hold:
 
@@ -165,7 +165,7 @@ Alternatively, you can check out items through the regular checkout process. If 
 
 ---
 
-## Hold Demand
+## Hold demand
 
 The hold demand page helps you identify high-demand items in your collection, which is useful for collection development decisions.
 
@@ -188,11 +188,11 @@ Use this information to decide whether to purchase additional copies of high-dem
 
 ---
 
-## My Holds (Member Self-Service)
+## My holds (member self-service)
 
 Members can place and manage their own holds from the catalog and their account area.
 
-### Place Hold from Catalog
+### Place hold from catalog
 
 Members can place holds on items from the catalog detail page:
 
@@ -211,7 +211,7 @@ Additionally, if copy-level holds are enabled, a `Hold` button will appear next 
 **Note:** The `Place Hold` button is only visible when:
 
 * The hold queue feature is enabled for the library.
-* You are logged in as a member.
+* You are signed in as a member.
 * Your member type matches the allowed member type setting (All, Regular, or Privileged).
 * The item is a circulating item.
 * Title-level holds are enabled (for the title-level button).
@@ -219,7 +219,7 @@ Additionally, if copy-level holds are enabled, a `Hold` button will appear next 
 
 If available copies exist, a message will be shown indicating that a hold is not needed since copies are available.
 
-### View My Holds
+### View my holds
 
 To view your active holds:
 
@@ -237,7 +237,7 @@ To view your active holds:
 
 **Note:** My Holds only shows your active holds (Waiting, Ready, and Suspended). Fulfilled, Expired, and Cancelled holds are not displayed here.
 
-### Suspend, Activate, and Cancel Holds
+### Suspend, activate, and cancel holds
 
 From the My Holds page, members can manage their holds:
 
@@ -261,9 +261,9 @@ From the My Holds page, members can manage their holds:
 
 ---
 
-## How Hold Queue Works
+## How hold queue works
 
-### Hold Statuses
+### Hold statuses
 
 | Status | Description |
 |--------|-------------|
@@ -274,14 +274,14 @@ From the My Holds page, members can manage their holds:
 | **Cancelled** | Hold was cancelled by the member or staff. |
 | **Suspended** | Hold is temporarily paused. It maintains its queue position but is skipped during fulfillment. |
 
-### Hold Types
+### Hold types
 
 | Type | Description |
 |------|-------------|
 | **Title-level** | The member is waiting for any available copy of the item. When any copy is returned, it will be assigned to this hold. |
 | **Copy-level** | The member is waiting for a specific copy. Only that particular copy will fulfill this hold. |
 
-### Queue Positions (FIFO)
+### Queue positions (FIFO)
 
 Holds are managed using a first-in, first-out (FIFO) queue:
 
@@ -291,7 +291,7 @@ Holds are managed using a first-in, first-out (FIFO) queue:
 * Suspended holds maintain their queue position but are skipped during fulfillment.
 * A member cannot place duplicate holds on the same title.
 
-### Hold Fulfillment Flow
+### Hold fulfillment flow
 
 1. **Member or staff places a hold** -- A queue position is assigned. If **Auto-ready on placement** is enabled and a copy is currently available, the hold is immediately marked as Ready.
 2. **Item is returned (checked in)** -- The system automatically checks for waiting holds on the returned item.
@@ -300,7 +300,7 @@ Holds are managed using a first-in, first-out (FIFO) queue:
 5. **Member picks up item** -- Staff checks out the item to the member, and the hold is marked as Fulfilled.
 6. **If pickup deadline passes** -- The hold expires automatically, and the item is offered to the next member in the queue.
 
-### Fulfillment Modes
+### Fulfillment modes
 
 The system supports two fulfillment modes that control what happens when a checked-out item is returned:
 
@@ -311,7 +311,7 @@ The system supports two fulfillment modes that control what happens when a check
 
 **Note:** Earlier versions also listed a **Notify & Confirm** mode. It had no confirmation step and worked like Auto Assign. Libraries that had it selected keep working as Auto Assign.
 
-### Recall System
+### Recall system
 
 When enabled, the recall system helps speed up item availability:
 
@@ -321,7 +321,7 @@ When enabled, the recall system helps speed up item availability:
 
 **Note:** Recall is triggered only when the **first** hold is placed on a checked-out item. Subsequent holds on the same item do not trigger additional recalls.
 
-### Automatic Processing
+### Automatic processing
 
 The system runs automated background tasks to manage the hold queue:
 
@@ -347,7 +347,7 @@ Notifications are sent only to members who have a linked user account. If email 
 
 ---
 
-## Integration with Reservations
+## Integration with reservations
 
 The hold queue system works alongside the existing reservation system:
 

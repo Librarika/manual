@@ -1,4 +1,4 @@
-# Fees & Payments
+# Fees & payments
 
 Our fees and payments module allows libraries to collect fees and fines on various library activities. We tried to make this module very simple in terms of design and functionalities.
 
@@ -68,11 +68,11 @@ Please complete the following easy steps to setup your library. It should not ta
 * And you are now ready to collect payments.
 * Also you can activate the other types of fee item same as mentioned above.
 
-## Overdue Charges
+## Overdue charges
 
 System will apply / update overdue charges for currently overdue items on daily basis. Once the item is returned you can edit / adjust the applied overdue amount.
 
-## Download Transactions
+## Download transactions
 
 * You can download the transactions in a CSV file by clicking on the `Export` button.
 * Additionally, you have the option to download transactions based on transaction types. Simply select either `Debit` or `Credit` from the transaction list, then click on the `Export` button.

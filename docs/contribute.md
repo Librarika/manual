@@ -16,7 +16,7 @@ The detail markdown writing style and syntaxes are available at MkDocs's [writin
 
 ---
 
-## Submitting Pull Requests
+## Submitting pull requests
 
 Once you are happy with your changes or you are ready for some feedback, push it to your fork and send a pull request with the change summary you have made on that merge. 
 

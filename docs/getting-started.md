@@ -1,23 +1,23 @@
-# Getting Started
+# Getting started
 
 Getting started with Librarika is super easy. It only takes few minutes to start 
 a new library in **Librarika**.
 
 ---
 
-## Create New Library
+## Create new library
 
 Both new to Librarika and existing users can open a new library in Librarika platform. If you are new to the platform, please proceed to the [new user](#new-user) section for a fresh start. 
 
 For existing users, please follow [existing user](#existing-user) section first before you start a new library. 
 
-### Existing User
+### Existing user
 
 * Follow the same instruction as the [new user](#new-user) section below, just enter your account email address.
 * You will not be asked to enter password information as you are an existing user.
 * And, if your account is already verified, your new library will be activated automatically. 
 
-### New User
+### New user
 
 Create a new library for the first time.
 
@@ -39,7 +39,7 @@ Create a new library for the first time.
 		A verification email will be sent to this email address.
 
 	*	**Password (Admin):**
-	Enter a new password for your admin login and confirm the password. Please remember this password, as you will need it to log into your library. Use at least 15 characters; a few unrelated words make a strong password that is easy to remember. See [Your password](passwords.md).
+	Enter a new password for your admin login and confirm the password. Please remember this password, as you will need it to sign in to your library. Use at least 15 characters; a few unrelated words make a strong password that is easy to remember. See [Your password](passwords.md).
 
 * Select a library type and country from the dropdown list.
 * Once, you are done, please click on the `I agree, please create my library` button.
@@ -47,7 +47,7 @@ Create a new library for the first time.
 
 	![Confirmation page](img/activate-library-page.png)
 
-#### Activate Your Library
+#### Activate your library
 
 Now you need to activate your library before you can start entering books. Open the activation email from Librarika and click the activation link. A page **Activate your library** opens (*"… is ready, it just needs activating."*). Click `Activate my library`.
 
@@ -67,17 +67,17 @@ Email communication is very important for a library admin, so please make sure y
 Otherwise, you will miss important emails regarding your library.
 
 
-#### Multiple Libraries
+#### Multiple libraries
 
 It is ok to create multiple libraries under the same Librarika account.
 
 ---
 
-## Join a Library
+## Join a library
 
 You can join a library in two different ways.
 
-* A library staff may invite you to join their library as a member (patron).
+* A library staff may invite you to join their library as a member.
 * Or, you can sign up for a Librarika account on your own. Then submit a member access request to a specific library of your choice.
 
 Both methods are covered in this section.
@@ -87,7 +87,7 @@ Both methods are covered in this section.
 This is the simplest way to join a library. Open the invitation email in your mail box. 
 
 
-* It is very important that you first log out of all Librarika libraries (if already logged in) before you proceed.
+* It is very important that you first sign out of all Librarika libraries (if already signed in) before you proceed.
 * Open the invitaion email and click on the **activation link** from the email.
 * The Join Library form will be opened in your browser.
 * For existing Librarika user:
@@ -95,7 +95,7 @@ This is the simplest way to join a library. Open the invitation email in your ma
 
 		![Join library form](img/join-library-form.png)
 
-	* Enter login email address and password and click on Login.
+	* Enter login email address and password and click `Login`.
 	* Then, click on the `Yes, please join me in.` button. You will then be joined to the library.
 
 		![Join library confirmation page](img/join-library-confirm-joining.png)
@@ -107,7 +107,7 @@ This is the simplest way to join a library. Open the invitation email in your ma
 
 	* Enter _name_, _email address_ and _password_ for a new account.
 	* The password is a **new password for Librarika**, not your email account's password. It needs at least 15 characters (see [What makes a good password](passwords.md#what-makes-a-good-password)). If the library uses SSO, don't use your organisation's password here either: see [Your Librarika password and your organisation's password](signing-in.md#your-librarika-password-and-your-organisations-password).
-	* Click on the `I agree, please create my account` button. A new account will be created and you will be logged into it automatically.
+	* Click on the `I agree, please create my account` button. A new account will be created and you will be signed in to it automatically.
 	* Now click on `Yes, please join me in.` button. You will then be joined to the library.
 
 		![Join library confirmation page](img/join-library-confirm-joining.png)
@@ -138,7 +138,7 @@ Not yet. Google and Apple sign you in to an existing Librarika account with the 
 
 **I was invited by a library. Do I need a new account?**
 
-No, if you already have a Librarika account: choose `No, I already have an account in Librarika` on the join form and log in. See [Join from invitation email](#a-join-from-invitation-email).
+No, if you already have a Librarika account: choose `No, I already have an account in Librarika` on the join form and sign in. See [Join from invitation email](#a-join-from-invitation-email).
 
 **Which password do I choose when I join?**
 

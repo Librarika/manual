@@ -11,7 +11,7 @@ To access this section, please follow the below steps:
 
 * Here you can find all the reports that are available on our system based on different criteria.
 
-## Catalog Reports
+## Catalog reports
 
 Catalog reports are mainly based on your library catalog items and their related copies.
 
@@ -55,7 +55,7 @@ Catalog reports are mainly based on your library catalog items and their related
 * Finally you can export all the copies in CSV format if you click on the Export button below the `Export all copies` heading.
 
 
-## Circulation Reports
+## Circulation reports
 
 Circulation reports are mainly based on those items and copies which have been checked out from your library catalog.
 
@@ -82,7 +82,7 @@ Circulation reports are mainly based on those items and copies which have been c
 * Next the report is on those copies which have highest number of checkouts. You can view this by clicking on the view report button below the `Mostly Issued Copies` heading.
 * Finally the `Least Circulated Copies` from which you can view report on those copies which have lowest number of checkouts.
 
-## Member Reports
+## Member reports
 
 Member Reports are solely designated for all the members of your library. 
 
@@ -100,7 +100,7 @@ Member Reports are solely designated for all the members of your library.
 * `Mostly Circulated Members` lists the members with the most circulation history. You can filter it, for example by booking status, and export it to CSV.
 * At last you can export all the members of your library into a CSV file if you click on the `Export` button.
 
-## Overdue Reports
+## Overdue reports
 
 Overdue Reports are based on the overdue items and copies of your library catalog.
 

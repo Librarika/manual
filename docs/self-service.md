@@ -14,7 +14,7 @@ Librarika offers two approaches for self-checkout: **Online Self-Service** and *
 
 ---
 
-## Online Self-Service
+## Online self-service
 
 Online self-service allows your library members to check out and return items directly from their browser without any staff involvement. Members simply log in, find the item they want, and click the checkout button.
 
@@ -25,7 +25,7 @@ Before members can use self-service, make sure the following are in place:
 * **Member login access enabled** -- Each member must have login access turned on. See [Enable Member Access](members.md#enable-member-access) for instructions.
 * **Self-service preferences configured** -- The self-service settings must be enabled in your library preferences (see below).
 
-### Enable Self-Service for Your Library
+### Enable self-service for your library
 
 To enable self-service checkout and check-in for your library members, follow these steps:
 
@@ -46,22 +46,22 @@ To enable self-service checkout and check-in for your library members, follow th
 
 * Click the `Save Preferences` button to save your changes.
 
-### How Members Check Out Items
+### How members check out items
 
 Once self-service checkout is enabled, members can check out items by following these steps:
 
-1. Log in to the library using their member credentials.
+1. Sign in to the library using their member credentials.
 2. Search for the item they want to borrow using the catalog search.
 3. Go to the item details page.
 4. Click the `Checkout` button on the available copy.
 5. Select a return date (within the allowed checkout limit) and confirm the checkout.
 6. The item will be checked out to the member immediately.
 
-### How Members Return Items
+### How members return items
 
 Members can return items by following these steps:
 
-1. Log in to the library.
+1. Sign in to the library.
 2. Click on `My Account` from the top menu.
 3. Find the item in the active bookings list.
 4. Click the `Check-in` button next to the item.
@@ -69,7 +69,7 @@ Members can return items by following these steps:
 
 ---
 
-## Kiosk-Based Self-Service (SIP2)
+## Kiosk-based self-service (SIP2)
 
 For libraries that need physical self-checkout stations with barcode scanners, Librarika supports the industry-standard **SIP2 protocol**. SIP2 requires a paid plan and a separate SIP2 license purchased on a per-terminal basis.
 
@@ -93,7 +93,7 @@ No. SIP2 requires a paid plan and a separate per-terminal license. See [SIP2 Int
 
 **Can members check out items from their phone?**
 
-Yes. With online self-service enabled, members can log in and check out items from any device with a web browser, including smartphones and tablets.
+Yes. With online self-service enabled, members can sign in and check out items from any device with a web browser, including smartphones and tablets.
 
 **Why can't a member see the `Checkout` button?**
 

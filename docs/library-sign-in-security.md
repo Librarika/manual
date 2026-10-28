@@ -4,7 +4,7 @@
 
 **What you can do here:** decide how staff and members of your library sign in: require two-step verification, set minimum password lengths, and ask everyone for a new password.
 
-## Open the Sign-in security page
+## Open the sign-in security page
 
 Library administrators can set how staff and members of their library sign in. Go to **Preferences** and click `Sign-in security`.
 

@@ -1,4 +1,4 @@
-# Batch Update
+# Batch update
 
 Batch update method is used to edit mass amount of data at once and batch update them. For now batch update is only applicable to the catalog item copies and members of the library. Only CSV files are allowed for batch updating. Also, batch update feature is only availabe to paid libraries.
 
@@ -16,7 +16,7 @@ To access this section, please follow the below steps:
 
 * Now you can select either the catalog copies or members and update their  information according to your need.
 
-## Update Catalog Copies
+## Update catalog copies
 
 You can use the batch update method to update all the catalog copies information of your library. It is useful to those who wants to update multiple fields at a time like accession no, copy no, branch, location and many more altogether.
 
@@ -34,7 +34,7 @@ To do so, please follow the below steps:
 * One file can hold up to 2,000 copies.
 * After editing necessary information please upload the catalog copies CSV file into your library. You will see that your catalog copies information has been updated successfully.
 
-## Update Members
+## Update members
 
 Using the batch update method you can update your library members information in bulk. Which means you can update multiple fields data at once like member no, name, email, phone etc. You can edit those data in your CSV file and then upload them into your library.
 

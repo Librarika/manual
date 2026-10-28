@@ -4,7 +4,7 @@ The circulations section contains all the information regarding your check-outs,
 
 As a generic term, we also call this as "Media bookings" section.
 
-## List Check-outs
+## List check-outs
 
 You can access the list of all circulations related entries in this section under different status filters such as Pending, Reserved, Issued, Overdue, Cancelled, Returned etc. 
 
@@ -21,7 +21,7 @@ You can access the list of all circulations related entries in this section unde
 
 	![Circulations identifiers](img/circulation-identifiers.png)
 
-## Check-out Item
+## Check-out item
 
 To check-out or loan an item to a member of your library, please follow the below steps:
 
@@ -44,7 +44,7 @@ To check-out or loan an item to a member of your library, please follow the belo
 
 * Click on the `Submit` button when you are done.
 
-## Check-in Item
+## Check-in item
 
 To check-in or receive an item from a member, please follow the below steps:
 
@@ -62,7 +62,7 @@ To check-in or receive an item from a member, please follow the below steps:
 * Enter any remark note in the remark input box, if you want to.
 * Click on the `Submit` button when you are done.
 
-## Reserve Item
+## Reserve item
 
 To reserve an item on behalf of a member, please follow the below steps:
 
@@ -78,7 +78,7 @@ To reserve an item on behalf of a member, please follow the below steps:
 * Select status as **Reserved**.
 * Click on the `Submit` button when you are done.
 
-## Change Return Date
+## Change return date
 
 You can update / extend return date of any circulation record specially that has already been issued but not yet returned. 
 
@@ -94,7 +94,7 @@ To update or extend an item for a member, please follow the below steps:
 * Enter any remark note in the remark input box, if you want to.
 * Click on the `Submit` button when you are done.
 
-## Edit Check-out
+## Edit check-out
 
 You can edit any existing circulation entry, change return date, status etc from the circulations page.
 
@@ -112,7 +112,7 @@ To edit a circulation, please follow the below steps:
 * Edit or update necessary information regarding the circulation.
 * Click on the `Submit` button when you are done.
 
-## Extra Functionality
+## Extra functionality
 
 If you have larger amount of circulation entries then you can use our filtering option so that you can easily find any entry and perform all the circulation related activities.
 
@@ -129,7 +129,7 @@ To use this functionality, please follow the below steps:
 
 * Now you can perform any action regarding your needs for circulations.
 
-## Hold Queue
+## Hold queue
 
 The hold queue allows members to place holds on items that are currently checked out and wait in a queue until the item becomes available. Staff can manage holds, view the hold shelf, and fulfill holds from the dashboard.
 
@@ -137,7 +137,7 @@ For detailed instructions, see the [Hold Queue](hold-queue.md) page.
 
 ---
 
-## Circulation Issue
+## Circulation issue
 
 Keep in mind that whenever checking out books you can not able to scroll past the 10th book even though you have several more copies of the same book in your library. Because **there is a cap limit of 10 items in auto complete dialogue box**.
 

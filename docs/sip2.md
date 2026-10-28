@@ -1,4 +1,4 @@
-# SIP2 Integration
+# SIP2 integration
 
 For libraries that need physical self-checkout stations -- such as school libraries, public libraries, or corporate libraries with walk-in access -- Librarika supports the **SIP2 protocol** for connecting self-checkout kiosks and other automation devices.
 
@@ -22,7 +22,7 @@ To use SIP2-based self-checkout, you will need:
 
 SIP2 is licensed per terminal. Each terminal that connects to Librarika needs its own licence, which Librarika links to the terminal's staff account. A licence runs for a set period (usually a year); after its end date the terminal keeps working only for a short grace period. A licence can also list the IP addresses the terminal may connect from. Contact Librarika support for pricing and to add, move or renew a terminal.
 
-## Connection Details
+## Connection details
 
 * **Protocol**: SIP2 over TLS (encrypted)
 * **Port**: 6009
@@ -31,7 +31,7 @@ SIP2 is licensed per terminal. Each terminal that connects to Librarika needs it
 * **Allowed IPs**: if the licence lists IP addresses, the terminal must connect from one of them.
 * **Activation**: SIP2 terminals are set up by Librarika staff. Please contact support to get your SIP2 terminal set up.
 
-## Setup Steps
+## Setup steps
 
 1. **Create a staff account** in your library for each terminal (see [Users](users.md)).
 2. **Contact Librarika support** to license and activate your terminals. Tell them the number of terminals, each terminal's account, and the IP addresses the terminals connect from.

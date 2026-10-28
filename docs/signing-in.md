@@ -150,7 +150,7 @@ The app signs you in with the same account and the same choices: password, Googl
 
 **Why does Librarika say no account uses my Google or Apple email?**
 
-Google and Apple sign you in only to the Librarika account with the same email address. If your Librarika account uses another email, sign in with your password, or ask your library which email your account uses. If you have no Librarika account yet, use `Sign up with Google` or `Sign up with Apple` on the sign-up page.
+Google and Apple sign you in only to the Librarika account with the same email address. If your Librarika account uses another email, sign in with your password, or ask your library which email your account uses. If you have no Librarika account yet, click `Create one` on the login page and use `Continue with Google` or `Continue with Apple` (see [Create an account with Google or Apple](#create-an-account-with-google-or-apple)).
 
 **Can I use my school or work password in Librarika?**
 

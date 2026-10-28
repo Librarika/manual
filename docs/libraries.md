@@ -2,7 +2,7 @@
 
 This section explains how to manage your library master data and other related information.
 
-## Create Library
+## Create library
 
 Please see the [create new library](getting-started.md#create-new-library) section in order to start a new free library. 
 
@@ -10,9 +10,9 @@ If you want to subscribe to a Premium Plan, please create a free library first a
 
 ---
 
-## Change Library Information
+## Change library information
 
-### Change / Update library Info
+### Change / update library info
 
 Please update your library information carefully and make sure that they are up to date.
 
@@ -37,7 +37,7 @@ Please update your library information carefully and make sure that they are up 
 
 * Click on the `Submit` button to save your changes.
 
-### Change / Update organization information
+### Change / update organization information
 
 Please update your organization information carefully and make sure that they are up to date. The email address and phone number that you enter in this page will not be available in public.
 
@@ -56,7 +56,7 @@ Please update your organization information carefully and make sure that they ar
 
 ---
 
-## Upload Library Logo
+## Upload library logo
 
 Logo is the single most important thing that gives your library an official identity. Please update your library logo as soon as possible to make it looks professional. For personal library, it is ok to keep the default Librarika logo.
 
@@ -77,7 +77,7 @@ We support PNG, JPG and GIF files from 200x200 up to 800x800 pixels. Larger imag
 
 ---
 
-## Change Preferences
+## Change preferences
 
 The preferences section is the single most important settings page for your library. Here you can change the followings:
 
@@ -157,19 +157,19 @@ The `Sign-in security` button at the top of the Preferences page opens your libr
 	* `Send review item reminder.` -- members get an email asking for a review when they return an item. It is on by default; only paid plans can turn it off.
 	* **Here the most important field is the `Notified Librarians` where you can set maximum of five librarians who will receive notification reminders if any member joined or requested a book**.
 
-* If your library has SIP2 terminals, a `SIP2` tab lists them with their allowed IP addresses, licence end date, status and when each was last used. To add, move or renew a terminal, contact Librarika support. See [SIP2 Integration](sip2.md).
+* If your library has SIP2 terminals, a `SIP2` tab lists them with their allowed IP addresses, licence end date, status and when each was last used. To add, move or renew a terminal, contact Librarika support. See [SIP2 integration](sip2.md).
 
 * If you click on the `SSO` tab then you can enable the SSO login for your library.
 
 	![Library preference form](img/library-preference-sso.png)
 
-	* If you enable the `Enable SSO` then your members & users can login to your library using SAML2.
+	* If you enable the `Enable SSO` then your members & users can sign in to your library using SAML2.
 	* The `ACS URL` & `ACS Entity Id` fields are provided by Librarika. You need to copy and paste these URL into the SP Configuration section of your SAML provider.
 	* From the `SAML Provider` list you need to choose your SAML provider then provide the `IdP Entity`, `IdP SSO Service URL` & `IdP x509cert` accordingly. You will get these values from the `METADATA` of your SAML provider.
-	* `SSO only on the website` -- members and staff can sign in to your library's website with SSO only.
+	* `SSO only on the website` -- members and staff can sign in to your library's website with SSO only. You can switch it on only while signed in with your library's SSO.
 	* `SSO only on the mobile app` -- in the Librarika app, members and staff can open your library only after signing in with your library's SSO. App sign-ins with a password, Google or Apple are refused for your library.
 
-	For detailed setup instructions, supported providers, and troubleshooting, see the [SSO / SAML Integration](sso-saml.md) page.
+	For detailed setup instructions, supported providers, and troubleshooting, see [Single sign-on (SSO with SAML)](sso-saml.md).
 
 * If you click on the `Appearance` tab then it will be displayed as below.
 
@@ -195,11 +195,11 @@ Library administrators can decide how staff and members of the library sign in: 
 * Optionally set **Ask for a new password if it was set before** to a date (`YYYY-MM-DD`).
 * Click `Save`.
 
-These settings can be changed on the **Gold**, **Platinum** and **Unlimited** plans. On other plans they are shown but can't be changed, and Librarika's own settings apply. For every option, what people see and how to help someone who is locked out, see [For library administrators](library-sign-in-security.md).
+These settings can be changed on the **Gold**, **Platinum**, **Diamond**, **Enterprise** and **Unlimited** plans. On other plans they are shown but can't be changed, and Librarika's own settings apply; Librarika support can still set the new-password date for you. For every option and what people see, see [Library sign-in security](library-sign-in-security.md); to help someone who is locked out, see [Helping people who can't sign in](helping-people-sign-in.md).
 
 ---
 
-## Create Library Branch
+## Create library branch
 
 To create a new library branch or update the information of your previous library branches please follow the below steps.
 
@@ -220,13 +220,13 @@ To create a new library branch or update the information of your previous librar
 
 ---
 
-## Upgrade to Premium Plan
+## Upgrade to premium plan
 
 You can upgrade your library to a premium plan anytime you want from the dashboard. It takes only just few minutes. The upgradation process is same for both new and existing libraries.
 
 To upgrade, please follow the below steps:
 
-* Login in to your library dashboard.
+* Sign in to your library dashboard.
 
 	![Dashboard user menu](img/dashboard-user-menu.png)
 
@@ -246,7 +246,7 @@ To upgrade, please follow the below steps:
 
 ---
 
-### Change or Update Payment / Billing Information
+### Change or update payment / billing information
 
 For premium libraries, the payment method is charged automatically when the annual subscription expires. You may want to change / update payment information so that next renewal takes place without any service disruption.
 
@@ -262,14 +262,14 @@ You can change the payment information anytime. Please follow the below steps:
 * When your current subscription expires, the system will automatically charge the credit card listed in your order profile and then generate an invoice.
 
 
-## Cancel Subscription
+## Cancel subscription
 
 * Also, you can cancel the subscription using the same process mentioned above.
 * Please note that, once cancelled, no future payment will be made to this order.
 
 ---
 
-## Delete Library
+## Delete library
 
 You can remove your library anytime from the dashboard. All you need is the _Library Admin_ permission in order to delete your library. When you delete a library, the library information and your own user account, catalogs, checkouts, members information and other related information will be removed.
 
@@ -297,7 +297,7 @@ Note: If you are on any paid plan (Premium Plan or E-Book Plan), please let us k
 
 **How do I make our catalog visible to members only?**
 
-Tick **Private** in the `Library Info` tab and click `Submit`. Visitors who are not logged in then see a "This OPAC is private!" page, while logged-in members and staff can still use the catalog.
+Tick **Private** in the `Library Info` tab and click `Submit`. Visitors who are not signed in then see a "This OPAC is private!" page, while signed-in members and staff can still use the catalog.
 
 **Why won't my logo upload?**
 
@@ -327,15 +327,4 @@ A branch that still has catalog copies assigned to it cannot be deleted. Move th
 
 No. Removing a library is permanent, and you cannot create a new library with the same nickname or email address afterwards. Login accounts of your members and staff stay active because they belong to the Librarika platform, not to your library.
 
-**Can we require two-step verification for our staff?**
-
-Yes, on the Gold plan and higher. Go to **Preferences** > `Sign-in security` and set **Who needs it** to `Required for staff`. See [Sign-in security](#sign-in-security).
-
-**What does "Not enforced yet" mean on the Sign-in security page?**
-
-Librarika is still rolling out that setting. You can save it now; until it is enforced, sign-ins are only recorded where it would apply and nobody is stopped from signing in.
-
-**We think our passwords may have leaked. Can we make everyone choose a new one?**
-
-Yes. On the Gold plan and higher, set **Ask for a new password if it was set before** to today's date on the Sign-in security page. On any other plan, ask [Librarika support](https://librarika.com/spages/contact) to set the date for your library.
-
+For sign-in questions (requiring two-step verification, "Not enforced yet", asking everyone for a new password), see [Library sign-in security](library-sign-in-security.md).

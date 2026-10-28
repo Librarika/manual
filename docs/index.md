@@ -1,4 +1,4 @@
-# Librarika Manual
+# Librarika manual
 
 [Librarika](https://librarika.com) is a cloud-based Integrated Library System (ILS) made by Raynux. Libraries use it in a web browser to manage their catalog, members, loans, holds, fines and reports, and to publish an online public catalog (OPAC). Librarika is hosted at [librarika.com](https://librarika.com), so there is nothing to install.
 

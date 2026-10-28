@@ -1,16 +1,16 @@
-# Members (or Patrons)
+# Members
 
-The members section is where you enlist all your members (or patrons) of your library. Only an unique _member no_ is necessary for a member to check out/in books from your library.
+The members section lists all the members of your library (some libraries call them *patrons*). Only an unique _member no_ is necessary for a member to check out/in books from your library.
 
 You can provide login access to a member if you wish but it is not a mandatory requirement from system's perspective. However, if you enable login access, system will ask for an unique email address for the member.
 
-### Booking Quota
+### Booking quota
 
 A booking quota is the total limit up to which a member can reqeust / check-out / reserve books (or items) at a given point of time. By default, a global variable for the booking quota is available under `Manage -> Preferences` section, but the global quota will be overridden with the individual booking quota if set specifically for a member.
 
 You can set individual booking quota for each member using the Add / Edit member method mentioned below. Again, if a individual quota not set, then global quota will be enforced.
 
-### Add New Member
+### Add new member
 
 To add a member to your library, please follow the below steps:
 
@@ -28,7 +28,7 @@ To add a member to your library, please follow the below steps:
 * Click on the `Submit` button when you are done
 * A new member record will be created.
 
-### Edit Existing Member
+### Edit existing member
 
 To edit an existing member in your library, please follow the below steps:
 
@@ -47,11 +47,11 @@ To edit an existing member in your library, please follow the below steps:
 * Your changes will be saved.
 
 
-### Import Members
+### Import members
 
 You can perform bulk import of members to your library using our bulk import method. Please read our [Import Members][member_bulk_import] instruction page for more details on how to proceed.
 
-### Member Related Bookings
+### Member related bookings
 
 From members section you can find all the related circulations of your library members. For example all the books a member has borrowed, whether they still have it or have returned it etc. By default you can see only the active bookings of a member but you can see other bookings also. However, you can also export them into a CSV file.
 
@@ -61,9 +61,9 @@ From members section you can find all the related circulations of your library m
 	![Member related bookings](img/member-profile-related-bookings.png)
 
 
-### Member Area Access
+### Member Area access
 
-Librarika has a member only access area for the members (or patrons) of a library. If access is granted, member can login to the library using their credential and access the member area.
+Librarika has a member only access area for the members of a library. If access is granted, member can sign in to the library using their credential and access the member area.
 
 In member area they can access following informations:
 
@@ -76,7 +76,7 @@ In member area they can access following informations:
 
 Also, they can perform some activities that is otherwise not possible, such as: request item, write review, access catalogs in a private library.
 
-#### Enable Member Access
+#### Enable member access
 
 Enabling member access is very easy. You can do it in following way:
 
@@ -89,7 +89,7 @@ Enabling member access is very easy. You can do it in following way:
 
 Alternatively, a member can create an account in *Librarika* platform indenendently and submit `Member Access Request` to join your library. In this case, go to the [Member Requests](#member-requests) section as mentioned below and accept or reject the reqeust upon review.
 
-#### Disable Member Access
+#### Disable member access
 
 Same way you can disable member login access from the edit member page. 
 
@@ -100,7 +100,7 @@ Same way you can disable member login access from the edit member page.
 	* If unchecked, you can enable login access again with a new invitation email. 
 * Click on the `Submit` button when you are done.
 
-### Last Active
+### Last active
 
 The **Last active** column on the Members list shows when each member last signed in to your library or opened it in the Librarika app. It helps you see who still uses the library.
 
@@ -110,7 +110,7 @@ The **Last active** column on the Members list shows when each member last signe
 * Only the member's own sign-ins count. A visit by Librarika support never does.
 * You can't see a member's sign-in history, devices or addresses. Members see their own history in their [Sign-in activity](sign-in-activity.md#sign-in-activity).
 
-### Delete Member
+### Delete member
 
 To delete a member from your library, please follow the below steps:
 
@@ -130,11 +130,11 @@ Related:
 
 ---
 
-## Member Groups
+## Member groups
 
 Member groups section lets you add / edit / delete member group information such as Grade / Class to your library. Once a new member group is created, you can then assign member's to that group from the member edit page.
 
-Member group provides the flexibility to bulk edit / delete the belonging members (or patrons) using the bulk actions method.
+Member group provides the flexibility to bulk edit / delete the belonging members using the bulk actions method.
 
 To access Member Groups:
 
@@ -144,7 +144,7 @@ To access Member Groups:
 
 ---
 
-## Member Requests
+## Member requests
 
 Member requests section is where you will see all pending member requests for your library. When someone submit a member access request, it will appear here based on your library policy.
 
@@ -155,7 +155,7 @@ To access Member Requests:
 * Please go to the `Dashboard -> Circulations -> Members` section.
 * Click on the `Member Requests` button on top of the section.
 
-### Members Loan / Reservation Receipt
+### Members loan / reservation receipt
 
 Here you can find the receipt of those items which has been borrowed by your library members. Also you can find the item reservation receipt of your library members. 
 
@@ -189,7 +189,7 @@ To do so, please follow the below steps:
 
 	* You can print the receipt if you click on the `Print Receipt` button.
 
-## Members Payment Statement
+## Members payment statement
 
 In this section you can find the account statement of any particular member. Also from this section you can apply various charges and payment to any specific member.
 
@@ -244,7 +244,7 @@ No. Library staff see only the last active time. Each member sees their own full
 
 **A member can't sign in. What should I check?**
 
-Check that **Member Area Access** is enabled for them (see [Enable Member Access](#enable-member-access)) and that they accepted the invitation. If your library uses SSO, also see [SSO / SAML](sso-saml.md).
+Check that **Member Area Access** is enabled for them (see [Enable Member Access](#enable-member-access)) and that they accepted the invitation. If your library uses SSO, also see [Single sign-on](sso-saml.md).
 
 **Can a member use Google or Apple to sign in?**
 

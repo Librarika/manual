@@ -12,7 +12,7 @@ Our simplified cataloging interface enables novice user or people with very limi
 
 Contains non-repeating fields such as title, ISBN, ISBN13, description, abstract, publisher, authors, cover photos etc.
 
-##### Media Copy entity
+##### Media copy entity
 
 Contains uniquely identifiable data such as accession number, copy number, location, branch as well as some other information related to the copy.
 
@@ -49,7 +49,7 @@ You can access all your catalog items along with their associated copy's informa
 
 * Here if you click on the `Identifiers` column then you can sort the catalog items using different types of identifier like isbn, isbn13, issn, asin and more.
 
-### Smart Add
+### Smart add
 
 Smart add method lets you easily add book's information from the Internet. All you need is the ISBN number to catalog a new book. 
 
@@ -75,7 +75,7 @@ Related information:
 * An associated `Media copy` record will also be created automatically. You are free to make any changes to the newly created copy record as you feel necessary.
 * Though `Smart Add` gets book information from various sources, there is no guarantee that it will get every book information from the Internet even if they are available.
 
-### Manual Add
+### Manual add
 
 You can add item using our `Manual Add` method. This method is suitable when you don't find book using the "Smart Add" method.
 
@@ -154,7 +154,7 @@ Thesis is the most important or foundational idea of an argument, presentation, 
 * Click on the `Submit` button when you are done.
 
 
-### Bulk Import
+### Bulk import
 
 Librarika support bulk import of catalog items in CSV formats.
 
@@ -165,7 +165,7 @@ Librarika support bulk import of catalog items in CSV formats.
 * Use google sheets to avoid UTF-8 encoding issue with Microsoft Excel. [Optional] 
 * Download the final CSV file directly from google docs using `File -> Download as -> Comma Separated Values (.csv)` to avoid issues. [Optional] 
 
-#### b. Check List
+#### b. Check list
 
 Please make sure followings before you go ahead with importing your data:
 
@@ -178,7 +178,7 @@ Please make sure followings before you go ahead with importing your data:
 * As title and type fields are required so you must have to provide them. 
 * Books with multiple copies have sequential copy number starting from 1.
 
-#### c. Import Items
+#### c. Import items
 
 1. Go to `Dashboard -> Catalogs -> Catalog Items` section.
 2. Click on `Import Items` button.
@@ -191,7 +191,7 @@ Please make sure followings before you go ahead with importing your data:
 
 Note: When you enter multiple copies of the same book, they will be added a copy under the same title, as a result you will see actual title counts in your catalog smaller than the number of records you have uploaded from the CSV file.
 
-### Edit Media
+### Edit media
 
 You can edit media information from the `Catalog Items` page.
 
@@ -208,7 +208,7 @@ You can edit media information from the `Catalog Items` page.
 * Do make necessary changes to the media entity.
 * Click on the `Submit` button when you are done and your changes will be saved.
 
-### Delete Media
+### Delete media
 
 You can delete a title from your catalog. Deleting a title also deletes all of its copies, and its circulation records are marked as `Deleted`. So, please be careful when you delete a title entry from your library.
 
@@ -227,11 +227,11 @@ If your account is limited to some branches, you can delete a title only when al
 
 ---
 
-## Media Copies
+## Media copies
 
 Media copy record contains information about each individual item in a library catalog. The information includes accession number, branch, copy number, location, included materials, binding etc as they may vary among copies of the same title.
 
-### Add Copy
+### Add copy
 
 To add a new copy to an existing media item, please follow the below steps: 
 
@@ -250,7 +250,7 @@ To add a new copy to an existing media item, please follow the below steps:
 * Click on the `Submit` button when you are done
 * A new copy record will be created.
 
-### Add Multiple Copies
+### Add multiple copies
 
 To add multiple copies at once to an existing media item, please follow the below steps: 
 
@@ -274,7 +274,7 @@ To add multiple copies at once to an existing media item, please follow the belo
 * Click on the `Submit` button when you are done
 * All your new copies record will be created.
 
-### Edit Copy
+### Edit copy
 
 You can edit media copy information, change accession number, change branch, enable / disable circulation, published and active status flags, etc for a specific copy from the `Catalog Items` page. 
 
@@ -295,7 +295,7 @@ You can edit media copy information, change accession number, change branch, ena
 * Do make necessary changes.
 * Click on the `Submit` button when you are done and your changes will be saved.
 
-### Change Accession Number
+### Change accession number
 
 To change accession number, please follow the instructions in the **Edit Copy** section mentioned above. Please remember that, accession number must be unique among all copies of your library. If you plan to use barcode labels, it is better to have a larger 6 to 8 digits long accession number for better scanning performance.
 
@@ -368,7 +368,7 @@ To use this section, please follow the below steps:
 * Click on the `Submit` button when you are done.
 * A new author record will be created.
 
-### Edit Author
+### Edit author
 
 You can edit an author information from `Authors` section. 
 
@@ -382,7 +382,7 @@ You can edit an author information from `Authors` section.
 * Do make necessary changes to the author entity.
 * Click on the `Submit` button when you are done and your changes will be saved.
 
-### Delete Author
+### Delete author
 
 You can delete an author from your library catalog in two ways. Either you can delete it from the [Authors](#authors) section where you can see a delete icon on the next to that author which you want to delete. Or, you can go to the [Edit Author](#edit-author) section and the edit author form will be displayed with a button named `Delete` on the top of the section. Click on it and confirm your delete action. 
 
@@ -408,7 +408,7 @@ To use this section, please follow the below steps:
 * Click on the `Submit` button when you are done.
 * A new publisher record will be created. 
 
-### Edit Publisher
+### Edit publisher
 
 You can edit publisher information from `Publishers` section. 
 
@@ -422,7 +422,7 @@ You can edit publisher information from `Publishers` section.
 * Do make necessary changes to the publisher entity.
 * Click on the `Submit` button when you are done and your changes will be saved.
 
-### Delete Publisher
+### Delete publisher
 
 You can delete a publisher from your library catalog in two ways. Either you can delete it from the [Publishers](#publishers) section where you can see a delete icon on the next to that publisher which you want to delete. Or, you can go to the [Edit Publisher](#edit-publisher) section and the edit publisher form will be displayed with a button named `Delete` on the top of the section. Click on it and confirm your delete action. 
 
@@ -449,7 +449,7 @@ To use this section, please follow the below steps:
 * Click on the `Submit` button when you are done.
 * A new category record will be created.
 
-### Edit Category
+### Edit category
 
 You can edit category information from `Categories` section. 
 
@@ -463,7 +463,7 @@ You can edit category information from `Categories` section.
 * Do make necessary changes to the category entity.
 * Click on the `Submit` button when you are done and your changes will be saved.
 
-### Delete Category
+### Delete category
 
 You can delete a category from your library catalog in two ways. Either you can delete it from the [Categories](#categories) section where you can see a delete icon on the next to that category which you want to delete. Or, you can go to the [Edit Category](#edit-category) section and in the edit category page you can see a `Delete` button on the top of this page. Click on it and confirm your delete action.
 
@@ -485,7 +485,7 @@ To use this section, please follow the below steps:
 	![Catalogs view tag form](img/catalogs-view-tag-form.png)
 
 
-### Edit Tag
+### Edit tag
 
 You can edit tag information from `Tags` section. 
 
@@ -499,7 +499,7 @@ You can edit tag information from `Tags` section.
 * Do make necessary changes to the tag entity.
 * Click on the `Submit` button when you are done and your changes will be saved.
 
-### Delete Tag
+### Delete tag
 
 You can delete a tag that has no catalog items. Click the `Delete` icon on the right of that tag in the `Tags` section and confirm. A tag that is still used by catalog items cannot be deleted: first remove it from each item in the [Edit Media](#edit-media) section (remove it from the Tags field and click the submit button), then delete the tag.
 

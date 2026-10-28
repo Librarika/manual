@@ -2,14 +2,14 @@
 
 Member area is a special section for library members only, where they can access their own activity with the library. This section is not available to any library staff.
 
-## My Bookings
+## My bookings
 
 My bookings section will list all of your currently active bookings along with their due date and status.
 
 
 To view your active bookings, please follow the below steps:
 
-* Please login to your library.
+* Sign in to your library.
 * Click on `My Account` menu from the top.
 
 	![Member area main menu](img/member-area-main-menu.png)
@@ -20,13 +20,13 @@ To view your active bookings, please follow the below steps:
 
 * You can now take relevant actions based on the status of each booking.
 
-## Booking History
+## Booking history
 
 Booking history will provide you all the history of the bookings that you have viewed.
 
 To view your history of bookings, please follow the below steps:
 
-* You have to login first. 
+* Sign in first. 
 * Click on `My Account` menu from the top.
 
     ![Member area main menu](img/member-area-main-menu.png)
@@ -41,13 +41,13 @@ To view your history of bookings, please follow the below steps:
 
 * Now you can view all the history of your actions time to time.
   
-## My Reviews
+## My reviews
 
 My reviews is the section that facilitate all the reviews on each of your library books.
 
 If you want to see all the reviews then you have to follow the below steps:
 
-* At first login to your library and go to my account menu like before.
+* First, sign in to your library and go to my account menu like before.
 * In `My Account` section you can see the button `My Reviews` like below.
 
     ![Member area my reviews](img/member-area-my-reviews.png)
@@ -59,7 +59,7 @@ If you want to see all the reviews then you have to follow the below steps:
 * Now you can view all those books that have been reviewed so far.
 * You can also see the details of the books by clicking on its title and also view the reviews written by other people.
 
-## Recently Viewed
+## Recently viewed
 
 Recently viewed section will show you all those books that you have been viewed recently.
 
@@ -71,7 +71,7 @@ Recently viewed section will show you all those books that you have been viewed 
 * When you view this page you can see the details of each book by clicking on its title. From there you can also give your review on that book.
 
 
-## Account Settings
+## Account settings
 
 Account settings is the section where you can update all the information of your library account.
 
@@ -89,12 +89,12 @@ Account settings is the section where you can update all the information of your
 
 * Once you click the save settings button your given information will be saved.
 * Now whenever you visit this page you can view your information or update your info.
-* On the same page you can choose how you sign in (**SSO sign-in**, **Enable Google Login**, **Sign in with Apple**) and see your **Sign-in activity**: where your account is signed in, with a `Sign out` button for each browser or phone. See [Sign-in & Security](sign-in-and-security.md).
+* On the same page you can choose how you sign in (**SSO sign-in**, **Enable Google Login**, **Sign in with Apple**) and see your **Sign-in activity**: where your account is signed in, with a `Sign out` button for each browser or phone. See [Signing in](signing-in.md#your-sign-in-settings) and [Sign-in activity](sign-in-activity.md).
 * Changing your password signs out your account everywhere else, including the mobile app, and you get an email about it.
 * Under **Two-step verification** you can turn on a second step for signing in: a code from an authenticator app on your phone. Click `Turn on` (or `Manage` when it is on). See [Two-step verification](two-step-verification.md).
 * Before you change your password or email, or remove your account, Librarika may ask you to [confirm it's you](signing-in.md#confirm-its-you).
 
-## My Holds
+## My holds
 
 If your library has the hold queue feature enabled, you can place holds on items that are currently checked out and manage your holds from the My Holds section.
 
@@ -102,13 +102,13 @@ For detailed instructions on placing holds, viewing your hold queue position, an
 
 ---
 
-## Submit Reservation Request
+## Submit reservation request
 
 Submit reservation request is the section where you can send a request for any books that you want to reserve.
 
 To complete your reservation, please follow the below steps:
 
-* At first login to your library.
+* First, sign in to your library.
 * Click on `Catalog Search` from the main menu.
     
     ![Member area catalog search](img/catalog-search.png)
@@ -139,7 +139,7 @@ To complete your reservation, please follow the below steps:
 * Now your request has been placed and if the library staff accept your request, then you will be notified and the item will be reserved for you.
 
 
-## Cancel Reservation Request
+## Cancel reservation request
 
 Cancel reservation request is the section where you can cancel your reservation request that you have been placed earlier.
 
@@ -165,7 +165,7 @@ To cancel your reservation, please follow the below steps:
     ![Member area cancel success](img/member-area-cancel-success.png)
 
 
-## Self-Checkout and Self-Return
+## Self-checkout and self-return
 
 If your library has self-service enabled, members can check out and return items directly from the member area without staff involvement. Members can check out items from the catalog page and return items from the My Bookings section.
 

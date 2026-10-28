@@ -20,7 +20,7 @@ SSO adds a way to sign in; it doesn't replace the Librarika account. Each person
 
 You need someone who can add a SAML application in your identity provider's admin console.
 
-### Step 1: Open the SSO tab
+### Step 1: open the SSO tab
 
 In the sidebar, go to **Manage** > **Preferences** and open the `SSO` tab. Switch on **Enable SSO** (*"Member will be able to login using SAML2."*). The rest of the SSO settings appear.
 
@@ -33,7 +33,7 @@ Under **SSO configuration** Librarika shows two values to give your identity pro
 
 `<your-library>` is your library's subdomain, for example `mylibrary` for `mylibrary.librarika.com`.
 
-### Step 2: Add Librarika to your identity provider
+### Step 2: add Librarika to your identity provider
 
 In your identity provider, create a new **SAML application** (sometimes called a custom or enterprise SAML app):
 
@@ -49,7 +49,7 @@ Librarika doesn't read other attributes: a new account's name starts as the part
 
 **Microsoft Entra ID:** add an enterprise application (non-gallery) with SAML sign-on. Use the values above, and make sure the Name ID is the user's email address (for example `user.mail`). Guest accounts whose name contains `#EXT#` can't sign in.
 
-### Step 3: Enter your identity provider's details
+### Step 3: enter your identity provider's details
 
 Your identity provider shows its own SAML details (often on a page called *IdP metadata* or *SAML signing certificate*). Copy them into the SSO tab:
 
@@ -60,11 +60,11 @@ Your identity provider shows its own SAML details (often on a page called *IdP m
 
 Librarika doesn't import a metadata file: copy each value by hand.
 
-### Step 4: Save and ask for activation
+### Step 4: save and ask for activation
 
 Click `Save Preferences`, then [contact Librarika support](https://librarika.com/spages/contact) to activate SSO for your library. SSO doesn't work until support has checked and activated it.
 
-### Step 5: Test
+### Step 5: test
 
 After support confirms, open your library's login page in a private browser window and click `Sign in with SSO` (the key button). Sign in on your identity provider's page; you should come back to your library signed in. There is no separate test button.
 

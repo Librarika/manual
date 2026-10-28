@@ -1,18 +1,18 @@
 # Users
 
-Users are those who can administer or manage all the activities of your library depending on their role. They can log into the library dashboard and do regular managerial activities. They can also add or remove a user from the library.
+Users are those who can administer or manage all the activities of your library depending on their role. They can sign in to the library dashboard and do regular managerial activities. They can also add or remove a user from the library.
 
-**Users vs Members:** Users and Members are different concepts in Librarika. Users are staff accounts with access to the library dashboard for managerial activities. Members (or Patrons) are library-specific records for people who borrow items. A person can be both a user and a member. For more details on members, see the [Members](members.md) page.
+**Users vs Members:** Users and Members are different concepts in Librarika. Users are staff accounts with access to the library dashboard for managerial activities. Members are library-specific records for people who borrow items. A person can be both a user and a member. For more details on members, see the [Members](members.md) page.
 
 **Editing user information:** User accounts are independent and can be linked to multiple libraries across the Librarika platform. As a library admin, you can change a user's role and permissions, but you cannot directly edit their personal details (name, email, etc.). Users manage their own personal information through their Account Settings by clicking on their profile icon.
 
-## List Users
+## List users
 
 Users is the section where you can see all the list of users based on their roles. They have access to the library and can do all the regular managerial workings of the library. 
 
 To view list admin or stuff users, please follow the below steps:
 
-* At first log in to your library.
+* First, sign in to your library.
 * Please go to the `Dashboard ->  Manage -> Users` dropdown menu.
 
 	![Users dropdown menu](img/user-dropdown-menu.png)
@@ -31,7 +31,7 @@ To view list admin or stuff users, please follow the below steps:
 
 * Now you can also view all the related members of that group.
 
-### Last Active
+### Last active
 
 The **Last active** column shows when each user last signed in to your library or opened it in the Librarika app.
 
@@ -42,7 +42,7 @@ The **Last active** column shows when each user last signed in to your library o
 * You can't see a user's sign-in history, devices or addresses. Each user sees their own in [Sign-in activity](sign-in-activity.md#sign-in-activity).
 
 
-## Add User
+## Add user
 
 User with library admin privileges can add a new user and give them access to the library for managerial activities.
 
@@ -71,7 +71,7 @@ To add a user, please follow the below steps:
 * Now the user needs to follow the invitation email and join the library. 
 
 
-## Resend Invitation
+## Resend invitation
 
 When you will create a new user an invitation email will automatically send to the users email account for joining your library. That time if the user can not join the library for some reason then you can send the joining request again by clicking on re-send invite option.  
 
@@ -87,7 +87,7 @@ To do so, please follow the below steps:
 * Now the status of this new user will be turned into **Active** from **Invited**.
 
 
-## Add / Update Permission
+## Add / update permission
 
 You can change the groups or roles of a user by setting permissions for the users.
 
@@ -102,7 +102,7 @@ To set permissions, please follow the below steps:
 * Also you can select multiple groups or roles for a user when you will either add or update permission.
 * Click on `Save` button when you are done and your permissions will be saved.
 
-## Remove Permission
+## Remove permission
 
 You can also remove the permissions that you have given to the users for your library.
 
@@ -116,7 +116,7 @@ To remove the permissions, please follow the below steps:
 
 * Now the permissions will be removed for the users.
 
-## Linked Members
+## Linked members
 
 Linked members is the section where you can see the list of users who have access to the members area section of your library. Basically they are the members or patrons with log in access.
 
@@ -130,7 +130,7 @@ To view the list of linked members, please follow the below steps:
 
 	![Users linked members page](img/users-linked-members-page.png)
 
-* All the patrons accounts are listed here. These users can not access admin dashboard by default. 
+* All the member accounts are listed here. These users can not access admin dashboard by default. 
 * However, you can assign them admin permission, if you want them to be a part of your library management staff.
 
 ---
