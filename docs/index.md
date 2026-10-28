@@ -6,14 +6,18 @@ This manual explains how to use each part of Librarika. Pick the door that fits 
 
 * **I run a library.** You set up and manage a library: catalog, members, loans and settings. Start with [Getting started](getting-started.md), then see [For library staff](#for-library-staff).
 * **I'm a library member.** A library invited you, or you borrow from a library that uses Librarika. See [For members](#for-members).
-* **Mobile app.** You use the Librarika app on an iPhone or Android phone, as a member or as staff. See [The Librarika app](mobile-app.md).
+* **I use the app or a kiosk.** You use the Librarika app on a phone, as a member or as staff, or a self-checkout kiosk at your library. See [Mobile app and kiosks](#mobile-app-and-kiosks).
+
+## Your Librarika account
+
+You have **one Librarika account**, and it belongs to you, not to a library. With it you can be a member of one library, staff in another, and run a third, all with the same email address and password. You use it on [librarika.com](https://librarika.com), on each library's own website and in the mobile app. How you sign in, your password and two-step verification are set once for the whole account: see [Your account (everyone)](#your-account-everyone).
 
 ---
 
 ## Overview
 
 * **Who it is for:** school, college and university libraries, public libraries, institutes, organisations, and personal collections.
-* **Plans:** a free plan for up to 2,000 copies, and paid plans for larger collections and more features. See [Library](libraries.md) for plans and upgrades.
+* **Plans:** a free plan for up to 2,000 copies, and paid plans for larger collections and more features. See [Library settings & plans](libraries.md).
 * **Web address:** each library gets its own address, such as `mylibrary.librarika.com`, with its own public catalog.
 * **Languages:** the library website can be shown in 21 languages. Some translations are still incomplete.
 
@@ -23,47 +27,52 @@ This manual explains how to use each part of Librarika. Pick the door that fits 
 
 **Setting up**
 
-* [Getting started](getting-started.md): create your library and sign in.
-* [Library](libraries.md): library information, branches, preferences, notifications and plans.
-* [Users](users.md): staff accounts, roles and branch access.
+* [Getting started](getting-started.md): create your library, activate it and invite staff.
+* [Library settings & plans](libraries.md): library information, branches, preferences, notifications and plans.
+* [Users & roles](users.md): staff accounts, roles and branch access.
+* [Members](members.md): members, member groups, invitations and member logins.
 
 **Daily work**
 
 * [Cataloging](cataloging.md): add titles and copies, import and export the catalog.
-* [Members](members.md): members, member groups and member logins.
-* [Circulations](circulations.md): check out and check in items.
+* [Circulation](circulations.md): check out and check in items.
 * [Hold queue](hold-queue.md): holds on items that are checked out.
 * [Fees & payments](fees-payments.md): fines, fees and payments.
 * [Barcode labels](barcode-labels.md): labels for items and member cards.
 * [Reports](reports.md): catalog, circulation, member and purchase reports.
 * [Bulk actions](bulk-actions.md) and [Batch update](batch-update.md): change many records at once.
 
+**Sign-in & security for your library**
+
+* [Library sign-in security](library-sign-in-security.md): require two-step verification, set password lengths, ask for new passwords.
+* [Single sign-on (SSO with SAML)](sso-saml.md): let people sign in with your organisation's login.
+* [Helping people who can't sign in](helping-people-sign-in.md): what to do when a member or colleague is locked out.
+
+**Self-service & kiosks**
+
+* [Self-service](self-service.md): members check items out and in from a browser or phone.
+* [SIP2 integration](sip2.md): connect self-checkout kiosks and other SIP2 devices.
+
 ---
 
 ## For members
 
-* [Member Area](member-area.md): what you see when you sign in to your library.
 * [OPAC](opacs.md): the library's online catalog.
+* [Member area](member-area.md): what you see when you sign in to your library.
 * [Self-service](self-service.md): check items out and in from a browser or phone.
 
 ---
 
 ## Your account (everyone)
 
-Your Librarika account is yours, not one library's. You use it on librarika.com, in every library you belong to and in the mobile app.
-
-* [Sign-in & security](sign-in-and-security.md): ways to sign in, passwords, two-step verification, sign-in activity and signing out other devices.
-
----
-
-## Integrations
-
-* [SIP2 integration](sip2.md): connect self-checkout kiosks, including the [Librarika Kiosk App](https://librarika.com/spages/librarika-kiosk-app).
-* [SSO / SAML](sso-saml.md): sign in with your organisation's single sign-on.
+* [Signing in](signing-in.md): password, Google, Apple or your library's SSO.
+* [Passwords](passwords.md): the rules, changing your password and resetting a forgotten one.
+* [Two-step verification](two-step-verification.md): a code from your phone after your password.
+* [Sign-in activity & privacy](sign-in-activity.md): where you are signed in, signing out devices, and what your library can see.
 
 ---
 
-## Mobile app
+## Mobile app and kiosks
 
 The Librarika app for iPhone and Android is for both staff and members. See [The Librarika app](mobile-app.md).
 
