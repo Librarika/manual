@@ -10,29 +10,39 @@ nav:
     - 'Home': 'index.md'
     - 'For library staff':
       - 'Getting started': 'getting-started.md'
-      - 'Library': 'libraries.md'
-      - 'Users': 'users.md'
-      - 'Cataloging (books)': 'cataloging.md'
+      - 'Library settings & plans': 'libraries.md'
+      - 'Users & roles': 'users.md'
       - 'Members': 'members.md'
-      - 'Circulations (loans)': 'circulations.md'
-      - 'Hold queue': 'hold-queue.md'
-      - 'Fees & payments': 'fees-payments.md'
-      - 'Barcode labels': 'barcode-labels.md'
-      - 'Reports': 'reports.md'
-      - 'Bulk actions': 'bulk-actions.md'
-      - 'Batch update': 'batch-update.md'
+      - 'Daily work':
+        - 'Cataloging': 'cataloging.md'
+        - 'Circulation': 'circulations.md'
+        - 'Hold queue': 'hold-queue.md'
+        - 'Fees & payments': 'fees-payments.md'
+        - 'Barcode labels': 'barcode-labels.md'
+        - 'Reports': 'reports.md'
+        - 'Bulk actions': 'bulk-actions.md'
+        - 'Batch update': 'batch-update.md'
+      - 'Sign-in & security for your library':
+        - 'Library sign-in security': 'library-sign-in-security.md'
+        - 'Single sign-on (SSO with SAML)': 'sso-saml.md'
+        - "Helping people who can't sign in": 'helping-people-sign-in.md'
+      - 'Self-service & kiosks':
+        - 'Self-service': 'self-service.md'
+        - 'SIP2 integration': 'sip2.md'
     - 'For members':
-      - 'Member Area': 'member-area.md'
       - 'OPAC (online catalog)': 'opacs.md'
+      - 'Member area': 'member-area.md'
       - 'Self-service': 'self-service.md'
     - 'Your account (everyone)':
-      - 'Sign-in & security': 'sign-in-and-security.md'
-    - 'Integrations':
-      - 'SIP2 integration': 'sip2.md'
-      - 'SSO / SAML': 'sso-saml.md'
+      - 'Sign-in & security overview': 'sign-in-and-security.md'
+      - 'Signing in': 'signing-in.md'
+      - 'Passwords': 'passwords.md'
+      - 'Two-step verification': 'two-step-verification.md'
+      - 'Sign-in activity & privacy': 'sign-in-activity.md'
     - 'Mobile app':
       - 'The Librarika app': 'mobile-app.md'
-    - 'About':
+    - 'Help':
+      - 'Contact us': 'https://librarika.com/spages/contact'
       - 'Contributing': 'contribute.md'
       - 'About': 'about.md'
       - 'License': 'license.md'

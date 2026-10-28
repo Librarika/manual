@@ -195,7 +195,7 @@ Library administrators can decide how staff and members of the library sign in: 
 * Optionally set **Ask for a new password if it was set before** to a date (`YYYY-MM-DD`).
 * Click `Save`.
 
-These settings can be changed on the **Gold**, **Platinum** and **Unlimited** plans. On other plans they are shown but can't be changed, and Librarika's own settings apply. For every option, what people see and how to help someone who is locked out, see [For library administrators](sign-in-and-security.md#for-library-administrators).
+These settings can be changed on the **Gold**, **Platinum** and **Unlimited** plans. On other plans they are shown but can't be changed, and Librarika's own settings apply. For every option, what people see and how to help someone who is locked out, see [For library administrators](library-sign-in-security.md).
 
 ---
 

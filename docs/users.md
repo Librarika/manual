@@ -39,7 +39,7 @@ The **Last active** column shows when each user last signed in to your library o
 
 * A dash (`—`) means the user hasn't signed in to your library since this was introduced.
 * Only their own sign-ins count. A visit by Librarika support never does.
-* You can't see a user's sign-in history, devices or addresses. Each user sees their own in [Sign-in activity](sign-in-and-security.md#sign-in-activity).
+* You can't see a user's sign-in history, devices or addresses. Each user sees their own in [Sign-in activity](sign-in-activity.md#sign-in-activity).
 
 
 ## Add User
@@ -151,19 +151,19 @@ Use [Resend Invitation](#resend-invitation), and ask them to check their spam fo
 
 **Which password does an invited user choose?**
 
-A new password for Librarika, separate from their email and their organisation's SSO password. The invitation page explains this. See [Your Librarika password and your organisation's password](sign-in-and-security.md#your-librarika-password-and-your-organisations-password).
+A new password for Librarika, separate from their email and their organisation's SSO password. The invitation page explains this. See [Your Librarika password and your organisation's password](signing-in.md#your-librarika-password-and-your-organisations-password).
 
 **A staff member lost their phone. How do they sign it out?**
 
-They open their [Sign-in activity](sign-in-and-security.md#sign-in-activity) and click `Sign out` next to the phone, or change their password, which signs out every other session. If the phone had their authenticator app, they sign in with a recovery code and use `Set up a new phone`. See [Lost your phone?](sign-in-and-security.md#lost-your-phone).
+They open their [Sign-in activity](sign-in-activity.md#sign-in-activity) and click `Sign out` next to the phone, or change their password, which signs out every other session. If the phone had their authenticator app, they sign in with a recovery code and use `Set up a new phone`. See [Lost your phone?](two-step-verification.md#lost-your-phone).
 
 **Can I turn off a staff member's two-step verification or reset their password?**
 
-No. They reset their own password with `Forgot password?`. If they lost their phone and their recovery codes, they contact Librarika support, who can turn off two-step verification after checking who they are. See [Helping someone who can't sign in](sign-in-and-security.md#helping-someone-who-cant-sign-in).
+No. They reset their own password with `Forgot password?`. If they lost their phone and their recovery codes, they contact Librarika support, who can turn off two-step verification after checking who they are. See [Helping someone who can't sign in](helping-people-sign-in.md).
 
 **Can I require two-step verification for staff?**
 
-Yes, on the Gold plan and higher, in **Preferences** > `Sign-in security`. See [Sign-in security](sign-in-and-security.md#sign-in-security).
+Yes, on the Gold plan and higher, in **Preferences** > `Sign-in security`. See [Sign-in security](library-sign-in-security.md).
 
 **How do I stop someone from managing my library?**
 

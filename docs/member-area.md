@@ -81,7 +81,7 @@ Account settings is the section where you can update all the information of your
     ![Member area account settings](img/member-area-account-setting.png)
 
 * Now you can update any information of your account.
-* If you want to change your password then please enter current password, new password and confirm new password fields. The new password needs at least 15 characters (12 with two-step verification); a strength meter under the field shows which rules are still to meet. See [Your password](sign-in-and-security.md#your-password).
+* If you want to change your password then please enter current password, new password and confirm new password fields. The new password needs at least 15 characters (12 with two-step verification); a strength meter under the field shows which rules are still to meet. See [Your password](passwords.md).
 * If you do not want to change your password then leave all passwords field empty.
 * After updating all information you have to click on `Save Settings` button as shown below.
     
@@ -91,8 +91,8 @@ Account settings is the section where you can update all the information of your
 * Now whenever you visit this page you can view your information or update your info.
 * On the same page you can choose how you sign in (**SSO sign-in**, **Enable Google Login**, **Sign in with Apple**) and see your **Sign-in activity**: where your account is signed in, with a `Sign out` button for each browser or phone. See [Sign-in & Security](sign-in-and-security.md).
 * Changing your password signs out your account everywhere else, including the mobile app, and you get an email about it.
-* Under **Two-step verification** you can turn on a second step for signing in: a code from an authenticator app on your phone. Click `Turn on` (or `Manage` when it is on). See [Two-step verification](sign-in-and-security.md#two-step-verification).
-* Before you change your password or email, or remove your account, Librarika may ask you to [confirm it's you](sign-in-and-security.md#confirm-its-you).
+* Under **Two-step verification** you can turn on a second step for signing in: a code from an authenticator app on your phone. Click `Turn on` (or `Manage` when it is on). See [Two-step verification](two-step-verification.md).
+* Before you change your password or email, or remove your account, Librarika may ask you to [confirm it's you](signing-in.md#confirm-its-you).
 
 ## My Holds
 
@@ -177,23 +177,23 @@ For detailed instructions on setting up self-checkout and self-return, see the [
 
 **Which password do I use to sign in?**
 
-Your Librarika password, the one you created when you accepted the library's invitation. You can also use Google, Apple or your library's SSO. See [Ways to sign in](sign-in-and-security.md#ways-to-sign-in).
+Your Librarika password, the one you created when you accepted the library's invitation. You can also use Google, Apple or your library's SSO. See [Ways to sign in](signing-in.md#ways-to-sign-in).
 
 **I forgot my password. What should I do?**
 
-Click `Forgot password?` on the login page and follow the email you receive. The link works once and expires after one hour. See [Forgot your password?](sign-in-and-security.md#forgot-your-password).
+Click `Forgot password?` on the login page and follow the email you receive. The link works once and expires after one hour. See [Forgot your password?](passwords.md#forgot-your-password).
 
 **Should I turn on two-step verification?**
 
-Yes, we recommend it. It protects your account even if someone learns your password. Your library may also require it. See [Two-step verification](sign-in-and-security.md#two-step-verification).
+Yes, we recommend it. It protects your account even if someone learns your password. Your library may also require it. See [Two-step verification](two-step-verification.md).
 
 **I lost my phone and can't enter my code. What do I do?**
 
-Enter one of your recovery codes instead of the code. If you have no recovery codes, contact your library or Librarika support. See [Lost your phone?](sign-in-and-security.md#lost-your-phone).
+Enter one of your recovery codes instead of the code. If you have no recovery codes, contact your library or Librarika support. See [Lost your phone?](two-step-verification.md#lost-your-phone).
 
 **How do I see where my account is signed in?**
 
-Open `Account Settings` and scroll to **Sign-in activity**. See [Sign-in activity](sign-in-and-security.md#sign-in-activity).
+Open `Account Settings` and scroll to **Sign-in activity**. See [Sign-in activity](sign-in-activity.md#sign-in-activity).
 
 **I left my account signed in on a library computer. What can I do?**
 

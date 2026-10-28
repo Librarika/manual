@@ -108,7 +108,7 @@ The **Last active** column on the Members list shows when each member last signe
 
 * A dash (`—`) means the member hasn't signed in since this was introduced, or has no Librarika account yet (for example, they haven't accepted the invitation).
 * Only the member's own sign-ins count. A visit by Librarika support never does.
-* You can't see a member's sign-in history, devices or addresses. Members see their own history in their [Sign-in activity](sign-in-and-security.md#sign-in-activity).
+* You can't see a member's sign-in history, devices or addresses. Members see their own history in their [Sign-in activity](sign-in-activity.md#sign-in-activity).
 
 ### Delete Member
 
@@ -240,7 +240,7 @@ They haven't signed in since the column was introduced, or they don't have a Lib
 
 **Can I see where and when a member signed in?**
 
-No. Library staff see only the last active time. Each member sees their own full history in [Sign-in activity](sign-in-and-security.md#sign-in-activity).
+No. Library staff see only the last active time. Each member sees their own full history in [Sign-in activity](sign-in-activity.md#sign-in-activity).
 
 **A member can't sign in. What should I check?**
 
@@ -248,15 +248,15 @@ Check that **Member Area Access** is enabled for them (see [Enable Member Access
 
 **Can a member use Google or Apple to sign in?**
 
-Yes, if their Google or Apple account uses the same email address as their Librarika account. See [Ways to sign in](sign-in-and-security.md#ways-to-sign-in).
+Yes, if their Google or Apple account uses the same email address as their Librarika account. See [Ways to sign in](signing-in.md#ways-to-sign-in).
 
 [member_bulk_import]: https://librarika.com/spages/import-members "Bulk Import of Members"
 
 **A member forgot their password or lost their phone. How can I help?**
 
-For a forgotten password, ask them to click `Forgot password?` on the login page. If they lost the phone with their authenticator app, they sign in with a recovery code; without recovery codes, they contact Librarika support. Staff can't see or reset members' passwords. See [Helping someone who can't sign in](sign-in-and-security.md#helping-someone-who-cant-sign-in).
+For a forgotten password, ask them to click `Forgot password?` on the login page. If they lost the phone with their authenticator app, they sign in with a recovery code; without recovery codes, they contact Librarika support. Staff can't see or reset members' passwords. See [Helping someone who can't sign in](helping-people-sign-in.md).
 
 **Should we require two-step verification for members?**
 
-Only after telling them what to expect: they need an authenticator app on their phone and should save their recovery codes. You can start by requiring it for staff only. See [Good practice for your library](sign-in-and-security.md#good-practice-for-your-library).
+Only after telling them what to expect: they need an authenticator app on their phone and should save their recovery codes. You can start by requiring it for staff only. See [Good practice for your library](library-sign-in-security.md#good-practice-for-your-library).
 
