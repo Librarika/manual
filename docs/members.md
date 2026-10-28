@@ -23,7 +23,7 @@ To add a member to your library, please follow the below steps:
 
 * The `Type` field is used to separate the users in two levels, for example in a school the teachers / staffs should be under the privileged member type and the students should be under the regular member type.
 
-* If you want that members can check-in and check-out books by themselves then please turn on the `Allow Member Login` option. See [Self-Service](self-service.md) for details on enabling self-service checkout and check-in.
+* If you want that members can check-in and check-out books by themselves then please turn on the `Allow Member Login?` option. See [Self-Service](self-service.md) for details on enabling self-service checkout and check-in.
 * Enter necessary information regarding the member. Only member no, name, type and status fields are mandatory.
 * Click on the `Submit` button when you are done
 * A new member record will be created.
@@ -82,7 +82,7 @@ Enabling member access is very easy. You can do it in following way:
 
 * Go to the members edit page as per above [edit member](#edit-existing-member) instruction.
 * Enter email address of the member if empty.
-* Check the `Allow Member Login` option.
+* Turn on `Allow Member Login?`.
 * Click on the `Submit` button when you are done.
 * A "Join Library" invitation email will be sent to that email address.
 * Member needs to accept the invitation in order to connect with your library.
@@ -94,10 +94,9 @@ Alternatively, a member can create an account in *Librarika* platform indenenden
 Same way you can disable member login access from the edit member page. 
 
 * Go to the members edit page as per above [edit member](#edit-existing-member) instruction.
-* Uncheck the `Allow Member Login` checkbox. 
-	* Unchecking only this option, will soft-disable the login access. You can enable the access later without requiring any new invitation email.
-* To permanently disable the login access, uncheck the `Remove Login` checkbox too.
-	* If unchecked, you can enable login access again with a new invitation email. 
+* Turn off `Allow Member Login?`.
+	* This alone pauses their login. You can turn it on again later without a new invitation email.
+* To remove their login completely, also turn on **Remove Login?** (shown once the member has joined). You can send a new invitation later.
 * Click on the `Submit` button when you are done.
 
 ### Last active
@@ -244,7 +243,7 @@ No. Library staff see only the last active time. Each member sees their own full
 
 **A member can't sign in. What should I check?**
 
-Check that **Member Area Access** is enabled for them (see [Enable Member Access](#enable-member-access)) and that they accepted the invitation. If your library uses SSO, also see [Single sign-on](sso-saml.md).
+Check that `Allow Member Login?` is on for them (see [Enable Member Access](#enable-member-access)) and that they accepted the invitation. If your library uses SSO, also see [Single sign-on](sso-saml.md).
 
 **Can a member use Google or Apple to sign in?**
 

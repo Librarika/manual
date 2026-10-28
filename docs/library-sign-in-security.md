@@ -6,7 +6,9 @@
 
 ## Open the sign-in security page
 
-Library administrators can set how staff and members of their library sign in. Go to **Preferences** and click `Sign-in security`.
+Library administrators can set how staff and members of their library sign in. In the sidebar, go to `Manage` > `Preferences` and click `Sign-in security`.
+
+Only Library Administrators see this page. If there is no `Sign-in security` button on Preferences, the feature isn't available for your library yet.
 
 ![Sign-in security button on the Preferences page](img/libraries-preferences-sign-in-security-button.png)
 
@@ -32,7 +34,8 @@ Everyone in your library can still turn on [two-step verification](two-step-veri
 	* `Optional: each person chooses` -- the default. Everyone can turn on [two-step verification](two-step-verification.md) for themselves.
 	* `Required for staff` -- everyone with a role in your library (librarians, administrators and other staff) must use it.
 	* `Required for staff and members` -- everyone, including members who can sign in.
-* **Also ask for the two-step code after signing in with Google, Apple or the library's SSO** -- by default, people who sign in with Google, Apple or SSO aren't asked for the code, because those services usually have their own two-step check. Tick this to ask for the code anyway. It only applies to people who have turned two-step verification on. This option is shown only when it is available for your library.
+	* The note *"Security keys and passkeys come later."* means that for now two-step verification uses an authenticator app only.
+* **Also ask for the two-step code after signing in with Google, Apple or the library's SSO** -- by default, people who sign in with Google, Apple or SSO aren't asked for the code, because those services usually have their own two-step check. Tick this to ask for the code anyway. It only applies to people who have turned two-step verification on. This option is shown only when it is available for your library. If it shows *"Librarika already asks for it on every library."*, Librarika already asks everyone with two-step verification for the code after these sign-ins, whatever you tick here.
 
 When a requirement is on, a person who needs it and hasn't set it up is asked to set it up the next time they sign in with their password. They can't turn it off while it is required.
 
@@ -40,7 +43,7 @@ The requirement follows the person: if someone belongs to several libraries and 
 
 ## Password length
 
-* **Minimum without two-step verification** and **Minimum with two-step verification** -- leave them empty to use Librarika's minimums (15 and 12 characters). You can only **raise** them.
+* **Minimum without two-step verification** and **Minimum with two-step verification** -- leave them empty to use Librarika's minimums (15 and 12 characters). You can only **raise** them, up to Librarika's maximum password length. Any other number is refused with *"The minimum password length can only be raised: use a number from … to …"* (the message shows the allowed range).
 * The minimums apply to new passwords of your library's staff and members, and to new accounts that join your library. Existing passwords keep working until they are changed.
 * Someone who belongs to several libraries gets the **highest** minimum of all their libraries.
 

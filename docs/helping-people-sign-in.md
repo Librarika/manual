@@ -38,7 +38,7 @@ If your library requires two-step verification, people who haven't set it up are
 
 ## Hasn't joined yet
 
-* **Invitation expired** (*"This invitation has expired. Please ask the library to send it again."*): invitations work for 30 days. Re-send it with the `Re-send Invite` button on the member's page.
+* **Invitation expired** (*"This invitation has expired. Please ask the library to send it again."*): invitations work for 30 days. Re-send it from the Members list (`Re-send Invite`) or the member's page (`Re-send Invitation Email`).
 * **"Member login is turned off for this membership. Please contact the library.":** turn on member access for them (see [Members](members.md#enable-member-access)).
 * **"Please verify your email address in order to login.":** their account's email isn't confirmed yet. They use the link in the confirmation email, or `Forgot password?`, which also confirms it.
 

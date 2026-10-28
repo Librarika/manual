@@ -95,7 +95,7 @@ The `Sign-in security` button at the top of the Preferences page opens your libr
 
 **Steps to update preferences**:
 
-* Go to the **Preferences** section from the dashboard.
+* In the sidebar, go to `Manage` > `Preferences`.
 
 	![Library information menu](img/library-preference-menu.png)
 
@@ -116,7 +116,8 @@ The `Sign-in security` button at the top of the Preferences page opens your libr
 	* The `Ebook URL Visibility` option set privacy for your e-book which is links with 5 options, that is Hide To All / Public / Member / Borrower Always / Active Borrower. You can set them independently for each of the items in your catalog.
 	* The `Booking Time` option is the default loan length in days. It sets the default **Return Date** in the circulation form.
 	* The `Booking Quota` field is the maximum number of items a member can have requested, checked out or on loan at a time, all combined.
-	* Then the `Enable member access request` switch, which you need to enable so that new members can ask for access to your library.
+	* `Enable member access request.` -- people with a Librarika account can ask to join your library. It is on by default; only paid plans can turn it off.
+	* `Join member automatically.` -- requests (including first SSO sign-ins) are accepted at once with the next member number. When it is off, they wait in [Member Requests](members.md#member-requests).
 
 * If you click on the `Self Service` tab then it will be displayed like below.
 
@@ -124,11 +125,11 @@ The `Sign-in security` button at the top of the Preferences page opens your libr
 
 	* **Enable member checkouts** -- Allow members to check out items by themselves from the catalog.
 	* **Enable member check-ins** -- Allow members to return (check-in) items by themselves from their My Account page.
-	* **Enable check-ins for overdue** -- Allow members to return items even if they are overdue. If disabled, overdue items can only be returned by library staff.
-	* **Member type** -- Select which member types are allowed to use self-service: All members, Regular members only, or Privileged members only.
-	* **Checkout Time** -- The default checkout duration (in days) for self-service checkouts.
-	* **Checkout Limit** -- The maximum checkout duration (in days) that a member can select.
-	* **Checkout Quota** -- The maximum number of items a member can have checked out at the same time through self-service.
+	* **Enable member check-ins for overdue items** -- Allow members to return items even if they are overdue. It works only when **Enable member check-ins** is on. If it is off, overdue items can only be returned by library staff.
+	* **Member** -- which members may use self-service: All Members, Regular Members Only or Privileged Members Only.
+	* **Checkout Time** -- the default checkout duration in days (default 7).
+	* **Checkout Limit** -- the longest checkout a member can choose, in days (default 14).
+	* **Checkout Quota** -- the most items a member can have checked out at the same time through self-service (default 5).
 
 	For more details on self-service options, see the [Self-Service](self-service.md) page. For kiosk-based checkout with barcode scanners, see [SIP2 Integration](sip2.md).
 
@@ -161,15 +162,7 @@ The `Sign-in security` button at the top of the Preferences page opens your libr
 
 * If you click on the `SSO` tab then you can enable the SSO login for your library.
 
-	![Library preference form](img/library-preference-sso.png)
-
-	* If you enable the `Enable SSO` then your members & users can sign in to your library using SAML2.
-	* The `ACS URL` & `ACS Entity Id` fields are provided by Librarika. You need to copy and paste these URL into the SP Configuration section of your SAML provider.
-	* From the `SAML Provider` list you need to choose your SAML provider then provide the `IdP Entity`, `IdP SSO Service URL` & `IdP x509cert` accordingly. You will get these values from the `METADATA` of your SAML provider.
-	* `SSO only on the website` -- members and staff can sign in to your library's website with SSO only. You can switch it on only while signed in with your library's SSO.
-	* `SSO only on the mobile app` -- in the Librarika app, members and staff can open your library only after signing in with your library's SSO. App sign-ins with a password, Google or Apple are refused for your library.
-
-	For detailed setup instructions, supported providers, and troubleshooting, see [Single sign-on (SSO with SAML)](sso-saml.md).
+	It connects your school's or organisation's identity provider so that staff and members can sign in with their own login, and can make SSO the only way in. SSO works only after Librarika support activates it for your library. For every setting and step, see [Single sign-on (SSO with SAML)](sso-saml.md).
 
 * If you click on the `Appearance` tab then it will be displayed as below.
 
@@ -177,25 +170,16 @@ The `Sign-in security` button at the top of the Preferences page opens your libr
 
 	* From this page you can set premium color schemes for your library dashboard and OPAC. Also you can select your preferred language from the Language dropdown menu.
 
-* Finaly if you click on the `Upgrade` tab, then you can upgrade your library to your desired plan.
+* The `Upgrade` tab links to your plan; see [Upgrade to premium plan](#upgrade-to-premium-plan).
 * From the above tabs you can set / enter / update the value that you want.
 * Click on the `Save Preferences` button to save your changes.
 * Your latest changes will be applied instantly.
 
 ### Sign-in security
 
-Library administrators can decide how staff and members of the library sign in: whether they need two-step verification, the minimum password length, and a date before which passwords must be changed.
+Library administrators decide on the `Sign-in security` page (button at the top of **Preferences**) whether staff and members need two-step verification, the minimum password length, and a date before which passwords must be changed. These settings can be changed on the Gold plan and higher.
 
-* Go to **Preferences** and click the `Sign-in security` button.
-
-	![Sign-in security button on the Preferences page](img/libraries-preferences-sign-in-security-button.png)
-
-* Choose **Who needs it** for two-step verification: `Optional: each person chooses`, `Required for staff` or `Required for staff and members`.
-* Optionally raise the **Minimum without two-step verification** and **Minimum with two-step verification** password lengths (Librarika's minimums are 15 and 12 characters).
-* Optionally set **Ask for a new password if it was set before** to a date (`YYYY-MM-DD`).
-* Click `Save`.
-
-These settings can be changed on the **Gold**, **Platinum**, **Diamond**, **Enterprise** and **Unlimited** plans. On other plans they are shown but can't be changed, and Librarika's own settings apply; Librarika support can still set the new-password date for you. For every option and what people see, see [Library sign-in security](library-sign-in-security.md); to help someone who is locked out, see [Helping people who can't sign in](helping-people-sign-in.md).
+For every option, see [Library sign-in security](library-sign-in-security.md); to help someone who is locked out, see [Helping people who can't sign in](helping-people-sign-in.md).
 
 ---
 
@@ -222,9 +206,9 @@ To create a new library branch or update the information of your previous librar
 
 ## Upgrade to premium plan
 
-You can upgrade your library to a premium plan anytime you want from the dashboard. It takes only just few minutes. The upgradation process is same for both new and existing libraries.
+You can upgrade your library to a paid plan at any time. The steps are the same for new and existing libraries.
 
-To upgrade, please follow the below steps:
+To upgrade:
 
 * Sign in to your library dashboard.
 
@@ -238,11 +222,24 @@ To upgrade, please follow the below steps:
 
 	![My plan page](img/my-plan-page.png)
 
-* Click on "Show More Plans" link if you want to see more premium plans. 
-* Choose your desired plan and click on the `Upgrade Now` button next to your choosen plan.
-* You will be prompted with a check-out form containing plan name, yearly subscription info and billing amount.
-* Complete the check-out procedure by entering billing information and payment method.
-* Your library will be upgraded to the **Premium Plan** instantly.
+* Click `Show More Plans` to see every plan.
+* Pick a plan and click `Pay with FastSpring` or `Pay with Paddle`, then finish the checkout.
+* Paddle payments and FastSpring renewals activate your plan automatically once the payment is confirmed. For a **new FastSpring subscription**, Librarika emails an activation code to your billing email: click `Apply Activation Code` on the `My Plan` page and enter it.
+* Your library then moves to the plan you chose.
+
+Plans renew automatically each year until you cancel (see [Cancel subscription](#cancel-subscription)).
+
+### What each plan includes
+
+| Feature | Plans that include it |
+|---|---|
+| Free plan | Up to 2,000 books or records |
+| Sign-in security settings | Gold, Platinum, Diamond, Enterprise, Unlimited |
+| Branch access for users | Gold, Platinum, Unlimited |
+| Single sign-on (SSO) | Ask [Librarika support](https://librarika.com/spages/contact) |
+| Premium colour schemes, turning off review reminders | Paid plans |
+
+The `My Plan` page shows the current list of plans and prices.
 
 ---
 
@@ -264,8 +261,9 @@ You can change the payment information anytime. Please follow the below steps:
 
 ## Cancel subscription
 
-* Also, you can cancel the subscription using the same process mentioned above.
-* Please note that, once cancelled, no future payment will be made to this order.
+* Go to `Manage` > `My Plan` and click `Cancel Plan`.
+* This turns off auto-renewal. You keep full access until the end of the paid period, and that period isn't refunded. After that date your library returns to the free Basic plan.
+* To cancel an e-book storage subscription, contact Librarika support.
 
 ---
 

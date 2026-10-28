@@ -53,16 +53,14 @@ To add a user, please follow the below steps:
 
 	![Users add user form](img/users-add-user-form.png)
 
-* Now enter the email address and select the roles for the new user. Available roles are:
-	* **Administrator** -- Full access to all library settings and management features.
-	* **Assistant** -- Access to day-to-day library operations such as circulations and cataloging.
-	* **Staff** -- Limited access for basic operational tasks.
-* The **Employee** checkbox is a tracking label for your own reference -- it helps you identify which users are employees of your organization. It does not affect any permissions or functionality.
-* After selecting email address a **Name** input field will appear like below.
+* Enter the user's **Email** and tick one or more **Groups / Roles**:
+	* **Library Administrator** -- full access to all library settings and management features, including users, preferences and sign-in security.
+	* **Library Assistant** and **Library Staff** -- day-to-day library work such as circulation and cataloging. The form links to the **Librarika Permissions** page, which lists what each role can do.
+* If the email doesn't belong to a Librarika account yet, a **Name** field appears. Enter the person's name.
 
 	![Users add user form name field](img/users-add-user-form-name-field.png)
 
-* Here you can also choose multiple roles or groups for adding a new user.
+* **Employee** (optional): link an employee profile from **Others** > **Employees** to this account.
 
 * Click on `Submit` button and a user will be invited to join your library and the status for this new user will be **Invited**.
 
@@ -98,9 +96,23 @@ To set permissions, please follow the below steps:
 
 	![Users change permissions page](img/users-change-permissions-page.png)
 
+	When your library can limit users to branches, the dialog also has a **Branch Access** section below the roles (not shown here; see [Branch access](#branch-access)).
+
 * Here you can change the groups or roles of a user from the previous one by changing permissions. You can also add permission for a new user.
 * Also you can select multiple groups or roles for a user when you will either add or update permission.
 * Click on `Save` button when you are done and your permissions will be saved.
+
+## Branch access
+
+On plans that include branch access, and when your library has more than one branch, you can limit a user to some branches.
+
+* Click `Change Permissions` for the user.
+* Under **Branch Access**, untick **Full Access (All Branches)** and tick the branches they may work in (*"Restrict this user to specific branches. Leave "Full Access" checked for unrestricted access."*).
+* Click `Save`.
+
+The user then sees and changes only the copies, loans and holds of those branches, and the Users list shows **Branch Restricted** next to their name. Library Administrators always have every branch (*"Library Administrators always have full access to all branches."*). To give the user every branch again, tick **Full Access (All Branches)**.
+
+The same **Branch Access** section is on a member's edit page, for members who use self-service.
 
 ## Remove permission
 
@@ -164,6 +176,10 @@ No. They reset their own password with `Forgot password?`. If they lost their ph
 **Can I require two-step verification for staff?**
 
 Yes, on the Gold plan and higher, in **Preferences** > `Sign-in security`. See [Sign-in security](library-sign-in-security.md).
+
+**What does "Branch Restricted" mean in the Users list?**
+
+The user can work only in some of your branches. See [Branch access](#branch-access).
 
 **How do I stop someone from managing my library?**
 

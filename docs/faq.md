@@ -16,7 +16,7 @@ For problems signing in, staff can also use [Helping people who can't sign in](h
 * I didn't receive the activation email. What now?
 * Can I sign up with Google or Apple?
 * I was invited by a library. Do I need a new account?
-* Which password do I choose when I join?
+* I already have a Librarika account. Why does the form say to sign in first?
 * Is my account tied to one library?
 
 **[Library settings & plans](libraries.md#faq)**

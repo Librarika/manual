@@ -12,7 +12,7 @@ With single sign-on (SSO), people sign in to your library with the login they al
 
 SSO adds a way to sign in; it doesn't replace the Librarika account. Each person still has their own Librarika account, which they also use on librarika.com and in other libraries.
 
-**Availability:** SSO is a paid-plan feature, and Librarika support switches it on for each library after checking your settings. If your plan doesn't include it, the SSO tab says so next to **Enable SSO**. Ask [Librarika support](https://librarika.com/spages/contact) if you are not sure.
+**Availability:** Librarika support switches SSO on for each library after checking your settings. If SSO isn't available for your library yet, the SSO tab shows a note in red next to **Enable SSO**. Ask [Librarika support](https://librarika.com/spages/contact) whether your plan includes SSO and to switch it on.
 
 ---
 
@@ -80,6 +80,12 @@ Two switches on the `SSO` tab make SSO the only way into your library. They only
 	* The login page then shows only the SSO button.
 	* You can switch it on only **while you are signed in with your library's SSO**, so you can't lock yourself out. Otherwise you see *"Saved, but "SSO only" for the web was not switched on: sign out, sign in with this library's SSO, then switch it on."*
 	* Google and Apple sign-ups aren't accepted for your library.
+
+	**Before you switch it on:**
+
+	1. Make sure your own Librarika email exists in your identity provider. An owner account such as library@yourschool.edu may not exist there; if so, sign in with an account that does and give it the **Library Administrator** role first (see [Users](users.md#add-user)).
+	2. If you also use Librarika in another library, sign in with your password and tick this library under **Settings** > **SSO sign-in** (see [Who SSO can sign in](#who-sso-can-sign-in)).
+	3. Sign out, sign in with `Sign in with SSO`, then switch on **SSO only on the website** and click `Save Preferences`.
 * **SSO only on the mobile app**: *"In the Librarika mobile app, members and staff can open this library only after signing in with this library's SSO. App sign-ins with a password, Google or Apple are refused for this library."*
 
 People's Librarika accounts keep working on librarika.com and in other libraries. Before you switch either on, check that every person's email in your identity provider matches their Librarika email.
@@ -94,7 +100,9 @@ When someone signs in with your SSO for the first time:
 * **An account with that email already exists:** SSO signs in only if your library is on that person's own **SSO sign-in** list (in their settings). Your library is added for them automatically when SSO created the account, or when the account belongs only to your library. Otherwise they see *"This library's SSO is not allowed to sign in to your account yet. Sign in with your password or Google, then tick this library under Settings, "SSO sign-in"."* They do that once, and SSO works from then on.
 * **An account that was never confirmed:** they see *"Please confirm your email address first. Use the link in the email we sent you."*
 
-This protects accounts used in more than one library: one organisation's SSO can't take over an account it doesn't own.
+This protects accounts used in more than one library: one organisation's SSO can't take over an account it doesn't own. An account that isn't linked to any library yet is not added to your library's list automatically either.
+
+**Rollout note:** while Librarika is rolling out this check, people whose account isn't on the list may still be signed in, and Librarika only records these sign-ins. Once the check is enforced, they see the message above.
 
 ### What people can't change after signing in with SSO
 
