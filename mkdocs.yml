@@ -30,6 +30,7 @@ nav:
         - 'Self-service': 'self-service.md'
         - 'SIP2 integration': 'sip2.md'
     - 'For members':
+      - 'Member quick start': 'member-quick-start.md'
       - 'OPAC (online catalog)': 'opacs.md'
       - 'Member area': 'member-area.md'
       - 'Self-service': 'self-service.md'

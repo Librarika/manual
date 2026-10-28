@@ -113,31 +113,9 @@ This is the simplest way to join a library. Open the invitation email in your ma
 * Once you join a library as a member, you can access the member only area of that library, browse library catalog (even if it is a private library), submit reservation request, see current check-out items, write reviews etc.	
 
 
-### b. Submit member access request
+### b. Ask a library to let you join
 
-You can proactively join a library by submitting the member access request from our **[Librarika.com][Librarika]** global site. 
-
-* Please go to [Librarika.com][Librarika]
-* Log into your Librarika account with your login id and password.
-
-	![Librarika login form](img/librarika-login.png)
-
-* Once logged in, click on `My Libraries` menu from the top right corner of your browser screen as shown below.
-
-	![Librarika login form](img/my-libraries-menu.png)
-
-* Click on `Request Member Access` button as shown below.
-
-	![Librarika login form](img/my-libraries-page.png)
-
-* In the request for member access form, please enter the exact URL of the target library you want to join.
-
-	![Librarika login form](img/member-request-form.png)
-
-* Click on the `Submit` button and your request will be submitted.
-* You will then receive a confirmation message on the screen regarding your submission.
-* Once submitted, depending on the library prolicy, a library offical will review your request and assign you a library "**Member No**" for future access.
-* If accepted, you can then log into that specific library and access the member only area.
+Without an invitation, you can ask a library to let you join: sign in on [librarika.com][Librarika], open **My Libraries**, click `Join a library`, enter the **Library address** under **Ask to join a library** and click `Send request`. The library reviews your request and gives you a member number, unless it accepts requests automatically. See [Member quick start](member-quick-start.md#no-invitation-ask-to-join) for the messages you may see.
 
 ---
 
