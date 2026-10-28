@@ -19,13 +19,9 @@ On the **Log in** page of a library (and of librarika.com) you can sign in with:
 * **Apple**: `Continue with Apple`, with your Apple ID, if it uses the same email address as your Librarika account.
 * **SSO** (single sign-on, the key icon): `Sign in with SSO`, your school's or organisation's own login. This button only appears in libraries that use [SSO](sso-saml.md). In those libraries the Google and Apple buttons are usually hidden.
 
-When all three buttons are shown, they become small icon buttons under **or continue with**.
+![The Log in page on librarika.com, with Continue with Google and Continue with Apple](img/signin-librarika-login-buttons.png)
 
-![Library login page with SSO, Google and Apple buttons](img/signin-library-login-buttons.png)
-
-On [librarika.com](https://librarika.com) the page also has **Don't have an account?** `Create one`:
-
-![Librarika.com login page with Google and Apple buttons](img/signin-librarika-login-buttons.png)
+On [librarika.com](https://librarika.com) the page also has **Don't have an account?** `Create one`. On a library's page that uses SSO, the SSO, Google and Apple buttons appear side by side as small icon buttons under **or continue with**.
 
 **Good to know:**
 
