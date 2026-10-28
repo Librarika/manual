@@ -29,11 +29,13 @@ nav:
       - 'Self-service & kiosks':
         - 'Self-service': 'self-service.md'
         - 'SIP2 integration': 'sip2.md'
+        - 'Kiosk app: setup & management': 'kiosk-app.md'
     - 'For members':
       - 'Member quick start': 'member-quick-start.md'
       - 'OPAC (online catalog)': 'opacs.md'
       - 'Member area': 'member-area.md'
       - 'Self-service': 'self-service.md'
+      - 'Using a kiosk': 'using-a-kiosk.md'
     - 'Your account (everyone)':
       - 'Sign-in & security overview': 'sign-in-and-security.md'
       - 'Signing in': 'signing-in.md'

@@ -27,7 +27,7 @@ SIP2 is licensed per terminal. Each terminal that connects to Librarika needs it
 * **Protocol**: SIP2 over TLS (encrypted)
 * **Port**: 6009
 * **Institution ID (AO)**: your library's subdomain, for example `mylibrary` for `mylibrary.librarika.com`.
-* **Login**: the terminal's dedicated staff account (username and password).
+* **Login**: the terminal's dedicated staff account (username and password). Use the account that Librarika support licensed for the terminal: a licensed terminal account is not asked for two-step verification or a new password, but an ordinary staff account is, and a kiosk can't answer. See [Kiosk app](kiosk-app.md#get-a-terminal-licence-and-account).
 * **Allowed IPs**: if the licence lists IP addresses, the terminal must connect from one of them.
 * **Activation**: SIP2 terminals are set up by Librarika staff. Please contact support to get your SIP2 terminal set up.
 
@@ -41,14 +41,11 @@ SIP2 is licensed per terminal. Each terminal that connects to Librarika needs it
 
 ## Librarika Kiosk App
 
-Librarika has its own kiosk app for self-checkout terminals. It works with Librarika's SIP2 service and includes:
+Librarika has its own kiosk app for self-checkout terminals. Members scan their library card, then borrow and return items; staff set it up with an admin PIN and can add branding, library hours, auto sign-out and receipt printing.
 
-* **Patron login with barcode scanner** -- Members scan their library card to log in.
-* **Multi-item checkout and return** -- Check out or return multiple items in a single session.
-* **Session auto-logout** -- Automatically logs out the patron after a period of inactivity.
-* **Admin panel** -- Configure branding, timeouts, receipt printing, and other settings.
-
-See the [Librarika Kiosk App](https://librarika.com/spages/librarika-kiosk-app) page for downloads and supported systems.
+* For staff: [Kiosk app: setup and management](kiosk-app.md).
+* For members: [Using a kiosk](using-a-kiosk.md).
+* Downloads and supported systems: the [Librarika Kiosk App](https://librarika.com/spages/librarika-kiosk-app) page.
 
 ## FAQ
 
@@ -62,7 +59,7 @@ Yes. SIP2 kiosk-based checkout requires a barcode scanner to scan member IDs and
 
 **Can I use third-party kiosk software?**
 
-Yes. Any SIP2-compatible kiosk software can connect to Librarika. Librarika also has its own [Kiosk App](#librarika-kiosk-app).
+Yes. Any SIP2-compatible kiosk software can connect to Librarika. Librarika also has its own [Kiosk app](kiosk-app.md).
 
 **Can two kiosks share one SIP2 licence?**
 

@@ -52,6 +52,7 @@ You have **one Librarika account**, and it belongs to you, not to a library. Wit
 
 * [Self-service](self-service.md): members check items out and in from a browser or phone.
 * [SIP2 integration](sip2.md): connect self-checkout kiosks and other SIP2 devices.
+* [Kiosk app: setup and management](kiosk-app.md): set up the Librarika Kiosk app on a self-checkout computer.
 
 ---
 
@@ -61,6 +62,7 @@ You have **one Librarika account**, and it belongs to you, not to a library. Wit
 * [OPAC](opacs.md): the library's online catalog.
 * [Member area](member-area.md): what you see when you sign in to your library.
 * [Self-service](self-service.md): check items out and in from a browser or phone.
+* [Using a kiosk](using-a-kiosk.md): borrow and return at a self-checkout kiosk.
 
 ---
 
@@ -76,6 +78,8 @@ You have **one Librarika account**, and it belongs to you, not to a library. Wit
 ## Mobile app and kiosks
 
 The Librarika app for iPhone and Android is for both staff and members. See [The Librarika app](mobile-app.md).
+
+At a self-checkout kiosk, members see [Using a kiosk](using-a-kiosk.md); staff set kiosks up with [Kiosk app: setup and management](kiosk-app.md).
 
 [<img class="app-icons ios" src="https://ae85df921b92073b52e8-a126a45a4c59e90797d94cd877fbe744.ssl.cf3.rackcdn.com/static-pages/Download_on_the_App_Store_Badge_US-UK_135x40.svg" alt="Download on the App Store" />](https://itunes.apple.com/us/app/librarika/id1102502605) [<img class="app-icons android" src="https://ae85df921b92073b52e8-a126a45a4c59e90797d94cd877fbe744.ssl.cf3.rackcdn.com/static-pages/google-play-badge.png" alt="Get it on Google Play" />](https://play.google.com/store/apps/details?id=com.librarika.android.dev&hl=en)
 

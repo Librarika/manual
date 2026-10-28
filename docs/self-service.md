@@ -73,7 +73,7 @@ Members can return items by following these steps:
 
 For libraries that need physical self-checkout stations with barcode scanners, Librarika supports the industry-standard **SIP2 protocol**. SIP2 requires a paid plan and a separate SIP2 license purchased on a per-terminal basis.
 
-For full details on SIP2 requirements, licensing, connection setup, and the upcoming Librarika Kiosk App, see the [SIP2 Integration](sip2.md) page.
+For full details on SIP2 requirements, licensing, connection setup, see the [SIP2 integration](sip2.md) page. To set up the Librarika Kiosk App, see [Kiosk app: setup and management](kiosk-app.md); members can read [Using a kiosk](using-a-kiosk.md).
 
 ---
 
