@@ -24,7 +24,9 @@ You need someone who can add a SAML application in your identity provider's admi
 
 In the sidebar, go to **Manage** > **Preferences** and open the `SSO` tab. Switch on **Enable SSO** (*"Member will be able to login using SAML2."*). The rest of the SSO settings appear.
 
-![The SSO tab in Preferences](img/library-preference-sso.png)
+![The SSO tab in Preferences, with sample values](img/library-preference-sso.png)
+
+The **SSO only on the website** and **SSO only on the mobile app** switches (see [SSO only](#sso-only)) appear under **Enable SSO**; they are not in this picture.
 
 Under **SSO configuration** Librarika shows two values to give your identity provider:
 
