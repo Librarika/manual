@@ -1,158 +1,149 @@
-# SSO / SAML Integration
+# Single sign-on (SSO with SAML)
 
-Single Sign-On (SSO) allows your library members to log in using their existing organizational credentials (e.g., school or company login) instead of creating separate Librarika passwords. Librarika supports SSO through the **SAML 2.0** protocol.
+**Who this is for:** library administrators who want staff and members to sign in with their school's or organisation's own login.
 
-## Benefits
-
-* **Simplified login** -- Members use their existing organizational username and password to sign in to your library.
-* **Centralized authentication** -- User access is managed through your organization's Identity Provider (IdP). When a user is removed from your organization, they automatically lose access to the library.
-* **Enhanced security** -- Authentication is handled by your organization's secure login system, supporting multi-factor authentication and other security policies.
-
-## Plan Availability
-
-SSO/SAML integration is available on **Silver** and **Gold** plans only.
-
-## Supported Identity Providers
-
-Librarika supports any SAML 2.0 compliant Identity Provider, including:
-
-* Microsoft Azure AD (Entra ID)
-* Google Workspace
-* Okta
-* OneLogin
-* Auth0
-* Ping Identity
-* ADFS (Active Directory Federation Services)
-* Shibboleth
-
-If your Identity Provider supports SAML 2.0, it should work with Librarika even if it is not listed above.
+**What you can do here:** connect your identity provider to Librarika, decide whether SSO is the only way in, and fix common problems. For what members see when they sign in with SSO, see [Signing in](signing-in.md#signing-in-with-your-organisations-sso).
 
 ---
 
-## How SSO Works
+## What SSO is
 
-1. A member opens your library's login page and clicks the **SSO** button (the key icon, next to Google and Apple).
-2. The member is redirected to your organization's Identity Provider (IdP) login page.
-3. The member enters their organizational credentials (e.g., school email and password).
-4. The Identity Provider authenticates the member and sends a SAML response back to Librarika.
-5. Librarika validates the response and logs the member in automatically.
+With single sign-on (SSO), people sign in to your library with the login they already have at your school or organisation, for example their Google Workspace or Microsoft account. Your organisation's **identity provider (IdP)** checks who they are and tells Librarika, using the **SAML 2.0** standard. Librarika supports any identity provider that speaks SAML 2.0.
 
----
+SSO adds a way to sign in; it doesn't replace the Librarika account. Each person still has their own Librarika account, which they also use on librarika.com and in other libraries.
 
-## Setup Instructions
-
-Setting up SSO requires configuration on both sides -- your Identity Provider and Librarika. Follow these steps:
-
-### Step 1: Access SSO Settings in Librarika
-
-* Go to **Dashboard > Manage > Preferences**.
-* Click on the `SSO` tab.
-
-	![Library preference SSO form](img/library-preference-sso.png)
-
-* You will see the following fields provided by Librarika:
-	* **ACS URL** (Assertion Consumer Service URL) -- The endpoint where your IdP sends the SAML response.
-	* **ACS Entity ID** -- The identifier for Librarika as the Service Provider.
-
-* Copy these values -- you will need them in the next step.
-
-**Note:** The URLs shown will contain your library's subdomain (e.g., `yourlibrary.librarika.com`).
-
-### Step 2: Configure Your Identity Provider
-
-In your Identity Provider's admin console, create a new SAML application with the following settings:
-
-* **ACS URL / Reply URL** -- Paste the ACS URL from Step 1.
-* **Entity ID / Audience URI** -- Paste the ACS Entity ID from Step 1.
-* **Name ID Format** -- Email address (recommended).
-
-The exact steps vary by provider. Consult your Identity Provider's documentation for creating a SAML application.
-
-### Step 3: Enter IdP Details in Librarika
-
-After configuring your Identity Provider, you will receive the following details. Enter them in the SSO tab in Librarika:
-
-* **SAML Provider** -- Select your SAML provider from the dropdown list.
-* **IdP Entity ID** -- The identifier of your Identity Provider (a URI provided by your IdP).
-* **IdP SSO Service URL** -- The login endpoint URL where Librarika sends authentication requests.
-* **IdP x509 Certificate** -- The public certificate from your IdP, used to verify SAML responses.
-
-You can find these values in the **metadata** of your SAML provider. Most providers offer a metadata XML file or a metadata URL that contains all three values.
-
-### Step 4: Enable SSO and Request Activation
-
-* Check the **Enable SSO** checkbox.
-* Click the `Save Preferences` button.
-* **Contact Librarika support** to request SSO activation. Librarika staff will review your configuration and activate SSO for your library.
-
-**Important:** SSO is not active immediately after saving. It requires manual review and activation by Librarika staff.
-
-### Step 5 (optional): Allow SSO only
-
-On the same `SSO` tab you can make SSO the only way into your library:
-
-* **SSO only on the website** -- members and staff can sign in to your library's website with SSO only. Anyone signed in another way (password, Google, or from *My Libraries* on librarika.com) is signed out of your library and asked to use SSO. Their Librarika account keeps working on librarika.com and in other libraries.
-* **SSO only on the mobile app** -- in the Librarika app, your library can then only be used after signing in with your library's SSO.
-
-Before you switch these on, make sure every member's email in your Identity Provider matches their Librarika email.
+**Availability:** SSO is a paid-plan feature, and Librarika support switches it on for each library after checking your settings. If your plan doesn't include it, the SSO tab says so next to **Enable SSO**. Ask [Librarika support](https://librarika.com/spages/contact) if you are not sure.
 
 ---
 
-## Member Login with SSO
+## Set up SSO
 
-Once SSO is activated, members can log in to your library as follows:
+You need someone who can add a SAML application in your identity provider's admin console.
 
-1. Go to your library's login page.
-2. Click the **SSO** button (the key icon).
-3. Enter organizational credentials on the Identity Provider's login page.
-4. After successful authentication, the member is redirected back to the library and logged in.
+### Step 1: Open the SSO tab
 
-**Who can sign in with SSO:**
+In the sidebar, go to **Manage** > **Preferences** and open the `SSO` tab. Switch on **Enable SSO** (*"Member will be able to login using SAML2."*). The rest of the SSO settings appear.
 
-* **A person with no Librarika account yet:** SSO creates their account and sends a member request to your library. They join automatically if `Join member automatically.` is on in your preferences; otherwise the request waits for staff to accept it. If `Enable member access request.` is off, the request is refused.
-* **A person who already has a Librarika account** with the same email: SSO signs them in when your library is on their own **SSO sign-in** list (in their settings). Your library is added to the list automatically when SSO created the account, or when the account belongs only to your library. Otherwise they see *"This library's SSO is not allowed to sign in to your account yet. Sign in with your password or Google, then allow this library under Settings…"*. They sign in with their password once, tick your library under **SSO sign-in** in their settings, and SSO works from then on. See [Sign-in & Security](signing-in.md#your-sign-in-settings).
+![The SSO tab in Preferences](img/library-preference-sso.png)
 
-This protects accounts that are used in more than one library: one organisation's SSO can't take over an account it doesn't own.
+Under **SSO configuration** Librarika shows two values to give your identity provider:
 
-**Passwords:** people invited to your library still create a **Librarika password** when they accept the invitation. The invitation page explains that it is separate from your organisation's SSO password and why they need it (librarika.com and other libraries don't use your SSO).
+* **ACS URL**: `https://auth.librarika.com/<your-library>/saml2/acs`
+* **ACS Entity Id**: `https://auth.librarika.com/<your-library>/saml2`
+
+`<your-library>` is your library's subdomain, for example `mylibrary` for `mylibrary.librarika.com`.
+
+### Step 2: Add Librarika to your identity provider
+
+In your identity provider, create a new **SAML application** (sometimes called a custom or enterprise SAML app):
+
+* **ACS URL** (also called *Reply URL* or *Assertion Consumer Service URL*): paste the **ACS URL**.
+* **Entity ID** (also called *Audience* or *SP Entity ID*): paste the **ACS Entity Id**.
+* **Name ID**: must be the person's **email address**, the same address as their Librarika account. Sign-in fails without it.
+* **Signed assertions**: the identity provider must sign its SAML assertions.
+* Give the people who should use the library access to the application.
+
+Librarika doesn't read other attributes: a new account's name starts as the part of the email before `@`, and the person can change it in their settings.
+
+**Google Workspace:** in the Admin console, add a custom SAML app. Use the ACS URL and Entity ID above, and set **Name ID** to the primary email.
+
+**Microsoft Entra ID:** add an enterprise application (non-gallery) with SAML sign-on. Use the values above, and make sure the Name ID is the user's email address (for example `user.mail`). Guest accounts whose name contains `#EXT#` can't sign in.
+
+### Step 3: Enter your identity provider's details
+
+Your identity provider shows its own SAML details (often on a page called *IdP metadata* or *SAML signing certificate*). Copy them into the SSO tab:
+
+* **SAML Provider**: choose your provider from the list.
+* **IdP Entity**: your identity provider's identifier, a URI.
+* **IdP SSO Service URL**: the address Librarika sends people to for signing in.
+* **IdP x509cert**: your identity provider's public signing certificate. Paste the text of the certificate.
+
+Librarika doesn't import a metadata file: copy each value by hand.
+
+### Step 4: Save and ask for activation
+
+Click `Save Preferences`, then [contact Librarika support](https://librarika.com/spages/contact) to activate SSO for your library. SSO doesn't work until support has checked and activated it.
+
+### Step 5: Test
+
+After support confirms, open your library's login page in a private browser window and click `Sign in with SSO` (the key button). Sign in on your identity provider's page; you should come back to your library signed in. There is no separate test button.
 
 ---
 
-## SSO in the Mobile App
+## SSO only
 
-Members can sign in to the Librarika app with your library's SSO too: on the app's login screen they tap the SSO option and choose your library. If you turned on **SSO only on the mobile app**, this is the only way to use your library in the app.
+Two switches on the `SSO` tab make SSO the only way into your library. They only work while **Enable SSO** is on.
+
+* **SSO only on the website**: *"Members and staff can sign in to this library's website with SSO only. Anyone signed in another way (password, Google, or from My Libraries on librarika.com) is signed out and asked to sign in with SSO."*
+	* The login page then shows only the SSO button.
+	* You can switch it on only **while you are signed in with your library's SSO**, so you can't lock yourself out. Otherwise you see *"Saved, but "SSO only" for the web was not switched on: sign out, sign in with this library's SSO, then switch it on."*
+	* Google and Apple sign-ups aren't accepted for your library.
+* **SSO only on the mobile app**: *"In the Librarika mobile app, members and staff can open this library only after signing in with this library's SSO. App sign-ins with a password, Google or Apple are refused for this library."*
+
+People's Librarika accounts keep working on librarika.com and in other libraries. Before you switch either on, check that every person's email in your identity provider matches their Librarika email.
+
+---
+
+## Who SSO can sign in
+
+When someone signs in with your SSO for the first time:
+
+* **No Librarika account with that email yet:** SSO creates one. If your library already has a member with that email who hasn't joined, they are linked to that member straight away. Otherwise your member request settings decide: they join at once if `Join member automatically.` is on, the request waits for staff if not, and it is refused if `Enable member access request.` is off.
+* **An account with that email already exists:** SSO signs in only if your library is on that person's own **SSO sign-in** list (in their settings). Your library is added for them automatically when SSO created the account, or when the account belongs only to your library. Otherwise they see *"This library's SSO is not allowed to sign in to your account yet. Sign in with your password or Google, then tick this library under Settings, "SSO sign-in"."* They do that once, and SSO works from then on.
+* **An account that was never confirmed:** they see *"Please confirm your email address first. Use the link in the email we sent you."*
+
+This protects accounts used in more than one library: one organisation's SSO can't take over an account it doesn't own.
+
+### What people can't change after signing in with SSO
+
+A session started with SSO can't change how the account signs in. To change their email address, turn on Google or Apple sign-in, change the SSO sign-in list, sign out other sessions or remove their account, people sign in with their password or Google. They see, for example, *"You signed in with SSO. Sign in with your password or Google to change your email address."*
+
+### Passwords and SSO
+
+People you invite still create a **Librarika password** when they accept the invitation. It is separate from your organisation's password: they need it on librarika.com and in other libraries, where your SSO doesn't sign them in.
+
+### Two-step verification and SSO
+
+People who sign in with SSO usually aren't asked for a two-step code, because your identity provider has its own checks. To ask anyway, see [Library sign-in security](library-sign-in-security.md#two-step-verification).
+
+---
+
+## SSO in the mobile app
+
+In the Librarika app, people tap the SSO button (the key) on the sign-in screen, enter your library's web address (for example `mylibrary`) and sign in on your identity provider's page. The app remembers the library for next time. See [Get the app & sign in](mobile-app.md).
+
+---
+
+## Troubleshooting
+
+| What people see | What to do |
+|---|---|
+| *"Your SSO login is either invalid or expired."* | The sign-in took too long, was reused, or SSO isn't active yet. Try again from the library's login page. If it keeps happening, check the ACS URL, Entity ID and certificate on both sides, and ask support whether SSO is activated. |
+| *"Your organisation's sign-in did not send an email address. …"* | Set the Name ID in your identity provider to the user's email address. |
+| *"This library's SSO is not allowed to sign in to your account yet. …"* | The person's account is also used elsewhere. They sign in with their password or Google once and tick your library under **SSO sign-in** in their settings. |
+| *"More than one account uses this email address, so it cannot be signed in this way. …"* | Contact Librarika support. |
+| *"This library allows sign-in with its SSO only. Please sign in with SSO."* | **SSO only on the website** is on. Use the `Sign in with SSO` button. |
+| *"SSO is not available for this library."* (app) | SSO isn't switched on for the library, or support hasn't activated it yet. |
 
 ---
 
 ## FAQ
 
-**Can I use SSO with the free plan?**
+**Is SSO active as soon as I save?**
 
-No. SSO/SAML integration is available on Silver and Gold plans only.
+No. After you save your SSO settings, contact Librarika support. SSO works once support has checked and activated it.
 
-**Is SSO activated immediately after I configure it?**
+**Can members still sign in with their Librarika password?**
 
-No. After you save your SSO configuration, you need to contact Librarika support for manual review and activation.
+Yes, unless you switch on **SSO only on the website** (see [SSO only](#sso-only)). Enabling SSO adds a way to sign in; it doesn't remove the others.
 
-**Can members still log in with their Librarika password after SSO is enabled?**
+**My identity provider isn't in the SAML Provider list.**
 
-Yes, unless you switch on **SSO only on the website** (see [Step 5](#step-5-optional-allow-sso-only)). Enabling SSO adds a login method; it doesn't remove the others.
+Any SAML 2.0 identity provider works. Contact Librarika support and tell them which provider you use.
 
-**What if my Identity Provider is not listed in the dropdown?**
+**Do members need to be added in Librarika first?**
 
-If your IdP supports SAML 2.0 but is not in the dropdown list, select the closest option or contact Librarika support for assistance.
-
-**Do members need to be pre-created in Librarika?**
-
-No. A person without a Librarika account gets one at their first SSO sign-in, together with a member request to your library (joined automatically if `Join member automatically.` is on). Existing members sign in with SSO when the email in your Identity Provider matches their Librarika email.
-
-**A member says "This library's SSO is not allowed to sign in to your account yet". What should they do?**
-
-Their account is used outside your library too, so they must allow your library once: sign in with their password or Google, open their settings, tick your library under **SSO sign-in**, and save.
-
-**A member signed in with SSO but can't change their email or settings. Why?**
-
-For safety, a session started with SSO can't change how the account signs in (email, Google, Apple or the SSO list) or sign out other sessions. They sign in with their password or Google to do that.
+No. A person without a Librarika account gets one at their first SSO sign-in, and joins or asks to join your library (see [Who SSO can sign in](#who-sso-can-sign-in)). Members you already added are linked when the email in your identity provider matches.
 
 **Why does an invited member have to create a password if we use SSO?**
 
@@ -160,5 +151,4 @@ The Librarika account is theirs, not the library's: they also use it on librarik
 
 **Can members use SSO in the mobile app?**
 
-Yes. On the app's login screen they choose SSO and your library. See [SSO in the Mobile App](#sso-in-the-mobile-app).
-
+Yes. See [SSO in the mobile app](#sso-in-the-mobile-app).
