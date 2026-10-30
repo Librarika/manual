@@ -110,7 +110,7 @@ Check your spam folder, and ask your IT team to allow emails from librarika.com.
 
 **Can I sign up with Google or Apple?**
 
-Yes, where Librarika offers Google or Apple sign-in. On librarika.com click `Create one`, then `Continue with Google` or `Continue with Apple`. Your account is created with that email address, already confirmed. Then click `Create Free Library`. See [Create an account with Google or Apple](signing-in.md#create-an-account-with-google-or-apple).
+Yes, where Librarika offers Google or Apple sign-in. On librarika.com click `Create one`, then `Sign up with Google` or `Sign up with Apple`. Your account is created with that email address, already confirmed. Then click `Create Free Library`. See [Create an account with Google or Apple](signing-in.md#create-an-account-with-google-or-apple).
 
 **I was invited by a library. Do I need a new account?**
 

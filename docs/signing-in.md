@@ -12,23 +12,25 @@ Related pages: [Passwords](passwords.md) · [Two-step verification](two-step-ver
 
 ## Ways to sign in
 
-On the **Log in** page of a library (and of librarika.com) you can sign in with:
+The **Log in** page of a library (and of librarika.com) has your password form on the right and, on the left, the other ways under a heading that names them, for example **Log in with Google or Apple** or **Log in with SSO, Google or Apple**. On a phone the other ways come first. You can sign in with:
 
-* **Username and password**: your email address and your Librarika password. Click `Log in`.
-* **Google**: `Continue with Google`, with the Google account that uses the same email address as your Librarika account.
-* **Apple**: `Continue with Apple`, with your Apple ID, if it uses the same email address as your Librarika account. It appears in the Librarika app where Librarika offers it (on iPhone, Google is shown only together with Apple), and on the website only where Librarika has turned Apple sign-in on.
-* **SSO** (single sign-on): `Sign in with SSO` (shown as a key icon when Google and Apple are also offered), your school's or organisation's own login. This button only appears in libraries that use [SSO](sso-saml.md). In those libraries the Google and Apple buttons are usually hidden.
+* **Username and password**: enter your email address in **Username or email**, then your Librarika password, and click `Log in`.
+* **Google**: `Sign in with Google`, with the Google account that uses the same email address as your Librarika account.
+* **Apple**: `Sign in with Apple`, with your Apple ID, if it uses the same email address as your Librarika account. It appears in the Librarika app where Librarika offers it (on iPhone, Google is shown only together with Apple), and on the website only where Librarika has turned Apple sign-in on.
+* **SSO** (single sign-on): `Sign in with SSO`, your school's or organisation's own login. This button only appears in libraries that use [SSO](sso-saml.md). In those libraries the Google and Apple buttons are usually hidden.
 
-![The Log in page on librarika.com, with Continue with Google and Continue with Apple](img/signin-librarika-login-buttons.png)
+![The Log in page on librarika.com, with Sign in with Google and Sign in with Apple](img/signin-librarika-login-buttons.png)
 
-The `Continue with Apple` button in this picture appears only where Apple sign-in on the website is turned on.
+The `Sign in with Apple` button in this picture appears only where Apple sign-in on the website is turned on.
 
-On [librarika.com](https://librarika.com) the page also has **Don't have an account?** `Create one`. On a library's page that uses SSO, the SSO, Google and Apple buttons appear side by side as small icon buttons under **or continue with**.
+On [librarika.com](https://librarika.com) the page says *"Welcome back. Log in to your Librarika account."* and has **Don't have an account?** `Create one`. On a library's site it says *"Welcome to* (the library's name)*. Log in to your account."*, and, if the library takes member requests, *"Not a member yet? Log in, or create an account, then ask to join this library."*
+
+**The Log in box on a library's home page.** Some library pages open a smaller **Log in** box instead of the full page. It asks for your **Username** (your email) and password, and shows the other ways under **or continue with**: one or two as `Continue with Google` and `Continue with Apple` buttons, or, when SSO, Google and Apple are all offered, as three small icon buttons (SSO is the key).
 
 **Good to know:**
 
 * Google and Apple sign you in to the Librarika account with the **same email address**.
-* **Turn Google on first.** To use `Continue with Google` with an account you made with a password, first sign in with your password, tick **Enable Google Login** in your settings and click `Save Settings`. If you skip this, you see *"Please enable the `Login with Google` option from the settings menu."*
+* **Turn Google on first.** To use `Sign in with Google` with an account you made with a password, first sign in with your password, tick **Enable Google Login** in your settings and click `Save Settings`. If you skip this, you see *"Please enable the `Login with Google` option from the settings menu."*
 * *"Please verify your email address in order to login."* appears only for Google and Apple sign-ins (and in the app) on an account whose email address isn't confirmed yet. Open the verification link Librarika emailed you, or use `Forgot password?`: opening the reset link also confirms your address.
 * Apple's **Hide My Email** option gives Librarika a private relay address (ending in `privaterelay.appleid.com`), which won't match your Librarika email. Choose **Share My Email** when Apple asks, or sign in with your password.
 * After two wrong passwords, the page asks you to tick a captcha before you try again. See [Too many wrong passwords](passwords.md#too-many-wrong-passwords).
@@ -37,7 +39,7 @@ On [librarika.com](https://librarika.com) the page also has **Don't have an acco
 
 No Librarika account yet? On librarika.com click `Create one`. The **Create your Librarika account** page offers two ways:
 
-* **Sign up with Google or Apple**: click `Continue with Google` or `Continue with Apple`. Your account is created with the email address of your Google or Apple account, already confirmed, and there is no new password to remember. If you want a password later (for example for the mobile app), use `Forgot password?` on the **Log in** page to set one.
+* **Sign up with Google or Apple**: click `Sign up with Google` or `Sign up with Apple`. Your account is created with the email address of your Google or Apple account, already confirmed, and there is no new password to remember. If you want a password later (for example for the mobile app), use `Forgot password?` on the **Log in** page to set one.
 * **Sign up with your email**: enter your details and click `Create account`. Librarika emails you a link to confirm your address.
 
 If an account with that email address already exists but its email was **never confirmed**, signing up with Google or Apple takes that account over: its old password stops working and it is signed out everywhere. This stops someone else from holding an account in your name.
@@ -152,7 +154,7 @@ The app signs you in with the same account and the same choices: password, Googl
 
 **Why does Librarika say no account uses my Google or Apple email?**
 
-Google and Apple sign you in only to the Librarika account with the same email address. If your Librarika account uses another email, sign in with your password, or ask your library which email your account uses. If you have no Librarika account yet, click `Create one` on the **Log in** page and use `Continue with Google` or `Continue with Apple` (see [Create an account with Google or Apple](#create-an-account-with-google-or-apple)).
+Google and Apple sign you in only to the Librarika account with the same email address. If your Librarika account uses another email, sign in with your password, or ask your library which email your account uses. If you have no Librarika account yet, click `Create one` on the **Log in** page and use `Sign up with Google` or `Sign up with Apple` (see [Create an account with Google or Apple](#create-an-account-with-google-or-apple)).
 
 **Can I use my school or work password in Librarika?**
 
@@ -160,7 +162,7 @@ Only through the library's **SSO** button, if your library uses SSO. The Librari
 
 **Why can't I sign in with my password to my library any more?**
 
-Your library may allow **SSO only** on its website. Use the SSO (key) button. Your password still works on librarika.com and in other libraries.
+Your library may allow **SSO only** on its website. Use the `Sign in with SSO` button. Your password still works on librarika.com and in other libraries.
 
 **Why does Librarika ask me to confirm it's me?**
 

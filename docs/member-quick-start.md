@@ -54,10 +54,10 @@ Until your address is verified:
 
 ## 4. Sign in next time
 
-Go to your library's website (for example `mylibrary.librarika.com`) and click `Login`. Enter your **Username** (your email) and password and click `Log in`, or use your library's SSO (`Sign in with SSO`, shown as a key icon when Google and Apple are also offered). See [Signing in](signing-in.md).
+Go to your library's website (for example `mylibrary.librarika.com`) and click `Login`. Enter your email address (the field is called **Username or email** on the full **Log in** page, **Username** in the smaller Log in box) and your password, and click `Log in`. Or use your library's SSO (`Sign in with SSO`; in the smaller Log in box it can be a key icon). See [Signing in](signing-in.md#ways-to-sign-in).
 
-* **Google:** to use `Continue with Google` with the account you made with a password, first sign in with your password, tick **Enable Google Login** in Account Settings and click `Save Settings`. If you skip this, you see *"Please enable the `Login with Google` option from the settings menu."*
-* **Apple:** `Continue with Apple` appears in the Librarika app where Librarika offers it, and on the website only where Librarika has turned it on.
+* **Google:** to use `Sign in with Google` (`Continue with Google` in the smaller Log in box) with the account you made with a password, first sign in with your password, tick **Enable Google Login** in Account Settings and click `Save Settings`. If you skip this, you see *"Please enable the `Login with Google` option from the settings menu."*
+* **Apple:** `Sign in with Apple` (`Continue with Apple` in the smaller Log in box) appears in the Librarika app where Librarika offers it, and on the website only where Librarika has turned it on.
 
 ## 5. Use the Member Area
 
