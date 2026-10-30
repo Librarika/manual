@@ -164,6 +164,10 @@ Only through the library's **SSO** button, if your library uses SSO. The Librari
 
 Your library may allow **SSO only** on its website. Use the `Sign in with SSO` button. Your password still works on librarika.com and in other libraries.
 
+**What does "The Form you submitted has expired. Please try again." mean?**
+
+The page was open for a long time, or you sent it again from another tab, so Librarika didn't accept it to keep your account safe. Reload the page and submit it again.
+
 **Why does Librarika ask me to confirm it's me?**
 
 You are about to change something important, such as your password, email, two-step verification or account. Enter your password and code, or ask for an emailed link if you sign in with SSO, Google or Apple. See [Confirm it's you](#confirm-its-you).

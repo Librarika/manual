@@ -57,6 +57,8 @@ To edit an existing member in your library, please follow the below steps:
 
 You can perform bulk import of members to your library using our bulk import method. Please read our [Import Members][member_bulk_import] instruction page for more details on how to proceed.
 
+Members you import with login allowed get an invitation email. Invitation emails sent in bulk are limited to **1,000 per library a day** and **3 per email address a day**. Over the limit, an email isn't sent but the invitation is kept, and you see *"(number) invitation emails were not sent because the daily email limit was reached. Send them again later from each member's page."* Send them later with `Re-send Invitation Email` on each member's page.
+
 ### Member related bookings
 
 From members section you can find all the related circulations of your library members. For example all the books a member has borrowed, whether they still have it or have returned it etc. By default you can see only the active bookings of a member but you can see other bookings also. However, you can also export them into a CSV file.

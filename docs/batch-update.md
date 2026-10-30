@@ -92,3 +92,5 @@ The `Branch` value must exactly match the name of an existing branch in your lib
 **Will members get an email?**
 
 Yes, if you set `Member Login` to Yes for a member who does not have a login yet, Librarika sends them an invitation email. Setting it to No turns off sign-in for that member, so check this column before you upload.
+
+Invitation emails sent in bulk are limited to **1,000 per library a day** and **3 per email address a day**. Over the limit, an email isn't sent but the invitation is kept, and you see *"(number) invitation emails were not sent because the daily email limit was reached. Send them again later from each member's page."* Send them later with `Re-send Invitation Email` on each member's page.
