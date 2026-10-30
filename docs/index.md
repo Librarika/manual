@@ -20,7 +20,7 @@ You have **one Librarika account**, and it belongs to you, not to a library. Wit
 * **Who it is for:** school, college and university libraries, public libraries, institutes, organisations, and personal collections.
 * **Plans:** a Free plan for up to 2,000 titles or copies, and paid plans for larger collections and more features. See [Library settings & plans](libraries.md).
 * **Web address:** each library gets its own address, such as `mylibrary.librarika.com`, with its own public catalog.
-* **Languages:** the library website can be shown in 21 languages. Some translations are still incomplete.
+* **Languages:** the library website can be shown in 21 languages. Many translations are new or machine-assisted and are still being reviewed.
 
 ---
 

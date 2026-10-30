@@ -8,13 +8,13 @@
 
 ## Sign-in activity
 
-Open your settings (see [Your sign-in settings](signing-in.md#your-sign-in-settings)). **Members:** **Sign-in activity** is near the bottom of **Account Settings**, above **Remove My Account**. **Staff:** it is in **Settings**, below the tabs. It shows where your account is signed in and every sign-in of the last 90 days.
+Open your settings (see [Your sign-in settings](signing-in.md#your-sign-in-settings)). **Members:** **Sign-in activity** is near the bottom of **Account Settings**, above **Remove My Account**. **Staff:** it is in **Settings**, below the tabs. It shows where your account is signed in and your recent sign-ins.
 
 ![Sign-in activity: last signed in, where you are signed in, and sign-in history](img/signin-activity-member.png)
 
 * **Last signed in** -- your previous sign-in (not the current one): when, how and where.
 * **Where you are signed in** -- every browser and phone that is still signed in, with when it signed in and when it was last used. Your current browser shows **This session**.
-* **Sign-in history (last 90 days)** -- every sign-in, newest first, 20 per page.
+* **Sign-in history** -- your recent sign-ins, newest first, 20 per page.
 
 Each row shows:
 
@@ -75,10 +75,10 @@ They can't see your history, your devices, your addresses or your activity in ot
 
 ## Your privacy
 
-* Sign-in records are kept for **90 days**, then deleted automatically.
-* The full internet address is kept for 30 days to investigate misuse, then shortened. You always see it shortened.
-* Deleting your account deletes your sign-in history.
-* To get a copy of your sign-in records, click `Download my sign-in and security data` under **Sign-in activity** in your settings. You get a file (`librarika-sign-in-and-security-data.json`) with your sign-ins and security settings. It never contains your password, codes or full internet addresses.
+* Sign-in records are kept for a limited time and then deleted automatically.
+* The full internet address is kept for a shorter time to investigate misuse, then shortened. You see it shortened.
+* Removing your account deletes the sign-in history shown here. Some security records may be kept for a limited time, as the [Privacy Policy](https://librarika.com/spages/privacy-policy) explains.
+* To get a copy of your sign-in records, click `Download my sign-in and security data` under **Sign-in activity** in your settings. You get a file (`librarika-sign-in-and-security-data.json`) with your sign-ins and security settings. It doesn't contain your password, codes or full internet addresses.
 * See the [Privacy Policy](https://librarika.com/spages/privacy-policy) for details.
 
 ---
@@ -103,7 +103,7 @@ For your privacy. A shortened address is enough to see roughly where a sign-in c
 
 **Can I delete my sign-in history?**
 
-It is deleted automatically after 90 days, and all of it is deleted with your account.
+It is kept for a limited time and then deleted automatically, and removing your account deletes it. See the [Privacy Policy](https://librarika.com/spages/privacy-policy).
 
 **Can my library's administrators see my sign-ins?**
 

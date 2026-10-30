@@ -95,7 +95,7 @@ Account settings is the section where you can update all the information of your
 * Now whenever you visit this page you can view your information or update your info.
 * On the same page you can choose how you sign in (**SSO sign-in**, **Enable Google Login**, **Sign in with Apple**) and see your **Sign-in activity**: where your account is signed in, with a `Sign out` button for each browser or phone. See [Signing in](signing-in.md#your-sign-in-settings) and [Sign-in activity](sign-in-activity.md).
 * Changing your password signs out your account everywhere else, including the mobile app, and you get an email about it.
-* Under **Two-step verification** (if you see it; it isn't available for every account yet) you can turn on a second step for signing in: a code from an authenticator app on your phone. Click `Turn on` (or `Manage` when it is on). See [Two-step verification](two-step-verification.md).
+* Under **Two-step verification** you can turn on a second step for signing in: a code from an authenticator app on your phone. Click `Turn on` (or `Manage` when it is on). See [Two-step verification](two-step-verification.md).
 * Before you change your password or email, or remove your account, Librarika may ask you to [confirm it's you](signing-in.md#confirm-its-you).
 
 ## My holds

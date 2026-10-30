@@ -133,7 +133,7 @@ The **Confirm it's you** email link is different: it works only in the same brow
 
 ## Remove your account
 
-Removing your account closes it for good: you lose access to every library you belong to, your sign-in history is deleted, and you can't create a new account with the same email address.
+Removing your account closes it for good: you lose access to every library you belong to, the sign-in history in your Sign-in activity is deleted (see the [Privacy Policy](https://librarika.com/spages/privacy-policy) for what is kept), and you can't create a new account with the same email address.
 
 * **Members:** in your settings, under **Remove My Account**. **Staff:** in **Settings**, the `Remove Account` tab.
 * Tick **Remove my account** and **Yes, I understand it can't be undone**, then confirm it's you: enter **Your current password**, or tick **No password? Email me a confirmation link instead**. Click `Delete`.

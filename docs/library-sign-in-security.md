@@ -26,7 +26,7 @@ On other plans (Free, Basic Pro and Silver) the page is shown but locked:
 * the fields and `Save` are greyed out, and the date field says *Set by Librarika support*;
 * `Compare plans` opens the upgrade page, and `Contact support` is for asking everyone to choose a new password (see [Ask for a new password](#ask-for-a-new-password)).
 
-On any plan, people can turn on [two-step verification](two-step-verification.md) for themselves once it appears in their settings (Librarika is making it available to accounts step by step).
+On any plan, people can turn on [two-step verification](two-step-verification.md) for themselves in their settings.
 
 ## Two-step verification
 

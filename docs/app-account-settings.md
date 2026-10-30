@@ -11,7 +11,7 @@ These settings belong to your **Librarika account**, so they apply in every libr
 
 ![Member Account tab](img/app-member-account.png) ![Staff Settings tab with Two-step verification](img/app-staff-settings.png)
 
-The `Two-step verification` row appears when it is available for your account (it isn't in the member picture).
+The settings also have a `Two-step verification` row (it isn't in the member picture).
 
 ---
 
@@ -42,7 +42,7 @@ Changing your password signs out your other devices.
 
 ## Two-step verification
 
-When it is available for your account, the settings show **Two-step verification** -- *Manage on the website*. Tap it to open the two-step verification page on the website, where you turn it on or off, see your recovery codes count and set up a new phone. See [Two-step verification](two-step-verification.md).
+The settings show **Two-step verification** -- *Manage on the website*. Tap it to open the two-step verification page on the website, where you turn it on or off, see your recovery codes count and set up a new phone. See [Two-step verification](two-step-verification.md).
 
 ## Sign-in methods and SSO
 

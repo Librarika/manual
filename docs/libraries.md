@@ -125,7 +125,7 @@ The `Sign-in security` button at the top of the Preferences page opens your libr
 	* The **Booking Time** option is the default loan length in days. It sets the default **Return Date** in the circulation form.
 	* The **Booking Quota** field is the maximum number of items a member can have requested, checked out or on loan at a time, all combined.
 	* **Enable member access request.** -- people with a Librarika account can ask to join your library. It is on by default; only some plans can turn it off (see [What each plan includes](#what-each-plan-includes)).
-	* **Join member automatically.** -- requests (including first SSO sign-ins) are accepted at once with the next member number. When it is off, they wait in [Member Requests](members.md#member-requests).
+	* **Join member automatically.** -- requests (including first SSO sign-ins) are accepted right away with the next member number. When it is off, they wait in [Member Requests](members.md#member-requests).
 
 * If you click on the `Self Service` tab then it will be displayed like below.
 
@@ -181,7 +181,7 @@ The `Sign-in security` button at the top of the Preferences page opens your libr
 * The `Upgrade` tab links to your plan; see [Upgrade your plan](#upgrade-your-plan).
 * From the above tabs you can set / enter / update the value that you want.
 * Click on the `Save Preferences` button to save your changes.
-* Your latest changes will be applied instantly.
+* Your latest changes are applied right away (some may take a few minutes to show).
 
 ### Sign-in security
 
@@ -233,8 +233,8 @@ To upgrade:
 	![My plan page](img/my-plan-page.png)
 
 * Click `Show More Plans` to see every plan.
-* Pick a plan and click `Pay with FastSpring` or `Pay with Paddle`, then finish the checkout.
-* Paddle payments and FastSpring renewals activate your plan automatically once the payment is confirmed. For a **new FastSpring subscription**, Librarika emails an activation code to your billing email: click `Apply Activation Code` on the `My Plan` page and enter it.
+* Pick a plan and click `Pay with FastSpring`, then finish the checkout. Payments are handled by FastSpring.
+* FastSpring renewals activate your plan automatically once the payment is confirmed. For a **new FastSpring subscription**, Librarika emails an activation code to your billing email: click `Apply Activation Code` on the `My Plan` page and enter it.
 * Your library then moves to the plan you chose.
 
 Plans renew automatically each year until you cancel (see [Cancel subscription](#cancel-subscription)).
@@ -272,14 +272,14 @@ You can change the payment information anytime. Please follow the below steps:
 	![Billing info form](img/update-billing-info.png)
 
 * Payments are handled by FastSpring. Click `Access My Account`, enter your billing email, and use the one-time link FastSpring emails you to sign in and update your payment method.
-* Subscriptions paid through 2Checkout are discontinued. Renew them through FastSpring from the same page.
+* Older subscriptions paid another way are renewed through FastSpring from the same page.
 * When your current subscription expires, the system will automatically charge the credit card listed in your order profile and then generate an invoice.
 
 
 ## Cancel subscription
 
 * Go to `Manage` > `My Plan` and click `Cancel Plan`.
-* This turns off auto-renewal. You keep full access until the end of the paid period, and that period isn't refunded. After that date your library returns to the Free plan.
+* This turns off auto-renewal. You keep full access until the end of the paid period; after that your library returns to the Free plan. For refunds, see the [Terms of Use](https://librarika.com/spages/terms-and-conditions-of-use).
 * To cancel an e-book storage subscription, contact Librarika support.
 
 ---

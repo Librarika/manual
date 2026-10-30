@@ -89,7 +89,7 @@ To protect your account from people guessing passwords, Librarika slows down rep
 * After **two** wrong passwords, the **Log in** page asks you to complete a **captcha** ("I'm not a robot" check). If you skip it you see *"Please confirm you are a human!"*
 * After more wrong passwords, Librarika may make you wait a little before trying again. You see *"Please wait 30 seconds; retrying sooner extends the wait."* (the number of seconds varies). Wait for that time, then try again. Trying sooner makes the wait longer.
 * The captcha can also appear when many failed sign-ins come from the same internet connection (for example a school network), even if you typed your password right. Tick it and continue.
-* If someone keeps trying wrong passwords on your account, you get an **email** about it. If that wasn't you, nobody has got in: the email has a link to reset your password if you want to be safe.
+* If someone keeps trying wrong passwords on your account, you get an **email** about it. The email is about failed attempts; it doesn't mean anyone got in. To be safe, reset your password and check your [Sign-in activity](sign-in-activity.md).
 
 If you are not sure of your password, use [Forgot password?](#forgot-your-password) instead of guessing.
 

@@ -69,7 +69,7 @@ Once signed in, click `My Account` to open the [Member area](member-area.md): yo
 
 ## 6. Optional: turn on two-step verification
 
-Two-step verification protects your account even if someone learns your password. In your settings, find **Two-step verification** and click `Turn on`. If you don't see **Two-step verification** in your Account Settings, it isn't available for your account yet. Nothing is wrong with your account. You need an authenticator app on your phone. See [Two-step verification](two-step-verification.md). Your library may require it; if so, Librarika asks you to set it up when you sign in.
+Two-step verification makes your account much harder to take over: someone who learns your password also needs your phone to sign in with that password. In your settings, find **Two-step verification** and click `Turn on`. You need an authenticator app on your phone. See [Two-step verification](two-step-verification.md). Your library may require it; if so, Librarika asks you to set it up when you sign in.
 
 ---
 

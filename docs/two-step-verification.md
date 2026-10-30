@@ -6,9 +6,7 @@
 
 Two-step verification adds a second step to signing in with your password. After your password, you enter a **6-digit code** from an **authenticator app** on your phone. The code changes every 30 seconds.
 
-It keeps your account safe **even if someone learns your password**: without your phone they can't sign in.
-
-**Not in your settings?** If you don't see **Two-step verification** in your Account Settings, it isn't available for your account yet. Nothing is wrong with your account.
+It makes your account much harder to take over: someone who learns your password also needs your phone to sign in with that password.
 
 ### What you need
 
