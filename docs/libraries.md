@@ -170,7 +170,7 @@ The `Sign-in security` button at the top of the Preferences page opens your libr
 
 * If you click on the `SSO` tab then you can enable the SSO login for your library.
 
-	It connects your school's or organisation's identity provider so that staff and members can sign in with their own login, and can make SSO the only way in. SSO works only after Librarika support activates it for your library. For every setting and step, see [Single sign-on (SSO with SAML)](sso-saml.md).
+	It connects your school's or organisation's identity provider so that staff and members can sign in with their own login, and can make SSO the only way in. SSO is available on the Silver plan and higher, and SSO only on the Gold plan and higher; it works only after Librarika support activates it for your library. For every setting and step, see [Single sign-on (SSO with SAML)](sso-saml.md).
 
 * If you click on the `Appearance` tab then it will be displayed as below.
 
@@ -252,7 +252,8 @@ The **Free** plan holds up to 2,000 titles or copies. The plans are Free, Basic 
 | Premium colour schemes; turning off `Enable member access request.` and `Send review item reminder.`; `Notify librarians on checkout.` | Basic Pro, Silver, Gold, Platinum, Unlimited |
 | [Sign-in security settings](library-sign-in-security.md) | Gold, Platinum, Diamond, Enterprise, Unlimited |
 | [Branch access for users](users.md) | Gold, Platinum, Unlimited |
-| [Single sign-on (SSO)](sso-saml.md) | Ask [Librarika support](https://librarika.com/spages/contact) |
+| [Single sign-on (SSO)](sso-saml.md), activated by [Librarika support](https://librarika.com/spages/contact) | Silver and higher |
+| [SSO only](sso-saml.md#sso-only) | Gold and higher |
 | [SIP2 terminals](sip2.md) | Each terminal needs its own licence: ask [Librarika support](https://librarika.com/spages/contact) |
 
 The `My Plan` page shows the current list of plans and prices.

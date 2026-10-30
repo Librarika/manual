@@ -46,8 +46,9 @@ See [Member quick start](member-quick-start.md).
 
 ## SSO problems
 
-* **"This library's SSO is not allowed to sign in to your account yet. …":** their account is also used elsewhere. They sign in once with their password or Google and tick your library under **SSO sign-in** in their settings. If your library allows **SSO only on the website**, they do this on **librarika.com**, not on your library's **Log in** page (which accepts only SSO), then use `Sign in with SSO` on your library's page.
-* **"This library allows sign-in with its SSO only. Please sign in with SSO.":** your library allows SSO only. They use the `Sign in with SSO` button.
+* **"This library's SSO is not allowed to sign in to your account yet. To allow it, sign in at librarika.com …":** their account is also used elsewhere. They sign in once on **librarika.com** with their password or Google (no password: `Forgot password?` there), switch your library on under **SSO sign-in** in their settings, then use `Sign in with SSO` on your library's page.
+* **"This library's SSO is not allowed to sign in to your account yet, because your account is not linked to this library. …":** add them as a member with that email address (see [Members](members.md)), then they sign in with SSO again.
+* **"This library allows sign-in with its SSO only. Please sign in with SSO.":** your library allows SSO only. They use the `Sign in with SSO` button. Only library administrators can sign in with a password there, with `Library administrators: log in with your password`.
 * **"Your SSO login is either invalid or expired.":** they try again from your library's **Log in** page. If it keeps happening, check your SSO settings.
 
 See [Single sign-on](sso-saml.md#troubleshooting).
