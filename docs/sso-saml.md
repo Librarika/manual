@@ -85,7 +85,7 @@ Two switches on the `SSO` tab make SSO the only way into your library. They only
 
 	**Before you switch it on:**
 
-	1. Make sure your own Librarika email exists in your identity provider. An owner account such as library@yourschool.edu may not exist there; if so, sign in with an account that does and give it the **Library Administrator** role first (see [Users](users.md#add-user)).
+	1. Make sure your own Librarika email exists in your identity provider. An owner account such as library@yourschool.edu may not exist there; if so, sign in with an account that does and give it the **Library Administrator** role first (see [Users](users.md#add-user)). If that account isn't staff in your library yet, its owner must first accept the invitation Librarika emails (see [Accept a staff invitation](users.md#accept-a-staff-invitation)).
 	2. If you also use Librarika in another library, sign in with your password and tick this library under `Settings` > `SSO sign-in` (see [Who SSO can sign in](#who-sso-can-sign-in)).
 	3. Sign out, sign in with `Sign in with SSO`, then switch on **SSO only on the website** and click `Save Preferences`.
 * **SSO only on the mobile app**: *"In the Librarika mobile app, members and staff can open this library only after signing in with this library's SSO. App sign-ins with a password, Google or Apple are refused for this library."*

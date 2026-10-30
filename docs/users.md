@@ -62,27 +62,36 @@ To add a user, please follow the below steps:
 * Enter the user's **Email** and tick one or more **Groups / Roles**:
 	* **Library Administrator** -- full access to all library settings and management features, including users, preferences and sign-in security.
 	* **Library Assistant** and **Library Staff** -- day-to-day library work such as circulation and cataloging. The form links to the **Librarika Permissions** page, which lists what each role can do.
-* If the email doesn't belong to a Librarika account yet, a **Name** field appears. Enter the person's name.
+* If the email isn't already one of your library's accounts, a **Name** field appears; it's used only if the email has no Librarika account yet. Enter the person's name.
 
 	![Users add user form name field](img/users-add-user-form-name-field.png)
 
 * **Employee** (optional): link an employee profile from `Others` > `Employees` to this account.
 
 * Click `Submit`.
-	* **The email already has a Librarika account:** the person is added to your library at once, and no email is sent. Tell them to sign in and open your library from **My Libraries** on librarika.com, or from your library's own address.
+	* **The email already has a Librarika account:** Librarika emails the account's owner an invitation, and you see *"This email already has a Librarika account. We sent its owner an invitation; the account is added when they accept it."* The person isn't added to your library until they accept (see [Accept a staff invitation](#accept-a-staff-invitation)). Being staff puts their account under your library's sign-in rules, so the owner decides.
 	* **A new account:** Librarika sends an invitation email, and the user shows as **Invited** until they accept it (see [Accept a staff invitation](#accept-a-staff-invitation)).
 
 	![Users main page](img/user-with-invited-status.png)
 
 ### Accept a staff invitation
 
-This is what the person you invited does:
+This is what the person you invited does. **A new account:**
 
 1. Open the invitation email from Librarika and click the link.
 2. On **Set up your account** (*"Enter your name and choose a password to finish setting up your Librarika account."*), enter your name and choose a password: at least 15 characters (see [Passwords](passwords.md#what-makes-a-good-password)).
 3. Click `Save and log in`. You are signed in to the library.
 
 The link works for **30 days**. If it has expired, you see *"This link has expired. Please request a new one."*: ask the library to send it again with `Re-send Invite` (see [Resend invitation](#resend-invitation)).
+
+**You already have a Librarika account?** The email asks you to join the library's staff instead:
+
+1. Click the link in the email. If you aren't signed in, sign in first with **the account the email was sent to**.
+2. The **Join the library staff** page shows the library and the roles it offers. Click `Accept the invitation`. You see *"You have joined the library staff."*, and the library appears under **My Libraries**.
+
+This invitation works **once, for one week**. If it has expired or was already used, you see *"This invitation is invalid or has expired. Please ask the library to invite you again."* If your account isn't activated yet, you see *"Please activate your account first, then open this invitation link again."*: activate it from your activation email, then open the invitation link again while it is still valid.
+
+**Limits:** a library can send only a limited number of these invitations a day. Over the limit, the library sees *"Too many invitations were sent today. Please try again tomorrow."*
 
 
 ## Resend invitation
@@ -114,7 +123,7 @@ To set permissions, please follow the below steps:
 
 	When your library can limit users to branches, the dialog also has a **Branch Access** section below the roles (not shown here; see [Branch access](#branch-access)).
 
-* Here you can change the groups or roles of a user from the previous one by changing permissions. You can also add permission for a new user.
+* Here you can change the groups or roles of a user from the previous one by changing permissions. You can also give a staff role to an account that isn't staff in your library yet (for example a linked member): Librarika then emails the account's owner an invitation, and you see *"We sent the account owner an invitation; the staff role is added when they accept it."* (see [Accept a staff invitation](#accept-a-staff-invitation)).
 * Also you can select multiple groups or roles for a user when you will either add or update permission.
 * Click on `Save` button when you are done and your permissions will be saved.
 
@@ -159,7 +168,7 @@ To view the list of linked members, please follow the below steps:
 	![Users linked members page](img/users-linked-members-page.png)
 
 * All the member accounts are listed here. These users can not access admin dashboard by default. 
-* However, you can assign them admin permission, if you want them to be a part of your library management staff.
+* However, you can give them a staff role with `Change Permissions` if you want them to be a part of your library management staff. The role is added only when they accept the invitation Librarika emails them (see [Add / update permission](#add-update-permission)).
 
 ---
 
