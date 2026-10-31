@@ -1,16 +1,20 @@
-# Barcode Labels
+# Barcode labels
 
-Barcode Labels is the section that can be accessed by the librarians only. In this section the librarian can add single or multiple books and also add member barcode to the Barcode Queue. Once books are added to the queue then the librarian can generate barcodes. After the barcodes are generated they can print them out in standard label stationary or normal papers. Barcodes are very useful for the librarians as well as the library members. 
+**Who this is for:** library staff.
+
+**What you can do here:** queue items and member cards, and print barcode labels for them.
+
+Barcode labels is a section for library staff only. In this section staff can add single or multiple books and also add member barcode to the Barcode Queue. Once books are added to the queue then the librarian can generate barcodes. After the barcodes are generated they can print them out in standard label stationary or normal papers. Barcodes are very useful for the librarians as well as the library members. 
 
 **Some barcode scanners can't scan small numbers. Hence, it is recommended to use barcodes that is at least 6-8 characters long so that all barcode scanner can scan them accurately.**
 
-## Add to Barcode Queue
+## Add to barcode queue
 
 You can add single or multiple books and members to the barcode queue.
 
 To do so, please follow the below steps:
 
-* At first login to your library.
+* First, sign in to your library.
 * Go to the  `Circulations` option from the main menu.
 * Click on `Barcode Labels` from the `Circulations` dropdown menu.
 
@@ -34,9 +38,9 @@ To do so, please follow the below steps:
 
         ![Barcode Labels add multiple books](img/barcode-labels-add-multiple-books.png)
 
-    ** Steps to add members to the barcode queue**
+    **Steps to add members to the barcode queue**
 
-    * If you click on the `Add Member Barcode` button, then you can add a member by his/her member number or name like below.
+    * If you click on the `Add Member Barcode` button, then you can add a member by their member number like below.
 
         ![Barcode Labels add member](img/barcode-labels-add-member.png)
 
@@ -44,15 +48,17 @@ To do so, please follow the below steps:
 
         ![Barcode Labels add another member](img/barcode-labels-add-another-member.png)
 
-    * If you click on the `Add Multiple Members` button then you can add multiple members to the Barcode Queue by their member number or name. Please enter member number or name separated by comma.
+    * If you click on the `Add Multiple Members` button then you can add multiple members to the Barcode Queue by their member number. Please enter member numbers separated by comma. Names are not accepted.
 
         ![Barcode Labels add multiple members](img/barcode-labels-add-multiple-members.png)
 
 * Once you click on  `Add to Queue` button, then step one will be finished and all your items will be available in Generate Barcodes section. Also you can see how many items you have added in the Generate Barcode Section.
- 
-    ![Barcode Labels queued items number](img/barcode-labels-queued-items-number.png)
 
-## Generate Barcodes
+	![Barcode Labels queued items number](img/barcode-labels-queued-items-number.png)
+
+**Queue limit:** the Barcode Queue holds up to 100 labels, or 500 on the Basic Pro, Silver, Gold, Platinum and Unlimited plans. You can keep adding until the queue is full, and a full queue can still be generated. If adding several books or members at once would go over the limit, nothing is added and you are told how many more fit. Generate the queue first, or add fewer items.
+
+## Generate barcodes
 
 Generate Barcodes is the section where actions are taken depend upon the currently added items on the Barcode Queue.
 Once you have added items to barcodes queue, you need to generate the barcode labels. This option applies to the currently added items to the barcode queue. If no item is in the queue, then this option will be disabled.
@@ -102,7 +108,7 @@ To Generate Barcodes, please follow the below steps:
      ![Barcode Labels print queue](img/barcode-labels-print-queue.png)
 
 
-## Bulk Delete Barcodes
+## Bulk delete barcodes
 
 If you want to delete the queued or generated barcodes all together then you can use our **Delete Labels** option. 
 
@@ -125,7 +131,7 @@ If you want to delete the queued or generated barcodes all together then you can
 * After selecting the object type and label type please click on the `Delete` button and barcodes will be deleted.
 
 
-## Print Barcodes
+## Print barcodes
 
 Print Barcodes is the section where you need to print out all the barcodes which you have been generated so far to complete the process. 
 
@@ -147,7 +153,7 @@ To print the barcodes please follow the below steps:
 * All of your labels should be properly placed in print layout correctly. If so then you are ready to print them out.
 * For a precuation, please print a small quantity of labels as a first step.
 
-### Custom Print Settings
+### Custom print settings
 
 You can also apply your preferred settings for printing customized barcodes.
 
@@ -181,13 +187,13 @@ To do so, please follow the below steps:
 * In this page you can apply the font size and text limit of the lines per your need.
 * When you are done, click on `Apply` button to see your changes in the print layout page.
 
-### Complete Printing and Start New Queue
+### Complete printing and start new queue
 
 When you have items in the Print Barcodes section, you can't generate new barcodes. In order to generate new barcodes, you need to complete the current print queue and start over.
 
 To do so, please follow the below steps:
 
-* Please click on the `Print Completed` button and then click ok to confirm. 
+* Please click on the `Print Completed?` button and then click ok to confirm. 
 
     ![Barcode Labels print completed](img/barcode-labels-print-completed.png)
 
@@ -197,13 +203,13 @@ To do so, please follow the below steps:
 
 * Now you can generate new barcodes like before.
 
-## Custom Barcode
+## Custom barcode
 
 If you have already labeled your old items using existing barcode number then enter those barcode number into accession number field.
 
 To do so, please follow the below steps:
 
-* Please go to the `Dashboard -> Catalogs -> Catalog Items` section then locate the item you want to edit from your catalog and click on the `View` icon on the right to that item. Navigate to the copies section at the bottom of the page. Click on the `Edit` icon on the right to that specific copy. 
+* Go to `Catalogs` > `Catalog Items`, then locate the item you want to edit from your catalog and click on the `View` icon on the right to that item. Navigate to the copies section at the bottom of the page. Click on the `Edit` icon on the right to that specific copy. 
 
     ![Barcode Labels media copies section](img/media-add-multiple-copies-btn.png) 
 
@@ -219,7 +225,7 @@ To do so, please follow the below steps:
 
 You can provide your catalog information along with your own (existing) accession number for barcode (existing) when adding your records using our [Bulk Import](cataloging.md#bulk-import) method. You can only use your existing barcode labels if they are numeric digit.
 
-## Spine Labels
+## Spine labels
 
 Spine labels make it easier for library users to locate their favourite resources. To generate spine labels please follow the below procedure.
 
@@ -242,3 +248,32 @@ Spine labels make it easier for library users to locate their favourite resource
     ![Barcode Labels spine label](img/spine-label-print.png)
 
 * Now you can print them out. Also, please remember to click on the `Print Completed?` button after printing your labels otherwise you can not add new items to the queue. 
+## FAQ
+
+**Why can't I generate new barcodes?**
+
+Labels from your last batch are still waiting in Print Barcodes. Print them, then click `Print Completed?` to empty the print queue, as described in [Complete Printing and Start New Queue](#complete-printing-and-start-new-queue). You can still add items to the queue in the meantime.
+
+**I queued both books and members. Why were only some of them generated?**
+
+`Generate Barcodes` works on one `Object Type` (Accession or Member) at a time. The other kind stays in the queue: print the first batch, click `Print Completed?`, then generate again with the other object type.
+
+**How many items can I add to the queue?**
+
+The queue holds up to 100 items, or 500 on paid plans (Basic Pro, Silver, Gold, Platinum and Unlimited). When the limit is reached, generate and print the current labels, or remove some with [Delete Labels](#bulk-delete-barcodes), before adding more.
+
+**Why was an item not added to the queue?**
+
+An item or member that is already queued or generated cannot be added again; adding it on its own shows "Already added this item to the queue." With `Add Multiple Books`, accession numbers that are not purely numeric are ignored, so add those with `Add Book` one at a time.
+
+**I clicked `Print Completed?` by mistake. Can I undo it?**
+
+No. Marking labels as completed cannot be reverted. To get those labels again, add the items to the queue again and generate them as a new batch.
+
+**How do I reprint a label I printed before?**
+
+Add the book or member to the barcode queue again, then generate and print it as usual. Labels that were marked as completed can be queued again.
+
+**Should I untick `Remove Prefix`?**
+
+No, leave it ticked. The prefix is an experimental feature that puts an extra letter in front of the barcode (A for items, P for members), and it is not yet supported throughout Librarika. It only works with CODE 128 and CODE 39.

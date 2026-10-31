@@ -1,10 +1,14 @@
-# Fees & Payments
+# Fees & payments
+
+**Who this is for:** library staff who handle fines and payments.
+
+**What you can do here:** set up fees and fines, add charges, take payments and see a member's balance.
 
 Our fees and payments module allows libraries to collect fees and fines on various library activities. We tried to make this module very simple in terms of design and functionalities.
 
 The module is based on charges that you can apply and payments that you can collect from your library members.
 
-**Note: Only premium libraries have access to this module.**
+**Plans:** Fees & payments is available on the **Basic Pro**, **Silver**, **Gold**, **Platinum** and **Unlimited** plans (see [What each plan includes](libraries.md#what-each-plan-includes)).
 
 ## Features
 
@@ -12,19 +16,21 @@ The module is based on charges that you can apply and payments that you can coll
 * Apply payment.
 * Apply various other charges.
 * View Member's full account statement.
-* Access payment matrics such as daily payments, charges.
+* Access payment metrics such as daily payments and charges.
 * Suspend member borrowing activity based on automatic threshold value.
 * And more.
 
-## How to activate the module
+## Set up fees and fines
 
-Please complete the following easy steps to setup your library. It should not take more than 5 minutes.
+<a id="how-to-activate-the-module"></a>
 
-* Please go to the `Dashboard -> Circulations -> Fees & Payments` from the dropdown menu.
+Setting up takes a few minutes.
+
+* Go to `Circulations` > `Fees & Payments`.
 
 	![Fees & Payments menu](img/fees-payments-menu.png)
 
-* Click on `Fees & Payments` option and a page will be appeared like below.
+* The **Fees & Payments** page opens:
 
 	![Fees & Payments main page](img/fees-payments-main-page.png)
 
@@ -38,6 +44,7 @@ Please complete the following easy steps to setup your library. It should not ta
 
 	![Fees & Payments fee settings module](img/fees-payments-fee-settings-module.png)
 
+* Switch on **Enabled fees & fines** and click `Submit`. Without it, no overdue fines are charged, even if the Overdue Charge fee item is enabled.
 * To add "Overdue Charge" fee item please click on the `Fee Items` button from the `Transactions` module.
 * A form named `Fees` will be appeared like below.
 
@@ -67,16 +74,69 @@ Please complete the following easy steps to setup your library. It should not ta
 * And you are now ready to collect payments.
 * Also you can activate the other types of fee item same as mentioned above.
 
-## Overdue Charges
+## Overdue charges
 
 System will apply / update overdue charges for currently overdue items on daily basis. Once the item is returned you can edit / adjust the applied overdue amount.
 
-## Download Transactions
+## Download transactions
 
 * You can download the transactions in a CSV file by clicking on the `Export` button.
 * Additionally, you have the option to download transactions based on transaction types. Simply select either `Debit` or `Credit` from the transaction list, then click on the `Export` button.
 * To download transactions for a specific member, you'll need to visit the member's profile first. Then navigate to the `Statement` and click on the `Export Transactions`.
 
+## Charge a member
+
+Use this for a lost or damaged book, a card fee and similar charges.
+
+1. Go to `Transactions` and click `Add Charge` (or `Add Charge` on the member's statement).
+2. Enter the member number or name and choose the member.
+3. Choose the fee item, for example **Lost or damaged material charge**, and enter the amount.
+4. Click `Submit`.
+
+The fee item must be enabled under `Fee Items` first.
+
+## Suspend borrowing when a member owes too much
+
+1. Go to `Transactions` and click `Fees & Fines Settings`.
+2. Switch on **Suspend activity** and enter a **Suspension Limit** (an amount).
+3. Click `Submit`.
+
+When a member's balance reaches the limit, staff checkouts, member self-checkouts and member requests are refused until the balance goes down.
+
 ## Limitations
 
-Please be aware of any bugs and issues that may arises and let us know if you feel anything. As a pre-caution, please take backup of your transaction information on regular basis.
+Transactions is marked beta. Export your transactions now and then (see [Download transactions](#download-transactions)) to keep your own copy.
+
+## FAQ
+
+**Which plans include Fees & Payments?**
+
+Fees & Payments is available on the **Basic Pro**, **Silver**, **Gold**, **Platinum** and **Unlimited** plans. On other plans, the Fees & Payments menu shows an activation page instead.
+
+**Why are no overdue charges being added?**
+
+Two things are needed: **Enabled fees & fines** must be ticked in `Fees & Fines Settings`, and an **Overdue Charge** fee item must be enabled under `Fee Items`. See [Set up fees and fines](#set-up-fees-and-fines).
+
+**How is the overdue charge calculated?**
+
+The charge is the overdue amount per day multiplied by the number of days the item is past its due date. Each overdue checkout has one charge, which is updated every day until the item is returned.
+
+**Why can't I edit or delete an overdue charge?**
+
+While the item is still overdue, its charge is highlighted in the transaction list and keeps growing, so the edit and delete icons are hidden. Once the item is returned, you can edit or delete the charge.
+
+**How do I record a payment from a member?**
+
+Click `Add Payment` on the `Transactions` page or on the member's statement, then enter the member number and the amount. A **Payment** fee item must be enabled first, otherwise there is nothing to choose in the form.
+
+**I entered a payment or charge by mistake. How do I fix it?**
+
+Open the transaction and click `Edit Transaction` to correct it, or use the delete (trash) icon in the `Transactions` list to remove it. The member's balance is recalculated straight away.
+
+**Can unpaid fees stop a member from borrowing?**
+
+Yes. Tick **Suspend activity** in `Fees & Fines Settings` and set a **Suspension Limit**. When a member's balance reaches that limit, staff checkouts, member self-checkouts and member requests are refused until the balance goes down.
+
+**Can members see how much they owe?**
+
+Yes. When fees and fines are enabled, members see their current balance next to the "My Account" heading in their member area.

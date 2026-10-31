@@ -1,39 +1,24 @@
 # Cataloging
 
-Cataloging new books / items in **Librarika** platform is super easy. We have tried our level best to keep the interface simplified, so that our librarians can spent more time with their daily duties instead of working with complex cataloging tools.
+**Who this is for:** library staff who add and manage the catalog.
 
-Our simplified cataloging interface enables novice user or people with very limited experience to manage their library perfectly. This makes **Librarika** a suitable platform for schools, small colleges, corporate offices, NGOs, personal libraries where dedicated skilled librarians are not always available.
+**What you can do here:** add titles and copies, e-books, authors, publishers, categories and tags, and import or export the catalog.
+
+This page explains how to add and manage titles, copies, e-books, authors, publishers, categories, tags and reviews.
 
 ## Basics
 
-**Librarika** organizes books under two logical entities: Media and Media Copy. When a new book is added to a library, master book information is added once as `Media` entity, we also call this as title or title record. Other related info is added to the `Media Copy` entity with reference to the parent `Media` entity. Then when another copy of the same book is added, only a new `Media Copy` entity is created with reference to the previous parent `Media` entity.
+Librarika keeps each book as a **title** (title, ISBN, authors, publisher, cover and other details) with one or more **copies** (accession number, copy number, branch, location). Adding a second copy of the same book adds a copy to the existing title.
 
-##### Media entity
-
-Contains non-repeating fields such as title, ISBN, ISBN13, description, abstract, publisher, authors, cover photos etc.
-
-##### Media Copy entity
-
-Contains uniquely identifiable data such as accession number, copy number, location, branch as well as some other information related to the copy.
-
-##### Relationship
-```
- 		Media (Single)
-			  |
- 	 	 	   --- Media Copies (Multiple)
-```
+<a id="media-entity"></a><a id="media-copy-entity"></a><a id="relationship"></a>
 
 ##### Accession number:
 
-When a new item is added to the catalog, the system assigns an auto-generated unique incremental accession number (numeric only) to each copy for your library. This accession number is then used to uniquely identify that specific copy during check-out / check-in / other system level activities. 
-
-System usually assigns this number starting from 1. The auto generation logic for new accession number is as below:
-
-	accession_number = max(accession_number) + 1
+Each copy gets an accession number (numbers only) that identifies that copy in checkouts, check-ins and everywhere else. Librarika gives each new copy the next free number: the highest accession number in your library plus 1, starting from 1. To start from, for example, 100001, give one copy that number.
 
 The same accession number field is used to generate barcode labels. If you plan to use barcode labels, you may need to start with a larger number (such as 100001) as some barcode scanner can not read small barcode properly.
 
-The auto generation of accession number doesn't happen when you do bulk import of books or items. In this case, system saves the value of accession number field right from the provided source file without checking the uniqueness. This is to provide the flexibility to the librarians so that they can migrate their existing barcodes easily.
+Accession numbers are not generated when you bulk import items. Librarika saves the accession numbers from your file as they are, and does not check them for you. This is to provide the flexibility to the librarians so that they can migrate their existing barcodes easily.
 
 Tips: If you edit the accession number of a book copy to 100001 which is the max accession value in your library, then next accession will be 100002. You can use this tips to start your library's accession number from any arbritary position. 
 
@@ -43,13 +28,13 @@ Tips: If your existing barcode labels are numeric digit then you can add them as
 
 ## Media
 
-You can access all your catalog items along with their associated copy's information from the `Dashboard -> Catalogs -> Catalog Items` section. Clicking on the `View` icon next to a Catalog Item will display the item detail containing all the copies. You can edit / modify / delete those information for this same detail page.
+You can access all your catalog items along with their associated copy's information from the `Catalogs` > `Catalog Items` section. Clicking on the `View` icon next to a Catalog Item will display the item detail containing all the copies. You can edit / modify / delete those information for this same detail page.
 
 ![Media form identifiers](img/media-list.png)
 
 * Here if you click on the `Identifiers` column then you can sort the catalog items using different types of identifier like isbn, isbn13, issn, asin and more.
 
-### Smart Add
+### Smart add
 
 Smart add method lets you easily add book's information from the Internet. All you need is the ISBN number to catalog a new book. 
 
@@ -57,16 +42,16 @@ Note: Please treat this smart add method as an added feature, not a complete rep
 
 To use this method, please follow the below steps:
 
-* Please go to the `Dashboard -> Catalogs -> Catalog Items` section.
+* Go to `Catalogs` > `Catalog Items`.
 * Click on the `Smart Add` button.
 	
-	![Media add form](img/media-smart-add-form.png)
+	![Smart add title form](img/media-smart-add-form.png)
 
 * Enter the ISBN number of the book you want to add to your catalog.
 * Accession number is an auto incremental number generated by our system. However, you can provide your own accession number if you want.
 * Select the branch under which the book to be added. 
 * Specify a category under which the book to be added.
-* Click the `Auto save` button.
+* Click the `Auto Save` button.
 * System will automatically find the matching book from the Internet and add to your catalog.
 * If successful, system will show a confirmation message with the title name and view page link.
 
@@ -75,35 +60,35 @@ Related information:
 * An associated `Media copy` record will also be created automatically. You are free to make any changes to the newly created copy record as you feel necessary.
 * Though `Smart Add` gets book information from various sources, there is no guarantee that it will get every book information from the Internet even if they are available.
 
-### Manual Add
+### Manual add
 
 You can add item using our `Manual Add` method. This method is suitable when you don't find book using the "Smart Add" method.
 
 To use this method, please follow the below steps:
 
-* Please go to the `Dashboard -> Catalogs -> Catalog Items` section.
+* Go to `Catalogs` > `Catalog Items`.
 * Click on the `Manual Add` button.
 * System will display the add new item form.
 	
-	![Media add form](img/media-manual-add.png)
+	![Manual add title form](img/media-manual-add.png)
 
 * You can select different types of media according to your library preference from the `Media Type` dropdown menu.
 	
-	![Media add form](img/media-type-options.png)
+	![Title type options](img/media-type-options.png)
 
 	* Please select media type equals to `Other` while adding items that does not belong to any of the listed media types. 
 
 * In `Accession No` field the accession number is auto generated by our system. However, you can enter your own or custom accession number if you want.
 * `ASIN`: In this field, please add the Amazon Standard Identification Number (ASIN) assigned by Amazon.com for item identification. Only alphanumeric characters (10-character) are allowed for this field.
 * `LCCN`: This field is intended for libraries with cataloged collections in the Library of Congress. 
-* `DDC`: Dewey Decimal Classification (DDC) is a system used by libraries to arrange books by subject. It is the most widely used system for organizing library collections worldwide.
+* `DDC`: Dewey Decimal Classification (DDC) is a system used by libraries to arrange books by subject. It is the most widely used system for organising library collections worldwide.
 * `OCLC`: OCLC numbers are particularly useful for books and other bibliographic materials that do not have ISBNs. These numbers link WorldCat's records to local library system records by providing a common reference key for a record across libraries.
 * `UPC`: Short for Universal Product Code, UPC is a barcode symbology consisting of twelve numeric characters that uniquely identify a company's individual product. It is widely used in most countries.
 * In the `Tags` field you can add single or multiple tags for your library catalog item. When adding multiple tags, please use a comma separator between them.
 * Also, you can add more details of your book by clicking on the `Detail` tab.
 
-	![Media add form](img/manual-add-detail-tab1.png)
-	![Media add form](img/manual-add-detail-tab2.png)
+	![Manual add form, details tab](img/manual-add-detail-tab1.png)
+	![Manual add form, more details](img/manual-add-detail-tab2.png)
 
 * Enter those information which you feel necessary. Only the Title field is mandatory.
 * Click on the `Submit` button when you are done.
@@ -154,18 +139,18 @@ Thesis is the most important or foundational idea of an argument, presentation, 
 * Click on the `Submit` button when you are done.
 
 
-### Bulk Import
+### Bulk import
 
 Librarika support bulk import of catalog items in CSV formats.
 
 #### a. Prepare your data
 
-* Read our [Import Items](https://demo.librarika.com/spages/import-items) detail instructions article for more critical information.
+* Read the [Import Items](https://librarika.com/spages/import-items) article: it describes every column of the import file.
 * See our sample google spread sheet at [Sample Import Format](https://docs.google.com/spreadsheets/d/1MOphgqXTbOs2YvzvFDjIVAzS8Z7aji58bpuVmDbTnb8/edit?usp=sharing).
 * Use google sheets to avoid UTF-8 encoding issue with Microsoft Excel. [Optional] 
-* Download the final CSV file directly from google docs using `File -> Download as -> Comma Separated Values (.csv)` to avoid issues. [Optional] 
+* Download the final CSV file directly from google docs using `File` > `Download` > `Comma-separated values (.csv)` to avoid issues. [Optional] 
 
-#### b. Check List
+#### b. Check list
 
 Please make sure followings before you go ahead with importing your data:
 
@@ -174,13 +159,13 @@ Please make sure followings before you go ahead with importing your data:
 * The source file is in correct CSV format. Use google sheets if possible.
 * The CSV file is UTF-8 encoded. MS Excel produce non UTF-8 CSV file.
 * Numeric columns contain numeric values. No string characters in numeric fields.
-* Accession number values are unique and not empty.
+* Accession number values are unique and not empty. Librarika does not check this for you.
 * As title and type fields are required so you must have to provide them. 
 * Books with multiple copies have sequential copy number starting from 1.
 
-#### c. Import Items
+#### c. Import items
 
-1. Go to `Dashboard -> Catalogs -> Catalog Items` section.
+1. Go to `Catalogs` > `Catalog Items`.
 2. Click on `Import Items` button.
 3. Select data format, specify the CSV file and select branch name.
 4. Click on `Submit` button to submit the form.
@@ -191,11 +176,11 @@ Please make sure followings before you go ahead with importing your data:
 
 Note: When you enter multiple copies of the same book, they will be added a copy under the same title, as a result you will see actual title counts in your catalog smaller than the number of records you have uploaded from the CSV file.
 
-### Edit Media
+### Edit media
 
 You can edit media information from the `Catalog Items` page.
 
-* Please go to the `Dashboard -> Catalogs -> Catalog Items` section.
+* Go to `Catalogs` > `Catalog Items`.
 
 * Locate the item you want to edit from your catalog and click on the `View` icon on the right to that item.
 
@@ -208,16 +193,18 @@ You can edit media information from the `Catalog Items` page.
 * Do make necessary changes to the media entity.
 * Click on the `Submit` button when you are done and your changes will be saved.
 
-### Delete Media
+### Delete media
 
-You can delete a title from your catalog. Deleting a title will also delete all related copies, circulations and other dependent records. So, please be careful when you delete a title entry from your library.
+You can delete a title from your catalog. Deleting a title also deletes all of its copies, and its circulation records are marked as `Deleted`. So, please be careful when you delete a title entry from your library.
 
-* Please go to the `Dashboard -> Catalogs -> Catalog Items` section.
+If your account is limited to some branches, you can delete a title only when all of its copies are in your branches.
+
+* Go to `Catalogs` > `Catalog Items`.
 * Locate the item you want to delete from your catalog and click on the `View` icon on the right to that item.
 
-	![Media form](img/media-list-view.png)
+	![Title page with its copies](img/media-list-view.png)
 
-* Click on the `Delete this item?` button and confirm your delete action.
+* Click `Delete this item?` (red button) and confirm.
 	
 	![Media view form](img/media-view-form.png)
 
@@ -225,19 +212,19 @@ You can delete a title from your catalog. Deleting a title will also delete all 
 
 ---
 
-## Media Copies
+## Media copies
 
 Media copy record contains information about each individual item in a library catalog. The information includes accession number, branch, copy number, location, included materials, binding etc as they may vary among copies of the same title.
 
-### Add Copy
+### Add copy
 
 To add a new copy to an existing media item, please follow the below steps: 
 
-* Please go to the `Dashboard -> Catalogs -> Catalog Items` section.
+* Go to `Catalogs` > `Catalog Items`.
 
 * Locate the item you want to add copy from your catalog and click on the `Add Copy` icon on the right to that item.
 
-	![Media form](img/media-list-add-copy.png)
+	![Add copy button on the title page](img/media-list-add-copy.png)
 
 * The `Add New Copy` form will be displayed like below.
 
@@ -248,15 +235,15 @@ To add a new copy to an existing media item, please follow the below steps:
 * Click on the `Submit` button when you are done
 * A new copy record will be created.
 
-### Add Multiple Copies
+### Add multiple copies
 
 To add multiple copies at once to an existing media item, please follow the below steps: 
 
-* Please go to the `Dashboard -> Catalogs -> Catalog Items` section.
+* Go to `Catalogs` > `Catalog Items`.
 
 * Locate the item you want to add multiple copies from your catalog and click on the `View` icon on the right to that item.
 
-	![Media form](img/media-list-view.png)
+	![Title page with its copies](img/media-list-view.png)
 
 * Navigate to the copies section at the bottom of the page and you can see an `Add Multiple Copies` button.
 
@@ -272,15 +259,15 @@ To add multiple copies at once to an existing media item, please follow the belo
 * Click on the `Submit` button when you are done
 * All your new copies record will be created.
 
-### Edit Copy
+### Edit copy
 
 You can edit media copy information, change accession number, change branch, enable / disable circulation, published and active status flags, etc for a specific copy from the `Catalog Items` page. 
 
-* Please go to the `Dashboard -> Catalogs -> Catalog Items` section.
+* Go to `Catalogs` > `Catalog Items`.
 
 * Locate the item you want to edit from your catalog and click on the `View` icon on the right to that item.
 
-	![Media form](img/media-list-view.png)
+	![Title page with its copies](img/media-list-view.png)
 
 * Navigate to the copies section at the bottom of the page and you can see an `Edit` icon on right to that specific copy.
 
@@ -293,7 +280,7 @@ You can edit media copy information, change accession number, change branch, ena
 * Do make necessary changes.
 * Click on the `Submit` button when you are done and your changes will be saved.
 
-### Change Accession Number
+### Change accession number
 
 To change accession number, please follow the instructions in the **Edit Copy** section mentioned above. Please remember that, accession number must be unique among all copies of your library. If you plan to use barcode labels, it is better to have a larger 6 to 8 digits long accession number for better scanning performance.
 
@@ -301,10 +288,10 @@ To change accession number, please follow the instructions in the **Edit Copy** 
 
 You can delete an individual copy from your catalog. This will also delete all related circulations and other dependent records specific to that copy. So, please be careful when you delete a copy from your library.
 
-* Please go to the `Dashboard -> Catalogs -> Catalog Items` section.
+* Go to `Catalogs` > `Catalog Items`.
 * Locate the item you want to delete from your catalog and click on the `View` icon on the right to that item.
 
-	![Media form](img/media-list-view.png)
+	![Title page with its copies](img/media-list-view.png)
 
 * Navigate to the copies section at the bottom of the page.
 * Click on the `Delete` icon on right to that copy and confirm your delete action.
@@ -319,20 +306,20 @@ Note: Instead of deleting a copy from your library, it is better to make it inac
 
 ## E-Books
 
-You can upload one or more pdf or e-pub files for each of your e-book item in your catalog. In order to upload e-books, you must have e-book subscription enabled. To learn more about e-book hosting please visit at [https://librarika.com/spages/faq#ebooks] [e-book]
+You can upload one or more pdf or e-pub files for each **E-Books** or **E-Journals** item in your catalog. In order to upload e-books, you must have e-book subscription enabled. To learn more about e-book hosting please visit at [https://librarika.com/spages/faq#ebooks] [e-book]
 
 ### Add E-Book
 
 To add a new e-book, please follow the below steps: 
 
-* Please go to the `Dashboard -> Catalogs -> Catalog Items` section.
+* Go to `Catalogs` > `Catalog Items`.
 * Click on the `Manual Add` button and system will display the add new media form. Now select media type equals to **E-Books** from the dropdown menu.  
 
 	![Manual add form](img/media-ebook-add-form.png)
 
 * Enter title and other information about the e-book item and click the `Submit` button once you are done. 
 * A new e-book item will be added to the catalog and you will be redirected to the item detail page.
-* Now scroll down to the E-Books section of the detail page and click on `Upload E-book` button to upload new pdf or e-pub file.
+* Now scroll down to the E-Books section of the detail page and click on `Upload E-Book` button to upload new pdf or e-pub file.
 	
 	![E-book section in item detail page.](img/media-detail-ebook-section.png)  
 
@@ -352,7 +339,7 @@ You can add an author (also known as a writer) of your catalog items from `Autho
 
 To use this section, please follow the below steps:
 
-* Please go to the `Dashboard -> Catalogs -> Authors` section.
+* Go to `Catalogs` > `Authors`.
 * Authors form will be displayed like below.
 
 	![Catalogs authors form](img/catalogs-author-form.png)
@@ -366,11 +353,11 @@ To use this section, please follow the below steps:
 * Click on the `Submit` button when you are done.
 * A new author record will be created.
 
-### Edit Author
+### Edit author
 
 You can edit an author information from `Authors` section. 
 
-* Please go to the `Dashboard -> Catalogs -> Authors` section.
+* Go to `Catalogs` > `Authors`.
 
 * Locate the author you want to edit from authors section and click on the `Edit` icon on the right to that author.
 * Then the below form will appear with existing information.
@@ -380,7 +367,7 @@ You can edit an author information from `Authors` section.
 * Do make necessary changes to the author entity.
 * Click on the `Submit` button when you are done and your changes will be saved.
 
-### Delete Author
+### Delete author
 
 You can delete an author from your library catalog in two ways. Either you can delete it from the [Authors](#authors) section where you can see a delete icon on the next to that author which you want to delete. Or, you can go to the [Edit Author](#edit-author) section and the edit author form will be displayed with a button named `Delete` on the top of the section. Click on it and confirm your delete action. 
 
@@ -392,7 +379,7 @@ You can add a publisher of your catalog items from our `Publishers` section. Usi
 
 To use this section, please follow the below steps:
 
-* Please go to the `Dashboard -> Catalogs -> Publishers` section.
+* Go to `Catalogs` > `Publishers`.
 * Publishers form will be displayed like below.
 
 	![Catalogs publisher form](img/catalogs-publisher-form.png)
@@ -406,11 +393,11 @@ To use this section, please follow the below steps:
 * Click on the `Submit` button when you are done.
 * A new publisher record will be created. 
 
-### Edit Publisher
+### Edit publisher
 
 You can edit publisher information from `Publishers` section. 
 
-* Please go to the `Dashboard -> Catalogs -> Publishers` section.
+* Go to `Catalogs` > `Publishers`.
 
 * Locate the publisher you want to edit from publisher section and click on the `Edit` icon on the right to that publisher.
 * Then the below form will appear with existing information.
@@ -420,7 +407,7 @@ You can edit publisher information from `Publishers` section.
 * Do make necessary changes to the publisher entity.
 * Click on the `Submit` button when you are done and your changes will be saved.
 
-### Delete Publisher
+### Delete publisher
 
 You can delete a publisher from your library catalog in two ways. Either you can delete it from the [Publishers](#publishers) section where you can see a delete icon on the next to that publisher which you want to delete. Or, you can go to the [Edit Publisher](#edit-publisher) section and the edit publisher form will be displayed with a button named `Delete` on the top of the section. Click on it and confirm your delete action. 
 
@@ -432,7 +419,7 @@ Categories is the section where you can categorize all your library items. From 
 
 To use this section, please follow the below steps:
 
-* Please go to the `Dashboard -> Catalogs -> Categories` section.
+* Go to `Catalogs` > `Categories`.
 * Categories form will be displayed like below.
 
 	![Catalogs category form](img/catalogs-category-form.png)
@@ -447,11 +434,11 @@ To use this section, please follow the below steps:
 * Click on the `Submit` button when you are done.
 * A new category record will be created.
 
-### Edit Category
+### Edit category
 
 You can edit category information from `Categories` section. 
 
-* Please go to the `Dashboard -> Catalogs -> Categories` section.
+* Go to `Catalogs` > `Categories`.
 
 * Locate the category you want to edit from categories section and click on the `Edit` icon on the right to that category.
 * Then the below form will appear with existing information.
@@ -461,7 +448,7 @@ You can edit category information from `Categories` section.
 * Do make necessary changes to the category entity.
 * Click on the `Submit` button when you are done and your changes will be saved.
 
-### Delete Category
+### Delete category
 
 You can delete a category from your library catalog in two ways. Either you can delete it from the [Categories](#categories) section where you can see a delete icon on the next to that category which you want to delete. Or, you can go to the [Edit Category](#edit-category) section and in the edit category page you can see a `Delete` button on the top of this page. Click on it and confirm your delete action.
 
@@ -473,7 +460,7 @@ Tags is the section where you can view all the tag of your library catalog that 
 
 To use this section, please follow the below steps:
 
-* Please go to the `Dashboard -> Catalogs -> Tags` section.
+* Go to `Catalogs` > `Tags`.
 * The tags form will be displayed like below.
 
 	![Catalogs tag form](img/catalogs-tags-form.png)
@@ -483,37 +470,77 @@ To use this section, please follow the below steps:
 	![Catalogs view tag form](img/catalogs-view-tag-form.png)
 
 
-### Edit Tag
+### Edit tag
 
 You can edit tag information from `Tags` section. 
 
-* Please go to the `Dashboard -> Catalogs -> Tags` section.
+* Go to `Catalogs` > `Tags`.
 
 * Locate the tag that you want to edit from tags section and click on the `Edit` icon on the right to that tag.
 * Then the below form will appear with existing information.
 
-	![Catalogs edit category form](img/catalogs-edit-tag-form.png)
+	![Edit tag form](img/catalogs-edit-tag-form.png)
 
 * Do make necessary changes to the tag entity.
 * Click on the `Submit` button when you are done and your changes will be saved.
 
-### Delete Tag
+### Delete tag
 
-You can not delete any tag from your library as it has catalog items under it. However, if you want to remove tag from a specific item then go to the [Edit Media](#edit-media) section and remove it from Tags field and click on the submit button.
+You can delete a tag that has no catalog items. Click the `Delete` icon on the right of that tag in the `Tags` section and confirm. A tag that is still used by catalog items cannot be deleted: first remove it from each item in the [Edit Media](#edit-media) section (remove it from the Tags field and click the submit button), then delete the tag.
 
 ---
 
 ## Reviews
 
-Reviews is the section where your library members can post a review on different library items according to their choice. For posting a review your library member need to log in first.
+Reviews is the section where your library members can post a review on different library items according to their choice. For posting a review your library member need to sign in first.
 
 To use this section, please follow the below steps:
 
-* Please go to the `Dashboard -> Catalogs -> Reviews` section.
+* Go to `Catalogs` > `Reviews`.
 * The reviews form will be displayed like below.
 
 	![Catalogs review form](img/catalogs-review-form.png)
 
 * If you want to remove review from your catalog items then click on the `Delete` icon on the right to that review.
+
+---
+
+## FAQ
+
+**Smart Add says "The book already added to your library." What should I do?**
+
+A title with that ISBN is already in your catalog, so Smart Add does not create a second one. Follow the link to open the existing title and use `Add New Copy` to add your extra copy (see [Add Copy](#add-copy)).
+
+**Smart Add says "Unable to find book information online". Now what?**
+
+Smart Add could not find the ISBN in its online sources. Add the book with [Manual Add](#manual-add) instead; only the Title field is required.
+
+**Why does the copy form say the accession number is already taken?**
+
+Each accession number can be used by only one copy in your library, and each copy number only once within the same title. Choose a different number, or change the accession number of the copy that already uses it (see [Change Accession Number](#change-accession-number)).
+
+**How do I hide an item from the OPAC or stop it being lent, without deleting it?**
+
+Untick **Published** to remove it from the OPAC, untick **Circulation** to stop checkouts, or untick **Active** to do both. These options are on the title's edit form ([Edit Media](#edit-media)) and on each copy's edit form ([Edit Copy](#edit-copy)).
+
+**Why does it say "Please upgrade your plan first in order to add more items to your library."?**
+
+Your library has reached the number of records its plan allows. The count uses whichever is larger: your number of titles or your number of copies. You can check your plan and upgrade from the `My Plan` page (see [Upgrade your plan](libraries.md#upgrade-your-plan)).
+
+**What happens to the items when I delete a category?**
+
+The items are not deleted. They are moved to a category called "Unknown", which is created automatically if you don't have one yet.
+
+**Why can't I delete a tag?**
+
+A tag can only be deleted when no catalog item uses it. Remove the tag from those items first through [Edit Media](#edit-media), then delete it.
+
+**What file types can I upload as e-books?**
+
+PDF and EPUB files only, and your library needs an active e-book subscription with enough storage left. See [Add E-Book](#add-e-book).
+
+**I added a book but it does not show in the OPAC. Why?**
+
+The OPAC only lists titles that are marked **Active** and **Published** and that have at least one copy. Open the item in the dashboard, click `Edit Item` and check both options, and add a copy if the item has none.
 
 [e-book]: https://librarika.com/spages/faq#ebooks

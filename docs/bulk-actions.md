@@ -1,11 +1,17 @@
-# Bulk Actions
+# Bulk actions
+
+**Who this is for:** library staff who change many records at once.
+
+**What you can do here:** select titles, copies or members by conditions, and update or delete them in one go.
+
+The page is labelled `Bulk Actions (Beta)`. Bulk actions are processed in the background after you confirm them, so there can be a delay before the changes appear. Some operations also change or delete associated records, so proceed with caution.
 
 Bulk actions method is used to update or delete your book, book copy or member records in bulk. You can use this option to partially or fully select records from your library and apply bulk update or delete operation to those records matching the criteria.
 
 To do bulk actions, please follow the below steps:
 
-* At first login to your library.
-* Please go to the `Dashboard -> Manage -> Bulk Actions` option from the dropdown menu.
+* First, sign in to your library.
+* Go to `Manage` > `Bulk Actions`.
 
     ![Bulk Actions dropdown menu](img/bulk-actions-dropdown-menu.png)
 
@@ -21,7 +27,7 @@ To do bulk actions, please follow the below steps:
 * Here `Change media category` is the default type. You can also select the other types of action per your need.
 
 
-## Update Medias
+## Update medias
 
 You can use bulk action method to update all the media information in your catalog such as category, tags, type, titles active flags etc.
 
@@ -35,7 +41,7 @@ To do so, please follow the below steps:
 * You can select your preferred action type from which you wanted to update or delete your media.
 
 
-### Change Media Category 
+### Change media category 
 
 * If you select `Change media category` then a form will be appeared like below.
 
@@ -62,7 +68,7 @@ To do so, please follow the below steps:
 
         ![Bulk Actions active field](img/bulk-actions-active-field.png)
 
-    - Then you can select the `Published` and `Circulted` option same as the `Active` option mentioned above.  
+    - Then you can select the `Published` and `Circulated` option same as the `Active` option mentioned above.  
 
 * Once you finished all the selection in the `Change media category` criteria, please click on the `NEXT` button and a page will be appeared like below.
 
@@ -80,10 +86,10 @@ To do so, please follow the below steps:
 
     ![Bulk Actions created for media](img/bulk-actions-created-for-media.png)
 
-* To processed your bulk actions immediately please click on the `Process this action?` button.
+* The action is queued and processed in the background. Open it from the `Bulk Actions` list to see its status.
 
 
-### Change Media Tags
+### Change media tags
 
 To create a bulk action for changing media tags, please follow the bellow steps:
 
@@ -97,9 +103,9 @@ To create a bulk action for changing media tags, please follow the bellow steps:
     ![Bulk Actions set value for media tags](img/bulk-actions-set-value-for-media-tags.png) 
 
 * Now review your changes and click on the confirm button. Your bulk actions will be saved.
-* Finally click on the `Process this action?` button for processing your actions.
+* The action is queued and processed in the background. Open it from the `Bulk Actions` list to see its status.
 
-### Change Media Type
+### Change media type
 
 To create a bulk action for changing media type, please follow the below steps:
 
@@ -114,10 +120,10 @@ To create a bulk action for changing media type, please follow the below steps:
     ![Bulk Actions set value for media type](img/bulk-actions-set-value-for-media-type.png)
 
 * Now review your changes and click on the confirm button. Once you confirm it your bulk actions will be saved. 
-* Then you need to process your actions by clicking on `Process this action?` button.
+* The action is queued and processed in the background. Open it from the `Bulk Actions` list to see its status.
 
 
-## Delete Medias
+## Delete medias
 
 You can delete media titles using the bulk action method. When you delete titles, all related child copies and media bookings will be deleted by default. You can also delete the authors, publishers and categories of the selected books.
 
@@ -136,10 +142,10 @@ To do so, please follow the below steps:
 
     ![Bulk Actions review remove media titles](img/bulk-actions-review-remove-media-titles.png)
 
-* Now review your changes and click on the confirm button. Finally click on the `Process this action?` button and your medias will be deleted.
+* Now review your changes and click on the confirm button. The action is queued and processed in the background.
 
 
-### Set Media Active Flag
+### Set media active flag
 
 To create a bulk action with the media active flag, please follow the below steps:
 
@@ -154,10 +160,10 @@ To create a bulk action with the media active flag, please follow the below step
     ![Bulk Actions set value media active flag](img/bulk-actions-set-value-media-active-flag.png)
 
 * Now review your changes that you have made and click on the confirm button. Your bulk actions will be saved. 
-* Then please click on the `Process this action?` button and your actions will be processed.
+* The action is queued and processed in the background. Open it from the `Bulk Actions` list to see its status.
 
 
-### Set Media Circulation Flag
+### Set media circulation flag
 
 To create a bulk action with the media circulation flag, please follow the below steps:
 
@@ -171,10 +177,10 @@ To create a bulk action with the media circulation flag, please follow the below
     ![Bulk Actions set value media circulation flag](img/bulk-actions-media-circulation-flag.png) 
 
 * Now you can review your changes and click on the confirm button. Your bulk actions will be saved. 
-* Finally please process your actions by clicking on `Process this action?` button.
+* The action is queued and processed in the background. Open it from the `Bulk Actions` list to see its status.
 
 
-### Set Media Published Flag
+### Set media published flag
 
 To create a bulk action with the media published flag, please follow the below steps:
 
@@ -188,10 +194,10 @@ To create a bulk action with the media published flag, please follow the below s
     ![Bulk Actions set value media published flag](img/bulk-actions-media-published-flag.png)
 
 * Now you can review your changes and click on confirm button. Your bulk actions will be saved.
-* To process your actions please click on `Process this action?` button.
+* The action is queued and processed in the background. Open it from the `Bulk Actions` list to see its status.
 
 
-## Update Copies
+## Update copies
 
 You can use bulk action method to update only the media copies information in your catalog such as branch, location, active flags etc.
 
@@ -201,7 +207,7 @@ To do so, please follow the below steps:
 
     ![Bulk Actions media copy type](img/bulk-actions-media-copy-type.png)
 
-### Change Media Copy's Branch Info
+### Change media copy's branch info
 
 To create a bulk action for changing media copy's branch information, please follow the below steps:
 
@@ -244,10 +250,10 @@ To create a bulk action for changing media copy's branch information, please fol
     ![Bulk Actions select review copy branch info](img/bulk-actions-review-copy-branch-info.png)
 
 * Click on `Confirm` button and your bulk actions will be saved.
-* At last click on the `Process this action?` button for processing your actions.
+* The action is queued and processed in the background. Open it from the `Bulk Actions` list to see its status.
 
 
-### Change Media Copy's Condition
+### Change media copy's condition
 
 To create a bulk action for changing media copy's condition, please follow the below steps:
 
@@ -265,9 +271,9 @@ To create a bulk action for changing media copy's condition, please follow the b
     ![Bulk Actions review change copy condition](img/bulk-actions-review-change-copy-condition.png)
 
 * Once you confirm it your bulk actions will be saved.
-* Finally click on the `Process this action?` button to process your actions.
+* The action is queued and processed in the background. Open it from the `Bulk Actions` list to see its status.
 
-### Change Media Copy's Location
+### Change media copy's location
 
 To create a bulk action for changing media copy's location, please follow the below steps:
 
@@ -281,12 +287,12 @@ To create a bulk action for changing media copy's location, please follow the be
     ![Bulk Actions set value to copy location](img/bulk-actions-set-value-copy-location.png)
 
 * Now you can review your changes and click on confirm button. Your bulk actions will be saved.
-* Finally click on the `Process this action?` button and your actions will be processed.
+* The action is queued and processed in the background. Open it from the `Bulk Actions` list to see its status.
 
 
-## Delete Copies
+## Delete copies
 
-You can delete media copies using the bulk action method. When you delete copies, all related child copies and media bookings will be deleted by default. You can also delete titles, authors, publishers and categories of the selected books.
+You can delete media copies using the bulk action method. The media bookings of the deleted copies are always deleted too. You can also choose to delete the titles that are left with no copies and, with them, the authors, publishers and categories that are no longer used.
 
 To do so, please follow the below steps:
 
@@ -298,16 +304,16 @@ To do so, please follow the below steps:
 
     ![Bulk Actions set options for remove copies](img/bulk-actions-set-remove-copies.png)   
 
-* You can delete related titles, authors, publishers or categories if you need. Related media bookings will be deleted by default. Please choose this options very carefully.
+* `Delete media booking?` is always on. `Delete titles?` deletes the titles that have no copies left. `Delete authors?`, `Delete publishers?` and `Delete categories?` apply only when `Delete titles?` is on, and delete the ones no longer used. Please choose these options very carefully.
 * Click on the next button and a form will be appeared like below.
 
     ![Bulk Actions review remove copies](img/bulk-actions-review-remove-copies.png)
 
 * Now review your changes and click on the confirm button.
-* At last click on the `process this action?` button and all your selected media copies will be deleted from your library catalog.
+* The action is queued and processed in the background. Open it from the `Bulk Actions` list to see its status.
 
 
-### Set Media Copy's Active Flag
+### Set media copy's active flag
 
 To create a bulk action with the media copy's active flag, please follow the below steps:
 
@@ -321,10 +327,10 @@ To create a bulk action with the media copy's active flag, please follow the bel
     ![Bulk Actions set value copy active flag](img/bulk-actions-set-value-copy-active-flag.png)
 
 * Now review your changes that you have made and click on the confirm button.
-* Your bulk actions will be saved. For processing your actions please click on the `Process this action?` button.
+* The action is queued and processed in the background. Open it from the `Bulk Actions` list to see its status.
 
 
-### Set Media Copy's Circulation Flag
+### Set media copy's circulation flag
 
 To create a bulk action with the media copy's circulation flag, please follow the below steps:
 
@@ -337,10 +343,10 @@ To create a bulk action with the media copy's circulation flag, please follow th
 
     ![Bulk Actions set value copy circulation flag](img/bulk-actions-copy-circulation-flag.png) 
 
-* Now review your changes and click on the confirm button. Your bulk actions will be saved. To process your actions please click on the `Process this action?` button.
+* Now review your changes and click on the confirm button. Your bulk actions will be saved. The action is queued and processed in the background.
 
 
-### Set Media Copy's Published Flag
+### Set media copy's published flag
 
 To create a bulk action with the media copy's published flag, please follow the below steps:
 
@@ -353,10 +359,10 @@ To create a bulk action with the media copy's published flag, please follow the 
 
     ![Bulk Actions set value copy published flag](img/bulk-actions-copy-published-flag.png)
 
-* Now review your changes and click on the confirm button. Then for processing your actions please click on the `Process this action?` button.
+* Now review your changes and click on the confirm button. The action is queued and processed in the background.
 
 
-## Update Members
+## Update members
 
 You can use bulk action method to update the members information in your library such as booking quota, group, status, type etc.
 
@@ -366,7 +372,7 @@ To do so, please follow the below steps:
 
     ![Bulk Actions member options](img/bulk-actions-member-options.png)
 
-### Change Member's Group
+### Change member's group
 
 To create a bulk action for changing member group, please follow the bellow steps:
 
@@ -403,9 +409,9 @@ To create a bulk action for changing member group, please follow the bellow step
     ![Bulk Actions review member group](img/bulk-actions-review-member-group.png)    
 
 * Click on `Confirm` button and your bulk actions will be saved.
-* At last click on the `Process this action?` button and your actions will be processed.
+* The action is queued and processed in the background. Open it from the `Bulk Actions` list to see its status.
 
-### Change Member's Booking Quota
+### Change member's booking quota
 
 To create a bulk action for changing member booking quota, please follow the below steps:
 
@@ -419,9 +425,9 @@ To create a bulk action for changing member booking quota, please follow the bel
     ![Bulk Actions set value for member quota](img/bulk-actions-set-value-for-member-quota.png) 
 
 * After review your changes please click on the confirm button and your bulk actions will be saved.
-* For processing your actions please click on the `Process this action?` button.
+* The action is queued and processed in the background. Open it from the `Bulk Actions` list to see its status.
 
-### Change Member's Status
+### Change member's status
 
 To create a bulk action for changing member status, please follow the below steps:
 
@@ -436,9 +442,9 @@ To create a bulk action for changing member status, please follow the below step
 
 * After selecting a status click on the next button.
 * Now review your changes and click on the confirm button. Your bulk actions will be saved.
-* Finally click on the `Process this action?` button and your actions will be processed.
+* The action is queued and processed in the background. Open it from the `Bulk Actions` list to see its status.
 
-### Change Member's Type
+### Change member's type
 
 To create a bulk action for changing member's type, please follow the below steps:
 
@@ -453,9 +459,9 @@ To create a bulk action for changing member's type, please follow the below step
 
 * Click on the next button when you are done.
 * Now review your changes and click on the confirm button. Once you confirm it your bulk actions will be saved.
-* Please remember to click on the `Process this action?` button for processing your actions.
+* The action is queued and processed in the background. Open it from the `Bulk Actions` list to see its status.
 
-## Delete Members
+## Delete members
 
 You can delete your library members using the bulk action method. When you delete members, all associated media bookings including reservations, issued items, overdue items and all associated login access to members section will also be deleted by default. 
 
@@ -469,9 +475,43 @@ To do so, please follow the below steps:
 
     ![Bulk Actions set options for remove members](img/bulk-actions-set-remove-members.png)   
 
-* You can choose to delete related media bookings including reservations, issued items, overdue items. Related members with login access will also be deleted by default. Please choose this options very carefully.
+* You can choose to delete related media bookings including reservations, issued items, overdue items. Related members with member access will also be deleted by default. Please choose this options very carefully.
 
     ![Bulk Actions review remove members](img/bulk-actions-review-remove-members.png)
 
 * Now review your changes and click on the confirm button. Your bulk actions will be saved.
-* Finally click on the `Process this action?` button and all your selected members will be deleted from your library.
+* The action is queued and processed in the background. Open it from the `Bulk Actions` list to see its status.
+
+## FAQ
+
+**Can I undo a bulk action?**
+
+No. Once a bulk action has been processed, the changes are saved straight away and deleted records are removed permanently; the review page warns that the action is irreversible. Read the conditions on the review page carefully, and export a backup from [Reports](reports.md) before a large change or deletion.
+
+**Can I cancel a bulk action after I click Confirm?**
+
+There is no cancel button on your side. If the action still shows the status `Pending`, contact Librarika support straight away; a pending action can still be cancelled, but one that has been processed cannot.
+
+**Why is my bulk action still Pending?**
+
+Bulk Actions is in beta, and actions are processed in the background (some are checked and processed by Librarika), so there can be a delay. Open the action from the list to see its status; if you see the `Process this action?` button, you can click it to run the action yourself.
+
+**How many ISBNs, accession numbers or member numbers can I enter?**
+
+Up to 1,000 per field, typed in (separated by commas) or imported from a CSV file. If you enter more than 1,000, that list is ignored, so split it into several bulk actions and check that the list appears in the conditions on the review page.
+
+**Why do I get the message "Please specify at least one criteria."?**
+
+A bulk action needs at least one condition, so that you never change or delete your whole catalog or member list by accident. Fill in at least one field on the **Select Criteria** form.
+
+**Will deleting titles also delete authors, publishers or categories that other books still use?**
+
+No. These options only remove authors, publishers and categories that are no longer linked to any remaining title in your library.
+
+**How can I see how many records were changed?**
+
+Open the bulk action from the list (the eye icon). When the status is `Completed`, `Affected Items` shows how many records were updated or deleted.
+
+**My account only has access to some branches. Which copies will a bulk action change?**
+
+Copy actions only change copies in the branches you have access to, even if your conditions would match copies in other branches.

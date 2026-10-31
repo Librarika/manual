@@ -1,35 +1,37 @@
-# OPAC
+# OPAC (online catalog)
 
-OPAC is a library acronym for "Online Public Access Catalog" When library staff use the term, we mean the Libraries Catalog.
+<a id="opac"></a>
 
-### Purpose of OPAC
+**Who this is for:** everyone who searches a library's catalog.
+
+**What you can do here:** search and browse the catalog, open an item's page, and contact the library.
+
+The OPAC (online catalog) is your library's public website, where you search and browse its books and other items.
+
+<a id="purpose-of-opac"></a>
+
+## What the OPAC is for
 
 An online public access catalog is an online database of materials held by a library or group of libraries. Users search a library catalog principally to locate items and other material available at a library. OPAC is the gateway to library's collection.
 
-## Home Page
+## Home page
 
-A home page is refers to the first page that appears upon opening a website on web browser, sometimes called the start page. In this page you can view the workflow of your library.
+The home page shows the library's menu, a search box and its newest items.
 
-* In home page at first you can see all the menus and your profile icon bar. 
-	
-	![OPAC home page](img/opac_home_menu.png)
-   
-* Then you can see two buttons. If you click on one of them like the `View All Features` button then you can see all the features of Librarika.
+![OPAC home page](img/opac_home_menu.png)
 
-	![OPAC home page](img/opac_home_view_feature1.png)
-
-* You can create a free account on Librarika by clicking on `Create Free Library` button.
-* If you are already logged in then from the `Member Area` you can update your account settings.
+* Buttons such as `View All Features` and `Create Free Library` are about Librarika itself; you don't need them to use your library.
+* If you are signed in, `My Account` opens your [Member area](member-area.md), where you can also change your account settings.
 * You can view all of your library catalog from `Catalog` menu.
 * You can search the catalog by keyword and media types option from `Search Catalog`
-* You can also acccess other library resources from home page.
+* You can also access other library resources from the home page.
 * At last you can view all the newly arrived items and if you click one of them then you can also view all the information of that book.
 
 ## Catalog
 
 A catalog is a collection of items found in a library to provide all the information necessary to describe all item accurately both physically and intellectually in order to distinguish it from every other items.
 
-* If you click on the catalog menu then a catalog of your library items will be appeared like below.
+* If you click on the catalog menu then a catalog of your library items will appear like below.
 
 	![OPAC catalog page](img/opac_catalogs_page.png)
 
@@ -45,44 +47,44 @@ A catalog is a collection of items found in a library to provide all the informa
 * Finally by clicking on the `Tags` button you can view the tags of your library catalog.
 
 
-## Search Catalog
+## Search catalog
 
 Search Catalog is the section where you can search the entire library catalog items using a specific keyword or selecting a media type option. You can also browse the catalog by categories, authors, publishers or tags.
 
 * At first if you want to search the catalog by a specific media type option then choose that media from the dropdown menu like below.
 
-	![OPAC catalog search page](img/opac-catalog-search-media-types.png)
+	![OPAC search by item type](img/opac-catalog-search-media-types.png)
 
 * If you want to search the catalog by library branch then choose the library branch like below.
-	![OPAC catalog search page](img/opac-catalog-search-branches.png)
+	![OPAC search by branch](img/opac-catalog-search-branches.png)
 
 * If you want to search the catalog by any keyword then choose the `Default` mode. You can also use specific search field such as ISBN/ISSN, Title, Publisher and more options for a better result.
 
-	![OPAC catalog search page](img/opac-catalog-search-keywords.png)
+	![OPAC search by keywords](img/opac-catalog-search-keywords.png)
 
 * You can browse the catalog by categories if you click on `Categories`
 
-	![OPAC catalog search page](img/opac_catalog_search_categories.png)
+	![OPAC search by category](img/opac_catalog_search_categories.png)
 
 * You can browse the catalog by authors if you click on `Authors`
 
-	![OPAC catalog search page](img/opac_catalog_search_authors.png)
+	![OPAC search by author](img/opac_catalog_search_authors.png)
 
 * You can browse the catalog by publishers if you click on `Publishers`
 
-	![OPAC catalog search page](img/opac_catalog_search_publishers.png)
+	![OPAC search by publisher](img/opac_catalog_search_publishers.png)
 
 * You can browse the catalog by tags if you click on `Tags`
 
-	![OPAC catalog search page](img/opac_catalog_search_tags.png)
+	![OPAC search by tag](img/opac_catalog_search_tags.png)
 
 * You can browse the catalog by series if you click on `Series`
 
-	![OPAC catalog search page](img/opac_catalog_search_series.png)
+	![OPAC search by series](img/opac_catalog_search_series.png)
 
 * You can browse the catalog by call numbers if you click on `Call Numbers`
 
-	![OPAC catalog search page](img/opac-catalog-search-call-numbers.png)
+	![OPAC search by call number](img/opac-search-catalog-call-numbers.png)
 
 * You can also clear your searching history if you click on the `Clear` button.
 
@@ -98,21 +100,21 @@ Database A-Z is the section where you can browse your items by alphabetical orde
 
 * Like characters you can also browse your items by numbers (0-9).
 
-## Top Collections
+## Top collections
 
-Top Collections is the section where you can find those items which have higher checkouts, reviews and ratings. Only 100 top collected items will be displayed.
+Top Collections is the section where you can find the most viewed items of your library, ranked by how often their detail pages have been viewed. Only the top 100 items are displayed.
 
-* If you click on `Top Collections` then all of the top items in your library will be appeared like below.
+* If you click on `Top Collections` then all of the top items in your library will appear like below.
 
  	![OPAC top collections page](img/opac_top_collection.png)
 
 * In the top collections page if you click on any **Column Headings** then you can find the  list of items by that column heading.
 
-## New Collections
+## New collections
 
 New Collections is the section where you can find those items which has been added recently to your library. Only 100 new items will be displayed.
 
-* If you click on `New Collections` then all of the newly arrived items in your library will be appeared like below.
+* If you click on `New Collections` then all of the newly arrived items in your library will appear like below.
 
  	![OPAC new collections page](img/opac_new_collection.png)
 
@@ -121,20 +123,52 @@ New Collections is the section where you can find those items which has been add
 
 ## My Account
 
-My Account section is a powerful way to manage your library bookings, access histories, favorite items and other activities through out your entire membership life cycle.
+In `My Account` you see your loans, holds, history, reviews and settings.
 
-* If you click on `My Account` then a page will appear like below
+* Click `My Account` (sign in first). A page like this opens:
 
 	![OPAC my account page](img/opac_my_account.png)
 
-* For other tabs please go to [Member Area](member-area) section.
+* For other tabs please go to [Member area](member-area.md) section.
 
-## Ask a Librarian
+## On an item's page
 
-In this section you can contact with your library administrator and ask any questions related to your library via e-mail.
+Click a title to open its page. Each copy shows what you can do with it:
 
-* Please click on `Ask a Librarian?` menu and a page will be appeared like below
+* `Checkout` -- borrow it yourself, if your library allows self-checkout (see [Self-service](self-service.md#for-members)).
+* `Request` -- ask the library to reserve it for you (see [Submit reservation request](member-area.md#submit-reservation-request)).
+* `Hold` next to a copy that is out, or `Place Hold` when all copies are out -- join the queue for it (see [My holds](member-area.md#my-holds)).
+
+No buttons? Sign in first; if they still don't show, your library hasn't turned these on for your membership.
+
+## Ask a librarian
+
+In this section you can contact your library and ask any questions related to your library via e-mail.
+
+* Please click on `Ask a Librarian?` menu and a page will appear like below
 
 	![OPAC ask librarian page](img/opac_ask_librarian.png)
 
 * Here you can find all the contact information of your library. 
+
+## FAQ
+
+**The catalog says "This OPAC is private!"**
+
+Log in: only the library's members can see its catalog. Library staff can change this; see [Change Library Information](libraries.md#change-library-information).
+
+**How are the Top Collections chosen?**
+
+Top Collections lists the titles whose detail pages have been viewed the most, most viewed first. Only the top 100 titles are shown.
+
+**What appears in New Collections?**
+
+The 100 most recently added titles, newest first. As with the rest of the OPAC, only active and published titles with at least one copy are listed.
+
+**Can I see the catalog of just one branch?**
+
+Yes. Choose a branch from the `All Branches` dropdown on the Catalog page to see only titles that have at least one copy in that branch. Choose `All Branches` again to see the whole catalog.
+
+**Why does the OPAC say "This OPAC is suspended!"?**
+
+The library's catalog is closed for now. Contact your library. (Library staff: check the plan on the `My Plan` page.)
