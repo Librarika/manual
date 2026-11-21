@@ -93,13 +93,13 @@ To reserve an item on behalf of a member, please follow the below steps:
 A renewal gives a loan a new due date by your library's renewal rules. Renewals are off until you turn on **Enable renewals** in `Manage` > `Preferences` > `Self Service` (see [Renewal settings](self-service.md#renewal-settings)). Once they are on, staff can renew in three places:
 
 * **Member page** -- open the member (`Circulations` > `Members`, then the member's name). Each loan that can be renewed now has a `Renew` button. A greyed-out `Renew` means the loan can't be renewed; point at it to see why. When more than one loan can be renewed, `Renew all` renews them together.
-* **Circulation list** -- in `Circulations` > `Circulations`, a loan that is out has `Renew` in its **Actions**. Librarika checks the rules when you click it and tells you if the loan can't be renewed.
+* **Circulation list** -- in `Circulations` > `Circulations`, a loan that is out and has not reached **Maximum Renewals** has `Renew` in its **Actions** (an overdue loan only when **Renew overdue loans** is on). Librarika checks the rules when you click it and tells you if the loan can't be renewed.
 * **Quick Renew** -- type the accession number, ISBN or title in the `Filter by ASN/ISBN/Call No/Member No` box at the top of the circulations page. For an item that is on loan, the list shows `Renew` next to `Check-In` and `Extend`. Click `Renew`: the **Quick Renew** window shows the title, member, **Due Date**, **Renewals** and the **New Due Date**. Click `Renew` to confirm.
 
 A renewal follows the same rules as a new checkout. A loan is not renewed when:
 
 * it has already been renewed the **Maximum Renewals** number of times;
-* it is too early (**Renew From**), or it was already renewed today;
+* it is too early (**Renew From**), it was already renewed today, or the new due date would be no later than the current one (the **Checkout Limit** sets the latest date);
 * the member is not active, has reached their booking quota, or their unpaid dues have reached the limit in [Fees & payments](fees-payments.md#suspend-borrowing-when-a-member-owes-too-much);
 * another member is waiting for the item and there are not enough other copies on the shelf for them, or another member holds this very copy (*"Another member is waiting for this item."*);
 * the copy is reserved for another member in the new loan period, or circulation is turned off for the item;

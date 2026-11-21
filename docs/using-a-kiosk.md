@@ -48,7 +48,7 @@ Click `Logout` at the top when you are done. If you leave the kiosk alone, it si
 
 ## What the kiosk can't do
 
-You can't renew items, place holds or pay fines at the kiosk. Use the [Member area](member-area.md), the Librarika app (see [Get the app & sign in](mobile-app.md)) or ask at the desk.
+You can't renew items, place holds or pay fines at the kiosk. To renew, use the [Member area](member-area.md#renew-your-loans) or ask at the desk. To place a hold, use the [Member area](member-area.md#my-holds), the Librarika app (see [Get the app & sign in](mobile-app.md)) or ask at the desk. To pay, contact the library.
 
 ---
 

@@ -35,7 +35,7 @@ If your library allows renewals for your membership, you can give a loan more ti
 
 A greyed-out `Renew` means the loan can't be renewed now, and the reason is shown under it, for example *"Another member is waiting for this item."*, *"This item has been renewed the maximum number of times."* or *"This item can be renewed from …"*. A loan is renewed only if you could borrow the item again today, so unpaid fees, your borrowing limit or another member's hold can stop it. Overdue items can be renewed only if your library allows it; the late fee up to that day is then added to your account. Otherwise, please return them.
 
-No `Renew` button? Your library has not turned on renewals, or not for your membership. Ask at the desk.
+No `Renew` button and no reason under the loan? Your library has not turned on renewals, or not for your membership. Ask at the desk.
 
 If you can renew online, your due-date reminder emails also say so, with a link to `My Account`.
 
@@ -292,7 +292,7 @@ The library's staff see only when you were last active in their library, not you
 
 **Why can't I renew a loan?**
 
-The reason is shown under the greyed-out `Renew` button. Common reasons: another member is waiting for the item, the loan has been renewed the most times your library allows, it is too early to renew, or you owe more than your library allows. If there is no `Renew` button at all, your library hasn't turned on renewals for your membership. See [Renew your loans](#renew-your-loans).
+The reason is shown under the greyed-out `Renew` button. Common reasons: another member is waiting for the item, the loan has been renewed the most times your library allows, it is too early to renew, or you owe more than your library allows. If there is no `Renew` button and no reason under the loan, your library hasn't turned on renewals for your membership. See [Renew your loans](#renew-your-loans).
 
 **Can I hold a book that is on the shelf?**
 

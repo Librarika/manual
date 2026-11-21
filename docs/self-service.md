@@ -90,7 +90,7 @@ The renewal settings are on the same `Self Service` tab. They apply to renewals 
 * **New Due Date Counts From** -- **The day it is renewed** (the default) or **The current due date**. A renewal gives another **Checkout Time** from that day; from the current due date, the member keeps the days they had left. The new due date is never later than the **Checkout Limit** from today.
 * **Renew overdue loans** -- lets an overdue loan be renewed too. The late fee up to that day is charged to the member's account and kept, and the new due date counts from the day it is renewed. When it is off, overdue items must be returned.
 
-Members can renew their own loans in `My Account` when renewals are on and their member type matches the **Member** setting above (the same members who may check out themselves). A renewal follows the same rules as a new checkout: see [Renew a loan](circulations.md#renew-a-loan).
+Members can renew their own loans in `My Account` when renewals are on and their member type matches the **Member** setting above. A renewal follows the same rules as a new checkout: see [Renew a loan](circulations.md#renew-a-loan).
 
 <a id="how-members-check-out-items"></a><a id="how-members-return-items"></a>
 

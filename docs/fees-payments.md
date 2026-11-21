@@ -82,7 +82,7 @@ When an overdue loan is [renewed](circulations.md#renew-a-loan) or extended with
 
 ## Member balances
 
-A member's balance is their charges less their payments. Librarika keeps it in step with the fees recorded on the member's account: when a late fee is added or updated overnight, or a charge or payment is added, changed or deleted, the balance follows. The balance is what [Suspend activity](#suspend-borrowing-when-a-member-owes-too-much) compares with the **Suspension Limit**.
+A member's balance is their charges less their payments. Librarika keeps it in step with the fees recorded on the member's account: when a late fee is added or updated each day, or a charge or payment is added, changed or deleted, the balance follows. The balance is what [Suspend activity](#suspend-borrowing-when-a-member-owes-too-much) compares with the **Suspension Limit**.
 
 ## Download transactions
 

@@ -148,7 +148,7 @@ Holds to Pull lists the holds that a copy on the shelf can fill now, so staff ca
 * Each row shows when the hold was **Placed**, the **Title**, the **Copy on the shelf** (accession number and call number), the **Member** and the **Branch** of the copy. Holds that are overdue to pull are listed first.
 * Take the copy from the shelf.
 * Click `Mark Ready`. The **Mark Ready** window opens with that copy chosen. If the copy isn't on the shelf after all, choose another copy or leave the hold waiting.
-* Click `Submit`. The hold becomes **Ready**, moves to the [Hold shelf](#hold-shelf), and the member is told it is ready for pickup.
+* Click `Submit`. The hold becomes **Ready**, moves to the [Hold shelf](#hold-shelf), and the member is told it is ready for pickup (if **Notify when hold is ready** is on).
 
 A hold that is not pulled within your **Pickup Window** (counted from the day a copy on the shelf could first fill it) shows **Overdue to pull**. Other members may then borrow the copy from the shelf; the hold keeps its place in the queue and stays in the list while a copy on the shelf can fill it.
 
@@ -198,7 +198,7 @@ When a member comes to pick up a ready hold:
 * Complete the checkout as usual.
 * The hold status will change to **Fulfilled**.
 
-Alternatively, you can check out items through the regular checkout process. If the item being checked out has an active hold for the member, the hold will be automatically fulfilled. If the member's ready hold had set aside a different copy of the same title, the hold is fulfilled with the copy they borrow, and the copy that was set aside goes to the next member waiting.
+Alternatively, you can check out items through the regular checkout process. If the item being checked out has an active hold for the member, the hold will be automatically fulfilled. If the member's ready hold had set aside a different copy of the same title, the hold is fulfilled with the copy they borrow, and the copy that was set aside goes to the next member waiting (in **Auto Assign** mode) or back on the shelf (in **Staff Manual** mode).
 
 ---
 
