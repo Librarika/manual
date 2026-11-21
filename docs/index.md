@@ -36,8 +36,8 @@ You have **one Librarika account**, and it belongs to you, not to a library. Wit
 **Daily work**
 
 * [Cataloging](cataloging.md): add titles and copies, import and export the catalog.
-* [Circulation](circulations.md): check out and check in items.
-* [Hold queue](hold-queue.md): holds on items that are checked out.
+* [Circulation](circulations.md): check out, check in and renew items.
+* [Hold queue](hold-queue.md): holds, Holds to Pull and the hold shelf.
 * [Fees & payments](fees-payments.md): fines, fees and payments.
 * [Barcode labels](barcode-labels.md): labels for items and member cards.
 * [Reports](reports.md): catalog, circulation, member and purchase reports.

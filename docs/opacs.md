@@ -123,7 +123,7 @@ New Collections is the section where you can find those items which has been add
 
 ## My Account
 
-In `My Account` you see your loans, holds, history, reviews and settings.
+In `My Account` you see your loans, holds, history, reviews and settings. If your library allows it, you can also renew your loans there (see [Renew your loans](member-area.md#renew-your-loans)).
 
 * Click `My Account` (sign in first). A page like this opens:
 
@@ -137,7 +137,7 @@ Click a title to open its page. Each copy shows what you can do with it:
 
 * `Checkout` -- borrow it yourself, if your library allows self-checkout (see [Self-service](self-service.md#for-members)).
 * `Request` -- ask the library to reserve it for you (see [Submit reservation request](member-area.md#submit-reservation-request)).
-* `Hold` next to a copy that is out, or `Place Hold` when all copies are out -- join the queue for it (see [My holds](member-area.md#my-holds)).
+* `Place Hold` next to a copy, or for the whole title -- join the queue for it. If the copy is on the shelf, the library sets it aside for you (see [My holds](member-area.md#my-holds)).
 
 No buttons? Sign in first; if they still don't show, your library hasn't turned these on for your membership.
 

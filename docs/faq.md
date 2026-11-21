@@ -74,12 +74,17 @@ For problems signing in, staff can also use [Helping people who can't sign in](h
 * What is the default return date and how do I change it?
 * When does an item become Overdue?
 * Can I extend an item that is already overdue?
+* What is the difference between Renew and Extend?
+* Why is there no Renew button?
+* Why was a renewal refused because of a hold?
 * I checked in the wrong item. How do I undo it?
 * What do the Accept, Cancel and Issue buttons do?
 
 **[Hold queue](hold-queue.md#faq)**
 
 * Why is there no `Place Hold` button when a copy is on the shelf?
+* A member placed a hold on a book on the shelf. Why isn't it ready?
+* I marked a hold ready by mistake. Can I undo it?
 * Can a member place a hold on an item they already have checked out?
 * Can a member have more than one hold on the same title?
 * Do suspended holds count towards the Hold Quota?
@@ -97,6 +102,7 @@ For problems signing in, staff can also use [Helping people who can't sign in](h
 * How do I record a payment from a member?
 * I entered a payment or charge by mistake. How do I fix it?
 * Can unpaid fees stop a member from borrowing?
+* Why is a member's balance higher than I expected?
 * Can members see how much they owe?
 
 **[Barcode labels](barcode-labels.md#faq)**
@@ -159,6 +165,8 @@ For problems signing in, staff can also use [Helping people who can't sign in](h
 * Why can't a member see the `Checkout` button?
 * Why can't a member return an overdue item themselves?
 * Does the Checkout Quota count items checked out by staff?
+* Why can't a member see the `Renew` button?
+* Can members renew overdue items?
 * Can unpaid fees stop a member from checking out?
 
 **[SIP2 integration](sip2.md#faq)**
@@ -198,6 +206,8 @@ For problems signing in, staff can also use [Helping people who can't sign in](h
 * How do I see where my account is signed in?
 * I left my account signed in on a library computer. What can I do?
 * Can the library see my sign-ins?
+* Why can't I renew a loan?
+* Can I hold a book that is on the shelf?
 
 ---
 

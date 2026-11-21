@@ -138,10 +138,13 @@ The `Sign-in security` button at the top of the Preferences page opens your libr
 	* **Checkout Time** -- the default checkout duration in days (default 7).
 	* **Checkout Limit** -- the longest checkout a member can choose, in days (default 14).
 	* **Checkout Quota** -- the most items a member can have checked out at the same time through self-service (default 5).
+	* **Enable renewals**, **Maximum Renewals**, **Renew From**, **New Due Date Counts From** and **Renew overdue loans** -- loan renewals by staff and members (off by default). See [Renewal settings](self-service.md#renewal-settings).
+
+	The picture is from an older version and doesn't show the renewal settings.
 
 	For more details on self-service options, see the [Self-service](self-service.md) page. For kiosk-based checkout with barcode scanners, see [SIP2 integration](sip2.md).
 
-* If you click on the `Hold Queue` tab then you can configure the hold queue feature for your library. The hold queue allows members to place holds on items that are currently checked out and wait in a queue until the item becomes available.
+* If you click on the `Hold Queue` tab then you can configure the hold queue feature for your library. The hold queue allows members to place holds on items that are checked out, or on the shelf (unless you turn off **Allow holds on items on the shelf**), and wait in a queue until a copy is ready for them.
 
 	For detailed information on all hold queue settings and how the feature works, see the [Hold queue](hold-queue.md) page.
 

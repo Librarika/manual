@@ -78,6 +78,12 @@ Setting up takes a few minutes.
 
 System will apply / update overdue charges for currently overdue items on daily basis. Once the item is returned you can edit / adjust the applied overdue amount.
 
+When an overdue loan is [renewed](circulations.md#renew-a-loan) or extended with `Quick Extend`, its late fee up to that day is charged and kept on the member's account; it stops growing. If the item becomes overdue again later, a new overdue charge starts from the new due date. A charge that staff have already changed (for example waived) keeps the amount staff gave it.
+
+## Member balances
+
+A member's balance is their charges less their payments. Librarika keeps it in step with the fees recorded on the member's account: when a late fee is added or updated overnight, or a charge or payment is added, changed or deleted, the balance follows. The balance is what [Suspend activity](#suspend-borrowing-when-a-member-owes-too-much) compares with the **Suspension Limit**.
+
 ## Download transactions
 
 * You can download the transactions in a CSV file by clicking on the `Export` button.
@@ -101,7 +107,7 @@ The fee item must be enabled under `Fee Items` first.
 2. Switch on **Suspend activity** and enter a **Suspension Limit** (an amount).
 3. Click `Submit`.
 
-When a member's balance reaches the limit, staff checkouts, member self-checkouts and member requests are refused until the balance goes down.
+When a member's balance reaches the limit, staff checkouts, member self-checkouts, member requests and renewals are refused until the balance goes down.
 
 ## Limitations
 
@@ -119,7 +125,7 @@ Two things are needed: **Enabled fees & fines** must be ticked in `Fees & Fines 
 
 **How is the overdue charge calculated?**
 
-The charge is the overdue amount per day multiplied by the number of days the item is past its due date. Each overdue checkout has one charge, which is updated every day until the item is returned.
+The charge is the overdue amount per day multiplied by the number of days the item is past its due date. Each overdue checkout has one charge, which is updated every day until the item is returned, renewed or extended. After a renewal or extension the charge is kept as it is; if the item becomes overdue again, a new charge starts.
 
 **Why can't I edit or delete an overdue charge?**
 
@@ -135,7 +141,11 @@ Open the transaction and click `Edit Transaction` to correct it, or use the dele
 
 **Can unpaid fees stop a member from borrowing?**
 
-Yes. Tick **Suspend activity** in `Fees & Fines Settings` and set a **Suspension Limit**. When a member's balance reaches that limit, staff checkouts, member self-checkouts and member requests are refused until the balance goes down.
+Yes. Tick **Suspend activity** in `Fees & Fines Settings` and set a **Suspension Limit**. When a member's balance reaches that limit, staff checkouts, member self-checkouts, member requests and renewals are refused until the balance goes down.
+
+**Why is a member's balance higher than I expected?**
+
+The balance follows every fee recorded on the member's account, including late fees for loans that are still overdue, which grow every day. Open the member's statement to see each charge. If a loan is no longer expected back, return or remove it so its late fee stops growing, then edit or delete the charge if you want to waive it.
 
 **Can members see how much they owe?**
 

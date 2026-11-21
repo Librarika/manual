@@ -2,7 +2,7 @@
 
 **Who this is for:** members who borrow and return by themselves, and the staff who set it up.
 
-**What you can do here:** turn on self-checkout and self-return, and learn how members use them.
+**What you can do here:** turn on self-checkout, self-return and online renewals, and learn how members use them.
 
 Librarika offers two approaches for self-checkout: **Online Self-Service** and **Kiosk-Based Self-Service (SIP2)**. Online self-service allows members to check out and return items directly from their browser or phone, while kiosk-based self-service uses the industry-standard SIP2 protocol to connect physical self-checkout terminals with barcode scanners.
 
@@ -22,6 +22,10 @@ If your library allows it, you can borrow and return items yourself.
 1. Click `My Account` and find the item in your current loans.
 2. Click `Check-in`. The **Self Check-In** window opens; you can add a comment.
 3. Click `Submit`. You see *"The item has been returned successfully…"*
+
+**Renew an item**
+
+If your library allows renewals, click `My Account` and click `Renew` under the loan (or `Renew all`). See [Renew your loans](member-area.md#renew-your-loans).
 
 No `Checkout` button? Your library hasn't turned on self-checkout for your membership, or the copy is out. Ask at the desk. Using a kiosk in the library instead? See [Using a kiosk](using-a-kiosk.md).
 
@@ -60,7 +64,7 @@ To enable self-service checkout and check-in for your library members, follow th
 
 	![Library preference self-service form](img/library-preference-self-service.png)
 
-	This picture is from an older version: the tab bar now also has `Hold Queue` (and `SIP2` when your library has terminals). The settings on the tab are the same.
+	This picture is from an older version: the tab bar now also has `Hold Queue` (and `SIP2` when your library has terminals), and the tab now ends with the [renewal settings](#renewal-settings).
 
 * Configure the following settings:
 
@@ -75,6 +79,18 @@ To enable self-service checkout and check-in for your library members, follow th
 * Click the `Save Preferences` button to save your changes.
 
 What members see is described in [For members](#for-members) above.
+
+#### Renewal settings
+
+The renewal settings are on the same `Self Service` tab. They apply to renewals by staff and by members.
+
+* **Enable renewals** -- turns renewals on. It is off until you switch it on.
+* **Maximum Renewals** -- how many times one loan can be renewed (default 2). Staff `Quick Extend` does not count.
+* **Renew From** -- how many days before the due date a loan can be renewed. 0 (the default) means any time.
+* **New Due Date Counts From** -- **The day it is renewed** (the default) or **The current due date**. A renewal gives another **Checkout Time** from that day; from the current due date, the member keeps the days they had left. The new due date is never later than the **Checkout Limit** from today.
+* **Renew overdue loans** -- lets an overdue loan be renewed too. The late fee up to that day is charged to the member's account and kept, and the new due date counts from the day it is renewed. When it is off, overdue items must be returned.
+
+Members can renew their own loans in `My Account` when renewals are on and their member type matches the **Member** setting above (the same members who may check out themselves). A renewal follows the same rules as a new checkout: see [Renew a loan](circulations.md#renew-a-loan).
 
 <a id="how-members-check-out-items"></a><a id="how-members-return-items"></a>
 
@@ -114,6 +130,14 @@ If **Enable member check-ins for overdue items** is off, the `Check-in` button i
 
 Yes. The quota counts every item the member currently has checked out or overdue, no matter who issued it. If a member already has that many items, self-checkout is refused until they return something.
 
+**Why can't a member see the `Renew` button?**
+
+`Renew` appears in `My Account` only when **Enable renewals** is on and the member's type matches the **Member** setting. When a particular loan can't be renewed, the button is greyed out and the reason is shown under it.
+
+**Can members renew overdue items?**
+
+Only if **Renew overdue loans** is on. The late fee up to that day is added to the member's account.
+
 **Can unpaid fees stop a member from checking out?**
 
-Yes, if your library uses [Fees & payments](fees-payments.md) with **Suspend activity** turned on. When the member's balance reaches the **Suspension Limit**, self-checkout shows "Sorry, you have reached the maximum dues limit."
+Yes, if your library uses [Fees & payments](fees-payments.md) with **Suspend activity** turned on. When the member's balance reaches the **Suspension Limit**, self-checkout shows "Sorry, you have reached the maximum dues limit." Renewals are refused in the same way.

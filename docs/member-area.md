@@ -2,7 +2,7 @@
 
 **Who this is for:** library members who sign in to their library.
 
-**What you can do here:** see your loans, reservations, holds and history, write reviews, and change your settings.
+**What you can do here:** see and renew your loans, see your reservations, holds and history, write reviews, and change your settings.
 
 The Member Area (`My Account`) is your own page in the library: loans, holds, history, reviews and settings.
 
@@ -23,6 +23,21 @@ To view your active bookings, please follow the below steps:
 	![Member area my bookings](img/member-area-my-bookings.png)
 
 * You can now take relevant actions based on the status of each booking.
+
+## Renew your loans
+
+If your library allows renewals for your membership, you can give a loan more time yourself.
+
+* Click `My Account`. Your loans are listed under **My Recent Bookings**.
+* Click `Renew` under the loan. You see a message such as *"Items renewed: 1."* and the new due date.
+* To renew everything that can be renewed, click `Renew all` (shown when more than one loan can be renewed).
+* After a renewal the loan shows **Renewed: 1 of 2**: how many times it has been renewed, out of the most your library allows.
+
+A greyed-out `Renew` means the loan can't be renewed now, and the reason is shown under it, for example *"Another member is waiting for this item."*, *"This item has been renewed the maximum number of times."* or *"This item can be renewed from …"*. A loan is renewed only if you could borrow the item again today, so unpaid fees, your borrowing limit or another member's hold can stop it. Overdue items can be renewed only if your library allows it; the late fee up to that day is then added to your account. Otherwise, please return them.
+
+No `Renew` button? Your library has not turned on renewals, or not for your membership. Ask at the desk.
+
+If you can renew online, your due-date reminder emails also say so, with a link to `My Account`.
 
 ## Booking history
 
@@ -100,7 +115,7 @@ Account settings is the section where you can update all the information of your
 
 ## My holds
 
-If your library has the hold queue feature enabled, you can place holds on items that are currently checked out and manage your holds from the My Holds section.
+If your library has the hold queue feature enabled, you can place holds on items and manage your holds from the My Holds section. You can hold items that are checked out and, unless your library has turned it off, items that are on the shelf: the library takes the copy from the shelf, sets it aside for you and tells you when it is ready for pickup.
 
 Members can place and manage their own holds from the catalog and their account area.
 
@@ -110,7 +125,7 @@ Members can place holds on items from the catalog detail page:
 
 * Search for the item in the catalog.
 * Click on the item title to view its details.
-* If all copies are currently checked out, a `Place Hold` button will be displayed at the title level.
+* A `Place Hold` button is displayed at the title level. If all copies are checked out, it says *"All copies are currently checked out"*. If a copy is on the shelf, it says *"A copy is on the shelf. Place a hold and we'll set it aside for you, or borrow it now."*
 
 * Click the `Place Hold` button.
 * A hold form will appear. If copy-level holds are enabled and multiple copies exist, you can select a specific copy.
@@ -118,7 +133,7 @@ Members can place holds on items from the catalog detail page:
 * Click `Submit` to place the hold.
 * A success message will appear with your queue position.
 
-Additionally, if copy-level holds are enabled, a `Hold` button will appear next to each individual copy that is currently checked out in the copies table.
+Additionally, if copy-level holds are enabled, a `Place Hold` button appears next to each copy in the copies table that you can hold.
 
 **Note:** The `Place Hold` button is only visible when:
 
@@ -127,9 +142,9 @@ Additionally, if copy-level holds are enabled, a `Hold` button will appear next 
 * Your member type matches the allowed member type setting (All, Regular, or Privileged).
 * The item is a circulating item.
 * Title-level holds are enabled (for the title-level button).
-* All copies are currently checked out (for the title-level button), or the specific copy is checked out (for copy-level buttons).
+* Your library allows holds on items on the shelf, or every copy (for the title-level button) or that copy (for copy-level buttons) is checked out.
 
-If available copies exist, a message will be shown indicating that a hold is not needed since copies are available.
+If your library doesn't allow holds on items on the shelf and a copy is available, you see *"A copy is on the shelf. You can borrow it now."* instead.
 
 ### View my holds
 
@@ -146,6 +161,7 @@ To view your active holds:
 		* **Green (Ready)** -- Item is ready for pickup.
 		* **Yellow (Suspended)** -- Hold is temporarily paused.
 	* **Pickup Deadline** -- Displayed for Ready holds, showing the date by which you must pick up the item.
+	* **Where to collect** -- When your library has more than one branch, a Ready hold shows where to collect it (*"Ready for pickup at …"*).
 
 **Note:** My Holds only shows your active holds (Waiting, Ready, and Suspended). Fulfilled, Expired, and Cancelled holds are not displayed here.
 
@@ -273,3 +289,11 @@ Open **Sign-in activity** from another device and click `Sign out` next to that 
 **Can the library see my sign-ins?**
 
 The library's staff see only when you were last active in their library, not your history, devices or addresses.
+
+**Why can't I renew a loan?**
+
+The reason is shown under the greyed-out `Renew` button. Common reasons: another member is waiting for the item, the loan has been renewed the most times your library allows, it is too early to renew, or you owe more than your library allows. If there is no `Renew` button at all, your library hasn't turned on renewals for your membership. See [Renew your loans](#renew-your-loans).
+
+**Can I hold a book that is on the shelf?**
+
+Yes, unless your library has turned this off. Click `Place Hold` on the book's page. The library takes the copy from the shelf, sets it aside for you and tells you when it is ready for pickup. See [My holds](#my-holds).
