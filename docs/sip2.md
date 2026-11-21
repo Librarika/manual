@@ -31,7 +31,9 @@ SIP2 is licensed per terminal. Each terminal that connects to Librarika needs it
 * **Account**: the terminal's own staff account; see [Get a terminal licence and account](kiosk-app.md#get-a-terminal-licence-and-account).
 * **Login (93)**: CN = username (the account's email address), CO = password.
 * **Terminal password (AC)**: in every patron status, checkout and check-in message, `username:password` of the terminal account (its email address, a colon, its password).
-* **Supported messages**: login (93), patron status (23), checkout (11) and check-in (09).
+* **Supported messages**: login (93), SC status (99), patron status (23), patron information (63), checkout (11), check-in (09), renew (29) and renew all (65). Renew is offered only when your library has renewals on, and the member's holds only when your library has holds on (see [Renewals and holds at the kiosk](kiosk-app.md#renewals-and-holds-at-the-kiosk)). The SC status reply shows what your library offers at the time; a change is seen within about a minute.
+* **Shared card numbers**: if more than one member has the same **Member No**, the patron is refused with *"This card number matches more than one account. Please ask at the desk."*
+* **Loan periods**: a checkout without a due date gets the **Checkout Time** on the `Self Service` tab, never past the **Checkout Limit**.
 * **Card and item barcodes**: the patron identifier must be exactly the member's **Member No**; the item identifier is the copy's accession number.
 * **Allowed IPs**: if the licence lists IP addresses or ranges, the terminal must connect from one of them.
 
@@ -44,7 +46,7 @@ SIP2 is licensed per terminal. Each terminal that connects to Librarika needs it
 
 ## Librarika Kiosk App
 
-Librarika has its own kiosk app for self-checkout terminals. Members scan their library card, then borrow and return items; staff set it up with an admin PIN and can add branding, library hours, auto sign-out and receipt printing.
+Librarika has its own kiosk app for self-checkout terminals. Members scan their library card, then borrow and return items and, if your library uses them, renew items and see their holds; staff set it up with an admin PIN and can add branding, library hours, auto sign-out and receipt printing. Renewals and holds need Librarika Kiosk 1.0.2 or later, installed over the current version from the [Librarika Kiosk App](https://librarika.com/spages/librarika-kiosk-app) page.
 
 * For staff: [Kiosk app: setup and management](kiosk-app.md).
 * For members: [Using a kiosk](using-a-kiosk.md).
@@ -78,7 +80,7 @@ Check the status on the `SIP2` tab in Preferences. The licence may have expired 
 
 **What can members do at a SIP2 kiosk?**
 
-Members can identify themselves, check out items and return them. Renewals, holds and fee payments are not available through SIP2.
+Members can identify themselves, check out items and return them. If your library has renewals on, they can also renew their items (see [Renewal settings](self-service.md#renewal-settings)); if it has holds on, the Librarika Kiosk shows their holds and warns when a returned item is on hold for someone else (see [Hold queue](hold-queue.md)). Members can't place holds or pay fees at a kiosk.
 
 **Do kiosk checkouts follow my circulation rules?**
 

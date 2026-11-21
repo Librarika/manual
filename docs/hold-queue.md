@@ -242,7 +242,7 @@ Use this information to decide whether to purchase additional copies of high-dem
 
 ## My holds (member self-service)
 
-What members see and do (place a hold from the catalog, see their queue position, suspend, activate or cancel a hold) is described in [Member area: My holds](member-area.md#my-holds).
+What members see and do (place a hold from the catalog, see their queue position, suspend, activate or cancel a hold) is described in [Member area: My holds](member-area.md#my-holds). At a Librarika Kiosk, members can see their holds under `My Holds` (**Ready for pickup** and **Waiting**), and a member who returns an item on hold is asked to give it to staff or leave it where you ask (see [Renewals and holds at the kiosk](kiosk-app.md#renewals-and-holds-at-the-kiosk)).
 
 ---
 

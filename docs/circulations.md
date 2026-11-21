@@ -109,7 +109,7 @@ If **Renew overdue loans** is on and you renew an overdue loan, its late fee up 
 
 After a loan has been renewed, the due date shows **Renewed 1/2** (renewals so far / **Maximum Renewals**). Click it to open the loan's **Renewal History**: the date of each renewal and Extend, who did it, the due date before and after, and any late fee that was settled.
 
-Members can renew their own loans from `My Account` (see [Renew your loans](member-area.md#renew-your-loans)).
+Members can renew their own loans from `My Account` (see [Renew your loans](member-area.md#renew-your-loans)) and, at a Librarika Kiosk, from `My Items` (see [Using a kiosk](using-a-kiosk.md#renew-items)). Kiosk renewals follow the same rules.
 
 ## Change return date
 

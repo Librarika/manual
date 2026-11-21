@@ -25,7 +25,7 @@ If your library allows it, you can borrow and return items yourself.
 
 **Renew an item**
 
-If your library allows renewals, click `My Account` and click `Renew` under the loan (or `Renew all`). See [Renew your loans](member-area.md#renew-your-loans).
+If your library allows renewals, click `My Account` and click `Renew` under the loan (or `Renew all`). See [Renew your loans](member-area.md#renew-your-loans). At a kiosk, use `Renew` or `Renew all` in `My Items` (see [Using a kiosk](using-a-kiosk.md#renew-items)).
 
 No `Checkout` button? Your library hasn't turned on self-checkout for your membership, or the copy is out. Ask at the desk. Using a kiosk in the library instead? See [Using a kiosk](using-a-kiosk.md).
 
@@ -74,6 +74,8 @@ To enable self-service checkout and check-in for your library members, follow th
 	* **Member** -- which members may use self-service: All Members, Regular Members Only or Privileged Members Only.
 	* **Checkout Time** -- the default checkout duration in days (default 7).
 	* **Checkout Limit** -- the longest checkout a member can choose, in days (default 14).
+
+	Kiosk checkouts use the **Checkout Time**, never past the **Checkout Limit** (see [Renewals and holds at the kiosk](kiosk-app.md#renewals-and-holds-at-the-kiosk)).
 	* **Checkout Quota** -- the most items a member can have checked out at the same time (default 5). Self-checkout counts every item the member has issued or overdue, including items issued by staff.
 
 * Click the `Save Preferences` button to save your changes.
@@ -90,7 +92,7 @@ The renewal settings are on the same `Self Service` tab. They apply to renewals 
 * **New Due Date Counts From** -- **The day it is renewed** (the default) or **The current due date**. A renewal gives another **Checkout Time** from that day; from the current due date, the member keeps the days they had left. The new due date is never later than the **Checkout Limit** from today.
 * **Renew overdue loans** -- lets an overdue loan be renewed too. The late fee up to that day is charged to the member's account and kept, and the new due date counts from the day it is renewed. When it is off, overdue items must be returned.
 
-Members can renew their own loans in `My Account` when renewals are on and their member type matches the **Member** setting above. A renewal follows the same rules as a new checkout: see [Renew a loan](circulations.md#renew-a-loan).
+Members can renew their own loans in `My Account` when renewals are on and their member type matches the **Member** setting above. With renewals on, members can also renew at a Librarika Kiosk (see [Renewals and holds at the kiosk](kiosk-app.md#renewals-and-holds-at-the-kiosk) and [Using a kiosk](using-a-kiosk.md#renew-items)). A renewal follows the same rules as a new checkout: see [Renew a loan](circulations.md#renew-a-loan).
 
 <a id="how-members-check-out-items"></a><a id="how-members-return-items"></a>
 

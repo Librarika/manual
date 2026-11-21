@@ -63,7 +63,7 @@ You have **one Librarika account**, and it belongs to you, not to a library. Wit
 * [OPAC](opacs.md): the library's online catalog.
 * [Member area](member-area.md): what you see when you sign in to your library.
 * [Self-service](self-service.md): check items out and in from a browser or phone.
-* [Using a kiosk](using-a-kiosk.md): borrow and return at a self-checkout kiosk.
+* [Using a kiosk](using-a-kiosk.md): borrow, return and renew at a self-checkout kiosk, and see your holds.
 
 ---
 
