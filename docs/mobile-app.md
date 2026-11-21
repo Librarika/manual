@@ -6,8 +6,8 @@
 
 The Librarika app for iPhone and Android serves **both members and library staff**. After you sign in and choose a library, the app shows the member screens or the staff screens, depending on your role in that library:
 
-* **Members** browse the catalog, see their loans, holds and balance, and check items out and in themselves (if the library allows it). See [For members in the app](app-members.md).
-* **Staff** (library admins, staff and assistants) scan barcodes, add titles and cover photos, and manage members and loans. See [For library staff in the app](app-staff.md).
+* **Members** browse the catalog, see their loans, holds and balance, renew loans, place holds, and check items out and in themselves (if the library allows it). See [For members in the app](app-members.md).
+* **Staff** (library admins, staff and assistants) scan barcodes, add titles and cover photos, manage members and loans, renew loans, and pull holds and run the hold shelf. See [For library staff in the app](app-staff.md).
 
 ---
 
@@ -110,5 +110,7 @@ Sign in on the website, open your settings and, under **Where you are signed in*
 ## App updates
 
 Your app version is at the bottom of the member **Account** tab and the staff **Settings** tab (*Version … (Build …)*); give it to support if they ask.
+
+Many improvements reach the app automatically, without the App Store or Google Play: the app loads them when it starts. To get the latest one, close the app completely and open it again.
 
 When a new version is required, the app shows **Update Required** (*"A new version of Librarika is available. Please update to continue using the app."*) with `Update Now`. When an update is optional, it shows **Update Available** with `Not Now` and `Update`.

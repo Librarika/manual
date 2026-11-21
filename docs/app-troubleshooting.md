@@ -40,7 +40,7 @@
 | **No Libraries Found** | Your account isn't in any library yet. Accept your library's invitation (see [Member quick start](member-quick-start.md)) or ask to join on librarika.com (`My Libraries` > `Join a library`; the app's hint says *My Account*), then sign in again. |
 | The library you want isn't listed | You may have used a different account, or you signed in with a library's SSO (that opens only that library). Tap `Logout` at the bottom of **Select Library**, then sign in with the right account, or with your password, Google or Apple. |
 | Member screens instead of staff screens (or the other way) | You tapped the library under the other group. Use `Switch Library` and tap it under **Manage as Librarian** or **Access as Member**. |
-| No self-checkout button, holds or requests | Your library hasn't turned them on. Ask your library. |
+| No self-checkout button, `Renew`, holds or requests | Your library hasn't turned them on, or not for your membership. Ask your library. If your library offers them on the website, close the app completely and open it again to load the latest update. |
 
 ## Connection and updates
 
