@@ -65,6 +65,7 @@ Once signed in, click `My Account` to open the [Member area](member-area.md): yo
 
 * search the library's [online catalog (OPAC)](opacs.md);
 * check items out and in yourself, if your library allows it: see [Self-service](self-service.md);
+* renew your loans, if your library allows it: see [Renew your loans](member-area.md#renew-your-loans);
 * use the Librarika app on your phone (see [Get the app & sign in](mobile-app.md)).
 
 ## 6. Optional: turn on two-step verification

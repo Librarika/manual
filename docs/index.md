@@ -36,8 +36,8 @@ You have **one Librarika account**, and it belongs to you, not to a library. Wit
 **Daily work**
 
 * [Cataloging](cataloging.md): add titles and copies, import and export the catalog.
-* [Circulation](circulations.md): check out and check in items.
-* [Hold queue](hold-queue.md): holds on items that are checked out.
+* [Circulation](circulations.md): check out, check in and renew items.
+* [Hold queue](hold-queue.md): holds, Holds to Pull and the hold shelf.
 * [Fees & payments](fees-payments.md): fines, fees and payments.
 * [Barcode labels](barcode-labels.md): labels for items and member cards.
 * [Reports](reports.md): catalog, circulation, member and purchase reports.
@@ -63,7 +63,7 @@ You have **one Librarika account**, and it belongs to you, not to a library. Wit
 * [OPAC](opacs.md): the library's online catalog.
 * [Member area](member-area.md): what you see when you sign in to your library.
 * [Self-service](self-service.md): check items out and in from a browser or phone.
-* [Using a kiosk](using-a-kiosk.md): borrow and return at a self-checkout kiosk.
+* [Using a kiosk](using-a-kiosk.md): borrow, return and renew at a self-checkout kiosk, and see your holds.
 
 ---
 

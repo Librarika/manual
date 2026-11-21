@@ -8,7 +8,7 @@
 
 ## What the kiosk app is
 
-**Librarika Kiosk** is a desktop app that turns a computer into a self-checkout station. Members scan their library card, then borrow and return items by scanning barcodes. The app connects to Librarika through Librarika's SIP2 service, so each kiosk needs a [SIP2 terminal licence](sip2.md#licensing).
+**Librarika Kiosk** is a desktop app that turns a computer into a self-checkout station. Members scan their library card, then borrow and return items by scanning barcodes. If your library uses them, members can also renew their items and see their holds (see [Renewals and holds at the kiosk](#renewals-and-holds-at-the-kiosk)). The app connects to Librarika through Librarika's SIP2 service, so each kiosk needs a [SIP2 terminal licence](sip2.md#licensing).
 
 The app runs on Windows, macOS and Linux. Downloads are on the [Librarika Kiosk App](https://librarika.com/spages/librarika-kiosk-app) page.
 
@@ -80,9 +80,9 @@ The Admin Panel has these sections:
 | **Kiosk Settings** | **Idle Timeout (milliseconds)** (default 300000, which is 5 minutes; from 10 seconds to 1 hour), **Enable Kiosk Mode** (full screen, shortcuts off), **Start in Kiosk Mode**, **Enable Virtual Keyboard**, **Date Format**, and library hours (below). Kiosk mode changes take effect after `Restart App`. |
 | **Security** | Change the admin PIN. |
 | **Display & Branding** | **Library Name**, logo, colours, theme, font size and the kiosk's language (17 languages). Members can't change the language. |
-| **Patron Messages** | The welcome, idle, closing-soon and error messages, and your library's phone, email and website. |
-| **Receipt Printing** | **Enable Receipt Printing**, **Automatic Printing**, **Print for Checkouts**, **Print for Checkins**, **Include Due Dates**, **Receipt Paper Width**, **Include Library Contact Info**, header and footer messages, and `Test Print`. Switch on both **Enable Receipt Printing** and **Automatic Printing**, or nothing prints (Automatic Printing is off by default). Receipts go to the computer's default printer. |
-| **Activity Logs** | What happened at the kiosk; you can export it as a CSV file. |
+| **Patron Messages** | The welcome, idle, closing-soon and error messages, **Message when a returned item is on hold** (see [Renewals and holds at the kiosk](#renewals-and-holds-at-the-kiosk)), and your library's phone, email and website. |
+| **Receipt Printing** | **Enable Receipt Printing**, **Automatic Printing**, **Print for Checkouts**, **Print for Checkins**, **Print for Renewals**, **Include Due Dates**, **Receipt Paper Width**, **Include Library Contact Info**, header and footer messages, and `Test Print`. See [Receipts](#receipts). |
+| **Activity Logs** | What happened at the kiosk, for the last 30 days; you can export it as a CSV file. The log doesn't keep members' names, and card numbers are partly hidden. |
 | **Terms & Conditions** | Optional terms that members accept before they use the kiosk. |
 | **Terms Acceptance Logs** | Who accepted the terms, and when. |
 | **About** | The app version. |
@@ -102,9 +102,37 @@ Outside opening hours the kiosk shows **Library Closed** and the next opening ti
 
 ### Auto sign-out
 
-A member is signed out automatically after the **Idle Timeout**. 30 seconds before, the kiosk shows **Session Timeout Warning** with a `Continue Session` button.
+A member is signed out automatically after the **Idle Timeout**. 30 seconds before, the kiosk shows **Session Timeout Warning** with a `Continue Session` button. A session that ends this way, or because the library closes, prints no receipt.
+
+### Receipts
+
+Switch on **Enable Receipt Printing**, then choose what to print for: **Print for Checkouts**, **Print for Checkins** and **Print for Renewals** (renewals in `My Items`, and items a member already has and renews when they scan them at checkout; off by default).
+
+* Members get a receipt when they click `Print Receipt`. With **Automatic Printing** on (off by default), the kiosk also prints one by itself when the member leaves the checkout, return or `My Items` screen. One receipt covers everything on that screen.
+* `Print My Items` prints the member's list of loans.
+* A renewal receipt lists each renewed item with its new due date.
+* With **Include Library Contact Info** on, every receipt (checkout, return, renewal, `My Items` and the test receipt) ends with your library's email, phone and website from **Patron Messages**, then your footer message. Without a website, the kiosk uses your library's Librarika address.
+* Card numbers are partly hidden on receipts. When a session ends unattended, nothing is printed.
+
+Receipts go to the computer's default printer. The kiosk doesn't keep copies of members' receipts on the computer.
+
+## Renewals and holds at the kiosk
+
+What members can do at the kiosk follows your library's settings in Librarika; there is nothing to switch on in the kiosk itself:
+
+* **Renewals** appear when **Enable renewals** is on in `Manage` > `Preferences` > `Self Service` (see [Renewal settings](self-service.md#renewal-settings)). Members then see `Renew` and `Renew all` in `My Items`. When a member scans an item they already have at checkout, the kiosk asks whether to renew it; it never renews by itself. Kiosk renewals follow the same rules as renewals in `My Account` (see [Renew a loan](circulations.md#renew-a-loan)), and the member sees the new due date or the reason a loan wasn't renewed.
+* **Holds** appear when **Enable hold queue** is on (see [Enable hold queue](hold-queue.md#enable-hold-queue)) and your plan includes holds. Members then see `My Holds`: holds **Ready for pickup** (with where and by when to collect them) and holds **Waiting** (with their place in the queue). Members can't place or cancel holds at the kiosk.
+* **Returns of items on hold**: when a returned item has a waiting hold, the member sees **Another member is waiting for this item**, with *"Please give it to library staff, or leave it where your library asks for held items."* To tell members exactly where to put such items, type your own text in **Message when a returned item is on hold** under **Patron Messages**. It is shown as you type it, in every kiosk language; leave it blank for the standard sentence. See also [Check in an item someone is waiting for](hold-queue.md#check-in-an-item-someone-is-waiting-for).
+
+When you turn renewals or holds on or off, kiosks pick up the change within about a minute, from the next member who signs in. No restart is needed.
+
+**Loan periods:** a kiosk checkout is a self-checkout. Its due date uses the **Checkout Time** on the `Self Service` tab, but never goes past the **Checkout Limit** (see [Enable self-service for your library](self-service.md#enable-self-service-for-your-library)).
+
+Renewals, holds, the hold message on returns and the shared card number message need **Librarika Kiosk 1.0.2** or later. See [Updates](#updates).
 
 ## Updates
+
+To get Kiosk 1.0.2, download it from the [Librarika Kiosk App](https://librarika.com/spages/librarika-kiosk-app) page and install it over the current version, as in [Install the app](#install-the-app). Your settings are kept. To check the version, open the Admin Panel > **About**.
 
 The kiosk checks for updates 10 seconds after it starts and every 4 hours. **Update Available** offers `Download Update` or `Later`. After the download, **Update Ready to Install** offers `Install and Restart` or `Install Later`. A downloaded update installs the next time the app closes. The window doesn't ask for the admin PIN and can appear while members use the kiosk, so install updates when the library is quiet.
 
@@ -124,5 +152,9 @@ After setup, sign in at the kiosk with a test member's card, borrow one item and
 | One member gets *"Your account is blocked. Please see library staff."* | Check the member in Librarika: the barcode on the card must be exactly the member's **Member No**, including capital letters and leading zeros, and the member must be **Active**. |
 | A licence message such as *"This SIP2 terminal licence has expired. …"*, *"… is suspended. …"*, *"… is not licensed for this location. …"*, *"… is not licensed for this library. …"* or *"… has not started yet."* | Some SIP2 kiosks show these. At sign-in the Librarika Kiosk shows only *"Your account is blocked"* instead. Check the terminal's **Status** under `Manage` > `Preferences` > `SIP2`, then contact Librarika support to renew the licence or update the allowed addresses, for example after you changed internet provider. |
 | *"Connection lost. Please check with library staff to confirm if … was checked out."* | The connection dropped during a loan. Check the item in [Circulation](circulations.md) and fix it at the desk if needed. |
+| *"We could not confirm whether … was renewed. …"* | The connection dropped during a renewal, which may have gone through. Check the loan's due date in [Circulation](circulations.md). |
+| *"This card number matches more than one account. Please ask at the desk."* | Two or more members have the same **Member No**. Give each member their own number, then print a new card if needed. |
+| No `Renew` or `My Holds` at the kiosk | Check that **Enable renewals** or **Enable hold queue** is on, wait a minute and sign in again. Check the version under **About**: you need Kiosk 1.0.2 or later. |
+| An overdue item shows *"Overdue items can't be renewed."* | **Renew overdue loans** is off. The member returns the item, or staff renew or extend it at the desk. |
 
 The kiosk's log files are in `%APPDATA%/Librarika Kiosk/logs/` on Windows, `~/Library/Logs/Librarika Kiosk/` on macOS and `~/.config/Librarika Kiosk/logs/` on Linux. Librarika support may ask for them; the **Activity Logs** CSV export is usually easier to send.
