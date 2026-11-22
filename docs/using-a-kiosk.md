@@ -45,6 +45,9 @@ Other screens you may see instead of the keypad (click `DONE` to go back):
 	![Too many attempts](img/kiosk-pin-locked.png)
 
 * **Kiosk PIN needed**: *"Please see the library staff to set your kiosk PIN."* You don't have a PIN yet. Ask at the desk, or set one on the library's PIN page if your library allows it.
+
+	![Kiosk PIN needed](img/kiosk-pin-no-pin.png)
+
 * **Choose a new PIN**: your library now uses longer PINs (for example *"Your library now uses 6-digit PINs."*) or asks you to choose a new one. Choose it on the library website (the kiosk shows the address and a QR code) or at the desk.
 
 	![Choose a new PIN](img/kiosk-pin-must-change.png)
@@ -119,7 +122,11 @@ If your library uses holds, click `My Holds` to see the items you are waiting fo
 * **Waiting**: your place in the queue, for example *"You are 2nd in the queue."*, and the branch to collect it at.
 * **Suspended**: a hold you have paused, and until when.
 
-You can't place, suspend or cancel holds at the kiosk. Use the [Member area](member-area.md#my-holds), the Librarika app (see [Get the app & sign in](mobile-app.md)) or ask at the desk.
+`My Holds` only lists your holds: you can't place, suspend or cancel holds at the kiosk. If you have none, it says *"Holds you place in the catalogue or the app are shown here."*
+
+![My Holds with no holds](img/kiosk-my-holds-empty.png)
+
+To place or manage holds, use the [Member area](member-area.md#my-holds), the Librarika app (see [Get the app & sign in](mobile-app.md)) or ask at the desk.
 
 ## Receipts
 

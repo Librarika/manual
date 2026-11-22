@@ -83,7 +83,7 @@ The Admin Panel has these sections:
 | **Patron Messages** | The welcome, idle, closing-soon and error messages, **Message when a returned item is on hold** (see [Renewals and holds at the kiosk](#renewals-and-holds-at-the-kiosk)), and your library's phone, email and website. |
 | **Receipt Printing** | **Enable Receipt Printing**, **Automatic Printing**, **Print for Checkouts**, **Print for Checkins**, **Print for Renewals**, **Include Due Dates**, **Receipt Paper Width**, **Name on receipts**, **Include Library Contact Info**, header and footer messages, and `Test Print`. See [Receipts](#receipts). |
 | **Activity Logs** | What happened at the kiosk, for the last 30 days; you can export it as a CSV file. The log doesn't keep members' names, and card numbers are partly hidden. |
-| **Terms & Conditions** | Optional terms that members accept before they use the kiosk. |
+| **Terms & Conditions** | Optional terms that members accept before they use the kiosk. They are on by default with sample text that still says *"Effective Date: [To be set by library]"*: edit the text (and the date) for your library, or turn the terms off, before members use the kiosk. |
 | **Terms Acceptance Logs** | Who accepted the terms, and when. |
 | **About** | The app version. |
 
@@ -112,6 +112,8 @@ Switch on **Enable Receipt Printing**, then choose what to print for: **Print fo
 * `Print My Items` prints the member's list of loans.
 * A renewal receipt lists each renewed item with its new due date.
 * With **Include Library Contact Info** on, every receipt (checkout, return, renewal, `My Items` and the test receipt) ends with your library's email, phone and website from **Patron Messages**, then your footer message. Without a website, the kiosk uses your library's Librarika address.
+![Receipt Printing with the Name on receipts setting](img/kiosk-receipt-name-setting.png)
+
 * **Name on receipts** sets how the member's name is printed on every receipt (checkout, return, renewal, `My Items` and the test receipt): `Full name` (the default), `Initials` or `Don't print`. With `Don't print`, receipts have no name line.
 * Card numbers are partly hidden on receipts. When a session ends unattended, nothing is printed.
 
@@ -122,7 +124,7 @@ Receipts go to the computer's default printer. The kiosk doesn't keep copies of 
 What members can do at the kiosk follows your library's settings in Librarika; there is nothing to switch on in the kiosk itself:
 
 * **Renewals** appear when **Enable renewals** is on in `Manage` > `Preferences` > `Self Service` (see [Renewal settings](self-service.md#renewal-settings)). Members then see `Renew` and `Renew all` in `My Items`. When a member scans an item they already have at checkout, the kiosk asks whether to renew it; it never renews by itself. Kiosk renewals follow the same rules as renewals in `My Account` (see [Renew a loan](circulations.md#renew-a-loan)), and the member sees the new due date or the reason a loan wasn't renewed.
-* **Holds** appear when **Enable hold queue** is on (see [Enable hold queue](hold-queue.md#enable-hold-queue)) and your plan includes holds. Members then see `My Holds`: holds **Ready for pickup** (with where and by when to collect them) and holds **Waiting** (with their place in the queue). Members can't place or cancel holds at the kiosk.
+* **Holds** appear when **Enable hold queue** is on (see [Enable hold queue](hold-queue.md#enable-hold-queue)) and your plan includes holds. Members then see `My Holds`: holds **Ready for pickup** (with where and by when to collect them) and holds **Waiting** (with their place in the queue). `My Holds` is a list only: members can't place or cancel holds at the kiosk. They place holds in the catalogue (member area) or the Librarika app; with no holds the kiosk says *"Holds you place in the catalogue or the app are shown here."*
 * **Returns of items on hold**: when a returned item has a waiting hold, the member sees **Another member is waiting for this item**, with *"Please give it to library staff, or leave it where your library asks for held items."* To tell members exactly where to put such items, type your own text in **Message when a returned item is on hold** under **Patron Messages**. It is shown as you type it, in every kiosk language; leave it blank for the standard sentence. See also [Check in an item someone is waiting for](hold-queue.md#check-in-an-item-someone-is-waiting-for).
 
 When you turn renewals or holds on or off, kiosks pick up the change within about a minute, from the next member who signs in. No restart is needed.
@@ -130,6 +132,8 @@ When you turn renewals or holds on or off, kiosks pick up the change within abou
 **Loan periods:** a kiosk checkout is a self-checkout. Its due date uses the **Checkout Time** on the `Self Service` tab, but never goes past the **Checkout Limit** (see [Enable self-service for your library](self-service.md#enable-self-service-for-your-library)).
 
 **Overdue loans:** the kiosk offers `Renew` on an overdue loan only when **Renew overdue loans** is on (see [Renewal settings](self-service.md#renewal-settings)). Otherwise the loan shows *"This item is overdue and can't be renewed here. Please return it or ask at the desk."*, `Renew all` leaves it out, and scanning it at checkout only tells the member it is already theirs.
+
+![An overdue loan that can't be renewed at the kiosk](img/kiosk-overdue-not-renewable.png)
 
 **Fees:** **Fines Owed** on the member's screen and on the `My Items` receipt are shown in your library's currency, as set in [Fees & payments](fees-payments.md). Without a currency, the amount is shown with two decimals and no symbol.
 
