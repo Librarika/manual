@@ -32,7 +32,7 @@ If your library asks for a kiosk PIN, the kiosk shows **Enter your PIN** after y
 2. Click `OK`.
 3. If the PIN is right, you see your menu as usual. If not, the kiosk says *"That PIN is not right. Try again."*
 
-Until your PIN is right, the kiosk shows only the last four characters of your card number: not your name, your loans or what you owe. Click `CANCEL` to stop and go back to the start screen. The kiosk forgets your PIN when you log out or it signs you out, so the next person can't use it.
+Until your PIN is right, the kiosk shows only the last four characters of your card number: not your name, your loans or what you owe. Click `CANCEL` to stop and go back to the start screen. The kiosk forgets your PIN when you log out or it signs you out, so it isn't kept for the next person.
 
 Your kiosk PIN is not your website password. It works only at your library's kiosks, with your card.
 
@@ -58,7 +58,7 @@ Other screens you may see instead of the keypad (click `DONE` to go back):
 
 You can choose a new kiosk PIN at the library desk, or yourself with a link sent to your email, if your library allows it.
 
-**At the desk:** staff open your record and turn the screen to you. Type your new PIN twice and they save it. Staff never see your PIN.
+**At the desk:** staff open your record and turn the screen to you. Type your new PIN twice and they save it. The PIN is hidden as you type, and Librarika never shows it to staff.
 
 **By email:**
 
@@ -77,7 +77,7 @@ You can choose a new kiosk PIN at the library desk, or yourself with a link sent
 
 Your PIN must have the number of digits your library uses (4 or 6), and easy PINs are refused: the same digit repeated, digits counting up or down such as `123456`, repeated pairs such as `121212`, your card number, or PINs many people use. If the link says **Link not valid** (*"This link has expired or was already used. Request a new one."*), click `Request a new link`. Only the newest link works.
 
-Whenever your PIN is set or changed, you get an email *"Your kiosk PIN was changed"* with the date and whether it was done at the desk or with an emailed link. The email never contains your PIN. If it wasn't you, contact the library.
+Whenever your PIN is set or changed, you get an email *"Your kiosk PIN was changed"* with the date and whether it was done at the desk or with an emailed link. The email doesn't contain your PIN. If it wasn't you, contact the library.
 
 If the page says *"Members cannot set their PIN online at this library. Please ask at the library desk."*, your library sets PINs only at the desk.
 

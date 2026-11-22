@@ -119,7 +119,7 @@ The **Last active** column on the Members list shows, for each member, when they
 
 ### Kiosk PIN
 
-If your library has a licensed SIP2 kiosk, the member page has a **Kiosk PIN** row. The kiosk PIN is a number members type at your self-service kiosks after scanning their card, when your library [asks for one](sip2.md#kiosk-pin). It is separate from the member's sign-in password, and nobody, staff included, can see it.
+If your library has a licensed SIP2 kiosk, the member page has a **Kiosk PIN** row. The kiosk PIN is a number members type at your self-service kiosks after scanning their card, when your library [asks for one](sip2.md#kiosk-pin). It is separate from the member's sign-in password. Librarika keeps only a scrambled (one-way) form of the PIN, so neither library staff nor Librarika can look it up. It isn't shown on screen, written to logs or sent by email.
 
 ![The Kiosk PIN row of a member whose card is locked](img/kiosk-pin-member-row.png)
 
@@ -140,7 +140,7 @@ Buttons on the row (for Library Administrators, Library Staff and Library Assist
 * **`Email a link to set it`** (or **`Email a reset link`** when the member has a PIN): emails the member a link to choose their own PIN (see [Set or reset your kiosk PIN](using-a-kiosk.md#set-or-reset-your-kiosk-pin)). You see *"Link sent to …"*. The button is greyed out with *No email on file* when the member has no email address, and hidden when **Members may set or reset their PIN by email** is off.
 * **`Unlock`** (only while the card is locked): clears the lock and the count of wrong PINs, and the member can use the kiosk again with their current PIN. You see *"Kiosk PIN unlocked."*
 
-Whenever a PIN is set or changed, the member gets an email *"Your kiosk PIN was changed"* that says when and whether it was done at the desk or with an emailed link. The email never contains the PIN. If the member didn't do it, they are asked to contact the library.
+Whenever a PIN is set or changed, the member gets an email *"Your kiosk PIN was changed"* that says when and whether it was done at the desk or with an emailed link. The email doesn't contain the PIN. If the member didn't do it, they are asked to contact the library.
 
 ### Delete member
 
@@ -298,7 +298,7 @@ Open the member, then click `Set PIN at the desk` in the **Kiosk PIN** row and l
 
 **A member forgot their kiosk PIN. Can I look it up?**
 
-No. Nobody can see a PIN. Use `Reset PIN at the desk`, or `Email a reset link`, or ask the member to visit your library's `/pin` page.
+No. Neither library staff nor Librarika can look a PIN up. Use `Reset PIN at the desk`, or `Email a reset link`, or ask the member to visit your library's `/pin` page.
 
 **Why is there no Kiosk PIN row on the member page?**
 

@@ -300,7 +300,7 @@ Yes, unless your library has turned this off. Click `Place Hold` on the book's p
 
 **What is a kiosk PIN? Is it my password?**
 
-Some libraries ask for a kiosk PIN after you scan your card at their self-service kiosks. It is a separate number, not your password: it works only at the kiosks, with your card, and never signs you in here or in the app. See [Enter your PIN](using-a-kiosk.md#enter-your-pin).
+Some libraries ask for a kiosk PIN after you scan your card at their self-service kiosks. It is a separate number, not your password: it is used only at the kiosks, with your card, and doesn't sign you in here or in the app. See [Enter your PIN](using-a-kiosk.md#enter-your-pin).
 
 **I forgot my kiosk PIN. What should I do?**
 

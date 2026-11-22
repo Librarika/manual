@@ -57,7 +57,7 @@ The first time the app starts, the **Kiosk Setup** wizard opens. It has four ste
 3. Click `Start Using Kiosk`.
 4. Open the Admin Panel > **Kiosk Settings**, switch on **Start in Kiosk Mode** (and check that **Enable Kiosk Mode** is on), click `Save Settings`, then `Restart App`. Until you do this, the kiosk opens on the admin PIN screen every time it starts, for example after a power cut or a Windows update.
 
-The app connects to Librarika's SIP2 server (`sip2.librarika.com`, port 6009, encrypted) by default. You only change this if Librarika support tells you to.
+The app connects to Librarika's SIP2 server (`sip2.librarika.com`, port 6009, SIP2 over TLS, encrypted) by default. You only change this if Librarika support tells you to.
 
 ## Open and leave the settings
 
@@ -75,7 +75,7 @@ The Admin Panel has these sections:
 
 | Section | What you set |
 |---|---|
-| **SIP2 Settings** | **SIP2 Host**, **Port**, **Use Secure Socket (TLS/SSL)**, **Verify SSL Certificate**, **Institution ID** and **Terminal Password**. Restart the app after changing them. Keep TLS on: unencrypted connections are not allowed unless Librarika support has arranged it. |
+| **SIP2 Settings** | **SIP2 Host**, **Port**, **Use Secure Socket (TLS/SSL)**, **Verify SSL Certificate**, **Institution ID** and **Terminal Password**. Restart the app after changing them. Keep TLS on: Librarika's SIP2 service accepts encrypted (TLS) connections only. |
 | **Diagnostics** | `Run Diagnostics` checks that the kiosk can reach the SIP2 server. It doesn't check the terminal password or the licence. |
 | **Kiosk Settings** | **Idle Timeout (milliseconds)** (default 300000, which is 5 minutes; from 10 seconds to 1 hour), **Enable Kiosk Mode** (full screen, shortcuts off), **Start in Kiosk Mode**, **Enable Virtual Keyboard**, **Date Format**, and library hours (below). Kiosk mode changes take effect after `Restart App`. |
 | **Security** | Change the admin PIN. |
@@ -112,9 +112,10 @@ Switch on **Enable Receipt Printing**, then choose what to print for: **Print fo
 * `Print My Items` prints the member's list of loans.
 * A renewal receipt lists each renewed item with its new due date.
 * With **Include Library Contact Info** on, every receipt (checkout, return, renewal, `My Items` and the test receipt) ends with your library's email, phone and website from **Patron Messages**, then your footer message. Without a website, the kiosk uses your library's Librarika address.
-![Receipt Printing with the Name on receipts setting](img/kiosk-receipt-name-setting.png)
-
 * **Name on receipts** sets how the member's name is printed on every receipt (checkout, return, renewal, `My Items` and the test receipt): `Full name` (the default), `Initials` or `Don't print`. With `Don't print`, receipts have no name line.
+
+    ![Receipt Printing with the Name on receipts setting](img/kiosk-receipt-name-setting.png)
+
 * Card numbers are partly hidden on receipts. When a session ends unattended, nothing is printed.
 
 Receipts go to the computer's default printer. The kiosk doesn't keep copies of members' receipts on the computer.
@@ -148,13 +149,13 @@ If your library [asks for a kiosk PIN](sip2.md#kiosk-pin), the kiosk asks for it
 * The member types the PIN on the on-screen keypad and clicks `OK`. Until the PIN is right, the kiosk shows only the last four characters of the card number: no name, loans or fees.
 * A wrong PIN shows *"That PIN is not right. Try again."* Locked cards, members without a PIN and members whose PIN is too short for your library's new length each get their own screen with a `DONE` button (see [Using a kiosk](using-a-kiosk.md#enter-your-pin)).
 * When members may reset their PIN by email, the PIN screen shows **Forgot your PIN?** with your library's PIN page address (for example `mylibrary.librarika.com/pin`) and a QR code. Otherwise it says *"Forgot your PIN? Please ask the library staff."*
-* The kiosk keeps the PIN in memory only for that member's visit and forgets it when the member logs out, is signed out, or cancels. It never writes the PIN to its logs or the **Activity Logs**.
+* The kiosk keeps the PIN in memory only for that member's visit and forgets it when the member logs out, is signed out, or cancels. It doesn't write the PIN to its log files or the **Activity Logs**.
 
 ## Updates
 
 To get Kiosk 1.0.3, download it from the [Librarika Kiosk App](https://librarika.com/spages/librarika-kiosk-app) page and install it over the current version, as in [Install the app](#install-the-app). Your settings are kept. To check the version, open the Admin Panel > **About**.
 
-The kiosk checks for updates 10 seconds after it starts and every 4 hours. **Update Available** offers `Download Update` or `Later`. After the download, **Update Ready to Install** offers `Install and Restart` or `Install Later`. A downloaded update installs the next time the app closes. The window doesn't ask for the admin PIN and can appear while members use the kiosk, so install updates when the library is quiet.
+The kiosk doesn't update itself yet. To update a kiosk, download the new version from the [Librarika Kiosk App](https://librarika.com/spages/librarika-kiosk-app) page and install it over the current one. Before you turn on a feature that needs a newer version (for example, the [kiosk PIN](sip2.md#kiosk-pin) needs 1.0.3), check each kiosk's version under **About**.
 
 ## Check it works
 
