@@ -2,7 +2,7 @@
 
 **Who this is for:** library staff who manage members.
 
-**What you can do here:** add, edit, import and delete members, invite them to sign in, handle member requests, and see receipts and payment statements.
+**What you can do here:** add, edit, import and delete members, invite them to sign in, set or reset their kiosk PIN, handle member requests, and see receipts and payment statements.
 
 The members section lists all the members of your library (some libraries call them *patrons*). Only an unique _member no_ is necessary for a member to check out/in books from your library.
 
@@ -116,6 +116,31 @@ The **Last active** column on the Members list shows, for each member, when they
 * A dash (`—`) means the member hasn't signed in since this was introduced, or has no Librarika account yet (for example, they haven't accepted the invitation).
 * Only the member's own sign-ins count. A visit by Librarika support never does.
 * You can't see a member's sign-in history, devices or addresses. Members see their own history in their [Sign-in activity](sign-in-activity.md#sign-in-activity).
+
+### Kiosk PIN
+
+If your library has a licensed SIP2 kiosk, the member page has a **Kiosk PIN** row. The kiosk PIN is a number members type at your self-service kiosks after scanning their card, when your library [asks for one](sip2.md#kiosk-pin). It is separate from the member's sign-in password. Librarika keeps only a scrambled (one-way) form of the PIN, so neither library staff nor Librarika can look it up. It isn't shown on screen, written to logs or sent by email.
+
+![The Kiosk PIN row of a member whose card is locked](img/kiosk-pin-member-row.png)
+
+The row shows one of these:
+
+* *Not set.*
+* *Set on <date> at the desk by <staff name>*, or *Set on <date> by the member (email link)*.
+* *Locked until <time> after <number> wrong PINs*: a short lock that ends by itself.
+* *Locked after <number> wrong PINs in a row: needs unlocking by staff (or a new PIN)*.
+* *Kiosk PIN is off for this library (Preferences → SIP2)*, when your library doesn't ask for a PIN yet. You can still set PINs in advance.
+
+Buttons on the row (for Library Administrators, Library Staff and Library Assistants):
+
+* **`Set PIN at the desk`** (or **`Reset PIN at the desk`** when the member has one): opens **Set kiosk PIN**. Turn the screen to the member and let them type their new PIN in **PIN** and **Type it again**, then click `Save PIN`. The PIN must follow the [PIN rules](sip2.md#pin-rules); if it doesn't, the pop-up opens again with the reason, for example *"This PIN is too easy to guess. Choose another."*, *"Do not use your card number in your PIN. Choose another."* or *"The two PINs are different."* After saving you see *"Kiosk PIN saved. A notice was emailed to the member."* (or *"… The member has no email, so no notice was sent."*). A new PIN also clears any lock.
+
+	![The Set kiosk PIN pop-up](img/kiosk-pin-desk-popup.png)
+
+* **`Email a link to set it`** (or **`Email a reset link`** when the member has a PIN): emails the member a link to choose their own PIN (see [Set or reset your kiosk PIN](using-a-kiosk.md#set-or-reset-your-kiosk-pin)). You see *"Link sent to …"*. The button is greyed out with *No email on file* when the member has no email address, and hidden when **Members may set or reset their PIN by email** is off.
+* **`Unlock`** (only while the card is locked): clears the lock and the count of wrong PINs, and the member can use the kiosk again with their current PIN. You see *"Kiosk PIN unlocked."*
+
+Whenever a PIN is set or changed, the member gets an email *"Your kiosk PIN was changed"* that says when and whether it was done at the desk or with an emailed link. The email doesn't contain the PIN. If the member didn't do it, they are asked to contact the library.
 
 ### Delete member
 
@@ -267,3 +292,14 @@ For a forgotten password, ask them to click `Forgot password?` on the **Log in**
 
 Only after telling them what to expect: they need an authenticator app on their phone and should save their recovery codes. You can start by requiring it for staff only. See [Good practice for your library](library-sign-in-security.md#good-practice-for-your-library).
 
+**How do I set a member's kiosk PIN?**
+
+Open the member, then click `Set PIN at the desk` in the **Kiosk PIN** row and let the member type the PIN twice. Or click `Email a link to set it` so they choose it at home. See [Kiosk PIN](#kiosk-pin).
+
+**A member forgot their kiosk PIN. Can I look it up?**
+
+No. Neither library staff nor Librarika can look a PIN up. Use `Reset PIN at the desk`, or `Email a reset link`, or ask the member to visit your library's `/pin` page.
+
+**Why is there no Kiosk PIN row on the member page?**
+
+The row appears only when your library has a licensed SIP2 terminal. See [SIP2 integration](sip2.md).

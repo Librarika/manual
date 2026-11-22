@@ -53,6 +53,9 @@ For problems signing in, staff can also use [Helping people who can't sign in](h
 * Can a member use Google or Apple to sign in?
 * A member forgot their password or lost their phone. How can I help?
 * Should we require two-step verification for members?
+* How do I set a member's kiosk PIN?
+* A member forgot their kiosk PIN. Can I look it up?
+* Why is there no Kiosk PIN row on the member page?
 
 **[Cataloging](cataloging.md#faq)**
 
@@ -168,6 +171,7 @@ For problems signing in, staff can also use [Helping people who can't sign in](h
 * Why can't a member see the `Renew` button?
 * Can members renew overdue items?
 * Can unpaid fees stop a member from checking out?
+* Does online self-service ask for the kiosk PIN?
 
 **[SIP2 integration](sip2.md#faq)**
 
@@ -179,6 +183,12 @@ For problems signing in, staff can also use [Helping people who can't sign in](h
 * Why has my kiosk stopped working?
 * What can members do at a SIP2 kiosk?
 * Do kiosk checkouts follow my circulation rules?
+* Can members be asked for a PIN at the kiosk?
+* Is the kiosk PIN the member's password?
+* What happens to members who have no PIN when we turn it on?
+* Can staff see or tell a member their PIN?
+* A member is locked out of the kiosk. What do I do?
+* Does a third-party SIP2 kiosk work with the kiosk PIN?
 
 ---
 
@@ -208,6 +218,8 @@ For problems signing in, staff can also use [Helping people who can't sign in](h
 * Can the library see my sign-ins?
 * Why can't I renew a loan?
 * Can I hold a book that is on the shelf?
+* What is a kiosk PIN? Is it my password?
+* I forgot my kiosk PIN. What should I do?
 
 ---
 
