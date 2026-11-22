@@ -36,7 +36,7 @@ SIP2 is licensed per terminal. Each terminal that connects to Librarika needs it
 * **Loan periods**: a checkout without a due date gets the **Checkout Time** on the `Self Service` tab, never past the **Checkout Limit**.
 * **Card and item barcodes**: the patron identifier must be exactly the member's **Member No**; the item identifier is the copy's accession number.
 * **Allowed IPs**: if the licence lists IP addresses or ranges, the terminal must connect from one of them.
-* **Kiosk PIN**: if your library [asks for a kiosk PIN](#kiosk-pin), the terminal must send the member's PIN as the patron password (AD) in every patron status (23), patron information (63), checkout (11), renew (29) and renew all (65) message. The PIN is sent over the encrypted connection only. Without it the member is refused with *"Please enter your PIN."* Librarika's replies also carry the PIN length (ZP), a result code that says why a PIN was refused (ZQ) and, when members may reset their own PIN, the address where they do it (ZR).
+* **Kiosk PIN**: if your library [asks for a kiosk PIN](#kiosk-pin), the terminal must send the member's PIN as the patron password (AD) in every patron status (23), patron information (63), checkout (11), renew (29) and renew all (65) message. The PIN is sent over the encrypted connection only. Without it the member is refused with *"Please enter your PIN."*
 
 ## Setup steps
 
