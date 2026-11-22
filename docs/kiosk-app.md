@@ -81,7 +81,7 @@ The Admin Panel has these sections:
 | **Security** | Change the admin PIN. |
 | **Display & Branding** | **Library Name**, logo, colours, theme, font size and the kiosk's language (17 languages). Members can't change the language. |
 | **Patron Messages** | The welcome, idle, closing-soon and error messages, **Message when a returned item is on hold** (see [Renewals and holds at the kiosk](#renewals-and-holds-at-the-kiosk)), and your library's phone, email and website. |
-| **Receipt Printing** | **Enable Receipt Printing**, **Automatic Printing**, **Print for Checkouts**, **Print for Checkins**, **Print for Renewals**, **Include Due Dates**, **Receipt Paper Width**, **Include Library Contact Info**, header and footer messages, and `Test Print`. See [Receipts](#receipts). |
+| **Receipt Printing** | **Enable Receipt Printing**, **Automatic Printing**, **Print for Checkouts**, **Print for Checkins**, **Print for Renewals**, **Include Due Dates**, **Receipt Paper Width**, **Name on receipts**, **Include Library Contact Info**, header and footer messages, and `Test Print`. See [Receipts](#receipts). |
 | **Activity Logs** | What happened at the kiosk, for the last 30 days; you can export it as a CSV file. The log doesn't keep members' names, and card numbers are partly hidden. |
 | **Terms & Conditions** | Optional terms that members accept before they use the kiosk. |
 | **Terms Acceptance Logs** | Who accepted the terms, and when. |
@@ -112,6 +112,7 @@ Switch on **Enable Receipt Printing**, then choose what to print for: **Print fo
 * `Print My Items` prints the member's list of loans.
 * A renewal receipt lists each renewed item with its new due date.
 * With **Include Library Contact Info** on, every receipt (checkout, return, renewal, `My Items` and the test receipt) ends with your library's email, phone and website from **Patron Messages**, then your footer message. Without a website, the kiosk uses your library's Librarika address.
+* **Name on receipts** sets how the member's name is printed on every receipt (checkout, return, renewal, `My Items` and the test receipt): `Full name` (the default), `Initials` or `Don't print`. With `Don't print`, receipts have no name line.
 * Card numbers are partly hidden on receipts. When a session ends unattended, nothing is printed.
 
 Receipts go to the computer's default printer. The kiosk doesn't keep copies of members' receipts on the computer.
@@ -128,11 +129,26 @@ When you turn renewals or holds on or off, kiosks pick up the change within abou
 
 **Loan periods:** a kiosk checkout is a self-checkout. Its due date uses the **Checkout Time** on the `Self Service` tab, but never goes past the **Checkout Limit** (see [Enable self-service for your library](self-service.md#enable-self-service-for-your-library)).
 
-Renewals, holds, the hold message on returns and the shared card number message need **Librarika Kiosk 1.0.2** or later. See [Updates](#updates).
+**Overdue loans:** the kiosk offers `Renew` on an overdue loan only when **Renew overdue loans** is on (see [Renewal settings](self-service.md#renewal-settings)). Otherwise the loan shows *"This item is overdue and can't be renewed here. Please return it or ask at the desk."*, `Renew all` leaves it out, and scanning it at checkout only tells the member it is already theirs.
+
+**Fees:** **Fines Owed** on the member's screen and on the `My Items` receipt are shown in your library's currency, as set in [Fees & payments](fees-payments.md). Without a currency, the amount is shown with two decimals and no symbol.
+
+Renewals, holds, the hold message on returns and the shared card number message need **Librarika Kiosk 1.0.2** or later; the kiosk PIN, the library's currency and the overdue renewal setting need **1.0.3** or later. See [Updates](#updates).
+
+## Kiosk PIN at the kiosk
+
+If your library [asks for a kiosk PIN](sip2.md#kiosk-pin), the kiosk asks for it after each card scan. There is nothing to set in the kiosk itself: it follows the settings on the `SIP2` tab in Preferences, including the PIN length. Every kiosk must run **Librarika Kiosk 1.0.3** or later before you switch the PIN on.
+
+![The kiosk asking for a PIN](img/kiosk-pin-enter.png)
+
+* The member types the PIN on the on-screen keypad and clicks `OK`. Until the PIN is right, the kiosk shows only the last four characters of the card number: no name, loans or fees.
+* A wrong PIN shows *"That PIN is not right. Try again."* Locked cards, members without a PIN and members whose PIN is too short for your library's new length each get their own screen with a `DONE` button (see [Using a kiosk](using-a-kiosk.md#enter-your-pin)).
+* When members may reset their PIN by email, the PIN screen shows **Forgot your PIN?** with your library's PIN page address (for example `mylibrary.librarika.com/pin`) and a QR code. Otherwise it says *"Forgot your PIN? Please ask the library staff."*
+* The kiosk keeps the PIN in memory only for that member's visit and forgets it when the member logs out, is signed out, or cancels. It never writes the PIN to its logs or the **Activity Logs**.
 
 ## Updates
 
-To get Kiosk 1.0.2, download it from the [Librarika Kiosk App](https://librarika.com/spages/librarika-kiosk-app) page and install it over the current version, as in [Install the app](#install-the-app). Your settings are kept. To check the version, open the Admin Panel > **About**.
+To get Kiosk 1.0.3, download it from the [Librarika Kiosk App](https://librarika.com/spages/librarika-kiosk-app) page and install it over the current version, as in [Install the app](#install-the-app). Your settings are kept. To check the version, open the Admin Panel > **About**.
 
 The kiosk checks for updates 10 seconds after it starts and every 4 hours. **Update Available** offers `Download Update` or `Later`. After the download, **Update Ready to Install** offers `Install and Restart` or `Install Later`. A downloaded update installs the next time the app closes. The window doesn't ask for the admin PIN and can appear while members use the kiosk, so install updates when the library is quiet.
 
@@ -155,6 +171,11 @@ After setup, sign in at the kiosk with a test member's card, borrow one item and
 | *"We could not confirm whether … was renewed. …"* | The connection dropped during a renewal, which may have gone through. Check the loan's due date in [Circulation](circulations.md). |
 | *"This card number matches more than one account. Please ask at the desk."* | Two or more members have the same **Member No**. Give each member their own number, then print a new card if needed. |
 | No `Renew` or `My Holds` at the kiosk | Check that **Enable renewals** or **Enable hold queue** is on, wait a minute and sign in again. Check the version under **About**: you need Kiosk 1.0.2 or later. |
-| An overdue item shows *"Overdue items can't be renewed."* | **Renew overdue loans** is off. The member returns the item, or staff renew or extend it at the desk. |
+| An overdue item shows *"This item is overdue and can't be renewed here. …"* (or *"Overdue items can't be renewed."* on Kiosk 1.0.2) | **Renew overdue loans** is off. The member returns the item, or staff renew or extend it at the desk. |
+| The kiosk doesn't ask for a PIN | Check that **Ask for a PIN at self-service kiosks** is on and saved, and wait about five minutes. Check the version under **About**: you need Kiosk 1.0.3 or later. |
+| A member gets *"That PIN is not right. Try again."* with what they say is the right PIN | Check that the member scans the card that matches their **Member No** and that they are **Active**: an unknown card or an inactive member gets the same answer as a wrong PIN. If one member is affected, reset their PIN at the desk. |
+| **Too many attempts** | The member's card is locked after wrong PINs. Open the member's page and click `Unlock` in the **Kiosk PIN** row, or reset the PIN (see [Kiosk PIN on the member page](members.md#kiosk-pin)). |
+| **Kiosk PIN needed** | The member has no PIN yet. Set one at the desk or email them a link. |
+| **PIN check not available** | Too many refused PINs at this kiosk in the last hour (at most 30), or PINs can't be checked right now. Wait, then try again; if it lasts, contact Librarika support. |
 
 The kiosk's log files are in `%APPDATA%/Librarika Kiosk/logs/` on Windows, `~/Library/Logs/Librarika Kiosk/` on macOS and `~/.config/Librarika Kiosk/logs/` on Linux. Librarika support may ask for them; the **Activity Logs** CSV export is usually easier to send.

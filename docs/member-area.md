@@ -297,3 +297,11 @@ The reason is shown under the greyed-out `Renew` button. Common reasons: another
 **Can I hold a book that is on the shelf?**
 
 Yes, unless your library has turned this off. Click `Place Hold` on the book's page. The library takes the copy from the shelf, sets it aside for you and tells you when it is ready for pickup. See [My holds](#my-holds).
+
+**What is a kiosk PIN? Is it my password?**
+
+Some libraries ask for a kiosk PIN after you scan your card at their self-service kiosks. It is a separate number, not your password: it works only at the kiosks, with your card, and never signs you in here or in the app. See [Enter your PIN](using-a-kiosk.md#enter-your-pin).
+
+**I forgot my kiosk PIN. What should I do?**
+
+Go to your library's PIN page (your library's address followed by `/pin`), type your card number and email address, and follow the emailed link to choose a new PIN. The link works once, for 30 minutes. Or ask at the desk. See [Set or reset your kiosk PIN](using-a-kiosk.md#set-or-reset-your-kiosk-pin).

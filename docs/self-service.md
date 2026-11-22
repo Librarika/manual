@@ -27,7 +27,7 @@ If your library allows it, you can borrow and return items yourself.
 
 If your library allows renewals, click `My Account` and click `Renew` under the loan (or `Renew all`). See [Renew your loans](member-area.md#renew-your-loans). At a kiosk, use `Renew` or `Renew all` in `My Items` (see [Using a kiosk](using-a-kiosk.md#renew-items)).
 
-No `Checkout` button? Your library hasn't turned on self-checkout for your membership, or the copy is out. Ask at the desk. Using a kiosk in the library instead? See [Using a kiosk](using-a-kiosk.md).
+No `Checkout` button? Your library hasn't turned on self-checkout for your membership, or the copy is out. Ask at the desk. Using a kiosk in the library instead? See [Using a kiosk](using-a-kiosk.md). If the kiosk asks for a PIN you don't have or forgot, see [Set or reset your kiosk PIN](using-a-kiosk.md#set-or-reset-your-kiosk-pin).
 
 ---
 
@@ -102,7 +102,7 @@ Members can renew their own loans in `My Account` when renewals are on and their
 
 For libraries that need physical self-checkout stations with barcode scanners, Librarika supports the industry-standard **SIP2 protocol**. Each SIP2 terminal needs its own licence from Librarika.
 
-For full details on SIP2 requirements, licensing, connection setup, see the [SIP2 integration](sip2.md) page. To set up the Librarika Kiosk App, see [Kiosk app: setup and management](kiosk-app.md); members can read [Using a kiosk](using-a-kiosk.md).
+For full details on SIP2 requirements, licensing, connection setup, see the [SIP2 integration](sip2.md) page. To make members type a PIN after scanning their card at a kiosk, see [Kiosk PIN](sip2.md#kiosk-pin). To set up the Librarika Kiosk App, see [Kiosk app: setup and management](kiosk-app.md); members can read [Using a kiosk](using-a-kiosk.md).
 
 ---
 
@@ -143,3 +143,7 @@ Only if **Renew overdue loans** is on. The late fee up to that day is added to t
 **Can unpaid fees stop a member from checking out?**
 
 Yes, if your library uses [Fees & payments](fees-payments.md) with **Suspend activity** turned on. When the member's balance reaches the **Suspension Limit**, self-checkout shows "Sorry, you have reached the maximum dues limit." Renewals are refused in the same way.
+
+**Does online self-service ask for the kiosk PIN?**
+
+No. The [kiosk PIN](sip2.md#kiosk-pin) is asked only at SIP2 kiosks. Online self-service and the Librarika app use the member's normal sign-in.
