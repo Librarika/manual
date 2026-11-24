@@ -11,6 +11,7 @@ nav:
     - 'For library staff':
       - 'Getting started': 'getting-started.md'
       - 'Library settings & plans': 'libraries.md'
+      - 'Library emails': 'library-emails.md'
       - 'Users & roles': 'users.md'
       - 'Members': 'members.md'
       - 'Daily work':

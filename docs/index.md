@@ -30,6 +30,7 @@ You have **one Librarika account**, and it belongs to you, not to a library. Wit
 
 * [Getting started](getting-started.md): create your library, activate it and invite staff.
 * [Library settings & plans](libraries.md): library information, branches, preferences, notifications and plans.
+* [Library emails](library-emails.md): members' replies, your own email wording and branding, receipts, and members' email choices.
 * [Users & roles](users.md): staff accounts, roles and branch access.
 * [Members](members.md): members, member groups, invitations and member logins.
 

@@ -110,6 +110,7 @@ Account settings is the section where you can update all the information of your
 * Now whenever you visit this page you can view your information or update your info.
 * On the same page you can choose how you sign in (**SSO sign-in**, **Enable Google Login**, **Sign in with Apple**) and see your **Sign-in activity**: where your account is signed in, with a `Sign out` button for each browser or phone. See [Signing in](signing-in.md#your-sign-in-settings) and [Sign-in activity](sign-in-activity.md).
 * Changing your password signs out your account everywhere else, including the mobile app, and you get an email about it.
+* Under **Emails**, click `Manage email settings` to choose which optional emails you get from the library, such as receipts and review requests. Emails about your loans, holds and account are always sent. See [Your email choices](library-emails.md#your-email-choices-members).
 * Under **Two-step verification** you can turn on a second step for signing in: a code from an authenticator app on your phone. Click `Turn on` (or `Manage` when it is on). See [Two-step verification](two-step-verification.md).
 * Before you change your password or email, or remove your account, Librarika may ask you to [confirm it's you](signing-in.md#confirm-its-you).
 
@@ -297,6 +298,14 @@ The reason is shown under the greyed-out `Renew` button. Common reasons: another
 **Can I hold a book that is on the shelf?**
 
 Yes, unless your library has turned this off. Click `Place Hold` on the book's page. The library takes the copy from the shelf, sets it aside for you and tells you when it is ready for pickup. See [My holds](#my-holds).
+
+**How do I stop some emails from my library?**
+
+Click *"Unsubscribe or choose which emails you get"* at the bottom of the email, or open `Account Settings` > **Emails** > `Manage email settings`. Untick what you don't want and click `Save my choices`. Emails about your loans, holds, requests and account can't be turned off. See [Your email choices](library-emails.md#your-email-choices-members).
+
+**Can I reply to an email from my library?**
+
+Yes, when the email says *"Replies go to"* your library at the bottom: your reply is passed on to the library. If it says *"Replies to this email aren't read."*, contact the library another way.
 
 **What is a kiosk PIN? Is it my password?**
 

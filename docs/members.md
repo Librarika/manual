@@ -303,3 +303,7 @@ No. Neither library staff nor Librarika can look a PIN up. Use `Reset PIN at the
 **Why is there no Kiosk PIN row on the member page?**
 
 The row appears only when your library has a licensed SIP2 terminal. See [SIP2 integration](sip2.md).
+
+**A member says they get no emails. What can I check?**
+
+Check the email address on their record, their spam folder and whether they stopped some emails with the link at the bottom of a library email. Addresses that no longer work or marked an email as spam need Librarika support. See [Library emails](library-emails.md#faq).

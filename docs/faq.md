@@ -32,6 +32,19 @@ For problems signing in, staff can also use [Helping people who can't sign in](h
 * How do I stop our email address or phone number showing on the Ask a Librarian page?
 * Who can open an item's online link (URL)?
 
+**[Library emails](library-emails.md#faq)**
+
+* A member says they get no emails. What can I check?
+* I don't see Email templates in the Manage menu.
+* I can see the emails but can't change them.
+* Members' replies aren't reaching me.
+* I didn't get the confirmation link.
+* Can I change the account, password or billing emails?
+* Why can't I put a link to our website in an email?
+* My test email didn't arrive.
+* Do receipts replace the review email?
+* Can a member stop due-date and overdue reminders?
+
 **[Users & roles](users.md#faq)**
 
 * What does the Last active column show?
@@ -56,6 +69,7 @@ For problems signing in, staff can also use [Helping people who can't sign in](h
 * How do I set a member's kiosk PIN?
 * A member forgot their kiosk PIN. Can I look it up?
 * Why is there no Kiosk PIN row on the member page?
+* A member says they get no emails. What can I check?
 
 **[Cataloging](cataloging.md#faq)**
 
@@ -218,6 +232,8 @@ For problems signing in, staff can also use [Helping people who can't sign in](h
 * Can the library see my sign-ins?
 * Why can't I renew a loan?
 * Can I hold a book that is on the shelf?
+* How do I stop some emails from my library?
+* Can I reply to an email from my library?
 * What is a kiosk PIN? Is it my password?
 * I forgot my kiosk PIN. What should I do?
 
