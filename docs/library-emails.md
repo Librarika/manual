@@ -158,7 +158,7 @@ Members can get an email listing what they borrowed, with due dates, or what the
 How receipts work:
 
 * Items from the same visit are listed in one email, usually sent within a few minutes.
-* A member gets at most 10 receipt emails a day. A receipt that can't be sent within a day is not sent later.
+* A member gets at most 10 receipt emails a day from each library. A receipt that can't be sent within a day is not sent later.
 * Receipts use the **Loan emails** text (see [Email templates](#email-templates)).
 * When `Send review item reminder.` is on, the return receipt can include a **Write a review** link next to each item instead of a separate review email.
 * Members can stop receipts for themselves (see [Your email choices](#your-email-choices-members)).
@@ -199,7 +199,7 @@ You can also open them from the library: `My Account` > `Account Settings`, sect
 * **New messages** -- an email when someone sends you a message in the library.
 * **Checkout and return receipts** -- shown when the library sends receipts.
 
-Tick or untick, then click `Save my choices`. *"Saved. Your choices apply from the next email."* `Turn all of these off` unticks everything on the page. When you open the page from an email's link, that kind of email is shown unticked: click `Save my choices` to stop it.
+Tick or untick, then click `Save my choices`. *"Saved. Your choices apply from the next email."* `Turn all of these off` turns every choice on the page off and saves at once (no `Save my choices` needed). When you open the page from an email's link, that kind of email is shown unticked: click `Save my choices` to stop it.
 
 **Always sent** (can't be turned off here, because you need them to use your account and your library):
 
