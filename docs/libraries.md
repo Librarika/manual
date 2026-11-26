@@ -35,6 +35,7 @@ Please update your library information carefully and make sure that they are up 
 * Enter / update the information you want to change.
 	* The description field should contain a short description about your library, library business hours, rules, policies, etc. This field is very important for your library site visitors as it will be displayed on the "Ask a Librarian" public page.
 	* The email address and phone number provided here will be displayed on the "Ask a Librarian" public page. However, you can individually turn off the display of email address, phone number from the [preferences](#change-preferences) section. 
+	* Members' replies to your library's emails are forwarded to the **Library Email** address once it is confirmed. The line under the field shows whether it is; click `Send confirmation link` if it isn't. See [Confirm your library's email address](library-emails.md#confirm-your-librarys-email-address).
 	* Uncheck the **Private** checkbox to make your catalog publicly visible online. 
 * Now if you want to make your library private so that, only the members will be allowed to access the OPAC catalog.
 	* Please checked the **Private** checkbox from the `Library Info` tab.
@@ -161,13 +162,19 @@ The `Sign-in security` button at the top of the Preferences page opens your libr
 	![Preferences, Notifications / Reminders tab](img/library-preference-reminders.png)
 
 	* Our system will send notification reminders to the members of your library based on these settings.
+	* **Your staff alerts** -- `Email me staff alerts from this library` turns staff alert emails on or off for you only.
 	* **Notify on overdue.** -- members get an email when an item is overdue, after the hours chosen in **Notify after**.
 	* **Remind before due date.** -- members get an email the chosen number of hours (**Remind before**) before the due date.
 	* **Remind on reservation.** -- members get an email the chosen number of hours (**Remind before**) before the reservation date.
-	* **Notify librarians on reservation.** -- staff get a notification when a reservation request is placed.
-	* **Notify librarians on checkout.** -- staff get a notification when a member checks out an item (only on some plans: see [What each plan includes](#what-each-plan-includes)).
 	* **Send review item reminder.** -- members get an email asking for a review when they return an item. It is on by default; only some plans can turn it off (see [What each plan includes](#what-each-plan-includes)).
-	* **Here the most important field is **Notified Librarians**, where you can choose up to five staff who will receive notification reminders if any member joined or requested a book**.
+	* **More emails to members** -- switch off single notices such as `Hold placed` or `Item recalled` (the notice still shows in the app), and switch on **checkout and return receipts**, which are off until you turn them on. See [Checkout and return receipts](library-emails.md#checkout-and-return-receipts).
+
+		![Checkout and return receipt switches](img/library-preference-receipts.png)
+
+	* **Staff alerts** -- `New reservation requests`, `Every checkout` (only on some plans: see [What each plan includes](#what-each-plan-includes)), `New membership requests` and `New members`.
+	* **Who gets staff alerts** -- choose up to five staff who receive staff alerts. Each of them can turn alerts off for themselves (see [Your own staff alerts](library-emails.md#your-own-staff-alerts)).
+
+	The picture above the list is from an older version and doesn't show every setting. To change the wording and look of these emails, see [Email templates](library-emails.md#email-templates).
 
 * If your library has SIP2 terminals, a `SIP2` tab lists them with their allowed IP addresses, licence end date, status and when each was last used. To add, move or renew a terminal, contact Librarika support. See [SIP2 integration](sip2.md).
 
@@ -252,7 +259,8 @@ The **Free** plan holds up to 2,000 titles or copies. The plans are Free, Basic 
 | [Hold queue](hold-queue.md) | Basic Pro, Silver, Gold, Platinum, Unlimited |
 | [Barcode queue](barcode-labels.md#add-to-barcode-queue) of 500 labels (100 on other plans) | Basic Pro, Silver, Gold, Platinum, Unlimited |
 | [Batch update](batch-update.md) | Basic Pro, Silver, Gold, Platinum, Unlimited |
-| Premium colour schemes; turning off `Enable member access request.` and `Send review item reminder.`; `Notify librarians on checkout.` | Basic Pro, Silver, Gold, Platinum, Unlimited |
+| Premium colour schemes; turning off `Enable member access request.` and `Send review item reminder.`; the `Every checkout` staff alert | Basic Pro, Silver, Gold, Platinum, Unlimited |
+| [Email templates](library-emails.md#email-templates): your own wording and branding of library emails | Silver plan and above (Silver, Gold, Platinum, Diamond, Enterprise, Unlimited) |
 | [Sign-in security settings](library-sign-in-security.md) | Gold, Platinum, Diamond, Enterprise, Unlimited |
 | [Branch access for users](users.md) | Gold, Platinum, Unlimited |
 | [Single sign-on (SSO)](sso-saml.md), activated by [Librarika support](https://librarika.com/spages/contact) | Silver and higher |
@@ -327,7 +335,7 @@ The logo must be a PNG, JPG or GIF image at least 200x200 pixels and no larger t
 
 **How many staff can receive notifications?**
 
-Up to five. Pick them in the `Notified Librarians` list on the `Notifications / Reminders` tab.
+Up to five. Pick them in the `Who gets staff alerts` list on the `Notifications / Reminders` tab.
 
 **Why do reminder emails arrive earlier or later than I expected?**
 
